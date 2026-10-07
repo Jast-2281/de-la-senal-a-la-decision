@@ -1,0 +1,67 @@
+{
+  "fecha_corte_UTC": "2026-10-06T22:50:47.899Z",
+  "consultas": [
+    {
+      "fuente": "tvn_rss",
+      "url": "https://www.tvn-2.com/rss/",
+      "archivo": "tvn_rss.xml"
+    },
+    {
+      "fuente": "banco_mundial",
+      "url": "https://api.worldbank.org/v2/country/PAN;CRI;COL;DOM;MEX;GTM/indicator/NY.GDP.MKTP.KD.ZG?date=2010:2024&format=json&per_page=1000",
+      "archivo": "bm_NY.GDP.MKTP.KD.ZG.json"
+    },
+    {
+      "fuente": "banco_mundial",
+      "url": "https://api.worldbank.org/v2/country/PAN;CRI;COL;DOM;MEX;GTM/indicator/FP.CPI.TOTL.ZG?date=2010:2024&format=json&per_page=1000",
+      "archivo": "bm_FP.CPI.TOTL.ZG.json"
+    },
+    {
+      "fuente": "banco_mundial",
+      "url": "https://api.worldbank.org/v2/country/PAN;CRI;COL;DOM;MEX;GTM/indicator/SL.UEM.TOTL.ZS?date=2010:2024&format=json&per_page=1000",
+      "archivo": "bm_SL.UEM.TOTL.ZS.json"
+    },
+    {
+      "fuente": "banco_mundial",
+      "url": "https://api.worldbank.org/v2/country/PAN;CRI;COL;DOM;MEX;GTM/indicator/SP.POP.TOTL?date=2010:2024&format=json&per_page=1000",
+      "archivo": "bm_SP.POP.TOTL.json"
+    },
+    {
+      "fuente": "banco_mundial",
+      "url": "https://api.worldbank.org/v2/country/PAN;CRI;COL;DOM;MEX;GTM/indicator/IT.NET.USER.ZS?date=2010:2024&format=json&per_page=1000",
+      "archivo": "bm_IT.NET.USER.ZS.json"
+    },
+    {
+      "fuente": "banco_mundial",
+      "url": "https://api.worldbank.org/v2/country/PAN;CRI;COL;DOM;MEX;GTM/indicator/NE.EXP.GNFS.ZS?date=2010:2024&format=json&per_page=1000",
+      "archivo": "bm_NE.EXP.GNFS.ZS.json"
+    },
+    {
+      "fuente": "usgs",
+      "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2024-01-01&endtime=2024-12-31T23:59:59&minlatitude=5&maxlatitude=12&minlongitude=-86&maxlongitude=-76&minmagnitude=3",
+      "archivo": "usgs_2024.geojson"
+    },
+    {
+      "fuente": "gdelt_doc",
+      "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=Panama%20sourcecountry:PM&mode=ArtList&maxrecords=250&format=json&timespan=30d",
+      "archivo": "gdelt_previa_30d.json"
+    }
+  ],
+  "gdelt_fallidas": [
+    "https://api.gdeltproject.org/api/v2/doc/doc?mode=ArtList&format=json&maxrecords=250&query=Panama%20sourcecountry%3APM%20sourcelang%3Aspanish&startdatetime=20260926225047&enddatetime=20261006225047",
+    "https://api.gdeltproject.org/api/v2/doc/doc?mode=ArtList&format=json&maxrecords=250&query=Panama%20sourcecountry%3APM%20sourcelang%3Aspanish&startdatetime=20260916225047&enddatetime=20260926225047",
+    "https://api.gdeltproject.org/api/v2/doc/doc?mode=ArtList&format=json&maxrecords=250&query=Panama%20sourcecountry%3APM%20sourcelang%3Aspanish&startdatetime=20260906225047&enddatetime=20260916225047",
+    "https://api.gdeltproject.org/api/v2/doc/doc?mode=ArtList&format=json&maxrecords=250&query=(canal%20OR%20log%C3%ADstica%20OR%20puerto)%20sourcecountry%3APM%20sourcelang%3Aspanish&startdatetime=20260926225047&enddatetime=20261006225047",
+    "https://api.gdeltproject.org/api/v2/doc/doc?mode=ArtList&format=json&maxrecords=250&query=(canal%20OR%20log%C3%ADstica%20OR%20puerto)%20sourcecountry%3APM%20sourcelang%3Aspanish&startdatetime=20260916225047&enddatetime=20260926225047",
+    "https://api.gdeltproject.org/api/v2/doc/doc?mode=ArtList&format=json&maxrecords=250&query=(canal%20OR%20log%C3%ADstica%20OR%20puerto)%20sourcecountry%3APM%20sourcelang%3Aspanish&startdatetime=20260906225047&enddatetime=20260916225047",
+    "https://api.gdeltproject.org/api/v2/doc/doc?mode=ArtList&format=json&maxrecords=250&query=(turismo%20OR%20turistas)%20sourcecountry%3APM%20sourcelang%3Aspanish&startdatetime=20260926225047&enddatetime=20261006225047",
+    "https://api.gdeltproject.org/api/v2/doc/doc?mode=ArtList&format=json&maxrecords=250&query=(turismo%20OR%20turistas)%20sourcecountry%3APM%20sourcelang%3Aspanish&startdatetime=20260916225047&enddatetime=20260926225047",
+    "https://api.gdeltproject.org/api/v2/doc/doc?mode=ArtList&format=json&maxrecords=250&query=(turismo%20OR%20turistas)%20sourcecountry%3APM%20sourcelang%3Aspanish&startdatetime=20260906225047&enddatetime=20260916225047",
+    "https://api.gdeltproject.org/api/v2/doc/doc?mode=ArtList&format=json&maxrecords=250&query=(econom%C3%ADa%20OR%20inflaci%C3%B3n%20OR%20empleo%20OR%20PIB)%20sourcecountry%3APM%20sourcelang%3Aspanish&startdatetime=20260926225047&enddatetime=20261006225047",
+    "https://api.gdeltproject.org/api/v2/doc/doc?mode=ArtList&format=json&maxrecords=250&query=(econom%C3%ADa%20OR%20inflaci%C3%B3n%20OR%20empleo%20OR%20PIB)%20sourcecountry%3APM%20sourcelang%3Aspanish&startdatetime=20260916225047&enddatetime=20260926225047",
+    "https://api.gdeltproject.org/api/v2/doc/doc?mode=ArtList&format=json&maxrecords=250&query=(econom%C3%ADa%20OR%20inflaci%C3%B3n%20OR%20empleo%20OR%20PIB)%20sourcecountry%3APM%20sourcelang%3Aspanish&startdatetime=20260906225047&enddatetime=20260916225047",
+    "https://api.gdeltproject.org/api/v2/doc/doc?mode=ArtList&format=json&maxrecords=250&query=(sismo%20OR%20inundaci%C3%B3n%20OR%20lluvias%20OR%20terremoto)%20sourcecountry%3APM%20sourcelang%3Aspanish&startdatetime=20260926225047&enddatetime=20261006225047",
+    "https://api.gdeltproject.org/api/v2/doc/doc?mode=ArtList&format=json&maxrecords=250&query=(sismo%20OR%20inundaci%C3%B3n%20OR%20lluvias%20OR%20terremoto)%20sourcecountry%3APM%20sourcelang%3Aspanish&startdatetime=20260916225047&enddatetime=20260926225047",
+    "https://api.gdeltproject.org/api/v2/doc/doc?mode=ArtList&format=json&maxrecords=250&query=(sismo%20OR%20inundaci%C3%B3n%20OR%20lluvias%20OR%20terremoto)%20sourcecountry%3APM%20sourcelang%3Aspanish&startdatetime=20260906225047&enddatetime=20260916225047"
+  ]
+}

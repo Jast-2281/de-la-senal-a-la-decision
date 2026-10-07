@@ -1,0 +1,77 @@
+{
+ "paquete": {
+  "abstencion": {
+   "abstiene": false,
+   "motivo": null,
+   "informacion_necesaria": []
+  },
+  "titulo_propuesto": "Fallece capitán de remolcador del Canal de Panamá en pleno servicio: lo que falta por confirmar",
+  "enfoque_interes_publico": "Seguridad laboral del personal que opera en el Canal de Panamá y necesidad de confirmar con fuentes oficiales las circunstancias del fallecimiento.",
+  "brief": [
+   {
+    "texto": "Según el titular de tvn-2.com, publicado el 2026-09-30, falleció un capitán de remolcador del Canal de Panamá mientras cumplía funciones.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-f84223fbc5",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "La evidencia disponible es solo el titular de una única procedencia, sin lectura del cuerpo de la nota ni fuente oficial enlazada.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "N-f84223fbc5",
+      "campo": "alcance"
+     }
+    ]
+   },
+   {
+    "texto": "Las causas, el lugar, la identidad y las circunstancias del fallecimiento no aparecen en la evidencia y deben comprobarse antes de cualquier pieza para emisión.",
+    "tipo": "inferencia",
+    "citas": []
+   }
+  ],
+  "preguntas_investigacion": [
+   "¿Qué confirma oficialmente la Autoridad del Canal de Panamá sobre el fallecimiento y sus circunstancias?",
+   "¿Cuál fue la causa y dónde y cuándo ocurrió el hecho?",
+   "¿Qué protocolos de seguridad y atención médica aplican a la tripulación de remolcadores y se activaron en este caso?"
+  ],
+  "verificaciones_pendientes": [
+   "Obtener confirmación de una segunda procedencia independiente.",
+   "Buscar un comunicado o dato oficial de la Autoridad del Canal de Panamá.",
+   "Leer el cuerpo completo de la nota de tvn-2.com, pues solo se dispone del titular.",
+   "Confirmar la fecha del suceso, ya que solo consta la fecha de publicación.",
+   "Verificar el trato a la familia y la identidad antes de nombrar a la persona fallecida."
+  ],
+  "contradicciones": [],
+  "guion": [],
+  "copy_digital": []
+ },
+ "validacion": {
+  "valido": true,
+  "problemas": [],
+  "palabras": {
+   "brief": 67,
+   "guion": 0,
+   "copy_digital": 0
+  }
+ },
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "prompt_version": "paquete-tvn-v3",
+  "clave_cache": "f8f8de1300039fe4d065f3dd",
+  "desde_cache": false,
+  "generado_en": "2026-10-07T01:01:20.068Z",
+  "latencia_ms": 6975,
+  "tokens": {
+   "entrada": 368,
+   "salida": 791,
+   "cache_lectura": 2290,
+   "cache_escritura": 0
+  },
+  "costo_usd": 0.009104
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "abstencion": {
+  "abstiene": false,
+  "motivo": null,
+  "informacion_necesaria": []
+ },
+ "respuesta": [
+  {
+   "texto": "Los titulares sobre el informe final de la comisión interministerial no coinciden: tvn-2.com dice que recomienda un cierre ordenado y que la comisión plantea negociar con First Quantum un cierre progresivo y el finiquito del arbitraje, mientras que Crítica titula que recomiendan la apertura de la mina.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-bea510354d",
+     "campo": "titulo"
+    },
+    {
+     "id_evidencia": "N-86dca50ced",
+     "campo": "titulo"
+    },
+    {
+     "id_evidencia": "N-1683cae7ea",
+     "campo": "titulo"
+    }
+   ]
+  },
+  {
+   "texto": "Mulino afirmó que el informe no es una decisión ni propone fecha de operación, y que lo estudiará antes de decidir; fijó seis criterios no negociables, entre ellos acatar el fallo de la Corte Suprema, ausencia de costo fiscal y supervisión independiente.",
+   "tipo": "declaracion",
+   "citas": [
+    {
+     "id_evidencia": "N-57e336ccd4",
+     "campo": "titulo"
+    },
+    {
+     "id_evidencia": "N-57e336ccd4",
+     "campo": "descripcion"
+    }
+   ]
+  },
+  {
+   "texto": "First Quantum plantea participar de buena fe en un diálogo y reconoce que un nuevo acuerdo debe respetar la soberanía de Panamá y un proceso liderado por el Gobierno.",
+   "tipo": "declaracion",
+   "citas": [
+    {
+     "id_evidencia": "N-5e971d1a54",
+     "campo": "titulo"
+    },
+    {
+     "id_evidencia": "N-5e971d1a54",
+     "campo": "descripcion"
+    }
+   ]
+  },
+  {
+   "texto": "Tras la auditoría, quedan bajo vigilancia el agua, la reforestación y la presa de relaves, según el titular de tvn-2.com.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-2558773ad8",
+     "campo": "titulo"
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-07T01:20:01.921Z",
+  "latencia_ms": 5133,
+  "costo_usd": 0.0100874
+ }
+}

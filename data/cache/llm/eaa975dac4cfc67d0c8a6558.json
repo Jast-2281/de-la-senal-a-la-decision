@@ -1,0 +1,97 @@
+{
+ "paquete": {
+  "abstencion": {
+   "abstiene": false,
+   "motivo": null,
+   "informacion_necesaria": []
+  },
+  "titulo_propuesto": "Acodeco y las quejas del consumidor: lo que reportan dos titulares y lo que falta comprobar",
+  "enfoque_interes_publico": "Los consumidores, incluidos jubilados, personas con discapacidad y compradores de inmuebles, necesitan saber cuántas quejas recibe Acodeco y cómo se atienden; antes de emitir hay que verificar las cifras con datos oficiales.",
+  "brief": [
+   {
+    "texto": "Según tvn-2.com, Acodeco recibió 375 quejas por incumplimiento de beneficios para jubilados y personas con discapacidad.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-410bc2416f",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Según la descripción del RSS de tvn-2.com, entre enero y agosto de 2026 hubo 324 quejas vinculadas a la Ley 6 y 51 a la Ley 134, además de 34 sanciones en primera instancia.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-410bc2416f",
+      "campo": "descripcion"
+     }
+    ]
+   },
+   {
+    "texto": "Según tvn-2.com, Acodeco registró 280 quejas contra inmobiliarias por más de $13.2 millones.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-ba49afd7fb",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Según la descripción del RSS de tvn-2.com, la devolución de dinero acumuló la mayor cantidad de quejas, con 146 casos y un monto reclamado de 3,053,897.06 dólares.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-ba49afd7fb",
+      "campo": "descripcion"
+     }
+    ]
+   },
+   {
+    "texto": "Ambas notas provienen del mismo medio, por lo que cuentan como una sola procedencia y no hay fuente oficial enlazada; solo se dispone de titular y descripción, no del artículo completo.",
+    "tipo": "inferencia",
+    "citas": []
+   }
+  ],
+  "preguntas_investigacion": [
+   "¿Qué cifras oficiales publica Acodeco sobre quejas recibidas en 2026 y cuál es su periodo exacto de corte?",
+   "¿Cómo se clasifican las quejas sobre jubilados, personas con discapacidad e inmobiliarias y se relacionan los 375 y los 280 con categorías distintas?",
+   "¿Qué resultado han tenido las 34 sanciones en primera instancia y los reclamos por devolución de dinero?"
+  ],
+  "verificaciones_pendientes": [
+   "Obtener un dato oficial de Acodeco que confirme las cifras de ambas notas.",
+   "Conseguir una segunda procedencia independiente, pues ambas notas son de tvn-2.com.",
+   "Confirmar que 375 y 280 corresponden a temas distintos y no son versiones incompatibles de una misma cifra, ya que el sistema las marcó como incompatibles.",
+   "Leer los artículos completos, pues solo se dispone de titular y descripción.",
+   "Verificar el periodo de la cifra de 280 quejas, que no figura en el titular ni en la descripción."
+  ],
+  "contradicciones": [],
+  "guion": [],
+  "copy_digital": []
+ },
+ "validacion": {
+  "valido": true,
+  "problemas": [],
+  "palabras": {
+   "brief": 121,
+   "guion": 0,
+   "copy_digital": 0
+  }
+ },
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "prompt_version": "paquete-tvn-v4",
+  "clave_cache": "eaa975dac4cfc67d0c8a6558",
+  "desde_cache": false,
+  "generado_en": "2026-10-07T01:10:48.967Z",
+  "latencia_ms": 7560,
+  "tokens": {
+   "entrada": 722,
+   "salida": 1144,
+   "cache_lectura": 2339,
+   "cache_escritura": 0
+  },
+  "costo_usd": 0.013351799999999999
+ }
+}

@@ -1,0 +1,217 @@
+{
+ "paquete": {
+  "abstencion": {
+   "abstiene": false,
+   "motivo": null,
+   "informacion_necesaria": []
+  },
+  "titulo_propuesto": "Cobre Panamá: First Quantum plantea diálogo y la Cámara Minera pide definir los próximos pasos",
+  "enfoque_interes_publico": "Qué se plantea sobre el futuro de la mina de Cobre Panamá, quién lo plantea y qué falta por aclarar a las comunidades, los trabajadores y el país, sin respaldo oficial enlazado.",
+  "brief": [
+   {
+    "texto": "Según el comunicado citado por TVN, First Quantum reconoce que un nuevo acuerdo debe respetar la soberanía de Panamá, sus instituciones democráticas y un proceso liderado por el Gobierno.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-5e971d1a54",
+      "campo": "descripcion"
+     }
+    ]
+   },
+   {
+    "texto": "El titular de TVN señala que First Quantum plantea participar \"de buena fe\" en un diálogo sobre el futuro de Cobre Panamá.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "N-5e971d1a54",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Según su presidente, la Cámara Minera señaló que corresponde conocer cómo se desarrollará el proceso, quién lo ejecutará y qué medidas se adoptarán.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-1c0edc17ef",
+      "campo": "descripcion"
+     }
+    ]
+   },
+   {
+    "texto": "El titular de TVN indica que la Cámara Minera respalda un cierre ordenado y pide definir próximos pasos.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "N-1c0edc17ef",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Según el gremio, prolongar la incertidumbre tiene costos para comunidades, trabajadores, proveedores, inversión y gestión ambiental de las instalaciones existentes.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-b6938d187f",
+      "campo": "descripcion"
+     }
+    ]
+   },
+   {
+    "texto": "Critica.com.pa titula que se recomienda la apertura de la mina, y un titular de la misma fuente menciona un informe sin precisar su contenido.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "N-1683cae7ea",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-9df38f83b1",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "No hay dato oficial enlazado, por lo que el estado del proceso y la postura del Gobierno quedan sin confirmar.",
+    "tipo": "inferencia",
+    "citas": []
+   }
+  ],
+  "preguntas_investigacion": [
+   "¿Qué postura oficial tiene el Gobierno sobre el diálogo propuesto por First Quantum y quién lo lideraría?",
+   "¿Qué contiene el informe que recomienda la apertura de la mina y quién lo elaboró?",
+   "¿Qué diferencia hay entre el cierre ordenado y la reapertura que plantean distintos titulares atribuidos a la Cámara Minera?"
+  ],
+  "verificaciones_pendientes": [
+   "Confirmar con el comunicado original de First Quantum su texto íntegro.",
+   "Obtener la postura oficial del Gobierno, pues no hay dato oficial enlazado.",
+   "Leer los artículos completos: la mayoría de la evidencia es solo titular o descripción de RSS.",
+   "Identificar el informe mencionado en los titulares.",
+   "Las fechas de varios medios son de detección GDELT, no de publicación.",
+   "Los titulares de critica.com.pa (tres) y de tvn-2.com (tres) cuentan cada grupo como una sola procedencia."
+  ],
+  "contradicciones": [
+   {
+    "descripcion": "Los titulares atribuidos a la Cámara Minera difieren: uno habla de avanzar hacia la reapertura y otro de respaldar un cierre ordenado.",
+    "versiones": [
+     {
+      "texto": "Cámara Minera pide al Gobierno avanzar hacia la reapertura de la mina.",
+      "tipo": "declaracion",
+      "citas": [
+       {
+        "id_evidencia": "N-b6938d187f",
+        "campo": "titulo"
+       }
+      ]
+     },
+     {
+      "texto": "Cámara Minera respalda cierre ordenado y pide definir próximos pasos.",
+      "tipo": "declaracion",
+      "citas": [
+       {
+        "id_evidencia": "N-1c0edc17ef",
+        "campo": "titulo"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "guion": [
+   {
+    "texto": "First Quantum plantea participar de buena fe en un diálogo sobre el futuro de Cobre Panamá, según informó TVN.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "N-5e971d1a54",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Según el comunicado, la empresa reconoce que un nuevo acuerdo debe respetar la soberanía de Panamá, sus instituciones democráticas y un proceso liderado por el Gobierno.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-5e971d1a54",
+      "campo": "descripcion"
+     }
+    ]
+   },
+   {
+    "texto": "Por su parte, el presidente de la Cámara Minera señaló que ahora corresponde conocer cómo se desarrollará el proceso, quién lo ejecutará y qué medidas se adoptarán.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-1c0edc17ef",
+      "campo": "descripcion"
+     }
+    ]
+   },
+   {
+    "texto": "Días antes, según el gremio, prolongar la incertidumbre tiene costos para comunidades, trabajadores, proveedores, inversión y gestión ambiental de las instalaciones existentes.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-b6938d187f",
+      "campo": "descripcion"
+     }
+    ]
+   },
+   {
+    "texto": "Hasta ahora no hay un dato oficial enlazado que confirme los próximos pasos del Gobierno.",
+    "tipo": "inferencia",
+    "citas": []
+   }
+  ],
+  "copy_digital": [
+   {
+    "texto": "First Quantum plantea participar de buena fe en un diálogo sobre Cobre Panamá y la Cámara Minera pide definir los próximos pasos, aunque aún falta la postura oficial del Gobierno.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-5e971d1a54",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-1c0edc17ef",
+      "campo": "titulo"
+     }
+    ]
+   }
+  ]
+ },
+ "validacion": {
+  "valido": true,
+  "problemas": [
+   {
+    "seccion": "guion",
+    "indice": -1,
+    "texto": "",
+    "severidad": "advertencia",
+    "problema": "guion de 109 palabras: dura menos de 45 s (mín. 110); no se rellena sin evidencia"
+   }
+  ],
+  "palabras": {
+   "brief": 156,
+   "guion": 109,
+   "copy_digital": 30
+  }
+ },
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "prompt_version": "paquete-tvn-v4",
+  "clave_cache": "1bce2a53fef8ac6ad5b1b156",
+  "desde_cache": false,
+  "generado_en": "2026-10-07T01:09:55.974Z",
+  "latencia_ms": 13554,
+  "tokens": {
+   "entrada": 1684,
+   "salida": 2228,
+   "cache_lectura": 0,
+   "cache_escritura": 2339
+  },
+  "costo_usd": 0.0314955
+ }
+}

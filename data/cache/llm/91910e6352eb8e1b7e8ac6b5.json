@@ -1,0 +1,193 @@
+{
+ "paquete": {
+  "abstencion": {
+   "abstiene": false,
+   "motivo": null,
+   "informacion_necesaria": []
+  },
+  "titulo_propuesto": "Sismo en la frontera Panamá–Costa Rica: el titular reporta magnitud 5.4, pero los registros del USGS no lo confirman",
+  "enfoque_interes_publico": "Informar a la audiencia sobre la actividad sísmica reportada en la zona fronteriza y aclarar qué datos están confirmados y cuáles no, dada la discrepancia de magnitud.",
+  "brief": [
+   {
+    "texto": "Según su titular, critica.com.pa reporta un sismo de magnitud 5.4 que sacude la frontera entre Panamá y Costa Rica.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-72b68d5114",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "El USGS registra un sismo de magnitud 4.7 el 2026-09-12 a las 01:59:50 UTC, ubicado a 0 km NE de Manaca Civil, Panamá.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "USGS:us7000tgw1",
+      "campo": "magnitud"
+     },
+     {
+      "id_evidencia": "USGS:us7000tgw1",
+      "campo": "fecha"
+     },
+     {
+      "id_evidencia": "USGS:us7000tgw1",
+      "campo": "lugar"
+     }
+    ]
+   },
+   {
+    "texto": "El USGS también registra un sismo de magnitud 5 el 2026-09-10, a 44 km SSE de Quepos, Costa Rica.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "USGS:us7000tg98",
+      "campo": "magnitud"
+     },
+     {
+      "id_evidencia": "USGS:us7000tg98",
+      "campo": "fecha"
+     },
+     {
+      "id_evidencia": "USGS:us7000tg98",
+      "campo": "lugar"
+     }
+    ]
+   },
+   {
+    "texto": "El USGS registra además un sismo de magnitud 4.6 el 2026-09-10, a 28 km S de Quepos, Costa Rica.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "USGS:us7000tget",
+      "campo": "magnitud"
+     },
+     {
+      "id_evidencia": "USGS:us7000tget",
+      "campo": "fecha"
+     },
+     {
+      "id_evidencia": "USGS:us7000tget",
+      "campo": "lugar"
+     }
+    ]
+   },
+   {
+    "texto": "Ninguno de los registros del USGS menciona una magnitud de 5.4, por lo que el titular de 5.4 y esos registros no coinciden.",
+    "tipo": "inferencia",
+    "citas": [
+     {
+      "id_evidencia": "N-72b68d5114",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "USGS:us7000tgw1",
+      "campo": "magnitud"
+     },
+     {
+      "id_evidencia": "USGS:us7000tget",
+      "campo": "magnitud"
+     },
+     {
+      "id_evidencia": "USGS:us7000tg98",
+      "campo": "magnitud"
+     }
+    ]
+   },
+   {
+    "texto": "Los registros del USGS son coincidencias temporales en una caja regional que no equivale al territorio de Panamá, y no está comprobado que correspondan al evento del titular.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "USGS:us7000tgw1",
+      "campo": "limitacion"
+     }
+    ]
+   }
+  ],
+  "preguntas_investigacion": [
+   "¿A qué evento sísmico se refiere el titular de critica.com.pa y qué fuente dio la magnitud de 5.4?",
+   "¿Corresponde alguno de los registros del USGS al sismo del titular, o hubo un evento distinto no incluido aquí?",
+   "¿Hubo daños, afectaciones o reportes de las autoridades de Panamá y Costa Rica por este sismo?"
+  ],
+  "verificaciones_pendientes": [
+   "Consultar al menos una segunda procedencia independiente, ya que solo hay un titular y datos del USGS.",
+   "Leer la nota completa de critica.com.pa: solo se dispone del titular y no se conoce su fecha de publicación.",
+   "Confirmar con la entidad sismológica oficial panameña la magnitud, hora y epicentro.",
+   "Aclarar la discrepancia entre la magnitud del titular y los registros del USGS.",
+   "No se detectaron instrucciones incrustadas en las fuentes."
+  ],
+  "contradicciones": [
+   {
+    "descripcion": "La magnitud en el titular (5.4) no coincide con las magnitudes registradas por el USGS en el mismo periodo (4.7, 4.6 y 5).",
+    "versiones": [
+     {
+      "texto": "Según su titular, critica.com.pa habla de un sismo de magnitud 5.4 en la frontera Panamá–Costa Rica.",
+      "tipo": "declaracion",
+      "citas": [
+       {
+        "id_evidencia": "N-72b68d5114",
+        "campo": "titulo"
+       }
+      ]
+     },
+     {
+      "texto": "El USGS registra un sismo de magnitud 4.7 cerca de Manaca Civil, Panamá.",
+      "tipo": "hecho",
+      "citas": [
+       {
+        "id_evidencia": "USGS:us7000tgw1",
+        "campo": "magnitud"
+       },
+       {
+        "id_evidencia": "USGS:us7000tgw1",
+        "campo": "lugar"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "guion": [],
+  "copy_digital": []
+ },
+ "validacion": {
+  "valido": false,
+  "problemas": [
+   {
+    "seccion": "brief",
+    "indice": 1,
+    "texto": "El USGS registra un sismo de magnitud 4.7 el 2026-09-12 a las 01:59:50 UTC, ubicado a 0 km NE de Manaca Civil, Panamá.",
+    "problema": "cifra \"50\" no aparece en la evidencia citada",
+    "severidad": "bloqueante"
+   },
+   {
+    "seccion": "guion",
+    "indice": -1,
+    "texto": "",
+    "severidad": "advertencia",
+    "problema": "guion de 0 palabras: dura menos de 45 s (mín. 110); no se rellena sin evidencia"
+   }
+  ],
+  "palabras": {
+   "brief": 131,
+   "guion": 0,
+   "copy_digital": 0
+  }
+ },
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "prompt_version": "paquete-tvn-v4",
+  "clave_cache": "91910e6352eb8e1b7e8ac6b5",
+  "desde_cache": false,
+  "generado_en": "2026-10-07T01:11:13.745Z",
+  "latencia_ms": 10454,
+  "tokens": {
+   "entrada": 774,
+   "salida": 1745,
+   "cache_lectura": 2339,
+   "cache_escritura": 0
+  },
+  "costo_usd": 0.0194658
+ }
+}

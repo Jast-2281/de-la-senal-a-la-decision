@@ -1,0 +1,268 @@
+{
+ "paquete": {
+  "abstencion": {
+   "abstiene": false,
+   "motivo": null,
+   "informacion_necesaria": []
+  },
+  "titulo_propuesto": "Sector pesquero y exportaciones de Panamá: lo que dicen los titulares y lo que falta por verificar",
+  "enfoque_interes_publico": "Aclarar si el sector pesquero es de verdad el principal motor exportador de Panamá y qué peso tienen las exportaciones en la economía, separando lo que dicen los titulares de lo que está confirmado con datos.",
+  "brief": [
+   {
+    "texto": "La Estrella de Panamá titula que el sector pesquero panameño se consolida como el principal motor de exportación.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-1cbd644225",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Panamá América titula que el sector pesquero crece un 5.6 % y genera $158.5 millones.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-5ac056fa29",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Otro titular de La Estrella de Panamá afirma que el país lidera las exportaciones de servicios de Centroamérica.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-e167994445",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Los dos titulares de La Estrella provienen del mismo medio y cuentan como una sola procedencia.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "N-1cbd644225",
+      "campo": "medio"
+     },
+     {
+      "id_evidencia": "N-e167994445",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "Según el Banco Mundial, las exportaciones de bienes y servicios de Panamá equivalieron a 44.3578422661429 % del PIB en 2024, un dato anual que no confirma lo reportado por las notas.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "BM:PAN:NE.EXP.GNFS.ZS:2024",
+      "campo": "valor"
+     },
+     {
+      "id_evidencia": "BM:PAN:NE.EXP.GNFS.ZS:2024",
+      "campo": "limitacion"
+     }
+    ]
+   },
+   {
+    "texto": "Solo se dispone de titulares, por lo que no se conoce la fuente de las cifras ni el período al que se refieren.",
+    "tipo": "inferencia",
+    "citas": []
+   }
+  ],
+  "preguntas_investigacion": [
+   "¿Qué entidad oficial publicó las cifras del sector pesquero y a qué período corresponden?",
+   "¿Cómo se compara la exportación pesquera con otros rubros para sostener que es el principal motor exportador?",
+   "¿Qué datos respaldan que Panamá lidera las exportaciones de servicios en Centroamérica?"
+  ],
+  "verificaciones_pendientes": [
+   "Leer el cuerpo de las tres notas: solo se tienen titulares y metadatos.",
+   "Confirmar fechas de publicación, pues GDELT solo indica la fecha de detección.",
+   "Verificar si el crecimiento de 5.6 % y los $158.5 millones tienen respaldo oficial y su período.",
+   "Contrastar la afirmación de principal motor de exportación con datos oficiales, ya que los titulares de los distintos medios podrían no ser compatibles.",
+   "Los dos titulares de La Estrella cuentan como una sola procedencia, no como corroboración independiente."
+  ],
+  "contradicciones": [
+   {
+    "descripcion": "Un titular señala al sector pesquero como principal motor de exportación, mientras otro destaca el liderazgo en exportaciones de servicios; podrían no ser compatibles según cómo se defina el ranking.",
+    "versiones": [
+     {
+      "texto": "La Estrella titula que el sector pesquero es el principal motor de exportación.",
+      "tipo": "declaracion",
+      "citas": [
+       {
+        "id_evidencia": "N-1cbd644225",
+        "campo": "titulo"
+       }
+      ]
+     },
+     {
+      "texto": "La Estrella titula que Panamá lidera las exportaciones de servicios de Centroamérica.",
+      "tipo": "declaracion",
+      "citas": [
+       {
+        "id_evidencia": "N-e167994445",
+        "campo": "titulo"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "guion": [
+   {
+    "texto": "Los titulares de la prensa panameña destacan el peso del sector pesquero en las exportaciones del país.",
+    "tipo": "inferencia",
+    "citas": []
+   },
+   {
+    "texto": "Según La Estrella de Panamá, el sector pesquero se consolida como el principal motor de exportación.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-1cbd644225",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Panamá América, por su parte, titula que el sector crece un 5.6 % y genera 158.5 millones de dólares.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-5ac056fa29",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Otro titular de La Estrella asegura que el país lidera las exportaciones de servicios en Centroamérica.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-e167994445",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Como referencia, el Banco Mundial registró que en 2024 las exportaciones de bienes y servicios equivalieron a 44.3578422661429 % del PIB.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "BM:PAN:NE.EXP.GNFS.ZS:2024",
+      "campo": "valor"
+     }
+    ]
+   },
+   {
+    "texto": "Ese dato es anual y no confirma lo que reportan las notas, cuyo contenido completo aún no ha sido verificado.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "BM:PAN:NE.EXP.GNFS.ZS:2024",
+      "campo": "limitacion"
+     }
+    ]
+   }
+  ],
+  "copy_digital": [
+   {
+    "texto": "Prensa local afirma que el sector pesquero crece un 5.6 % y genera $158.5 millones, según Panamá América.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-5ac056fa29",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Las exportaciones panameñas fueron 44.3578422661429 % del PIB en 2024, según el Banco Mundial, dato anual que no confirma esas notas.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "BM:PAN:NE.EXP.GNFS.ZS:2024",
+      "campo": "valor"
+     }
+    ]
+   }
+  ]
+ },
+ "validacion": {
+  "valido": false,
+  "problemas": [
+   {
+    "seccion": "brief",
+    "indice": 1,
+    "texto": "Panamá América titula que el sector pesquero crece un 5.6 % y genera $158.5 millones.",
+    "problema": "cifra \"5.6\" no aparece en la evidencia citada",
+    "severidad": "bloqueante"
+   },
+   {
+    "seccion": "brief",
+    "indice": 1,
+    "texto": "Panamá América titula que el sector pesquero crece un 5.6 % y genera $158.5 millones.",
+    "problema": "cifra \"158.5\" no aparece en la evidencia citada",
+    "severidad": "bloqueante"
+   },
+   {
+    "seccion": "guion",
+    "indice": 2,
+    "texto": "Panamá América, por su parte, titula que el sector crece un 5.6 % y genera 158.5 millones de dólares.",
+    "problema": "cifra \"5.6\" no aparece en la evidencia citada",
+    "severidad": "bloqueante"
+   },
+   {
+    "seccion": "guion",
+    "indice": 2,
+    "texto": "Panamá América, por su parte, titula que el sector crece un 5.6 % y genera 158.5 millones de dólares.",
+    "problema": "cifra \"158.5\" no aparece en la evidencia citada",
+    "severidad": "bloqueante"
+   },
+   {
+    "seccion": "copy_digital",
+    "indice": 0,
+    "texto": "Prensa local afirma que el sector pesquero crece un 5.6 % y genera $158.5 millones, según Panamá América.",
+    "problema": "cifra \"5.6\" no aparece en la evidencia citada",
+    "severidad": "bloqueante"
+   },
+   {
+    "seccion": "copy_digital",
+    "indice": 0,
+    "texto": "Prensa local afirma que el sector pesquero crece un 5.6 % y genera $158.5 millones, según Panamá América.",
+    "problema": "cifra \"158.5\" no aparece en la evidencia citada",
+    "severidad": "bloqueante"
+   },
+   {
+    "seccion": "guion",
+    "indice": -1,
+    "texto": "",
+    "severidad": "advertencia",
+    "problema": "guion de 109 palabras: dura menos de 45 s (mín. 110); no se rellena sin evidencia"
+   }
+  ],
+  "palabras": {
+   "brief": 121,
+   "guion": 109,
+   "copy_digital": 39
+  }
+ },
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "prompt_version": "paquete-tvn-v1",
+  "clave_cache": "3c38232102c67a53263b335e",
+  "desde_cache": false,
+  "generado_en": "2026-10-07T00:02:55.530Z",
+  "latencia_ms": 14262,
+  "tokens": {
+   "entrada": 763,
+   "salida": 2193,
+   "cache_lectura": 2035,
+   "cache_escritura": 0
+  },
+  "costo_usd": 0.023863
+ }
+}

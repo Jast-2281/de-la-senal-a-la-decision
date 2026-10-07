@@ -1,0 +1,275 @@
+{
+ "paquete": {
+  "abstencion": {
+   "abstiene": false,
+   "motivo": null,
+   "informacion_necesaria": []
+  },
+  "titulo_propuesto": "Pesca y exportaciones: qué dicen los titulares sobre el peso del sector pesquero en Panamá",
+  "enfoque_interes_publico": "Entender si el sector pesquero pesa de verdad en la economía exportadora panameña y cómo se relaciona con el dato de exportaciones del país, sin dar por confirmado lo que solo se ha leído en titulares.",
+  "brief": [
+   {
+    "texto": "La Estrella de Panamá titula que el sector pesquero panameño se consolida como el principal motor de exportación.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-1cbd644225",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Panamá América titula que el sector pesquero de Panamá crece un 5 . 6 % y genera $158 . 5 millones.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-5ac056fa29",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Según el Banco Mundial, las exportaciones de bienes y servicios de Panamá equivalían a 44.3578422661429 % del PIB en 2024, un dato anual que no confirma lo que reportan los titulares.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "BM:PAN:NE.EXP.GNFS.ZS:2024",
+      "campo": "valor"
+     },
+     {
+      "id_evidencia": "BM:PAN:NE.EXP.GNFS.ZS:2024",
+      "campo": "anio"
+     }
+    ]
+   },
+   {
+    "texto": "Solo se dispone de titulares y metadatos, por lo que no se conoce el periodo, la metodología ni el origen de las cifras de la nota.",
+    "tipo": "inferencia",
+    "citas": []
+   }
+  ],
+  "preguntas_investigacion": [
+   "¿Qué entidad oficial publica la cifra de $158 . 5 millones y a qué periodo corresponde el crecimiento de 5 . 6 %?",
+   "¿Con qué criterio se afirma que la pesca es el principal motor de exportación frente a otros sectores y servicios?",
+   "¿Qué peso tiene el sector pesquero dentro del total de exportaciones de Panamá en los datos oficiales más recientes?"
+  ],
+  "verificaciones_pendientes": [
+   "Leer el cuerpo de las notas de La Estrella y Panamá América, pues solo se revisaron titulares.",
+   "Confirmar fecha de publicación real, ya que GDELT solo indica la fecha de detección.",
+   "Verificar si el titular sobre exportaciones de servicios de Centroamérica (N-e167994445) contradice la afirmación de que la pesca es el principal motor; ambos provienen del mismo medio.",
+   "No presentar el dato del Banco Mundial de 2024 como cifra actual ni como confirmación de las notas."
+  ],
+  "contradicciones": [
+   {
+    "descripcion": "Los titulares de La Estrella apuntan a motores de exportación distintos: la pesca como principal motor y Panamá como líder en exportaciones de servicios en Centroamérica; podrían ser compatibles, pero no se puede determinar sin leer las notas.",
+    "versiones": [
+     {
+      "texto": "La Estrella titula que el sector pesquero se consolida como el principal motor de exportación.",
+      "tipo": "declaracion",
+      "citas": [
+       {
+        "id_evidencia": "N-1cbd644225",
+        "campo": "titulo"
+       }
+      ]
+     },
+     {
+      "texto": "La Estrella titula que Panamá lidera exportaciones de servicios de Centroamérica.",
+      "tipo": "declaracion",
+      "citas": [
+       {
+        "id_evidencia": "N-e167994445",
+        "campo": "titulo"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "guion": [
+   {
+    "texto": "El sector pesquero de Panamá está en el centro de la conversación económica por lo que reportan algunos medios.",
+    "tipo": "inferencia",
+    "citas": []
+   },
+   {
+    "texto": "Según Panamá América, el sector crece un 5 . 6 % y genera $158 . 5 millones.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-5ac056fa29",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "La Estrella, por su parte, titula que la pesca se consolida como el principal motor de exportación del país.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-1cbd644225",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Como referencia anual, el Banco Mundial registró que en 2024 las exportaciones de bienes y servicios equivalían a 44.3578422661429 % del PIB de Panamá.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "BM:PAN:NE.EXP.GNFS.ZS:2024",
+      "campo": "valor"
+     },
+     {
+      "id_evidencia": "BM:PAN:NE.EXP.GNFS.ZS:2024",
+      "campo": "anio"
+     }
+    ]
+   },
+   {
+    "texto": "Ese dato de 2024 no confirma lo que dicen las notas, y por ahora solo se han revisado titulares, así que falta verificar fuentes oficiales y periodos.",
+    "tipo": "inferencia",
+    "citas": []
+   }
+  ],
+  "copy_digital": [
+   {
+    "texto": "Medios reportan que la pesca crece 5 . 6 % y genera $158 . 5 millones en Panamá, según el titular de Panamá América, y La Estrella la señala como principal motor exportador; falta verificar las cifras con fuentes oficiales.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-5ac056fa29",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-1cbd644225",
+      "campo": "titulo"
+     }
+    ]
+   }
+  ]
+ },
+ "validacion": {
+  "valido": false,
+  "problemas": [
+   {
+    "seccion": "brief",
+    "indice": 1,
+    "texto": "Panamá América titula que el sector pesquero de Panamá crece un 5 . 6 % y genera $158 . 5 millones.",
+    "problema": "cifra \"5\" no aparece en la evidencia citada",
+    "severidad": "bloqueante"
+   },
+   {
+    "seccion": "brief",
+    "indice": 1,
+    "texto": "Panamá América titula que el sector pesquero de Panamá crece un 5 . 6 % y genera $158 . 5 millones.",
+    "problema": "cifra \"6\" no aparece en la evidencia citada",
+    "severidad": "bloqueante"
+   },
+   {
+    "seccion": "brief",
+    "indice": 1,
+    "texto": "Panamá América titula que el sector pesquero de Panamá crece un 5 . 6 % y genera $158 . 5 millones.",
+    "problema": "cifra \"158\" no aparece en la evidencia citada",
+    "severidad": "bloqueante"
+   },
+   {
+    "seccion": "brief",
+    "indice": 1,
+    "texto": "Panamá América titula que el sector pesquero de Panamá crece un 5 . 6 % y genera $158 . 5 millones.",
+    "problema": "cifra \"5\" no aparece en la evidencia citada",
+    "severidad": "bloqueante"
+   },
+   {
+    "seccion": "guion",
+    "indice": 1,
+    "texto": "Según Panamá América, el sector crece un 5 . 6 % y genera $158 . 5 millones.",
+    "problema": "cifra \"5\" no aparece en la evidencia citada",
+    "severidad": "bloqueante"
+   },
+   {
+    "seccion": "guion",
+    "indice": 1,
+    "texto": "Según Panamá América, el sector crece un 5 . 6 % y genera $158 . 5 millones.",
+    "problema": "cifra \"6\" no aparece en la evidencia citada",
+    "severidad": "bloqueante"
+   },
+   {
+    "seccion": "guion",
+    "indice": 1,
+    "texto": "Según Panamá América, el sector crece un 5 . 6 % y genera $158 . 5 millones.",
+    "problema": "cifra \"158\" no aparece en la evidencia citada",
+    "severidad": "bloqueante"
+   },
+   {
+    "seccion": "guion",
+    "indice": 1,
+    "texto": "Según Panamá América, el sector crece un 5 . 6 % y genera $158 . 5 millones.",
+    "problema": "cifra \"5\" no aparece en la evidencia citada",
+    "severidad": "bloqueante"
+   },
+   {
+    "seccion": "guion",
+    "indice": 4,
+    "texto": "Ese dato de 2024 no confirma lo que dicen las notas, y por ahora solo se han revisado titulares, así que falta verificar fuentes oficiales y periodos.",
+    "problema": "inferencia con cifras sin cita",
+    "severidad": "bloqueante"
+   },
+   {
+    "seccion": "copy_digital",
+    "indice": 0,
+    "texto": "Medios reportan que la pesca crece 5 . 6 % y genera $158 . 5 millones en Panamá, según el titular de Panamá América, y La Estrella la señala como principal motor exportador; falta verificar las cifras con fuentes oficiales.",
+    "problema": "cifra \"5\" no aparece en la evidencia citada",
+    "severidad": "bloqueante"
+   },
+   {
+    "seccion": "copy_digital",
+    "indice": 0,
+    "texto": "Medios reportan que la pesca crece 5 . 6 % y genera $158 . 5 millones en Panamá, según el titular de Panamá América, y La Estrella la señala como principal motor exportador; falta verificar las cifras con fuentes oficiales.",
+    "problema": "cifra \"6\" no aparece en la evidencia citada",
+    "severidad": "bloqueante"
+   },
+   {
+    "seccion": "copy_digital",
+    "indice": 0,
+    "texto": "Medios reportan que la pesca crece 5 . 6 % y genera $158 . 5 millones en Panamá, según el titular de Panamá América, y La Estrella la señala como principal motor exportador; falta verificar las cifras con fuentes oficiales.",
+    "problema": "cifra \"158\" no aparece en la evidencia citada",
+    "severidad": "bloqueante"
+   },
+   {
+    "seccion": "copy_digital",
+    "indice": 0,
+    "texto": "Medios reportan que la pesca crece 5 . 6 % y genera $158 . 5 millones en Panamá, según el titular de Panamá América, y La Estrella la señala como principal motor exportador; falta verificar las cifras con fuentes oficiales.",
+    "problema": "cifra \"5\" no aparece en la evidencia citada",
+    "severidad": "bloqueante"
+   },
+   {
+    "seccion": "guion",
+    "indice": -1,
+    "texto": "",
+    "severidad": "advertencia",
+    "problema": "guion de 106 palabras: dura menos de 45 s (mín. 110); no se rellena sin evidencia"
+   }
+  ],
+  "palabras": {
+   "brief": 96,
+   "guion": 106,
+   "copy_digital": 40
+  }
+ },
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "prompt_version": "paquete-tvn-v3",
+  "clave_cache": "5ac017b3c672f897f45f07e4",
+  "desde_cache": false,
+  "generado_en": "2026-10-07T01:01:52.906Z",
+  "latencia_ms": 12965,
+  "tokens": {
+   "entrada": 763,
+   "salida": 1924,
+   "cache_lectura": 2290,
+   "cache_escritura": 0
+  },
+  "costo_usd": 0.021224
+ }
+}

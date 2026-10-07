@@ -1,0 +1,55 @@
+{
+ "paquete": {
+  "abstencion": {
+   "abstiene": true,
+   "motivo": "La evidencia consiste en un único titular de una sola procedencia (critica.com.pa), sin fuente oficial ni segunda procedencia independiente. No hay registro sísmico oficial que respalde el evento y no se ha leído el cuerpo de la nota, por lo que no se puede redactar con sustento.",
+   "informacion_necesaria": [
+    "Registro oficial del sismo (USGS u organismo sismológico nacional de Panamá o Costa Rica) con magnitud, hora y ubicación",
+    "Una segunda procedencia independiente que reporte el evento",
+    "Texto completo de la nota de critica.com.pa y su fecha de publicación",
+    "Reportes oficiales de daños o afectaciones, si los hubiera"
+   ]
+  },
+  "titulo_propuesto": "Sismo reportado en la frontera Panamá-Costa Rica: pendiente de verificación",
+  "enfoque_interes_publico": "Informar a la población fronteriza sobre un posible sismo solo cuando exista confirmación oficial de magnitud, ubicación y posibles afectaciones.",
+  "brief": [],
+  "preguntas_investigacion": [
+   "¿Qué registro oficial (USGS u organismos sismológicos de Panamá y Costa Rica) confirma la magnitud, hora y epicentro del sismo?",
+   "¿Hubo daños, heridos o afectaciones en las zonas fronterizas según autoridades de protección civil?",
+   "¿Qué dice el cuerpo completo de la nota de critica.com.pa y en qué fecha fue publicada?"
+  ],
+  "verificaciones_pendientes": [
+   "Confirmar el sismo con un registro oficial: el catálogo USGS del paquete cubre solo 2024 y no respalda este evento.",
+   "Conseguir una segunda procedencia independiente; hoy solo hay una.",
+   "Determinar la fecha de publicación de la nota: GDELT solo indica la fecha de detección.",
+   "Leer el cuerpo de la nota: solo se dispone del titular."
+  ],
+  "contradicciones": [],
+  "guion": [],
+  "copy_digital": []
+ },
+ "validacion": {
+  "valido": true,
+  "problemas": [],
+  "palabras": {
+   "brief": 0,
+   "guion": 0,
+   "copy_digital": 0
+  }
+ },
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "prompt_version": "paquete-tvn-v1",
+  "clave_cache": "98a1823028e25e96f05f17bf",
+  "desde_cache": false,
+  "generado_en": "2026-10-07T00:03:01.975Z",
+  "latencia_ms": 6442,
+  "tokens": {
+   "entrada": 422,
+   "salida": 705,
+   "cache_lectura": 2035,
+   "cache_escritura": 0
+  },
+  "costo_usd": 0.008301
+ }
+}

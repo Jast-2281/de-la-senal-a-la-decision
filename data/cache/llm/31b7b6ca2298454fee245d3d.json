@@ -1,0 +1,174 @@
+{
+ "paquete": {
+  "abstencion": {
+   "abstiene": false,
+   "motivo": null,
+   "informacion_necesaria": []
+  },
+  "titulo_propuesto": "Metro de Panamá firma contrato con Doppelmayr para el Teleférico de San Miguelito",
+  "enfoque_interes_publico": "Qué implica la firma del contrato para el proyecto y cuál es el siguiente paso de control: la revisión y el refrendo de la Contraloría.",
+  "brief": [
+   {
+    "texto": "Según su titular, tvn-2.com reporta que el Metro de Panamá firmó el contrato para construir el Teleférico de San Miguelito.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-7fa9a78028",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Según la descripción del RSS de tvn-2.com, el próximo paso será la revisión del contrato por la Contraloría y su eventual refrendo, requisito para continuar con la ejecución.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-7fa9a78028",
+      "campo": "descripcion"
+     }
+    ]
+   },
+   {
+    "texto": "Según su titular, panamaamerica.com.pa señala que el Metro de Panamá y Doppelmayr firmaron el contrato de construcción.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-e4a8ba965d",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Según su titular, laestrella.com.pa también menciona a Doppelmayr como contraparte en el contrato.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-cbb8a6d322",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Según su titular, critica.com.pa indica que el proyecto entra en una nueva etapa.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-4da46e2d80",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Los titulares son casi idénticos y podrían provenir de un mismo origen, por lo que no se consideran corroboración independiente ni hay respaldo oficial en el corpus.",
+    "tipo": "inferencia",
+    "citas": []
+   }
+  ],
+  "preguntas_investigacion": [
+   "¿Cuáles son el monto, el plazo y las condiciones del contrato firmado entre el Metro de Panamá y Doppelmayr?",
+   "¿Cuándo se espera que la Contraloría revise y refrende el contrato, y qué ocurre si lo objeta?",
+   "¿Existe un comunicado oficial del Metro de Panamá que confirme la firma y sus detalles?"
+  ],
+  "verificaciones_pendientes": [
+   "Confirmar con un comunicado oficial del Metro de Panamá la firma del contrato.",
+   "Determinar si los titulares casi idénticos de los cuatro medios provienen de un mismo origen.",
+   "Verificar las fechas de publicación, pues los medios distintos de tvn-2.com solo tienen fecha de detección de GDELT.",
+   "Leer los artículos completos, pues solo se dispone de titulares y de una descripción del RSS."
+  ],
+  "contradicciones": [],
+  "guion": [
+   {
+    "texto": "El Metro de Panamá firmó el contrato para construir el Teleférico de San Miguelito, según reporta tvn-2.com.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-7fa9a78028",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Otros medios, como panamaamerica.com.pa y laestrella.com.pa, señalan en sus titulares que la contraparte es la empresa Doppelmayr.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-e4a8ba965d",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-cbb8a6d322",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Según la descripción publicada por tvn-2.com, el siguiente paso será la revisión del contrato por parte de la Contraloría.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-7fa9a78028",
+      "campo": "descripcion"
+     }
+    ]
+   },
+   {
+    "texto": "Ese eventual refrendo es, según la misma descripción, un requisito necesario para continuar con la ejecución del proyecto.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-7fa9a78028",
+      "campo": "descripcion"
+     }
+    ]
+   }
+  ],
+  "copy_digital": [
+   {
+    "texto": "El Metro de Panamá firmó el contrato del Teleférico de San Miguelito, según tvn-2.com, y falta la revisión y el refrendo de la Contraloría.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-7fa9a78028",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-7fa9a78028",
+      "campo": "descripcion"
+     }
+    ]
+   }
+  ]
+ },
+ "validacion": {
+  "valido": true,
+  "problemas": [
+   {
+    "seccion": "guion",
+    "indice": -1,
+    "texto": "",
+    "severidad": "advertencia",
+    "problema": "guion de 71 palabras: dura menos de 45 s (mín. 110); no se rellena sin evidencia"
+   }
+  ],
+  "palabras": {
+   "brief": 118,
+   "guion": 71,
+   "copy_digital": 24
+  }
+ },
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "prompt_version": "paquete-tvn-v4",
+  "clave_cache": "31b7b6ca2298454fee245d3d",
+  "desde_cache": false,
+  "generado_en": "2026-10-07T01:10:06.669Z",
+  "latencia_ms": 10689,
+  "tokens": {
+   "entrada": 838,
+   "salida": 1637,
+   "cache_lectura": 2339,
+   "cache_escritura": 0
+  },
+  "costo_usd": 0.0185138
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "abstencion": {
+  "abstiene": true,
+  "motivo": "Las fuentes no contienen la inflación de Panamá de septiembre de 2026. Las noticias de ese mes no tratan el IPC, y el único indicador disponible (Banco Mundial) es anual de 2024, por lo que no responde a una consulta sobre un mes reciente.",
+  "informacion_necesaria": [
+   "Índice de Precios al Consumidor (IPC) de septiembre de 2026 publicado por el Instituto Nacional de Estadística y Censo (INEC) de la Contraloría General de Panamá",
+   "Variación interanual del IPC para ese mes, cuando el INEC la publique"
+  ]
+ },
+ "respuesta": [],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-07T01:20:33.459Z",
+  "latencia_ms": 2296,
+  "costo_usd": 0.0047902
+ }
+}

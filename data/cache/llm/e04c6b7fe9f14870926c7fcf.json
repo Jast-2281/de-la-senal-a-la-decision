@@ -1,0 +1,131 @@
+{
+ "paquete": {
+  "abstencion": {
+   "abstiene": false,
+   "motivo": null,
+   "informacion_necesaria": []
+  },
+  "titulo_propuesto": "Panamá vigila un caso sospechoso de peste neumónica en Rusia: lo reportado y lo pendiente de verificar",
+  "enfoque_interes_publico": "Informar qué vigilancia mantiene Panamá ante un caso sospechoso en el extranjero y aclarar qué está confirmado, sin generar alarma, mientras no haya fuente oficial ni segunda procedencia independiente.",
+  "brief": [
+   {
+    "texto": "Según el titular de tvn-2.com publicado el 6 de octubre de 2026, Panamá mantiene vigilancia epidemiológica ante un caso sospechoso de peste neumónica en Rusia.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-8ffb07170d",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "La descripción del RSS indica que la peste bubónica y la neumónica son causadas por la bacteria Yersinia pestis y pueden tratarse con antibióticos si se detectan a tiempo.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "N-8ffb07170d",
+      "campo": "descripcion"
+     }
+    ]
+   },
+   {
+    "texto": "El titular de otra nota de tvn-2.com señala que Rusia niega haber ordenado restricciones por un supuesto caso de peste neumónica.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-122eadce2c",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Según la descripción de esa nota, People of Baikal afirma que hasta 200 personas con posible contacto están en cuarentena.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-122eadce2c",
+      "campo": "descripcion"
+     }
+    ]
+   },
+   {
+    "texto": "Ambas piezas provienen del mismo medio, por lo que cuentan como una sola procedencia, no hay fuente oficial enlazada y solo se dispone de titular y descripción.",
+    "tipo": "inferencia",
+    "citas": []
+   }
+  ],
+  "preguntas_investigacion": [
+   "¿Qué ha informado oficialmente el Ministerio de Salud de Panamá sobre las medidas de vigilancia epidemiológica y desde cuándo se aplican?",
+   "¿Existe confirmación de laboratorio o un comunicado de autoridades rusas o de la OMS sobre el caso sospechoso?",
+   "¿Cómo se concilian la negación rusa de restricciones y el reporte de People of Baikal sobre personas en cuarentena?"
+  ],
+  "verificaciones_pendientes": [
+   "Obtener una segunda procedencia independiente, ya que ambas notas son de tvn-2.com.",
+   "Conseguir fuente oficial (MINSA, autoridades rusas, OMS) que confirme o descarte el caso.",
+   "Leer los artículos completos: solo se dispone de titular y descripción.",
+   "Verificar la identidad y fiabilidad de People of Baikal y la cifra de hasta 200 personas en cuarentena.",
+   "Confirmar qué medidas concretas aplica Panamá."
+  ],
+  "contradicciones": [
+   {
+    "descripcion": "Rusia niega haber ordenado restricciones, mientras se atribuye a People of Baikal que hasta 200 personas están en cuarentena.",
+    "versiones": [
+     {
+      "texto": "Según el titular, Rusia niega haber ordenado restricciones por el supuesto caso.",
+      "tipo": "declaracion",
+      "citas": [
+       {
+        "id_evidencia": "N-122eadce2c",
+        "campo": "titulo"
+       }
+      ]
+     },
+     {
+      "texto": "Según People of Baikal, hasta 200 personas con posible contacto se encuentran en cuarentena.",
+      "tipo": "declaracion",
+      "citas": [
+       {
+        "id_evidencia": "N-122eadce2c",
+        "campo": "descripcion"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "guion": [],
+  "copy_digital": []
+ },
+ "validacion": {
+  "valido": false,
+  "problemas": [
+   {
+    "seccion": "brief",
+    "indice": 0,
+    "texto": "Según el titular de tvn-2.com publicado el 6 de octubre de 2026, Panamá mantiene vigilancia epidemiológica ante un caso sospechoso de peste neumónica en Rusia.",
+    "problema": "cifra \"6\" no aparece en la evidencia citada",
+    "severidad": "bloqueante"
+   }
+  ],
+  "palabras": {
+   "brief": 122,
+   "guion": 0,
+   "copy_digital": 0
+  }
+ },
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "prompt_version": "paquete-tvn-v2",
+  "clave_cache": "e04c6b7fe9f14870926c7fcf",
+  "desde_cache": false,
+  "generado_en": "2026-10-07T00:04:06.981Z",
+  "latencia_ms": 9485,
+  "tokens": {
+   "entrada": 620,
+   "salida": 1325,
+   "cache_lectura": 0,
+   "cache_escritura": 2206
+  },
+  "costo_usd": 0.020005
+ }
+}

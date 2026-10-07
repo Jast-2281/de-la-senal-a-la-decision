@@ -1,0 +1,17 @@
+{
+ "abstencion": {
+  "abstiene": true,
+  "motivo": "Ninguna de las fuentes contiene datos de audiencia o rating de TVN para ayer. Las noticias tratan de premios, reputación corporativa, la Teletón y la cobertura del Mundial, pero no incluyen mediciones de rating diarias.",
+  "informacion_necesaria": [
+   "Reporte diario de rating o audiencia de una empresa de medición (por ejemplo, Kantar Ibope Media u otra que mida en Panamá)",
+   "Datos internos de audiencia de TVN Media para la fecha consultada"
+  ]
+ },
+ "respuesta": [],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-07T01:20:31.156Z",
+  "latencia_ms": 5101,
+  "costo_usd": 0.0080555
+ }
+}

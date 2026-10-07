@@ -1,0 +1,52 @@
+{
+ "abstencion": {
+  "abstiene": false,
+  "motivo": null,
+  "informacion_necesaria": []
+ },
+ "respuesta": [
+  {
+   "texto": "Un titular de Telemetro (30 de septiembre de 2026) indica que el presidente afirma que el desempleo baja y que el sector privado gana terreno; es una afirmación atribuida al presidente, y la evidencia solo incluye el titular, sin cifras.",
+   "tipo": "declaracion",
+   "citas": [
+    {
+     "id_evidencia": "N-c532d62722",
+     "campo": "titulo"
+    },
+    {
+     "id_evidencia": "N-c532d62722",
+     "campo": "fecha"
+    }
+   ]
+  },
+  {
+   "texto": "El indicador anual del Banco Mundial (estimación modelada de la OIT) fijó el desempleo de Panamá en 8.451 % de la fuerza laboral en 2024; es un dato anual pasado, no una medición actual, y no confirma lo dicho en la noticia.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "BM:PAN:SL.UEM.TOTL.ZS:2024",
+     "campo": "valor"
+    },
+    {
+     "id_evidencia": "BM:PAN:SL.UEM.TOTL.ZS:2024",
+     "campo": "anio"
+    },
+    {
+     "id_evidencia": "BM:PAN:SL.UEM.TOTL.ZS:2024",
+     "campo": "limitacion"
+    }
+   ]
+  },
+  {
+   "texto": "Para confirmar la tasa de desempleo reciente haría falta la última encuesta de mercado laboral del INEC.",
+   "tipo": "inferencia",
+   "citas": []
+  }
+ ],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-07T01:20:47.402Z",
+  "latencia_ms": 4330,
+  "costo_usd": 0.0075882
+ }
+}

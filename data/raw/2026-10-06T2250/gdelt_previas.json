@@ -1,0 +1,1 @@
+[{"url": "https://api.gdeltproject.org/api/v2/doc/doc?query=Panama%20sourcecountry:PM&mode=ArtList&maxrecords=250&format=json&timespan=30d", "archivo": "gdelt_previa_30d.json", "nota": "Descargada el 2026-10-06 17:39 (hora local) durante la exploración inicial, antes del bloqueo 429 de GDELT."}]

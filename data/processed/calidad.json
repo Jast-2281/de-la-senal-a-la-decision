@@ -1,0 +1,769 @@
+{
+  "fecha_corte_UTC": "2026-10-06T22:50:47.899Z",
+  "noticias": {
+    "leidas": 710,
+    "validas": 591,
+    "con_error": 1,
+    "duplicadas_por_url": 0,
+    "fuera_de_ventana": 118,
+    "fuera_de_ventana_por_motivo": {
+      "anterior a la ventana": 48,
+      "posterior al último mes completo": 70,
+      "sin fecha": 0
+    },
+    "por_origen": {
+      "tvn_rss": 51,
+      "tvn_sitemap": 309,
+      "gdelt_doc": 231
+    },
+    "sin_fecha_publicacion": 231,
+    "consultas_gdelt_fallidas": [
+      "https://api.gdeltproject.org/api/v2/doc/doc?mode=ArtList&format=json&maxrecords=250&query=Panama%20sourcecountry%3APM%20sourcelang%3Aspanish&startdatetime=20260926225047&enddatetime=20261006225047",
+      "https://api.gdeltproject.org/api/v2/doc/doc?mode=ArtList&format=json&maxrecords=250&query=Panama%20sourcecountry%3APM%20sourcelang%3Aspanish&startdatetime=20260916225047&enddatetime=20260926225047",
+      "https://api.gdeltproject.org/api/v2/doc/doc?mode=ArtList&format=json&maxrecords=250&query=Panama%20sourcecountry%3APM%20sourcelang%3Aspanish&startdatetime=20260906225047&enddatetime=20260916225047",
+      "https://api.gdeltproject.org/api/v2/doc/doc?mode=ArtList&format=json&maxrecords=250&query=(canal%20OR%20log%C3%ADstica%20OR%20puerto)%20sourcecountry%3APM%20sourcelang%3Aspanish&startdatetime=20260926225047&enddatetime=20261006225047",
+      "https://api.gdeltproject.org/api/v2/doc/doc?mode=ArtList&format=json&maxrecords=250&query=(canal%20OR%20log%C3%ADstica%20OR%20puerto)%20sourcecountry%3APM%20sourcelang%3Aspanish&startdatetime=20260916225047&enddatetime=20260926225047",
+      "https://api.gdeltproject.org/api/v2/doc/doc?mode=ArtList&format=json&maxrecords=250&query=(canal%20OR%20log%C3%ADstica%20OR%20puerto)%20sourcecountry%3APM%20sourcelang%3Aspanish&startdatetime=20260906225047&enddatetime=20260916225047",
+      "https://api.gdeltproject.org/api/v2/doc/doc?mode=ArtList&format=json&maxrecords=250&query=(turismo%20OR%20turistas)%20sourcecountry%3APM%20sourcelang%3Aspanish&startdatetime=20260926225047&enddatetime=20261006225047",
+      "https://api.gdeltproject.org/api/v2/doc/doc?mode=ArtList&format=json&maxrecords=250&query=(turismo%20OR%20turistas)%20sourcecountry%3APM%20sourcelang%3Aspanish&startdatetime=20260916225047&enddatetime=20260926225047",
+      "https://api.gdeltproject.org/api/v2/doc/doc?mode=ArtList&format=json&maxrecords=250&query=(turismo%20OR%20turistas)%20sourcecountry%3APM%20sourcelang%3Aspanish&startdatetime=20260906225047&enddatetime=20260916225047",
+      "https://api.gdeltproject.org/api/v2/doc/doc?mode=ArtList&format=json&maxrecords=250&query=(econom%C3%ADa%20OR%20inflaci%C3%B3n%20OR%20empleo%20OR%20PIB)%20sourcecountry%3APM%20sourcelang%3Aspanish&startdatetime=20260926225047&enddatetime=20261006225047",
+      "https://api.gdeltproject.org/api/v2/doc/doc?mode=ArtList&format=json&maxrecords=250&query=(econom%C3%ADa%20OR%20inflaci%C3%B3n%20OR%20empleo%20OR%20PIB)%20sourcecountry%3APM%20sourcelang%3Aspanish&startdatetime=20260916225047&enddatetime=20260926225047",
+      "https://api.gdeltproject.org/api/v2/doc/doc?mode=ArtList&format=json&maxrecords=250&query=(econom%C3%ADa%20OR%20inflaci%C3%B3n%20OR%20empleo%20OR%20PIB)%20sourcecountry%3APM%20sourcelang%3Aspanish&startdatetime=20260906225047&enddatetime=20260916225047",
+      "https://api.gdeltproject.org/api/v2/doc/doc?mode=ArtList&format=json&maxrecords=250&query=(sismo%20OR%20inundaci%C3%B3n%20OR%20lluvias%20OR%20terremoto)%20sourcecountry%3APM%20sourcelang%3Aspanish&startdatetime=20260926225047&enddatetime=20261006225047",
+      "https://api.gdeltproject.org/api/v2/doc/doc?mode=ArtList&format=json&maxrecords=250&query=(sismo%20OR%20inundaci%C3%B3n%20OR%20lluvias%20OR%20terremoto)%20sourcecountry%3APM%20sourcelang%3Aspanish&startdatetime=20260916225047&enddatetime=20260926225047",
+      "https://api.gdeltproject.org/api/v2/doc/doc?mode=ArtList&format=json&maxrecords=250&query=(sismo%20OR%20inundaci%C3%B3n%20OR%20lluvias%20OR%20terremoto)%20sourcecountry%3APM%20sourcelang%3Aspanish&startdatetime=20260906225047&enddatetime=20260916225047"
+    ]
+  },
+  "indicadores": {
+    "celdas": 540,
+    "con_valor": 540,
+    "nulos": 0
+  },
+  "eventos_sismicos": 87,
+  "errores": [
+    {
+      "fila": 604,
+      "id": "N-6510577c78",
+      "campo": "titulo",
+      "problema": "campo obligatorio vacío"
+    },
+    {
+      "fila": 604,
+      "id": "N-6510577c78",
+      "campo": "fecha_publicacion",
+      "problema": "sin fecha de publicación ni de detección"
+    }
+  ],
+  "duplicadas": [],
+  "fuera_de_ventana": [
+    {
+      "id": "N-a76fe48ec6",
+      "url": "https://www.tvn-2.com/nacionales/judicial/aprehenden-enrique-lau-exdirector-css_1_2264560.html",
+      "fecha": "2026-10-06T11:50:00.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-cf4a8b6560",
+      "url": "https://www.tvn-2.com/nacionales/mop-solicita-43-1-millones-comision-presupuesto-obras-en-ejecucion_1_2264626.html",
+      "fecha": "2026-10-06T18:57:35.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-8ffb07170d",
+      "url": "https://www.tvn-2.com/nacionales/panama-mantiene-vigilancia-minsa-peste-neumonica-en-rusia-caso-rusia_1_2264648.html",
+      "fecha": "2026-10-06T20:53:52.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-94e9865b40",
+      "url": "https://www.tvn-2.com/nacionales/judicial/suspenden-audiencia-genaro-lopez-miembros_1_2264607.html",
+      "fecha": "2026-10-06T17:52:35.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-f81eefdcb9",
+      "url": "https://www.tvn-2.com/tvmax/futbol-internacional/lionel-messi-despedida-argentina-vs-benin-en-vivo-estadio-monumental-buenos-aires_6_2264650.html",
+      "fecha": "2026-10-06T22:00:42.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-a96f602440",
+      "url": "https://www.tvn-2.com/nacionales/paseu-compras-billetera-caja-ahorros_1_2264590.html",
+      "fecha": "2026-10-06T16:03:48.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-c557ad4339",
+      "url": "https://www.tvn-2.com/entretenimiento/nerys-perez-responde-humor-comentarios-vestido-baile-vladimir-atencio_1_2264599.html",
+      "fecha": "2026-10-06T18:15:47.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-f248fefaf9",
+      "url": "https://www.tvn-2.com/contenido-exclusivo/contenido-exclusivo-metro-tumba-muerto-transporte-panama_1_2264473.html",
+      "fecha": "2026-10-06T00:47:04.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-eeb80a4913",
+      "url": "https://www.tvn-2.com/tvmax/beisbol/mlb/yankees-vs-rays-en-vivo-mlb-playoffs-2026-resultado-partido-divisional-series-beisbol-grandes-ligas_1_2264504.html",
+      "fecha": "2026-10-05T23:55:06.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-e6ee0d9efd",
+      "url": "https://www.tvn-2.com/entretenimiento/gabriela-lineth-viaja-puerto-rico-antesala-miss-universe-2026_1_2264674.html",
+      "fecha": "2026-10-06T22:40:49.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-d06e694100",
+      "url": "https://www.tvn-2.com/tvmax/futbol-internacional/liga-de-naciones-uefa-merino-seleccion-de-espana-kane-inglaterra_1_2264681.html",
+      "fecha": "2026-10-06T22:39:24.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-e46ede5d81",
+      "url": "https://www.tvn-2.com/mundo/trump-dice-hablara-putin-sospecha_1_2264680.html",
+      "fecha": "2026-10-06T22:30:42.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-4490d5bbc3",
+      "url": "https://www.tvn-2.com/mundo/reclusa-sobrevivio-ejecucion-fallida-eeuu_1_2264679.html",
+      "fecha": "2026-10-06T22:27:50.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-a94243a147",
+      "url": "https://www.tvn-2.com/mundo/consejo-electoral-haiti-posterga-manera_1_2264677.html",
+      "fecha": "2026-10-06T22:20:22.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-1d7b335ef7",
+      "url": "https://www.tvn-2.com/nacionales/tribunal-electoral-avanza-coordinacion-plan_1_2264671.html",
+      "fecha": "2026-10-06T22:16:17.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-c5695de607",
+      "url": "https://www.tvn-2.com/nacionales/provincias/stefany-penalba-residentes-protesta-frente-municipio-de-arraijan-piden-auditoria_1_2264603.html",
+      "fecha": "2026-10-06T18:24:07.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-0d91fa48b0",
+      "url": "https://www.tvn-2.com/nacionales/30-mujeres-han-muerto-forma_1_2264499.html",
+      "fecha": "2026-10-06T01:30:01.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-0fbe3f9064",
+      "url": "https://www.tvn-2.com/tvmax/futbol-internacional/lionel-messi-despedida-estadio-monumental-buenos-aires-argentina-vs-benin_1_2264548.html",
+      "fecha": "2026-10-06T14:59:32.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-83cb540519",
+      "url": "https://www.tvn-2.com/entretenimiento/mafe-achurra-comparte-tierno-momento-canta-antologia-shakira-bebe-embarazo_1_2264579.html",
+      "fecha": "2026-10-06T14:44:39.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-de2a14c7e0",
+      "url": "https://www.tvn-2.com/nacionales/arranca-semana-responsabilidad-social-empresarial-sumarse-juventud-retos-futuro_1_2264570.html",
+      "fecha": "2026-10-06T13:35:00.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-8921b118ee",
+      "url": "https://www.tvn-2.com/nacionales/colegios-particulares-estudiantes-aumento-matricula-mayores-gastos-informe-acodeco_1_2264562.html",
+      "fecha": "2026-10-06T12:41:06.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-d1e861a440",
+      "url": "https://www.tvn-2.com/nacionales/mujer-aprehendida-santiago-hallazgo-162-paquetes-droga_1_2264577.html",
+      "fecha": "2026-10-06T16:21:42.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-cf027fac38",
+      "url": "https://www.tvn-2.com/nacionales/autoridad-nacional-descentralizacion-explica-incluye-proyecto-junta-comunales_1_2264582.html",
+      "fecha": "2026-10-06T14:51:46.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-660d940f9d",
+      "url": "https://www.tvn-2.com/nacionales/reformas-electorales-blandon-defiende-3_1_2264565.html",
+      "fecha": "2026-10-06T13:00:36.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-f7f8b492d1",
+      "url": "https://www.tvn-2.com/nacionales/panama-reforzara-presencia-maritima-vietnam-autoridad-maritima-de-panama-registro-de-buques_1_2264552.html",
+      "fecha": "2026-10-06T11:57:42.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-9d5aed848f",
+      "url": "https://www.tvn-2.com/nacionales/arzobispo-participa-roma-encuentro-papa-leon-xiv-jose-domingo-ulloa-mendieta_1_2264583.html",
+      "fecha": "2026-10-06T16:48:00.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-6a08378c7c",
+      "url": "https://www.tvn-2.com/nacionales/asesinan-taxista-remedios-hallado-vehiculo-varias-heridas_1_2264601.html",
+      "fecha": "2026-10-06T18:13:55.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-741df15381",
+      "url": "https://www.tvn-2.com/nacionales/pase-u-pago-de-becas-ifarhu-largas-filas-changuinola_1_2264609.html",
+      "fecha": "2026-10-06T18:12:50.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-aacff154c6",
+      "url": "https://www.tvn-2.com/nacionales/la-chorrera-proyecta-renovar-parque-tomas-martin-feuillet-inversion-620-mil_1_2264420.html",
+      "fecha": "2026-10-05T18:30:34.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-f30196a523",
+      "url": "https://www.tvn-2.com/gente-tvn/gente-tvn-sumo-carrera-caminata_1_2264281.html",
+      "fecha": "2026-10-04T23:47:36.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-b540cd2623",
+      "url": "https://www.tvn-2.com/nacionales/tvn-media-alcanza-primer-lugar-medios-comunicacion-merco-panama_1_2263883.html",
+      "fecha": "2026-10-02T01:00:17.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-fa1694ffb1",
+      "url": "https://www.tvn-2.com/nacionales/tvn-media-senacyt-firman-alianza_1_2208344.html",
+      "fecha": "2025-09-30T01:06:16.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-6e2e33b1be",
+      "url": "https://www.tvn-2.com/nacionales/multitudinario-desfile-carretas-guarare-tvn-media-hecho-en-panama-festival-nacional-de-la-mejorana_1_2208163.html",
+      "fecha": "2025-09-28T23:00:00.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-63df3c4e87",
+      "url": "https://www.tvn-2.com/nacionales/tvn-media-dijo-presente-relevos_1_2205996.html",
+      "fecha": "2025-09-13T23:41:33.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-0620169205",
+      "url": "https://www.tvn-2.com/nacionales/alianza-conocimiento-ciudad-del-saber-tvn-media_1_2203982.html",
+      "fecha": "2025-08-09T01:43:00.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-423c8f1908",
+      "url": "https://www.tvn-2.com/nacionales/tvnmedia-sumarse-firman-convenio_1_2201601.html",
+      "fecha": "2025-08-11T19:19:00.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-7d0d78e7e8",
+      "url": "https://www.tvn-2.com/nacionales/tvn-media-sabores-colon-gastronomia-cultura-colonense_1_2201366.html",
+      "fecha": "2025-08-09T01:00:00.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-c908717299",
+      "url": "https://www.tvn-2.com/nacionales/tvn-media-recibe-reconocimiento-compromiso-ambiental-reduce-tu-huella_1_2200815.html",
+      "fecha": "2025-08-05T19:11:19.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-075fbee268",
+      "url": "https://www.tvn-2.com/nacionales/tvn-media-presenta-documental-competencia-intercolegial-reciclaje_1_2202782.html",
+      "fecha": "2025-08-20T22:00:00.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-35ba050e80",
+      "url": "https://www.tvn-2.com/nacionales/tvn-media-mac-panama-unen_1_2199530.html",
+      "fecha": "2025-07-25T19:00:00.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-94ae95fd2c",
+      "url": "https://www.tvn-2.com/nacionales/tvn-media-presenta-informe-sostenibilidad_1_2199363.html",
+      "fecha": "2025-08-06T12:00:00.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-1042758b64",
+      "url": "https://www.tvn-2.com/nacionales/tvn-media-quality-leadership-university-acuerdo-educacion-desarrollo_1_2198338.html",
+      "fecha": "2025-07-16T20:00:00.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-a012af4aa0",
+      "url": "https://www.tvn-2.com/videos/noticias/video-ext-tvn-media-fsu-panama-firmaron_7_2197723.html",
+      "fecha": "2025-07-12T01:34:57.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-a05f6dbf84",
+      "url": "https://www.tvn-2.com/nacionales/tvn-media-consolida-ranking-merco-talento_1_2195639.html",
+      "fecha": "2025-06-26T21:17:21.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-ca7e7e1e1d",
+      "url": "https://www.tvn-2.com/nacionales/escuela-gana-competencia-intercolegial-gente-tvn-media-reciclaje_1_2195259.html",
+      "fecha": "2025-06-24T02:31:01.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-f855a65ba6",
+      "url": "https://www.tvn-2.com/nacionales/tvn-media-fundacion-florida-state-university-panama-apuestan-industria-audiovisual_1_2190375.html",
+      "fecha": "2025-05-20T21:20:33.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-9b996fc56d",
+      "url": "https://www.tvn-2.com/nacionales/periodistas-tvn-noticias-premios-forum-de-periodistas_1_2189759.html",
+      "fecha": "2025-05-16T03:01:48.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-4a20e7d9ec",
+      "url": "https://www.tvn-2.com/nacionales/tvn-noticias-trafico-panama-firman-alianza-estrategia-medios_1_2187423.html",
+      "fecha": "2025-04-29T23:08:14.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-1dfd403646",
+      "url": "https://www.tvn-2.com/nacionales/tvn-media-nombra-gerente-informacion-digital-magda-maxwell_1_2186722.html",
+      "fecha": "2025-04-24T17:25:48.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-0031e6a574",
+      "url": "https://www.tvn-2.com/videos/noticias/video-ext-tvn-celebra-63-anos_7_2186633.html",
+      "fecha": "2025-04-24T01:21:16.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-5e21186230",
+      "url": "https://www.tvn-2.com/nacionales/tvn-media-la-chorrera-celebra-cultura-mural_1_2186471.html",
+      "fecha": "2025-04-23T01:56:51.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-1951bc579e",
+      "url": "https://www.tvn-2.com/nacionales/tvn-media-impulsa-reality-jump-emprendimientos-jovenes_1_2185537.html",
+      "fecha": "2025-04-16T00:59:06.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-46d06fe7ce",
+      "url": "https://www.tvn-2.com/nacionales/tvn-media-une-dias-de-las-buenas-acciones-instituto-oncologico_1_2184947.html",
+      "fecha": "2025-04-11T02:08:16.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-1488368c6b",
+      "url": "https://www.tvn-2.com/nacionales/tvn-media-unicef-despacho-primera-crianza-amoroza-raices-fuertes_1_2183004.html",
+      "fecha": "2025-03-28T01:00:00.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-e1da476b50",
+      "url": "https://www.tvn-2.com/nacionales/tvn-media-alianza-estrategica-apede-conferencia-anual-de-ejecutivos-2025_1_2182741.html",
+      "fecha": "2025-03-26T19:17:03.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-9dcba1423b",
+      "url": "https://www.tvn-2.com/nacionales/dia-de-las-buenas-acciones-fundacion-jupa-tvn-media_1_2182521.html",
+      "fecha": "2025-03-25T01:29:54.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-ddce9252ee",
+      "url": "https://www.tvn-2.com/entretenimiento/cine-y-tv/tvn-media-iff-panama-firman-convenio-festival-de-cine-de-panama_1_2181612.html",
+      "fecha": "2025-03-18T19:31:35.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-c89bb3e682",
+      "url": "https://www.tvn-2.com/nacionales/tvn-media-destaca-ranking-merco-responsabilidad-social-empresarial_1_2174203.html",
+      "fecha": "2025-01-24T19:42:54.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-b5a2644f22",
+      "url": "https://www.tvn-2.com/nacionales/macrofest-2025-presenta-cartel-oficial-reconocimiento-tvnmedia_1_2173050.html",
+      "fecha": "2025-01-16T20:59:29.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-894b74ebb3",
+      "url": "https://www.tvn-2.com/nacionales/tvn-media-municipio-la-villa-de-los-santos-firman-alianza-carnaval-2025_1_2172852.html",
+      "fecha": "2025-01-15T17:35:47.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-e9e465137a",
+      "url": "https://www.tvn-2.com/nacionales/tvn-media-recibe-reconocimiento-cobertura_1_2172034.html",
+      "fecha": "2025-01-09T00:56:01.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-0c2265e667",
+      "url": "https://www.tvn-2.com/nacionales/tvn-media-loma-brigida-la-chorrera-dia-de-reyes_1_2171661.html",
+      "fecha": "2025-01-06T19:11:01.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-b001fd25be",
+      "url": "https://www.tvn-2.com/nacionales/tvn-media-firma-alianza-panama-jazz-festival-princess-orelia-benskia_1_2171990.html",
+      "fecha": "2025-01-08T21:35:17.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-7864cb959e",
+      "url": "https://www.tvn-2.com/nacionales/suenos-diciembre-familia-tvn-noticias-ninos-cerro-cabra-navidad_1_2170326.html",
+      "fecha": "2024-12-25T00:16:31.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-92fe0ad729",
+      "url": "https://www.tvn-2.com/nacionales/tvn-media-dice-presente-teleton-20-30_1_2169266.html",
+      "fecha": "2024-12-15T23:17:28.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-b16db637e2",
+      "url": "https://www.tvn-2.com/nacionales/tvn-media-recibe-reconocimiento-simposio-innovacion-sostenibilidad-en-ambiente_1_2169077.html",
+      "fecha": "2024-12-13T18:17:01.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-11021ac306",
+      "url": "https://www.tvn-2.com/nacionales/ranking-de-los-lideres-luis-mouynes-gerente-tvn-media_1_2168690.html",
+      "fecha": "2024-12-11T01:18:24.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-153e62dec0",
+      "url": "https://www.tvn-2.com/nacionales/tvn-media-gana-categoria-mejor-merco-empresas-panama-2024-premio-ranking_1_2167542.html",
+      "fecha": "2024-12-02T18:23:32.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-ba05f03bbe",
+      "url": "https://www.tvn-2.com/nacionales/claudya-morales-tvn-media-premio-de-periodismo-ninez-y-adolescencia-unicef-celap_1_2166205.html",
+      "fecha": "2024-11-21T20:28:55.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-7067ffe3aa",
+      "url": "https://www.tvn-2.com/nacionales/premios-excelencia-2024-universidad-de-panama-tvn-noticias-facultad-de-comunicacion-social_1_2166104.html",
+      "fecha": "2024-11-21T02:59:16.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-05cdadf2ae",
+      "url": "https://www.tvn-2.com/nacionales/periodistas-tvn-media-participan-conversatorio-desinformacion-fake-news-universidad-latina_1_2165356.html",
+      "fecha": "2024-11-15T22:23:28.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-eb6bc14a15",
+      "url": "https://www.tvn-2.com/nacionales/tvn-media-realiza-homenaje-luz-maria-noli-dia-del-periodista-heroes-por-panama_1_2165138.html",
+      "fecha": "2024-11-14T17:41:38.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-47c36c0d24",
+      "url": "https://www.tvn-2.com/nacionales/municipio-de-panama-pergamino-llaves-ciudad-hecho-panama_1_2163410.html",
+      "fecha": "2024-11-01T00:23:19.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-06fe2035f7",
+      "url": "https://www.tvn-2.com/nacionales/tvn-media-tres-galardones-premios-victoria-usma_1_2160381.html",
+      "fecha": "2024-10-11T02:07:51.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-87830f152d",
+      "url": "https://www.tvn-2.com/nacionales/mundo-verde-reportaje-tvn-gana-premio-nacional-periodismo-cientifico-senacyt_1_2157388.html",
+      "fecha": "2024-09-20T18:19:27.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-be4959d45e",
+      "url": "https://www.tvn-2.com/nacionales/mundo-verde-ballenas-jorobadas-premio-concurso-comunicadores-sociales-carla-uliantzeff_1_2158333.html",
+      "fecha": "2024-09-27T18:57:50.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-ca701529c9",
+      "url": "https://www.tvn-2.com/nacionales/presentan-ganadoras-documental-panama-documentales-cine-fundacion-alberto-motta-noticias-en-panama-hoy_1_2163165.html",
+      "fecha": "2024-10-30T20:15:28.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-dc65bbaa86",
+      "url": "https://www.tvn-2.com/videos/noticias/video-ext-tvn-media-firma-alianza-concurso_7_2163037.html",
+      "fecha": "2024-10-30T00:11:16.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-60472fb6c3",
+      "url": "https://www.tvn-2.com/videos/noticias/video-ext-tvn-media-reafirma-alianza-teleton_7_2163364.html",
+      "fecha": "2024-10-31T20:32:52.000Z",
+      "motivo": "anterior a la ventana"
+    },
+    {
+      "id": "N-18ded7505f",
+      "url": "https://www.tvn-2.com/tvmax/beisbol/mlb/brewers-vs-padres-mlb-playoffs-2026-previa-juego-3-divisional-series-beisbol-grandes-ligas_1_2264543.html",
+      "fecha": "2026-10-06T13:00:35.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-c62e67f86d",
+      "url": "https://www.tvn-2.com/tvmax/somos-la-sele/liga-de-naciones-concacaf-seleccion-de-panama-guatemala-curazao-mexico-canada-estados-unidos_1_2264553.html",
+      "fecha": "2026-10-06T15:59:18.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-18a6d3703b",
+      "url": "https://www.tvn-2.com/tvmax/futbol-internacional/cristiano-ronaldo-portugues-seleccion-disculpas-jorge-jesus_1_2264644.html",
+      "fecha": "2026-10-06T20:10:24.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-ac576893a0",
+      "url": "https://www.tvn-2.com/tvmax/futbol-internacional/lionel-messi-despedida-neymar-argentina-vs-benin-buenos-aires-futbol-estadio-monumental_1_2264635.html",
+      "fecha": "2026-10-06T19:10:39.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-71438edf3e",
+      "url": "https://www.tvn-2.com/tvmax/futbol-internacional/lionel-messi-argentina-vs-benin-buenos-aires-partido-de-despedida-futbol_1_2264604.html",
+      "fecha": "2026-10-06T17:45:57.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-7c0e7e3832",
+      "url": "https://www.tvn-2.com/tvmax/lpf/liga-panamena-de-futbol-resultados-tabla-de-posiciones-torneo-apertura-2026-plaza-amador-san-francisco-fc_1_2264619.html",
+      "fecha": "2026-10-06T18:48:42.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-392c60b5eb",
+      "url": "https://www.tvn-2.com/entretenimiento/musica/paul-mccartney-phil-collins-cierran-herida-24-anos-inesperada-llamada_1_2264533.html",
+      "fecha": "2026-10-06T22:00:36.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-402f6a94ef",
+      "url": "https://www.tvn-2.com/entretenimiento/principe-william-kate-middleton-nombres-usan-colegio-hijos_1_2264534.html",
+      "fecha": "2026-10-06T21:00:19.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-aa96c1e629",
+      "url": "https://www.tvn-2.com/entretenimiento/inesperado-momento-saco-risas-reportero-tvn-noticias-jorge-quiros_1_2264634.html",
+      "fecha": "2026-10-06T19:44:15.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-af16fef0ea",
+      "url": "https://www.tvn-2.com/entretenimiento/cine-y-tv/lindsay-lohan-revive-cady-cady-heron-escena-chicas-pesadas_1_2264311.html",
+      "fecha": "2026-10-05T18:15:12.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-659917802b",
+      "url": "https://www.tvn-2.com/entretenimiento/pedro-pascal-convierte-violonchelista-nuevo-papel-pelicula-behemoth_1_2264390.html",
+      "fecha": "2026-10-05T17:30:36.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-14527e9f45",
+      "url": "https://www.tvn-2.com/tvmax/futbol-internacional/lionel-messi-despedida-argentina-vs-benin-honrar-alegrias_1_2264463.html",
+      "fecha": "2026-10-05T22:24:39.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-faebbc2867",
+      "url": "https://www.tvn-2.com/mundo/mexico-detiene-lider-regional-cartel-jalisco-nueva-generacion-ivan-cazarin-molina-alias-el-tanque_1_2264592.html",
+      "fecha": "2026-10-06T15:45:50.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-6cf079b299",
+      "url": "https://www.tvn-2.com/mundo/estudiante-muerta-siete-heridas-ataque-cuchillo-escuela-estambul_1_2264575.html",
+      "fecha": "2026-10-06T14:15:54.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-5f405bd2a6",
+      "url": "https://www.tvn-2.com/mundo/francis-halzen-gana-nobel-fisica_1_2264558.html",
+      "fecha": "2026-10-06T11:55:21.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-7d8bead89b",
+      "url": "https://www.tvn-2.com/mundo/finlandia-frena-construccion-centros-datos-google-impacto-ambiental_1_2264594.html",
+      "fecha": "2026-10-06T16:17:17.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-122eadce2c",
+      "url": "https://www.tvn-2.com/mundo/rusia-niega-haber-ordenado-restricciones-supuesto-caso-peste-neumonica_1_2264573.html",
+      "fecha": "2026-10-06T14:02:14.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-d5bb5b6e4d",
+      "url": "https://www.tvn-2.com/mundo/navios-golpeados-drones-mar-negro_1_2264554.html",
+      "fecha": "2026-10-06T11:40:13.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-e94b5f4059",
+      "url": "https://www.tvn-2.com/mundo/europa/ultraderechista-le-pen-promete-recortes_1_2264559.html",
+      "fecha": "2026-10-06T12:10:30.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-afe10e9df9",
+      "url": "https://www.tvn-2.com/mundo/cop31-perfila-ambiciones-modestas-pese_1_2264551.html",
+      "fecha": "2026-10-06T11:25:02.000Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-13fd7977b5",
+      "url": "https://www.prensa.com/vivir/que-hacer-en-panama-cultura-musica-y-actividades-recreativas/",
+      "fecha": "2026-10-01T23:30:00Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-249d20a366",
+      "url": "https://www.telemetro.com/nacionales/mulino-viaja-asia-estos-son-los-seis-acuerdos-que-panama-preve-firmar-singapur-n6093650",
+      "fecha": "2026-10-01T13:00:00Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-fbea53244c",
+      "url": "https://www.telemetro.com/entrevistas/nacionales/experto-analiza-proyecto-que-busca-regular-el-servicio-electricidad-panama-n6093659",
+      "fecha": "2026-10-01T17:30:00Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-a7989cbef1",
+      "url": "https://www.prensa.com/deportes/panama-cae-en-penales-ante-nueva-zelanda-en-las-semifinales-de-la-copa-kirin/",
+      "fecha": "2026-10-01T10:00:00Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-f7d3eb6410",
+      "url": "https://www.prensa.com/deportes/thomas-christiansen-reconoce-falencias-de-panama-y-valora-a-los-jovenes-en-la-gira/",
+      "fecha": "2026-10-01T23:30:00Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-26831827d9",
+      "url": "https://www.telemetro.com/nacionales/cancilleria-panama-presenta-proyecto-ingresar-la-agencia-latinoamericana-del-espacio-n6093696",
+      "fecha": "2026-10-01T17:30:00Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-c2d4068b93",
+      "url": "https://www.telemetro.com/nacionales/alcaldia-panama-reabre-centro-atencion-al-contribuyente-horario-y-tramites-disponibles-n6093692",
+      "fecha": "2026-10-01T17:30:00Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-dd2f1d298c",
+      "url": "https://www.critica.com.pa/deportes/panama-pierde-ante-nueva-zelanda-en-la-tanda-de-penales-517332",
+      "fecha": "2026-10-01T12:00:00Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-89e39640ac",
+      "url": "https://www.midiario.com/deportivas/nataly-delgado-recibe-reconocimiento-del-gobierno-y-se-alista-para-unificar-coronas-en-texas/",
+      "fecha": "2026-10-01T22:45:00Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-99c8146e07",
+      "url": "https://www.prensa.com/economia/panama-apunta-a-salir-de-la-lista-fiscal-de-la-union-europea-pero-aun-enfrenta-una-revision-clave-en-2027/",
+      "fecha": "2026-10-02T08:15:00Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-c307136084",
+      "url": "https://www.telemetro.com/deportes/seleccion-panama-empata-1-1-nueva-zelanda-y-cae-penales-amistoso-internacional-n6093651",
+      "fecha": "2026-10-01T15:30:00Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-67933d738f",
+      "url": "https://www.panamaamerica.com.pa/sociedad/miguel-lorenzo-fabrega-toma-posesion-como-nuevo-subadministrador-del-canal-de-panama",
+      "fecha": "2026-10-01T22:30:00Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-d51da27b45",
+      "url": "https://www.telemetro.com/nacionales/lluvias-y-tormentas-esta-tarde-donde-se-concentraran-los-aguaceros-mas-fuertes-n6093698",
+      "fecha": "2026-10-01T17:30:00Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-85914fe4e8",
+      "url": "https://www.critica.com.pa/deportes/josue-yayita-vergara-se-une-la-seleccion-mayor-de-futbol-de-panama-517312",
+      "fecha": "2026-10-01T06:00:00Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-4e9d0d22fe",
+      "url": "https://www.midiario.com/deportivas/giovany-herber-la-nueva-figura-que-empieza-a-destacar-en-la-sele/",
+      "fecha": "2026-10-01T22:45:00Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-72a9ede96b",
+      "url": "https://www.diaadia.com.pa/fama/david-robles-viajo-al-mister-global-pese-estar-destituido-por-la-franquicia-local-y-luce-feliz",
+      "fecha": "2026-10-01T05:30:00Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-ce093eb075",
+      "url": "https://www.telemetro.com/deportes/nataly-delgado-recibe-reconocimiento-conquistar-titulo-mundial-supermosca-la-amb-n6093735",
+      "fecha": "2026-10-01T22:00:00Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-398472ef96",
+      "url": "https://www.panamaamerica.com.pa/economia/las-detenciones-en-china-golpean-al-registro-de-naves-la-industria-apela-acuerdo-1266987",
+      "fecha": "2026-10-02T08:00:00Z",
+      "motivo": "posterior al último mes completo"
+    },
+    {
+      "id": "N-b8bb357707",
+      "url": "https://www.critica.com.pa/nacional/panama-impulsa-tecnologia-satelital-y-nuevos-acuerdos-contra-el-crimen-517316",
+      "fecha": "2026-10-01T06:00:00Z",
+      "motivo": "posterior al último mes completo"
+    }
+  ]
+}

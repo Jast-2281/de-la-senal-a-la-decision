@@ -1,0 +1,148 @@
+{
+ "paquete": {
+  "abstencion": {
+   "abstiene": false,
+   "motivo": null,
+   "informacion_necesaria": []
+  },
+  "titulo_propuesto": "Unachi: traslado de $7.7 millones para planilla, en investigación por cifras incompatibles",
+  "enfoque_interes_publico": "Pago de planilla adeudada a docentes y administrativos de la Unachi y transparencia en el traslado de partidas en la Asamblea.",
+  "brief": [
+   {
+    "texto": "Según tvn-2.com, la Comisión de Presupuesto aprobó un traslado de partida de $7.7 millones para el pago de planilla de la Unachi.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-dae83ef44c",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Según la descripción del mismo medio, el traslado permitiría cubrir tres quincenas adeudadas a unos 2,100 docentes y administrativos.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-dae83ef44c",
+      "campo": "descripcion"
+     }
+    ]
+   },
+   {
+    "texto": "La misma descripción indica que la universidad acumula una deuda de $18.3 millones en cuotas obrero-patronales con la Caja de Seguro Social.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-dae83ef44c",
+      "campo": "descripcion"
+     }
+    ]
+   },
+   {
+    "texto": "Otro titular de tvn-2.com señala que funcionarios universitarios expresaron preocupación porque la cifra estaría por debajo de lo que las autoridades habían dicho que se necesitaría hasta diciembre de 2026.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-45f7932d78",
+      "campo": "descripcion"
+     }
+    ]
+   },
+   {
+    "texto": "Un tercer titular del mismo medio habla de un traslado de $32.1 millones aprobado en la Asamblea y cuestionado por falta de transparencia, lo que no coincide con los $7.7 millones.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-06046b1433",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Las tres piezas provienen de una sola procedencia (tvn-2.com) y no hay fuente oficial enlazada, por lo que no hay corroboración independiente.",
+    "tipo": "inferencia",
+    "citas": []
+   }
+  ],
+  "preguntas_investigacion": [
+   "¿El traslado de $7.7 millones y el de $32.1 millones son el mismo trámite, trámites distintos o un error de cifra?",
+   "¿Cuánto necesita la Unachi hasta diciembre de 2026 según sus autoridades y qué parte cubre el traslado aprobado?",
+   "¿Qué documento oficial de la Comisión de Presupuesto o la Asamblea detalla montos, horarios de la sesión y destino de la partida?"
+  ],
+  "verificaciones_pendientes": [
+   "Conseguir una segunda procedencia independiente, ya que los tres textos son del mismo medio.",
+   "Obtener el dato oficial (resolución o acta de la comisión) del monto aprobado.",
+   "Resolver la discrepancia entre $7.7 millones y $32.1 millones.",
+   "Solo se dispone de titular y descripción del RSS; el contenido completo de los artículos no ha sido revisado.",
+   "Confirmar la deuda de $18.3 millones con la CSS y la cifra de 2,100 docentes y administrativos con fuentes oficiales."
+  ],
+  "contradicciones": [
+   {
+    "descripcion": "Monto del traslado de partida: $7.7 millones frente a $32.1 millones.",
+    "versiones": [
+     {
+      "texto": "Según tvn-2.com, el traslado aprobado para la planilla de la Unachi es de $7.7 millones.",
+      "tipo": "declaracion",
+      "citas": [
+       {
+        "id_evidencia": "N-dae83ef44c",
+        "campo": "titulo"
+       }
+      ]
+     },
+     {
+      "texto": "Según otro titular de tvn-2.com, la Asamblea aprobó un traslado de $32.1 millones.",
+      "tipo": "declaracion",
+      "citas": [
+       {
+        "id_evidencia": "N-06046b1433",
+        "campo": "titulo"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "guion": [],
+  "copy_digital": []
+ },
+ "validacion": {
+  "valido": false,
+  "problemas": [
+   {
+    "seccion": "brief",
+    "indice": 4,
+    "texto": "Un tercer titular del mismo medio habla de un traslado de $32.1 millones aprobado en la Asamblea y cuestionado por falta de transparencia, lo que no coincide con los $7.7 millones.",
+    "problema": "cifra \"7.7\" no aparece en la evidencia citada",
+    "severidad": "bloqueante"
+   },
+   {
+    "seccion": "brief",
+    "indice": 5,
+    "texto": "Las tres piezas provienen de una sola procedencia (tvn-2.com) y no hay fuente oficial enlazada, por lo que no hay corroboración independiente.",
+    "problema": "inferencia con cifras sin cita",
+    "severidad": "bloqueante"
+   }
+  ],
+  "palabras": {
+   "brief": 146,
+   "guion": 0,
+   "copy_digital": 0
+  }
+ },
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "prompt_version": "paquete-tvn-v2",
+  "clave_cache": "ba7c7ef5bcb2e90db4eaf90f",
+  "desde_cache": false,
+  "generado_en": "2026-10-07T01:00:03.009Z",
+  "latencia_ms": 9367,
+  "tokens": {
+   "entrada": 1008,
+   "salida": 1417,
+   "cache_lectura": 2206,
+   "cache_escritura": 0
+  },
+  "costo_usd": 0.0166272
+ }
+}

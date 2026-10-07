@@ -1,0 +1,76 @@
+{
+ "paquete": {
+  "abstencion": {
+   "abstiene": false,
+   "motivo": null,
+   "informacion_necesaria": []
+  },
+  "titulo_propuesto": "Panamá y Vietnam: oficina técnica de la AMP y conversaciones con Vingroup y VinFast (borrador de investigación)",
+  "enfoque_interes_publico": "Determinar qué compromisos concretos asume Panamá en materia marítima y de zonas francas con Vietnam, y qué impacto tendrían en el sector marítimo y el comercio del país.",
+  "brief": [
+   {
+    "texto": "Según el titular de tvn-2.com, Panamá reforzará su presencia marítima en Vietnam con una nueva oficina de servicio técnico de la AMP en Ho Chi Minh.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-f7f8b492d1",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Según la descripción del RSS de tvn-2.com, el mandatario anunció conversaciones con el grupo vietnamita Vingroup y VinFast para establecer en una zona franca de Panamá su centro de distribución regional de vehículos eléctricos y repuestos.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-f7f8b492d1",
+      "campo": "descripcion"
+     }
+    ]
+   },
+   {
+    "texto": "El sistema indica que solo hay una procedencia y ninguna fuente oficial enlazada, por lo que el tema requiere verificación antes de preparar piezas para emisión.",
+    "tipo": "inferencia",
+    "citas": []
+   }
+  ],
+  "preguntas_investigacion": [
+   "¿Qué documento o comunicado oficial confirma la apertura de la oficina de la AMP en Ho Chi Minh, con qué funciones, costo y calendario?",
+   "¿En qué etapa están las conversaciones con Vingroup y VinFast, y qué zona franca, incentivos o compromisos se han discutido?",
+   "¿Cuál es el contexto completo del anuncio del mandatario, y qué dicen la AMP, el Gobierno y las empresas al respecto?"
+  ],
+  "verificaciones_pendientes": [
+   "Conseguir una segunda procedencia independiente que corrobore el anuncio.",
+   "Localizar un comunicado oficial de la Presidencia o la AMP sobre la oficina y las conversaciones.",
+   "Leer el artículo completo, pues solo se dispone de titular y descripción, que aparece cortada al final (\"toda Améric\").",
+   "Confirmar la identidad del mandatario, el lugar y la fecha del anuncio, que no constan en la evidencia disponible."
+  ],
+  "contradicciones": [],
+  "guion": [],
+  "copy_digital": []
+ },
+ "validacion": {
+  "valido": true,
+  "problemas": [],
+  "palabras": {
+   "brief": 88,
+   "guion": 0,
+   "copy_digital": 0
+  }
+ },
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "prompt_version": "paquete-tvn-v2",
+  "clave_cache": "024987432158020cc4829884",
+  "desde_cache": false,
+  "generado_en": "2026-10-07T00:04:14.236Z",
+  "latencia_ms": 7251,
+  "tokens": {
+   "entrada": 454,
+   "salida": 899,
+   "cache_lectura": 2206,
+   "cache_escritura": 0
+  },
+  "costo_usd": 0.010339200000000002
+ }
+}

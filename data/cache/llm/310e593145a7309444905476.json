@@ -1,0 +1,169 @@
+{
+ "paquete": {
+  "abstencion": {
+   "abstiene": false,
+   "motivo": null,
+   "informacion_necesaria": []
+  },
+  "titulo_propuesto": "Sismo en la frontera Panamá–Costa Rica: qué reporta un medio y qué registra el USGS",
+  "enfoque_interes_publico": "Informar a la población de la zona fronteriza sobre la actividad sísmica reciente, sin dar por confirmada la magnitud 5.4 mientras no exista una segunda fuente independiente.",
+  "brief": [
+   {
+    "texto": "Según su titular, critica.com.pa reporta un sismo de magnitud 5.4 que sacude la frontera entre Panamá y Costa Rica.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-72b68d5114",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "GDELT detectó ese titular el 2026-09-12T06:30:00Z y se desconoce su fecha de publicación.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "N-72b68d5114",
+      "campo": "fecha"
+     }
+    ]
+   },
+   {
+    "texto": "El USGS registra un evento de magnitud 4.7 el 2026-09-12T01:59:50.236Z en el lugar descrito como 0 km NE of Manaca Civil, Panama.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "USGS:us7000tgw1",
+      "campo": "magnitud"
+     },
+     {
+      "id_evidencia": "USGS:us7000tgw1",
+      "campo": "fecha"
+     },
+     {
+      "id_evidencia": "USGS:us7000tgw1",
+      "campo": "lugar"
+     }
+    ]
+   },
+   {
+    "texto": "El USGS también registra eventos de magnitud 5 y 4.6 el 2026-09-10 cerca de Quepos, Costa Rica.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "USGS:us7000tg98",
+      "campo": "magnitud"
+     },
+     {
+      "id_evidencia": "USGS:us7000tget",
+      "campo": "magnitud"
+     },
+     {
+      "id_evidencia": "USGS:us7000tg98",
+      "campo": "lugar"
+     },
+     {
+      "id_evidencia": "USGS:us7000tget",
+      "campo": "lugar"
+     }
+    ]
+   },
+   {
+    "texto": "Los registros del USGS son coincidencias temporales en una caja regional y no equivalen al territorio de Panamá, por lo que no se puede confirmar que correspondan al sismo del titular.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "USGS:us7000tgw1",
+      "campo": "limitacion"
+     }
+    ]
+   },
+   {
+    "texto": "La magnitud 5.4 del titular difiere de la 4.7 del USGS para el evento más cercano en el tiempo, y no se puede establecer si se trata del mismo sismo.",
+    "tipo": "inferencia",
+    "citas": [
+     {
+      "id_evidencia": "N-72b68d5114",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "USGS:us7000tgw1",
+      "campo": "magnitud"
+     }
+    ]
+   }
+  ],
+  "preguntas_investigacion": [
+   "¿Corresponde el sismo de magnitud 5.4 del titular a alguno de los eventos del USGS o es otro evento?",
+   "¿Qué magnitud, hora y epicentro reportan las autoridades sísmicas de Panamá y Costa Rica?",
+   "¿Hubo daños, heridos o afectaciones confirmadas por autoridades en la zona fronteriza?"
+  ],
+  "verificaciones_pendientes": [
+   "Obtener una segunda procedencia independiente, ya que solo existe un titular de un medio.",
+   "Leer el cuerpo de la nota de critica.com.pa, pues solo se dispone del titular y los metadatos.",
+   "Confirmar la fecha de publicación del titular, desconocida según GDELT.",
+   "Contrastar con el reporte oficial de las instituciones sismológicas nacionales."
+  ],
+  "contradicciones": [
+   {
+    "descripcion": "La magnitud del titular (5.4) no coincide con la del evento del USGS más cercano en el tiempo (4.7); podrían ser eventos distintos o mediciones diferentes.",
+    "versiones": [
+     {
+      "texto": "Según critica.com.pa, el sismo en la frontera fue de magnitud 5.4.",
+      "tipo": "declaracion",
+      "citas": [
+       {
+        "id_evidencia": "N-72b68d5114",
+        "campo": "titulo"
+       }
+      ]
+     },
+     {
+      "texto": "El USGS registra magnitud 4.7 para el evento del 2026-09-12 cerca de Manaca Civil, Panama.",
+      "tipo": "hecho",
+      "citas": [
+       {
+        "id_evidencia": "USGS:us7000tgw1",
+        "campo": "magnitud"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "guion": [],
+  "copy_digital": []
+ },
+ "validacion": {
+  "valido": true,
+  "problemas": [
+   {
+    "seccion": "guion",
+    "indice": -1,
+    "texto": "",
+    "severidad": "advertencia",
+    "problema": "guion de 0 palabras: dura menos de 45 s (mín. 110); no se rellena sin evidencia"
+   }
+  ],
+  "palabras": {
+   "brief": 132,
+   "guion": 0,
+   "copy_digital": 0
+  }
+ },
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "prompt_version": "paquete-tvn-v3",
+  "clave_cache": "310e593145a7309444905476",
+  "desde_cache": false,
+  "generado_en": "2026-10-07T01:02:04.029Z",
+  "latencia_ms": 11116,
+  "tokens": {
+   "entrada": 774,
+   "salida": 1570,
+   "cache_lectura": 2290,
+   "cache_escritura": 0
+  },
+  "costo_usd": 0.017706
+ }
+}

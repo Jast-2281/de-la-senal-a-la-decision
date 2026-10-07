@@ -1,0 +1,80 @@
+{
+ "paquete": {
+  "abstencion": {
+   "abstiene": false,
+   "motivo": null,
+   "informacion_necesaria": []
+  },
+  "titulo_propuesto": "Fallece capitán de remolcador del Canal de Panamá: qué se sabe y qué falta confirmar",
+  "enfoque_interes_publico": "Seguridad laboral de los trabajadores que operan en el Canal de Panamá, a partir de un solo reporte basado en titular que aún requiere verificación.",
+  "brief": [
+   {
+    "texto": "Según su titular, tvn-2.com publicó que falleció un capitán de remolcador del Canal de Panamá mientras cumplía funciones.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-f84223fbc5",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "La nota fue publicada el 2026-09-30T22:58:37.000Z y solo se dispone de su titular, por lo que no se conocen circunstancias, causa ni identidad.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "N-f84223fbc5",
+      "campo": "fecha"
+     },
+     {
+      "id_evidencia": "N-f84223fbc5",
+      "campo": "alcance"
+     }
+    ]
+   },
+   {
+    "texto": "Existe una sola procedencia y ninguna fuente oficial enlazada, por lo que el caso no está corroborado de forma independiente.",
+    "tipo": "inferencia",
+    "citas": []
+   }
+  ],
+  "preguntas_investigacion": [
+   "¿Qué confirman la Autoridad del Canal de Panamá u otras autoridades oficiales sobre el fallecimiento y sus circunstancias?",
+   "¿Cuál fue la causa del deceso y ocurrió durante una maniobra u operación específica?",
+   "¿Qué medidas de seguridad e investigación se aplican tras el incidente y qué dicen la familia y los compañeros?"
+  ],
+  "verificaciones_pendientes": [
+   "Obtener y leer el cuerpo completo de la nota de tvn-2.com.",
+   "Conseguir una segunda procedencia independiente.",
+   "Buscar confirmación oficial de la autoridad competente.",
+   "Verificar identidad, causa y circunstancias antes de cualquier emisión; no se redactan piezas para emisión hasta entonces."
+  ],
+  "contradicciones": [],
+  "guion": [],
+  "copy_digital": []
+ },
+ "validacion": {
+  "valido": true,
+  "problemas": [],
+  "palabras": {
+   "brief": 61,
+   "guion": 0,
+   "copy_digital": 0
+  }
+ },
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "prompt_version": "paquete-tvn-v4",
+  "clave_cache": "67fa6ef204babf3c8d6f76b7",
+  "desde_cache": false,
+  "generado_en": "2026-10-07T01:10:23.875Z",
+  "latencia_ms": 6154,
+  "tokens": {
+   "entrada": 368,
+   "salida": 769,
+   "cache_lectura": 2339,
+   "cache_escritura": 0
+  },
+  "costo_usd": 0.008893799999999999
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "paquete": {
+  "abstencion": {
+   "abstiene": false,
+   "motivo": null,
+   "informacion_necesaria": []
+  },
+  "titulo_propuesto": "Sismo reportado en la frontera Panamá–Costa Rica: pendiente de verificación oficial",
+  "enfoque_interes_publico": "Confirmar con fuentes oficiales si ocurrió el sismo en la frontera entre Panamá y Costa Rica, su magnitud y si hubo afectaciones, antes de preparar piezas para emisión.",
+  "brief": [
+   {
+    "texto": "Según su titular, critica.com.pa reporta un sismo de magnitud 5.4 que sacude la frontera entre Panamá y Costa Rica.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-72b68d5114",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "GDELT detectó la nota el 2026-09-12T06:30:00Z, y la fecha de publicación original es desconocida.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "N-72b68d5114",
+      "campo": "fecha"
+     }
+    ]
+   },
+   {
+    "texto": "Solo se dispone del titular de una única procedencia, por lo que no se ha leído el cuerpo de la nota ni se conocen daños, hora, epicentro o profundidad.",
+    "tipo": "inferencia",
+    "citas": []
+   },
+   {
+    "texto": "No hay registro oficial enlazado que respalde el sismo, y el catálogo USGS del paquete cubre solo 2024, por lo que la magnitud y la ocurrencia siguen sin comprobarse.",
+    "tipo": "inferencia",
+    "citas": []
+   }
+  ],
+  "preguntas_investigacion": [
+   "¿Qué registran el USGS, el Instituto de Geociencias de la Universidad de Panamá o las autoridades sismológicas de Costa Rica sobre hora, magnitud, epicentro y profundidad de este evento?",
+   "¿Hubo daños, heridos o alertas por parte del Sinaproc u otras autoridades de ambos países?",
+   "¿Cuándo se publicó realmente la nota de critica.com.pa y qué fuente primaria cita?"
+  ],
+  "verificaciones_pendientes": [
+   "Obtener una segunda procedencia independiente, ya que hoy hay solo una.",
+   "Confirmar el sismo con un registro oficial, pues el catálogo USGS disponible cubre solo 2024.",
+   "Leer el cuerpo de la nota de critica.com.pa, pues solo se tiene el titular.",
+   "Establecer la fecha de publicación original, que es desconocida."
+  ],
+  "contradicciones": [],
+  "guion": [],
+  "copy_digital": []
+ },
+ "validacion": {
+  "valido": false,
+  "problemas": [
+   {
+    "seccion": "brief",
+    "indice": 3,
+    "texto": "No hay registro oficial enlazado que respalde el sismo, y el catálogo USGS del paquete cubre solo 2024, por lo que la magnitud y la ocurrencia siguen sin comprobarse.",
+    "problema": "inferencia con cifras sin cita",
+    "severidad": "bloqueante"
+   }
+  ],
+  "palabras": {
+   "brief": 91,
+   "guion": 0,
+   "copy_digital": 0
+  }
+ },
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "prompt_version": "paquete-tvn-v2",
+  "clave_cache": "4946ee0faf0f69723dd7f5e8",
+  "desde_cache": false,
+  "generado_en": "2026-10-07T00:04:40.094Z",
+  "latencia_ms": 7216,
+  "tokens": {
+   "entrada": 422,
+   "salida": 882,
+   "cache_lectura": 2206,
+   "cache_escritura": 0
+  },
+  "costo_usd": 0.0101052
+ }
+}

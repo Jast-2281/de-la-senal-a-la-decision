@@ -1,0 +1,132 @@
+{
+  "version": "senales-evidencias-equipo-v2",
+  "aviso": "Snapshot armado por el equipo con scraping, según la regla de la mediadora del reto (2026-10-06): no hay paquete común.",
+  "fecha_extraccion_UTC": "2026-10-06T22:50:47.899Z",
+  "fecha_corte_UTC": "2026-10-01T05:00:00.000Z",
+  "ventana_noticias": "[2025-10-02T05:00:00.000Z, 2026-10-01T05:00:00.000Z) en UTC = 2025-10-02 hasta el último mes completo previo a la extracción, en hora de Panamá (regla de la mediadora del reto)",
+  "consultas": [
+    {
+      "fuente": "tvn_rss",
+      "url": "https://www.tvn-2.com/rss/",
+      "archivo": "tvn_rss.xml"
+    },
+    {
+      "fuente": "banco_mundial",
+      "url": "https://api.worldbank.org/v2/country/PAN;CRI;COL;DOM;MEX;GTM/indicator/NY.GDP.MKTP.KD.ZG?date=2010:2024&format=json&per_page=1000",
+      "archivo": "bm_NY.GDP.MKTP.KD.ZG.json"
+    },
+    {
+      "fuente": "banco_mundial",
+      "url": "https://api.worldbank.org/v2/country/PAN;CRI;COL;DOM;MEX;GTM/indicator/FP.CPI.TOTL.ZG?date=2010:2024&format=json&per_page=1000",
+      "archivo": "bm_FP.CPI.TOTL.ZG.json"
+    },
+    {
+      "fuente": "banco_mundial",
+      "url": "https://api.worldbank.org/v2/country/PAN;CRI;COL;DOM;MEX;GTM/indicator/SL.UEM.TOTL.ZS?date=2010:2024&format=json&per_page=1000",
+      "archivo": "bm_SL.UEM.TOTL.ZS.json"
+    },
+    {
+      "fuente": "banco_mundial",
+      "url": "https://api.worldbank.org/v2/country/PAN;CRI;COL;DOM;MEX;GTM/indicator/SP.POP.TOTL?date=2010:2024&format=json&per_page=1000",
+      "archivo": "bm_SP.POP.TOTL.json"
+    },
+    {
+      "fuente": "banco_mundial",
+      "url": "https://api.worldbank.org/v2/country/PAN;CRI;COL;DOM;MEX;GTM/indicator/IT.NET.USER.ZS?date=2010:2024&format=json&per_page=1000",
+      "archivo": "bm_IT.NET.USER.ZS.json"
+    },
+    {
+      "fuente": "banco_mundial",
+      "url": "https://api.worldbank.org/v2/country/PAN;CRI;COL;DOM;MEX;GTM/indicator/NE.EXP.GNFS.ZS?date=2010:2024&format=json&per_page=1000",
+      "archivo": "bm_NE.EXP.GNFS.ZS.json"
+    },
+    {
+      "fuente": "usgs",
+      "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2024-01-01&endtime=2024-12-31T23:59:59&minlatitude=5&maxlatitude=12&minlongitude=-86&maxlongitude=-76&minmagnitude=3",
+      "archivo": "usgs_2024.geojson"
+    },
+    {
+      "fuente": "gdelt_doc",
+      "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=Panama%20sourcecountry:PM&mode=ArtList&maxrecords=250&format=json&timespan=30d",
+      "archivo": "gdelt_previa_30d.json"
+    },
+    {
+      "fuente": "tvn_sitemap",
+      "url": "https://tvn-2.com/tvn_sitemap_index.xml → tvn_sitemap_contents_AAAA_MM.xml (oct 2025–sept 2026)",
+      "archivo": "tvn_articulos.jsonl"
+    },
+    {
+      "fuente": "usgs",
+      "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-10-02T05:00:00&endtime=2026-10-01T05:00:00&minlatitude=5&maxlatitude=12&minlongitude=-86&maxlongitude=-76&minmagnitude=3",
+      "archivo": "usgs_ventana.geojson"
+    }
+  ],
+  "archivos": {
+    "calidad.json": {
+      "sha256": "85ca01469bb9ce0946bfb16b46a480656e956bcf7d076ad8912665ed2cfbf255"
+    },
+    "cola.json": {
+      "sha256": "c1401b5c85bd0fb1db805806cd51413d99e7139a8305d681dbce8cb6271d71d2"
+    },
+    "embeddings.json": {
+      "sha256": "af2a8ec204529fad9be3a359cb066dfa9f110608f37253f7648c73f142dceaf9"
+    },
+    "eventos.geojson": {
+      "sha256": "496594632eb2a54dfe353ca36435df6c2aa13d70036c0748c9431c219e46237a",
+      "registros": 87
+    },
+    "fuentes.json": {
+      "sha256": "20d38343585fc0843b406e55a804cb11e388cfa3ab11fc415aee222a25579f12"
+    },
+    "indicadores.csv": {
+      "sha256": "2e0a2cb150cb2256b1904babb7ca3288a73f60f6661ffa25ce1d721fe0d61a69",
+      "registros": 540
+    },
+    "indicadores.json": {
+      "sha256": "2425da9bedd1eecfd828b88d3b8f3291a02804bea37016b5b0098c6ec9328f8b"
+    },
+    "noticias.csv": {
+      "sha256": "130a98ef2b7e0f5cdbcb443e6abba72ba639ee607389d9d869ce610f72a2d081",
+      "registros": 591
+    },
+    "noticias.json": {
+      "sha256": "bddbf86ac75a6c74ba9e50920116235e490b56c5c8e68f5402272572b91f8584"
+    },
+    "organizado.json": {
+      "sha256": "8a32bf8e0a2683f9216a08c62d42f9d7011acdf31049e21b781f70e09d3b4fc0"
+    }
+  },
+  "crudos": {
+    "bm_FP.CPI.TOTL.ZG.json": "05c1ad3e128b655a3540eabbded275d336f4b11a4aa826dbd4f0e1a5b24e077c",
+    "bm_IT.NET.USER.ZS.json": "e0d043c22432a247b3ac3046b7de6c20310be79952ac4e2b9ae395f56943dcf6",
+    "bm_NE.EXP.GNFS.ZS.json": "e76574bb0b65dbdd4ac248aaaeb968ac910878afc16f2fdf74516ff22259b428",
+    "bm_NY.GDP.MKTP.KD.ZG.json": "c86460294554efe74cbfa8904d3cb3ea3e8ad7227f692ba8673d29a1c7802efb",
+    "bm_SL.UEM.TOTL.ZS.json": "1181f8e669628663be0601eef7910fcada5188aac722284c463c1a28ac2dc1fd",
+    "bm_SP.POP.TOTL.json": "e06e40801774c234af8de85ee9f42b0c25c547a8e2d5f454751ba60753939c0f",
+    "consultas.json": "e6d1e2c1b81fbf0c99de713af422c47eb26fcfba699d8f457de358d59fe8f161",
+    "corte.txt": "e6be1d83c93aa72e9179d83f908587745dcc2802f1137fc9948a3826350c67cd",
+    "gdelt_previa_30d.json": "bd8baf682ae4066f98d97cc9c58e530f8e59498395e24091f74113afcbb8be48",
+    "gdelt_previas.json": "9d768a5938589a65f1d99e96bc20ae0c401d15b62f57fbedfa77e18510dc6f4b",
+    "tvn_articulos.jsonl": "a0d9d68322433cebe3a0a99c36568de5473ee2e39b5937bf6056d5751b143caf",
+    "tvn_rss.xml": "2b891823957e9e12f5f91528c59d3774b7996b2f9417c86b857402b2a9a71d50",
+    "tvn_sitemap_seleccion.json": "76bfba46f94f947cf363b1cc0efe8e417b68bb31dff01220ebf4a45d4583e5c8",
+    "usgs_2024.geojson": "46078f32794b4b1b465a77318d45a69344bc01e4c5e868861153895d337144b0",
+    "usgs_ventana.geojson": "52235dfe7e9c5c941593081fa84d5e6efbaea8270e6c7c2aacfe5b03b98f9b01"
+  },
+  "licencias": {
+    "tvn_rss": "Solo metadatos y descripción del RSS. Sin licencia abierta sobre artículos, imágenes o videos; no se redistribuyen cuerpos.",
+    "gdelt_doc": "La API no transfiere derechos de los medios enlazados. seendate = detección, no publicación. Ventana máxima ≈3 meses.",
+    "banco_mundial": "CC BY 4.0 con atribución, salvo excepciones de terceros por indicador. Datos anuales revisables.",
+    "usgs": "Dominio público de EE. UU.; confirmar condiciones de elementos de terceros."
+  },
+  "transformaciones": [
+    "URLs normalizadas (sin query/fragmento, sin www) para ID estable y deduplicación",
+    "id_noticia = 'N-' + sha1(url normalizada)[:10]",
+    "Fechas convertidas a ISO 8601 UTC; seendate de GDELT va en fecha_deteccion, nunca en fecha_publicacion",
+    "Registros con errores se separan en calidad.json sin bloquear la carga",
+    "Ventana oficial [2025-10-02, 2026-09-30] (hora de Panamá): los registros fuera se listan en calidad.json (fuera_de_ventana)",
+    "TVN: scraping de metadatos públicos (og:title, og:description, datePublished) de URLs de sitemaps mensuales, secciones nacionales/economía; 200 más recientes de sept. 2026 + 10 por mes (oct. 2025–ago. 2026); 1 solicitud/s; sin cuerpos de artículos",
+    "Banco Mundial: cuadrícula completa 6×6×15 = 540 celdas; los faltantes se conservan como nulos (no cero)",
+    "USGS: se conservan id, URL y campos del contrato; tiempos en ISO 8601 UTC"
+  ]
+}

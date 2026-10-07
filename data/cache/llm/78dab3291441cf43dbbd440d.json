@@ -1,0 +1,181 @@
+{
+ "paquete": {
+  "abstencion": {
+   "abstiene": false,
+   "motivo": null,
+   "informacion_necesaria": []
+  },
+  "titulo_propuesto": "Empleo en Panamá: lo que afirma el presidente y lo que falta verificar",
+  "enfoque_interes_publico": "Los ciudadanos necesitan saber si el desempleo realmente baja y qué papel juega el sector privado, contrastando la afirmación presidencial con datos oficiales verificables.",
+  "brief": [
+   {
+    "texto": "Telemetro.com titula que el presidente afirma que el desempleo baja y que el sector privado gana terreno.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-c532d62722",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Solo se dispone del titular y de metadatos, por lo que no se ha leído el cuerpo de la nota ni se conocen cifras ni el contexto de la afirmación.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "N-c532d62722",
+      "campo": "alcance"
+     }
+    ]
+   },
+   {
+    "texto": "La fecha de publicación de la nota es desconocida; GDELT solo la detectó el 2026-09-30.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "N-c532d62722",
+      "campo": "fecha"
+     }
+    ]
+   },
+   {
+    "texto": "El Banco Mundial registra para Panamá un desempleo de 8.451 % de la fuerza laboral total en 2024, estimación modelada de la OIT.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "BM:PAN:SL.UEM.TOTL.ZS:2024",
+      "campo": "valor"
+     }
+    ]
+   },
+   {
+    "texto": "Ese dato es anual de 2024 y no confirma ni desmiente lo que reporta la noticia.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "BM:PAN:SL.UEM.TOTL.ZS:2024",
+      "campo": "limitacion"
+     }
+    ]
+   },
+   {
+    "texto": "Existe una sola procedencia independiente, por lo que la afirmación no está corroborada.",
+    "tipo": "inferencia",
+    "citas": []
+   }
+  ],
+  "preguntas_investigacion": [
+   "¿Qué cifras y de qué período presentó el presidente para sostener que el desempleo baja?",
+   "¿Qué dicen las mediciones oficiales más recientes sobre desempleo y empleo en el sector privado?",
+   "¿Cómo se compara la afirmación con el dato de 2024 y con otras fuentes independientes?"
+  ],
+  "verificaciones_pendientes": [
+   "Leer el cuerpo completo de la nota de Telemetro para conocer cifras, contexto y fecha de publicación.",
+   "Conseguir una segunda procedencia independiente que corrobore la afirmación.",
+   "Confirmar con datos oficiales actuales la evolución del desempleo y el empleo privado.",
+   "No presentar el dato del Banco Mundial de 2024 como cifra actual."
+  ],
+  "contradicciones": [],
+  "guion": [
+   {
+    "texto": "El presidente afirma que el desempleo en Panamá baja y que el sector privado gana terreno, según el titular de Telemetro.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-c532d62722",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Aún no se conocen las cifras con las que sustenta esa afirmación, porque solo se dispone del titular.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "N-c532d62722",
+      "campo": "alcance"
+     }
+    ]
+   },
+   {
+    "texto": "Como referencia, el Banco Mundial estimó el desempleo panameño en 8.451 % de la fuerza laboral en 2024.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "BM:PAN:SL.UEM.TOTL.ZS:2024",
+      "campo": "valor"
+     }
+    ]
+   },
+   {
+    "texto": "Es un dato anual de 2024 y no confirma lo dicho por el mandatario.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "BM:PAN:SL.UEM.TOTL.ZS:2024",
+      "campo": "limitacion"
+     }
+    ]
+   },
+   {
+    "texto": "TVN seguirá verificando con fuentes oficiales actuales si el desempleo realmente baja.",
+    "tipo": "inferencia",
+    "citas": []
+   }
+  ],
+  "copy_digital": [
+   {
+    "texto": "El presidente afirma que el desempleo baja y que el sector privado gana terreno, según Telemetro; verificamos las cifras oficiales.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-c532d62722",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Referencia: el Banco Mundial estimó el desempleo en 8.451 % en 2024, un dato anual que no confirma la afirmación.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "BM:PAN:SL.UEM.TOTL.ZS:2024",
+      "campo": "valor"
+     }
+    ]
+   }
+  ]
+ },
+ "validacion": {
+  "valido": true,
+  "problemas": [
+   {
+    "seccion": "guion",
+    "indice": -1,
+    "texto": "",
+    "severidad": "advertencia",
+    "problema": "guion de 83 palabras: dura menos de 45 s (mín. 110); no se rellena sin evidencia"
+   }
+  ],
+  "palabras": {
+   "brief": 114,
+   "guion": 83,
+   "copy_digital": 40
+  }
+ },
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "prompt_version": "paquete-tvn-v2",
+  "clave_cache": "78dab3291441cf43dbbd440d",
+  "desde_cache": false,
+  "generado_en": "2026-10-07T00:04:50.173Z",
+  "latencia_ms": 10076,
+  "tokens": {
+   "entrada": 528,
+   "salida": 1669,
+   "cache_lectura": 2206,
+   "cache_escritura": 0
+  },
+  "costo_usd": 0.0181872
+ }
+}

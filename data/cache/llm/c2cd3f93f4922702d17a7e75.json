@@ -1,0 +1,55 @@
+{
+ "paquete": {
+  "abstencion": {
+   "abstiene": true,
+   "motivo": "La evidencia disponible es un único titular con su descripción, de una sola procedencia (tvn-2.com), sin fuente oficial ni segunda procedencia independiente. No hay sustento para redactar un paquete sobre una aprehensión y una imputación por enriquecimiento injustificado sin leer el artículo completo ni contar con confirmación oficial.",
+   "informacion_necesaria": [
+    "Segunda procedencia independiente que confirme la aprehensión de Enrique Lau",
+    "Comunicado o dato oficial del Ministerio Público o del Órgano Judicial sobre la aprehensión y los cargos",
+    "Texto completo del artículo de tvn-2.com",
+    "Versión de la defensa de Enrique Lau",
+    "Fecha y lugar de la aprehensión y estado procesal"
+   ]
+  },
+  "titulo_propuesto": "",
+  "enfoque_interes_publico": "",
+  "brief": [],
+  "preguntas_investigacion": [
+   "¿Qué autoridad ordenó y ejecutó la aprehensión de Enrique Lau y qué documento oficial la respalda?",
+   "¿Cuál es el alcance exacto de la imputación por enriquecimiento injustificado y qué periodo patrimonial se investiga?",
+   "¿Qué responde la defensa de Enrique Lau a la imputación?"
+  ],
+  "verificaciones_pendientes": [
+   "Confirmar la aprehensión con una fuente oficial, porque hoy solo existe una procedencia (N-a76fe48ec6) y solo se dispone del titular y la descripción del RSS.",
+   "Verificar el periodo como director de la CSS (2019 a 2025) con una fuente oficial, pues consta solo en la descripción del RSS.",
+   "Presentar el cargo de enriquecimiento injustificado como imputación atribuida a las autoridades, nunca como hecho probado, y no vincularlo a ninguna administración sin evidencia."
+  ],
+  "contradicciones": [],
+  "guion": [],
+  "copy_digital": []
+ },
+ "validacion": {
+  "valido": true,
+  "problemas": [],
+  "palabras": {
+   "brief": 0,
+   "guion": 0,
+   "copy_digital": 0
+  }
+ },
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "prompt_version": "paquete-tvn-v1",
+  "clave_cache": "c2cd3f93f4922702d17a7e75",
+  "desde_cache": false,
+  "generado_en": "2026-10-07T00:02:41.264Z",
+  "latencia_ms": 6235,
+  "tokens": {
+   "entrada": 400,
+   "salida": 674,
+   "cache_lectura": 2035,
+   "cache_escritura": 0
+  },
+  "costo_usd": 0.007947
+ }
+}

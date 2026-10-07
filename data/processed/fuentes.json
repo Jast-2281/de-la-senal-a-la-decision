@@ -1,0 +1,30 @@
+[
+  {
+    "id": "tvn_rss",
+    "nombre": "TVN · feed RSS público",
+    "url": "https://www.tvn-2.com/rss/",
+    "campos": "titular, enlace, descripción, pubDate, palabras clave",
+    "condiciones": "Solo metadatos y descripción del RSS. Sin licencia abierta sobre artículos, imágenes o videos; no se redistribuyen cuerpos."
+  },
+  {
+    "id": "gdelt_doc",
+    "nombre": "GDELT DOC 2.0 API",
+    "url": "https://api.gdeltproject.org/api/v2/doc/doc",
+    "campos": "titular, URL, dominio, idioma, seendate",
+    "condiciones": "La API no transfiere derechos de los medios enlazados. seendate = detección, no publicación. Ventana máxima ≈3 meses."
+  },
+  {
+    "id": "banco_mundial",
+    "nombre": "Banco Mundial · Indicators API v2",
+    "url": "https://api.worldbank.org/v2",
+    "campos": "país, indicador, año, valor",
+    "condiciones": "CC BY 4.0 con atribución, salvo excepciones de terceros por indicador. Datos anuales revisables."
+  },
+  {
+    "id": "usgs",
+    "nombre": "USGS · catálogo sísmico FDSN",
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/",
+    "campos": "id, magnitud, tiempo, ubicación, profundidad, estado, URL",
+    "condiciones": "Dominio público de EE. UU.; confirmar condiciones de elementos de terceros."
+  }
+]

@@ -1,0 +1,199 @@
+{
+ "paquete": {
+  "abstencion": {
+   "abstiene": false,
+   "motivo": null,
+   "informacion_necesaria": []
+  },
+  "titulo_propuesto": "Pesca y servicios: qué dicen los titulares sobre las exportaciones de Panamá",
+  "enfoque_interes_publico": "Conocer qué sectores sostienen las exportaciones panameñas y cuánto aportan a la economía, distinguiendo lo que reportan los medios de lo que está verificado.",
+  "brief": [
+   {
+    "texto": "La Estrella de Panamá titula que el sector pesquero panameño se consolida como el principal motor de exportación.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-1cbd644225",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Panamá y América titula que el sector pesquero crece un 5.6 % y genera $158.5 millones.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-5ac056fa29",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "La Estrella también titula que Panamá lidera las exportaciones de servicios de Centroamérica, y ambos titulares de este medio cuentan como una sola procedencia.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-e167994445",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "El Banco Mundial registra para 2024 exportaciones de bienes y servicios equivalentes a 44.3578422661429 % del PIB, un dato anual que no confirma lo reportado por las notas.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "BM:PAN:NE.EXP.GNFS.ZS:2024",
+      "campo": "valor"
+     }
+    ]
+   },
+   {
+    "texto": "Los titulares pesquero y de servicios podrían ser difíciles de conciliar si se afirma que la pesca es el principal motor, porque no hay datos que los comparen.",
+    "tipo": "hipotesis",
+    "citas": []
+   }
+  ],
+  "preguntas_investigacion": [
+   "¿Cuál es el periodo y la fuente oficial de la cifra de $158.5 millones y del crecimiento de 5.6 % del sector pesquero?",
+   "¿Con qué datos y comparación se sostiene que la pesca es el principal motor de exportación, frente a los servicios?",
+   "¿Qué cifras oficiales respaldan que Panamá lidera las exportaciones de servicios en Centroamérica y en qué año?"
+  ],
+  "verificaciones_pendientes": [
+   "Leer el cuerpo completo de las tres notas: solo se dispone de titulares y metadatos.",
+   "Confirmar las fechas reales de publicación, pues solo se conoce la detección de GDELT.",
+   "Contrastar con fuentes oficiales las cifras de la pesca antes de emitirlas.",
+   "Aclarar el sentido de 'principal motor de exportación' frente al liderazgo en servicios.",
+   "Tratar el dato del Banco Mundial como cifra anual de 2024, no actual."
+  ],
+  "contradicciones": [
+   {
+    "descripcion": "Un titular presenta la pesca como principal motor de exportación y otro presenta a Panamá liderando en exportaciones de servicios; sin leer las notas no se sabe si son incompatibles.",
+    "versiones": [
+     {
+      "texto": "La Estrella titula que el sector pesquero es el principal motor de exportación.",
+      "tipo": "declaracion",
+      "citas": [
+       {
+        "id_evidencia": "N-1cbd644225",
+        "campo": "titulo"
+       }
+      ]
+     },
+     {
+      "texto": "La Estrella titula que Panamá lidera las exportaciones de servicios de Centroamérica.",
+      "tipo": "declaracion",
+      "citas": [
+       {
+        "id_evidencia": "N-e167994445",
+        "campo": "titulo"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "guion": [
+   {
+    "texto": "Las exportaciones panameñas están en el centro de la conversación económica.",
+    "tipo": "inferencia",
+    "citas": []
+   },
+   {
+    "texto": "Según La Estrella, el sector pesquero se consolida como el principal motor de exportación del país.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-1cbd644225",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Panamá y América titula que la pesca crece un 5.6 % y genera $158.5 millones.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-5ac056fa29",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Por su parte, La Estrella también titula que Panamá lidera las exportaciones de servicios en Centroamérica.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-e167994445",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Como referencia, el Banco Mundial reporta que en 2024 las exportaciones de bienes y servicios equivalían a 44.3578422661429 % del PIB.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "BM:PAN:NE.EXP.GNFS.ZS:2024",
+      "campo": "valor"
+     }
+    ]
+   },
+   {
+    "texto": "Ese es un dato anual de 2024 y no confirma lo que publican estas notas.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "BM:PAN:NE.EXP.GNFS.ZS:2024",
+      "campo": "limitacion"
+     }
+    ]
+   },
+   {
+    "texto": "Por ahora solo se han revisado titulares, así que las cifras deben verificarse con fuentes oficiales.",
+    "tipo": "inferencia",
+    "citas": []
+   }
+  ],
+  "copy_digital": [
+   {
+    "texto": "Según medios, la pesca crece un 5.6 % y genera $158.5 millones, y Panamá lidera servicios en Centroamérica: cifras por verificar.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-5ac056fa29",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-e167994445",
+      "campo": "titulo"
+     }
+    ]
+   }
+  ]
+ },
+ "validacion": {
+  "valido": true,
+  "problemas": [],
+  "palabras": {
+   "brief": 114,
+   "guion": 110,
+   "copy_digital": 21
+  }
+ },
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "prompt_version": "paquete-tvn-v2",
+  "clave_cache": "ba13f737c7b082d74059bdae",
+  "desde_cache": false,
+  "generado_en": "2026-10-07T00:04:32.876Z",
+  "latencia_ms": 12495,
+  "tokens": {
+   "entrada": 763,
+   "salida": 1984,
+   "cache_lectura": 2206,
+   "cache_escritura": 0
+  },
+  "costo_usd": 0.021807200000000002
+ }
+}

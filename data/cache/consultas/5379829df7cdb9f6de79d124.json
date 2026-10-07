@@ -1,0 +1,17 @@
+{
+ "abstencion": {
+  "abstiene": true,
+  "motivo": "Las fuentes disponibles son noticias institucionales de TVN Media (premios, reputación corporativa, alianzas, cobertura del Mundial) y ninguna contiene datos de audiencia o rating de TVN del día anterior.",
+  "informacion_necesaria": [
+   "Reporte de rating diario de TVN de la fecha solicitada (cifras de audiencia por programa o franja horaria)",
+   "Fuente que lo resolvería: la medidora de audiencia contratada (p. ej. Nielsen IBOPE o la que use TVN Media) o el área comercial/de programación de TVN"
+  ]
+ },
+ "respuesta": [],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-07T01:12:44.102Z",
+  "latencia_ms": 5328,
+  "costo_usd": 0.0080455
+ }
+}

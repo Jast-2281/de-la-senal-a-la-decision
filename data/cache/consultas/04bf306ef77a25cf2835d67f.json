@@ -1,0 +1,17 @@
+{
+ "abstencion": {
+  "abstiene": true,
+  "motivo": "La evidencia no contiene la inflación de Panamá de septiembre de 2026. El único dato de inflación es el indicador anual del Banco Mundial para 2024 (0,69 %), que no responde a una consulta sobre un mes de 2026. Las noticias disponibles no tratan sobre inflación.",
+  "informacion_necesaria": [
+   "Índice de Precios al Consumidor de septiembre de 2026 publicado por el Instituto Nacional de Estadística y Censo (INEC) de la Contraloría General de Panamá",
+   "Variación interanual o mensual del IPC para septiembre de 2026"
+  ]
+ },
+ "respuesta": [],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-07T01:12:46.861Z",
+  "latencia_ms": 2717,
+  "costo_usd": 0.004763399999999999
+ }
+}

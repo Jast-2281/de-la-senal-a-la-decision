@@ -1,0 +1,165 @@
+{
+ "paquete": {
+  "abstencion": {
+   "abstiene": false,
+   "motivo": null,
+   "informacion_necesaria": []
+  },
+  "titulo_propuesto": "Exportaciones caen $151.5 millones este año: el Mef apunta a los remanentes de cobre de 2025",
+  "enfoque_interes_publico": "Explicar a la audiencia por qué caen las exportaciones y qué papel tiene la minería frente al desempeño de los sectores agropecuario e industrial, con atribución clara al Mef y pendiente de una segunda procedencia.",
+  "brief": [
+   {
+    "texto": "Según el titular de tvn-2.com publicado el 29 de septiembre de 2026, las exportaciones caen este año $151.5 millones.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "N-ebdbce0f64",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "El titular señala que el Mef atribuye la caída a las exportaciones de remanentes de cobre del 2025.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-ebdbce0f64",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "La descripción del RSS indica que, al excluir el efecto de la actividad minera, las exportaciones agropecuarias e industriales tuvieron un comportamiento positivo.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "N-ebdbce0f64",
+      "campo": "descripcion"
+     }
+    ]
+   },
+   {
+    "texto": "Como contexto anual, el Banco Mundial reporta exportaciones de bienes y servicios de 44.3578422661429 % del PIB en 2024, dato que no confirma la noticia ni es una medición actual.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "BM:PAN:NE.EXP.GNFS.ZS:2024",
+      "campo": "valor"
+     },
+     {
+      "id_evidencia": "BM:PAN:NE.EXP.GNFS.ZS:2024",
+      "campo": "limitacion"
+     }
+    ]
+   },
+   {
+    "texto": "Solo se dispone del titular y la descripción de una única procedencia, por lo que no se conocen el período comparado ni el detalle de las cifras.",
+    "tipo": "inferencia",
+    "citas": []
+   }
+  ],
+  "preguntas_investigacion": [
+   "¿Qué período y qué base de comparación utiliza el Mef para calcular la caída de $151.5 millones?",
+   "¿Cuánto representan los remanentes de cobre de 2025 dentro de la variación y cuál es el resultado de los sectores agropecuario e industrial en cifras?",
+   "¿Existe una segunda fuente independiente, como datos oficiales del Mef o de la Contraloría, que confirme la caída y su explicación?"
+  ],
+  "verificaciones_pendientes": [
+   "Conseguir una segunda procedencia independiente, pues la actual es una sola y de respaldo oficial.",
+   "Leer el artículo completo, ya que solo se tiene titular y descripción del RSS.",
+   "Confirmar con el Mef la atribución a los remanentes de cobre del 2025.",
+   "Aclarar que el dato del Banco Mundial es anual de 2024 y no sustenta la noticia."
+  ],
+  "contradicciones": [],
+  "guion": [
+   {
+    "texto": "Las exportaciones registran una caída de 151.5 millones de dólares este año, según reportó tvn-2.com.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "N-ebdbce0f64",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "El Ministerio de Economía y Finanzas atribuye esa baja a las exportaciones de remanentes de cobre del 2025.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-ebdbce0f64",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Según la descripción del reporte, al excluir el efecto de la actividad minera, las exportaciones agropecuarias e industriales tuvieron un comportamiento positivo.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "N-ebdbce0f64",
+      "campo": "descripcion"
+     }
+    ]
+   },
+   {
+    "texto": "Por ahora la información proviene de una sola fuente, por lo que faltan detalles y confirmación independiente.",
+    "tipo": "inferencia",
+    "citas": []
+   }
+  ],
+  "copy_digital": [
+   {
+    "texto": "Las exportaciones caen $151.5 millones este año y el Mef lo atribuye a los remanentes de cobre del 2025, según tvn-2.com.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-ebdbce0f64",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Sin la minería, los sectores agropecuario e industrial tuvieron un comportamiento positivo, indica el reporte.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "N-ebdbce0f64",
+      "campo": "descripcion"
+     }
+    ]
+   }
+  ]
+ },
+ "validacion": {
+  "valido": true,
+  "problemas": [
+   {
+    "seccion": "guion",
+    "indice": -1,
+    "texto": "",
+    "severidad": "advertencia",
+    "problema": "guion de 72 palabras: dura menos de 45 s (mín. 110); no se rellena sin evidencia"
+   }
+  ],
+  "palabras": {
+   "brief": 117,
+   "guion": 72,
+   "copy_digital": 36
+  }
+ },
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "prompt_version": "paquete-tvn-v2",
+  "clave_cache": "d9230dbcf92acb79e22f384e",
+  "desde_cache": false,
+  "generado_en": "2026-10-07T00:59:53.641Z",
+  "latencia_ms": 11489,
+  "tokens": {
+   "entrada": 524,
+   "salida": 1640,
+   "cache_lectura": 2206,
+   "cache_escritura": 0
+  },
+  "costo_usd": 0.0178892
+ }
+}

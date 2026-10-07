@@ -1,0 +1,48 @@
+{
+ "paquete": {
+  "abstencion": {
+   "abstiene": true,
+   "motivo": "No hay evidencia suficiente para redactar un paquete editorial completo. Solo se dispone del titular de una nota sin acceso al cuerpo del artículo, y hay una sola procedencia independiente (Telémetro). El indicador del Banco Mundial es un dato anual de 2024 que no corrobora ni contradice lo reportado en la noticia, ya que desconocemos la fecha exacta de publicación y el contenido específico de las afirmaciones presidenciales. Sin el cuerpo de la nota no es posible verificar: qué cifras específicas se mencionan, qué declaraciones exactas hizo el presidente, qué sectores concretos se refieren con 'sector privado', ni cuál es el sustento de las afirmaciones.",
+   "informacion_necesaria": [
+    "Cuerpo completo de la nota de Telémetro para verificar cifras, declaraciones exactas y contexto",
+    "Segunda procedencia independiente que reportaje o comente las afirmaciones presidenciales sobre desempleo",
+    "Declaración oficial o comunicado presidencial que confirme las cifras y afirmaciones atribuidas",
+    "Fecha exacta de publicación de la nota de Telémetro",
+    "Datos más recientes de desempleo (posteriores a 2024) del INEC u otra fuente oficial panameña",
+    "Desglose sectorial del empleo privado mencionado en la noticia"
+   ]
+  },
+  "titulo_propuesto": "",
+  "enfoque_interes_publico": "",
+  "brief": [],
+  "preguntas_investigacion": [],
+  "verificaciones_pendientes": [],
+  "contradicciones": [],
+  "guion": [],
+  "copy_digital": []
+ },
+ "validacion": {
+  "valido": true,
+  "problemas": [],
+  "palabras": {
+   "brief": 0,
+   "guion": 0,
+   "copy_digital": 0
+  }
+ },
+ "meta": {
+  "modelo": "claude-haiku-4-5",
+  "prompt_version": "paquete-tvn-v1",
+  "clave_cache": "03721c1644d0d9250ca65dfe",
+  "desde_cache": false,
+  "generado_en": "2026-10-07T00:02:10.941Z",
+  "latencia_ms": 17709,
+  "tokens": {
+   "entrada": 2038,
+   "salida": 408,
+   "cache_lectura": 0,
+   "cache_escritura": 0
+  },
+  "costo_usd": 0.004078
+ }
+}

@@ -1,0 +1,254 @@
+{
+ "paquete": {
+  "abstencion": {
+   "abstiene": false,
+   "motivo": null,
+   "informacion_necesaria": []
+  },
+  "titulo_propuesto": "Exportaciones de Panamá: qué dicen los titulares sobre pesca y servicios, y qué falta por comprobar",
+  "enfoque_interes_publico": "Aclarar qué sectores sostienen las exportaciones panameñas y si las cifras reportadas por los medios se pueden confirmar con datos oficiales.",
+  "brief": [
+   {
+    "texto": "La Estrella de Panamá titula que el sector pesquero panameño se consolida como el principal motor de exportación, según el titular detectado el 7 de septiembre de 2026 por GDELT.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-1cbd644225",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-1cbd644225",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "Panamá América titula que el sector pesquero crece un 5.6 % y genera $158.5 millones, sin que se haya leído el cuerpo de la nota.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-5ac056fa29",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-5ac056fa29",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "La Estrella de Panamá también titula que Panamá lidera las exportaciones de servicios de Centroamérica, y ambos titulares de ese medio cuentan como una sola procedencia.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-e167994445",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-e167994445",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "Según el Banco Mundial, las exportaciones de bienes y servicios de Panamá equivalían a 44.3578422661429 % del PIB en 2024, un dato anual que no confirma lo que reportan las noticias.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "BM:PAN:NE.EXP.GNFS.ZS:2024",
+      "campo": "valor"
+     },
+     {
+      "id_evidencia": "BM:PAN:NE.EXP.GNFS.ZS:2024",
+      "campo": "anio"
+     },
+     {
+      "id_evidencia": "BM:PAN:NE.EXP.GNFS.ZS:2024",
+      "campo": "limitacion"
+     }
+    ]
+   },
+   {
+    "texto": "Los titulares podrían apuntar a motores de exportación distintos, pesca y servicios, lo que habría que aclarar antes de emitir.",
+    "tipo": "hipotesis",
+    "citas": []
+   }
+  ],
+  "preguntas_investigacion": [
+   "¿Qué fuente oficial respalda el 5.6 % de crecimiento y los $158.5 millones del sector pesquero, y a qué período corresponden?",
+   "¿Con qué criterio se afirma que la pesca es el principal motor de exportación si otro titular indica que Panamá lidera en servicios?",
+   "¿Cuál es la cifra más reciente de exportaciones totales de Panamá y cómo se compara con el dato de 2024 del Banco Mundial?"
+  ],
+  "verificaciones_pendientes": [
+   "Leer el cuerpo de las tres notas: solo se dispone de titulares y metadatos.",
+   "Confirmar las fechas reales de publicación, pues GDELT solo indica la fecha de detección.",
+   "Contrastar las cifras de pesca con una fuente oficial.",
+   "Verificar que los dos titulares de La Estrella no se traten como corroboración independiente."
+  ],
+  "contradicciones": [
+   {
+    "descripcion": "Los titulares atribuyen el liderazgo exportador a sectores distintos: pesca como principal motor y servicios como líder en Centroamérica; podrían no ser incompatibles, pero requieren aclaración.",
+    "versiones": [
+     {
+      "texto": "La Estrella titula que el sector pesquero se consolida como el principal motor de exportación.",
+      "tipo": "declaracion",
+      "citas": [
+       {
+        "id_evidencia": "N-1cbd644225",
+        "campo": "titulo"
+       }
+      ]
+     },
+     {
+      "texto": "La Estrella titula que Panamá lidera las exportaciones de servicios de Centroamérica.",
+      "tipo": "declaracion",
+      "citas": [
+       {
+        "id_evidencia": "N-e167994445",
+        "campo": "titulo"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "guion": [
+   {
+    "texto": "Las exportaciones de Panamá están en el centro de la conversación económica.",
+    "tipo": "inferencia",
+    "citas": []
+   },
+   {
+    "texto": "Según La Estrella de Panamá, el sector pesquero se consolida como el principal motor de exportación.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-1cbd644225",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Panamá América titula que el sector pesquero crece un 5.6 % y genera $158.5 millones.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-5ac056fa29",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Otro titular de La Estrella señala que Panamá lidera las exportaciones de servicios de Centroamérica.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-e167994445",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Como referencia, el Banco Mundial registró que las exportaciones de bienes y servicios equivalían a 44.3578422661429 % del PIB en 2024.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "BM:PAN:NE.EXP.GNFS.ZS:2024",
+      "campo": "valor"
+     },
+     {
+      "id_evidencia": "BM:PAN:NE.EXP.GNFS.ZS:2024",
+      "campo": "anio"
+     }
+    ]
+   },
+   {
+    "texto": "Ese dato es anual y no confirma por sí solo lo que reportan los medios.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "BM:PAN:NE.EXP.GNFS.ZS:2024",
+      "campo": "limitacion"
+     }
+    ]
+   },
+   {
+    "texto": "Falta comprobar las cifras con fuentes oficiales antes de darlas por establecidas.",
+    "tipo": "inferencia",
+    "citas": []
+   }
+  ],
+  "copy_digital": [
+   {
+    "texto": "Medios reportan que la pesca crece 5.6 % y genera $158.5 millones en Panamá, según el titular de Panamá América, cifra aún por verificar.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-5ac056fa29",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "El Banco Mundial ubicó las exportaciones de bienes y servicios en 44.3578422661429 % del PIB en 2024.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "BM:PAN:NE.EXP.GNFS.ZS:2024",
+      "campo": "valor"
+     },
+     {
+      "id_evidencia": "BM:PAN:NE.EXP.GNFS.ZS:2024",
+      "campo": "anio"
+     }
+    ]
+   }
+  ]
+ },
+ "validacion": {
+  "valido": false,
+  "problemas": [
+   {
+    "seccion": "brief",
+    "indice": 0,
+    "texto": "La Estrella de Panamá titula que el sector pesquero panameño se consolida como el principal motor de exportación, según el titular detectado el 7 de septiembre de 2026 por GDELT.",
+    "problema": "cifra \"7\" no aparece en la evidencia citada",
+    "severidad": "bloqueante"
+   },
+   {
+    "seccion": "brief",
+    "indice": 0,
+    "texto": "La Estrella de Panamá titula que el sector pesquero panameño se consolida como el principal motor de exportación, según el titular detectado el 7 de septiembre de 2026 por GDELT.",
+    "problema": "cifra \"2026\" no aparece en la evidencia citada",
+    "severidad": "bloqueante"
+   },
+   {
+    "seccion": "guion",
+    "indice": -1,
+    "texto": "",
+    "severidad": "advertencia",
+    "problema": "guion de 106 palabras: dura menos de 45 s (mín. 110); no se rellena sin evidencia"
+   }
+  ],
+  "palabras": {
+   "brief": 132,
+   "guion": 106,
+   "copy_digital": 41
+  }
+ },
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "prompt_version": "paquete-tvn-v4",
+  "clave_cache": "e9e32478bc7a4b339e93b2c4",
+  "desde_cache": false,
+  "generado_en": "2026-10-07T01:11:03.286Z",
+  "latencia_ms": 14315,
+  "tokens": {
+   "entrada": 763,
+   "salida": 2353,
+   "cache_lectura": 2339,
+   "cache_escritura": 0
+  },
+  "costo_usd": 0.0255238
+ }
+}

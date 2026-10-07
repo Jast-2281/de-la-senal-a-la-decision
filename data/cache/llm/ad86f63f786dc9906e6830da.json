@@ -1,0 +1,165 @@
+{
+ "paquete": {
+  "abstencion": {
+   "abstiene": false,
+   "motivo": null,
+   "informacion_necesaria": []
+  },
+  "titulo_propuesto": "Empleo en Panamá: lo que afirma el Presidente y lo que muestra el dato anual disponible",
+  "enfoque_interes_publico": "Contrastar la afirmación presidencial de que el desempleo baja con datos verificables, para que la audiencia sepa cuál es la situación del empleo.",
+  "brief": [
+   {
+    "texto": "Telemetro publicó un titular según el cual el Presidente afirma que el desempleo baja y que el sector privado gana terreno.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-c532d62722",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "De esta nota solo se dispone del titular, por lo que no se conocen cifras, fechas ni contexto de lo dicho por el Presidente.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "N-c532d62722",
+      "campo": "alcance"
+     }
+    ]
+   },
+   {
+    "texto": "El Banco Mundial reporta para Panamá un desempleo de 8.451 % de la fuerza laboral total en 2024, estimación modelada de la OIT.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "BM:PAN:SL.UEM.TOTL.ZS:2024",
+      "campo": "valor"
+     }
+    ]
+   },
+   {
+    "texto": "Ese dato es anual y no confirma ni desmiente lo afirmado por el Presidente.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "BM:PAN:SL.UEM.TOTL.ZS:2024",
+      "campo": "limitacion"
+     }
+    ]
+   },
+   {
+    "texto": "Existe una sola procedencia periodística, por lo que la afirmación no está corroborada de forma independiente.",
+    "tipo": "inferencia",
+    "citas": []
+   }
+  ],
+  "preguntas_investigacion": [
+   "¿Qué cifras y qué periodo citó exactamente el Presidente para sostener que el desempleo baja?",
+   "¿Qué muestran las estadísticas oficiales más recientes de empleo y empleo formal del sector privado?",
+   "¿Qué opinan economistas o gremios independientes sobre la evolución del empleo?"
+  ],
+  "verificaciones_pendientes": [
+   "Leer la nota completa de Telemetro y confirmar la fecha de publicación, que se desconoce.",
+   "Conseguir una segunda procedencia independiente.",
+   "Verificar con fuentes oficiales qué cifras respaldan la afirmación presidencial.",
+   "No comparar el dato de 2024 del Banco Mundial con cifras actuales sin confirmar la metodología."
+  ],
+  "contradicciones": [],
+  "guion": [
+   {
+    "texto": "El Presidente afirma, según el titular de Telemetro, que el desempleo en Panamá baja y que el sector privado gana terreno.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-c532d62722",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Por ahora solo conocemos ese titular, no las cifras ni el contexto de lo que dijo.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "N-c532d62722",
+      "campo": "alcance"
+     }
+    ]
+   },
+   {
+    "texto": "Como referencia, el Banco Mundial estimó el desempleo de Panamá en 8.451 % de la fuerza laboral en 2024.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "BM:PAN:SL.UEM.TOTL.ZS:2024",
+      "campo": "valor"
+     }
+    ]
+   },
+   {
+    "texto": "Es un dato anual de 2024 que no confirma ni desmiente lo dicho por el Presidente.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "BM:PAN:SL.UEM.TOTL.ZS:2024",
+      "campo": "limitacion"
+     }
+    ]
+   },
+   {
+    "texto": "Falta contrastar con estadísticas oficiales recientes y con otras fuentes antes de confirmar la tendencia.",
+    "tipo": "inferencia",
+    "citas": []
+   }
+  ],
+  "copy_digital": [
+   {
+    "texto": "Según Telemetro, el Presidente afirma que el desempleo baja en Panamá; el dato del Banco Mundial para 2024 fue 8.451 %, y falta contrastar la afirmación.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-c532d62722",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "BM:PAN:SL.UEM.TOTL.ZS:2024",
+      "campo": "valor"
+     }
+    ]
+   }
+  ]
+ },
+ "validacion": {
+  "valido": true,
+  "problemas": [
+   {
+    "seccion": "guion",
+    "indice": -1,
+    "texto": "",
+    "severidad": "advertencia",
+    "problema": "guion de 87 palabras: dura menos de 45 s (mín. 110); no se rellena sin evidencia"
+   }
+  ],
+  "palabras": {
+   "brief": 98,
+   "guion": 87,
+   "copy_digital": 26
+  }
+ },
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "prompt_version": "paquete-tvn-v1",
+  "clave_cache": "ad86f63f786dc9906e6830da",
+  "desde_cache": false,
+  "generado_en": "2026-10-07T00:01:52.804Z",
+  "latencia_ms": 10715,
+  "tokens": {
+   "entrada": 528,
+   "salida": 1537,
+   "cache_lectura": 2035,
+   "cache_escritura": 0
+  },
+  "costo_usd": 0.016833
+ }
+}

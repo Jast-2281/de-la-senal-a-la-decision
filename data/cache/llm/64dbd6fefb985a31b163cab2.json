@@ -1,0 +1,143 @@
+{
+ "paquete": {
+  "abstencion": {
+   "abstiene": false,
+   "motivo": null,
+   "informacion_necesaria": []
+  },
+  "titulo_propuesto": "Unachi: traslado de partida para pagar planilla, con cifras que no cuadran y dudas de transparencia",
+  "enfoque_interes_publico": "Docentes y administrativos de la Unachi llevan quincenas sin cobrar, y las cifras del traslado de partida difieren entre titulares, lo que exige aclarar el monto real y la transparencia del trámite.",
+  "brief": [
+   {
+    "texto": "Según un titular de tvn-2.com, la Comisión de Presupuesto aprobó un traslado de partida por $7.7 millones para pagar la planilla de la Unachi.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-dae83ef44c",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "La descripción del RSS indica que el traslado permitiría cubrir tres quincenas adeudadas a unos 2,100 docentes y administrativos.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-dae83ef44c",
+      "campo": "descripcion"
+     }
+    ]
+   },
+   {
+    "texto": "La misma descripción señala que la universidad acumula una deuda de $18.3 millones en cuotas obrero-patronales con la Caja de Seguro Social.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-dae83ef44c",
+      "campo": "descripcion"
+     }
+    ]
+   },
+   {
+    "texto": "Otro titular de tvn-2.com indica que docentes y administrativos esperaban un traslado de $7.7 millones para tres quincenas.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-45f7932d78",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Según la descripción de ese texto, funcionarios expresaron preocupación porque la cifra queda por debajo de lo que las autoridades universitarias habían dicho que se necesitaría hasta diciembre de 2026.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-45f7932d78",
+      "campo": "descripcion"
+     }
+    ]
+   },
+   {
+    "texto": "Un tercer titular del mismo medio habla de un traslado de $32.1 millones aprobado antes de la hora citada, con cuestionamientos por falta de transparencia.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-06046b1433",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Los tres textos provienen de tvn-2.com, es decir, de una sola procedencia, sin fuente oficial enlazada ni corroboración independiente.",
+    "tipo": "inferencia",
+    "citas": []
+   }
+  ],
+  "preguntas_investigacion": [
+   "¿Los $7.7 millones y los $32.1 millones corresponden al mismo traslado o a trámites distintos?",
+   "¿Qué monto necesita la Unachi para cubrir el déficit hasta diciembre de 2026 y cómo se compara con lo aprobado?",
+   "¿Qué explican la Asamblea y la Comisión de Presupuesto sobre el horario de la sesión y la falta de transmisión?"
+  ],
+  "verificaciones_pendientes": [
+   "Obtener la resolución o acta oficial de la Comisión de Presupuesto con el monto aprobado.",
+   "Conseguir una segunda procedencia independiente, como la Unachi, el Ministerio de Economía y Finanzas o la Asamblea.",
+   "Aclarar la discrepancia entre $7.7 millones y $32.1 millones.",
+   "Confirmar la deuda de $18.3 millones con la Caja de Seguro Social y el número de afectados.",
+   "Solo se dispone de titular y descripción del RSS; no se ha leído ningún artículo completo."
+  ],
+  "contradicciones": [
+   {
+    "descripcion": "Los titulares reportan montos distintos para el traslado de partida vinculado a la Unachi.",
+    "versiones": [
+     {
+      "texto": "Un titular reporta un traslado de $7.7 millones.",
+      "tipo": "declaracion",
+      "citas": [
+       {
+        "id_evidencia": "N-dae83ef44c",
+        "campo": "titulo"
+       }
+      ]
+     },
+     {
+      "texto": "Otro titular reporta un traslado de $32.1 millones.",
+      "tipo": "declaracion",
+      "citas": [
+       {
+        "id_evidencia": "N-06046b1433",
+        "campo": "titulo"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "guion": [],
+  "copy_digital": []
+ },
+ "validacion": {
+  "valido": true,
+  "problemas": [],
+  "palabras": {
+   "brief": 157,
+   "guion": 0,
+   "copy_digital": 0
+  }
+ },
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "prompt_version": "paquete-tvn-v4",
+  "clave_cache": "64dbd6fefb985a31b163cab2",
+  "desde_cache": false,
+  "generado_en": "2026-10-07T01:10:41.405Z",
+  "latencia_ms": 8823,
+  "tokens": {
+   "entrada": 1008,
+   "salida": 1483,
+   "cache_lectura": 2339,
+   "cache_escritura": 0
+  },
+  "costo_usd": 0.0173138
+ }
+}

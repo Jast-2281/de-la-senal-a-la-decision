@@ -1,0 +1,47 @@
+{
+ "paquete": {
+  "abstencion": {
+   "abstiene": true,
+   "motivo": "La evidencia se limita a dos titulares con descripción del RSS, ambos de tvn-2.com, es decir, una sola procedencia. No hay fuente oficial enlazada ni una segunda procedencia independiente. Además, las versiones sobre restricciones y cuarentena parecen incompatibles y no se pueden verificar con este alcance, de modo que no hay sustento para redactar un brief, guion o copy sobre un supuesto caso de peste neumónica.",
+   "informacion_necesaria": [
+    "Comunicado oficial del Ministerio de Salud de Panamá sobre la vigilancia epidemiológica",
+    "Comunicado de las autoridades sanitarias rusas o de la OMS sobre el supuesto caso",
+    "Una segunda procedencia independiente que confirme el caso sospechoso",
+    "Texto completo de los artículos de tvn-2.com",
+    "Verificación de las cuarentenas atribuidas a People of Baikal"
+   ]
+  },
+  "titulo_propuesto": "",
+  "enfoque_interes_publico": "",
+  "brief": [],
+  "preguntas_investigacion": [],
+  "verificaciones_pendientes": [],
+  "contradicciones": [],
+  "guion": [],
+  "copy_digital": []
+ },
+ "validacion": {
+  "valido": true,
+  "problemas": [],
+  "palabras": {
+   "brief": 0,
+   "guion": 0,
+   "copy_digital": 0
+  }
+ },
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "prompt_version": "paquete-tvn-v1",
+  "clave_cache": "a447efa4509e875f20740bd1",
+  "desde_cache": false,
+  "generado_en": "2026-10-07T00:02:30.443Z",
+  "latencia_ms": 4461,
+  "tokens": {
+   "entrada": 620,
+   "salida": 421,
+   "cache_lectura": 2035,
+   "cache_escritura": 0
+  },
+  "costo_usd": 0.005857
+ }
+}

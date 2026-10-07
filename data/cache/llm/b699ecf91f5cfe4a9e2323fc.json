@@ -1,0 +1,174 @@
+{
+ "paquete": {
+  "abstencion": {
+   "abstiene": false,
+   "motivo": null,
+   "informacion_necesaria": []
+  },
+  "titulo_propuesto": "Sismo en la frontera Panamá–Costa Rica: qué reporta un medio y qué registra el USGS",
+  "enfoque_interes_publico": "Informar a la población con cautela sobre la actividad sísmica reportada en la zona fronteriza, distinguiendo lo reportado por un medio de lo registrado por el USGS, mientras no haya confirmación de magnitud, epicentro y posibles daños.",
+  "brief": [
+   {
+    "texto": "Según su titular, critica.com.pa reporta un sismo de magnitud 5.4 en la frontera entre Panamá y Costa Rica.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-72b68d5114",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "La nota fue detectada por GDELT el 12 de septiembre de 2026 y su fecha de publicación es desconocida.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "N-72b68d5114",
+      "campo": "fecha"
+     }
+    ]
+   },
+   {
+    "texto": "Solo se dispone del titular, por lo que no se ha leído el cuerpo de la nota.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "N-72b68d5114",
+      "campo": "alcance"
+     }
+    ]
+   },
+   {
+    "texto": "El USGS registró un sismo de magnitud 4.7 el 12 de septiembre de 2026 a las 01:59 UTC, ubicado a 0 km NE de Manaca Civil, Panamá.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "USGS:us7000tgw1",
+      "campo": "magnitud"
+     },
+     {
+      "id_evidencia": "USGS:us7000tgw1",
+      "campo": "fecha"
+     },
+     {
+      "id_evidencia": "USGS:us7000tgw1",
+      "campo": "lugar"
+     }
+    ]
+   },
+   {
+    "texto": "El USGS también registró el 10 de septiembre eventos de magnitud 5 y 4.6 cerca de Quepos, Costa Rica.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "USGS:us7000tg98",
+      "campo": "magnitud"
+     },
+     {
+      "id_evidencia": "USGS:us7000tget",
+      "campo": "magnitud"
+     },
+     {
+      "id_evidencia": "USGS:us7000tg98",
+      "campo": "lugar"
+     }
+    ]
+   },
+   {
+    "texto": "Los registros del USGS son coincidencias temporales en una caja regional y no equivalen al territorio de Panamá.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "USGS:us7000tgw1",
+      "campo": "limitacion"
+     }
+    ]
+   },
+   {
+    "texto": "La diferencia entre la magnitud 5.4 del titular y la 4.7 del USGS impide confirmar que se trate del mismo evento.",
+    "tipo": "inferencia",
+    "citas": []
+   }
+  ],
+  "preguntas_investigacion": [
+   "¿Cuál es la magnitud, hora y epicentro confirmados del sismo según una institución sismológica oficial?",
+   "¿El sismo del titular de critica.com.pa corresponde al evento del USGS de magnitud 4.7 u a otro distinto?",
+   "¿Se reportaron daños, heridos o afectaciones en la zona fronteriza?"
+  ],
+  "verificaciones_pendientes": [
+   "Obtener una segunda procedencia independiente que confirme el sismo.",
+   "Leer el cuerpo de la nota de critica.com.pa, de la que solo se dispone el titular.",
+   "Confirmar la fecha de publicación de la nota.",
+   "Contrastar con la institución sismológica nacional la magnitud y el epicentro.",
+   "Verificar si hay reportes de daños."
+  ],
+  "contradicciones": [
+   {
+    "descripcion": "La magnitud del titular (5.4) difiere de la del registro USGS más cercano en tiempo y lugar (4.7); no está claro si es el mismo evento.",
+    "versiones": [
+     {
+      "texto": "Según critica.com.pa, el sismo fue de magnitud 5.4.",
+      "tipo": "declaracion",
+      "citas": [
+       {
+        "id_evidencia": "N-72b68d5114",
+        "campo": "titulo"
+       }
+      ]
+     },
+     {
+      "texto": "El USGS registró un sismo de magnitud 4.7 cerca de Manaca Civil, Panamá.",
+      "tipo": "hecho",
+      "citas": [
+       {
+        "id_evidencia": "USGS:us7000tgw1",
+        "campo": "magnitud"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "guion": [],
+  "copy_digital": []
+ },
+ "validacion": {
+  "valido": false,
+  "problemas": [
+   {
+    "seccion": "brief",
+    "indice": 6,
+    "texto": "La diferencia entre la magnitud 5.4 del titular y la 4.7 del USGS impide confirmar que se trate del mismo evento.",
+    "problema": "inferencia con cifras sin cita",
+    "severidad": "bloqueante"
+   },
+   {
+    "seccion": "guion",
+    "indice": -1,
+    "texto": "",
+    "severidad": "advertencia",
+    "problema": "guion de 0 palabras: dura menos de 45 s (mín. 110); no se rellena sin evidencia"
+   }
+  ],
+  "palabras": {
+   "brief": 139,
+   "guion": 0,
+   "copy_digital": 0
+  }
+ },
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "prompt_version": "paquete-tvn-v2",
+  "clave_cache": "b699ecf91f5cfe4a9e2323fc",
+  "desde_cache": false,
+  "generado_en": "2026-10-07T01:00:11.782Z",
+  "latencia_ms": 8768,
+  "tokens": {
+   "entrada": 774,
+   "salida": 1513,
+   "cache_lectura": 2206,
+   "cache_escritura": 0
+  },
+  "costo_usd": 0.0171192
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "abstencion": {
+  "abstiene": false,
+  "motivo": null,
+  "informacion_necesaria": []
+ },
+ "respuesta": [
+  {
+   "texto": "Hay versiones que no coinciden sobre lo que recomienda el informe: un titular de TVN dice que recomienda un cierre ordenado, otro de TVN dice que la comisión recomienda negociar con First Quantum un cierre progresivo y el finiquito del arbitraje, y Crítica titula que se recomienda la apertura de la mina.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-bea510354d",
+     "campo": "titulo"
+    },
+    {
+     "id_evidencia": "N-86dca50ced",
+     "campo": "titulo"
+    },
+    {
+     "id_evidencia": "N-1683cae7ea",
+     "campo": "titulo"
+    }
+   ]
+  },
+  {
+   "texto": "Mulino afirmó que el informe no es una decisión ni propone fecha de operación, y que lo estudiará antes de decidir.",
+   "tipo": "declaracion",
+   "citas": [
+    {
+     "id_evidencia": "N-57e336ccd4",
+     "campo": "titulo"
+    },
+    {
+     "id_evidencia": "N-57e336ccd4",
+     "campo": "descripcion"
+    }
+   ]
+  },
+  {
+   "texto": "Según la descripción, Mulino fijó seis criterios no negociables, entre ellos acatar el fallo de la Corte Suprema, cero costo fiscal y supervisión independiente.",
+   "tipo": "declaracion",
+   "citas": [
+    {
+     "id_evidencia": "N-57e336ccd4",
+     "campo": "descripcion"
+    }
+   ]
+  },
+  {
+   "texto": "First Quantum planteó participar de buena fe en un diálogo, y reconoce que un nuevo acuerdo debe respetar la soberanía de Panamá.",
+   "tipo": "declaracion",
+   "citas": [
+    {
+     "id_evidencia": "N-5e971d1a54",
+     "campo": "descripcion"
+    }
+   ]
+  },
+  {
+   "texto": "La auditoría de SGS dejó bajo vigilancia aspectos de agua, reforestación y presa de relaves.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-2558773ad8",
+     "campo": "titulo"
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-07T01:20:43.047Z",
+  "latencia_ms": 5160,
+  "costo_usd": 0.010224200000000001
+ }
+}

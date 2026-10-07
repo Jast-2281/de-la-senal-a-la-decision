@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+/* Identidad TVN Media (cliente del reto): papel blanco, franjas índigo, rótulos con pestaña amarilla.
+   Fuentes libres empaquetadas (offline, T10): Montserrat ≈ Gotham para rótulos; Mulish ≈ Museo Sans para texto. */
+:root {
+  --indigo: #110862;
+  --indigo-2: #1c1480;
+  --azul: #0d306a;
+  --azul-vivo: #0067ad;
+  --amarillo: #fec53e;
+  --naranja: #eb5e09;
+
+  --papel: #f3f4f9;
+  --superficie: #ffffff;
+  --tinta: #0e1030;
+  --tinta-2: #3a3d5c;
+  --tinta-3: #5d6180;
+  --linea: #dde0ec;
+  --sobre-indigo: #ffffff;
+  --sobre-indigo-2: #c9c7ee;
+
+  --acento: #0d306a;
+  --acento-suave: #e6ebf6;
+  --insuficiente: #b14200;
+  --insuficiente-suave: #fdeee3;
+  --parcial: #7a5400;
+  --parcial-suave: #fff3d1;
+  --suficiente: #17663f;
+  --suficiente-suave: #e3f4ea;
+}
+
+@theme inline {
+  --color-indigo: var(--indigo);
+  --color-indigo-2: var(--indigo-2);
+  --color-azul: var(--azul);
+  --color-azul-vivo: var(--azul-vivo);
+  --color-amarillo: var(--amarillo);
+  --color-naranja: var(--naranja);
+  --color-papel: var(--papel);
+  --color-superficie: var(--superficie);
+  --color-tinta: var(--tinta);
+  --color-tinta-2: var(--tinta-2);
+  --color-tinta-3: var(--tinta-3);
+  --color-linea: var(--linea);
+  --color-sobre-indigo: var(--sobre-indigo);
+  --color-sobre-indigo-2: var(--sobre-indigo-2);
+  --color-acento: var(--acento);
+  --color-acento-suave: var(--acento-suave);
+  --color-insuficiente: var(--insuficiente);
+  --color-insuficiente-suave: var(--insuficiente-suave);
+  --color-parcial: var(--parcial);
+  --color-parcial-suave: var(--parcial-suave);
+  --color-suficiente: var(--suficiente);
+  --color-suficiente-suave: var(--suficiente-suave);
+  --font-sans: "Mulish", ui-sans-serif, system-ui, sans-serif;
+  --font-rotulo: "Montserrat", "Mulish", ui-sans-serif, sans-serif;
+  --font-serif: "Mulish", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+
+html {
+  font-size: 17px; /* legible en proyector */
+  scrollbar-color: var(--azul) var(--papel);
+}
+
+body {
+  background: var(--papel);
+  color: var(--tinta);
+  font-family: var(--font-sans);
+  font-feature-settings: "tnum" 1, "lnum" 1;
+}
+
+::selection {
+  background: var(--amarillo);
+  color: var(--indigo);
+}
+
+:focus-visible {
+  outline: 3px solid var(--amarillo);
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+
+a {
+  text-underline-offset: 3px;
+}
+
+/* Signature: la cita se despliega como un rótulo que sube. */
+@keyframes rotulo-sube {
+  from { opacity: 0; transform: translateY(6px); clip-path: inset(100% 0 0 0); }
+  to { opacity: 1; transform: none; clip-path: inset(0 0 0 0); }
+}
+.rotulo-sube {
+  animation: rotulo-sube 260ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .rotulo-sube { animation: none; }
+}

@@ -1,0 +1,47 @@
+{
+ "paquete": {
+  "abstencion": {
+   "abstiene": true,
+   "motivo": "La evidencia consiste en una sola nota de una única procedencia (tvn-2.com), con solo titular y descripción truncada del RSS. No hay fuente oficial enlazada ni una segunda procedencia independiente que permita redactar un paquete con sustento. Además, la descripción está cortada y no identifica al mandatario ni detalla las condiciones de los anuncios.",
+   "informacion_necesaria": [
+    "Segunda procedencia independiente que confirme el anuncio de la oficina de servicio técnico de la AMP en Ho Chi Minh",
+    "Comunicado o documento oficial de la AMP o de la Presidencia sobre la oficina y sus funciones",
+    "Texto completo de la nota, con la identidad del mandatario y el contexto del anuncio",
+    "Confirmación oficial, de Panamá o de Vingroup/VinFast, de las conversaciones sobre el centro de distribución regional de vehículos eléctricos",
+    "Detalles sobre la zona franca, el calendario y la inversión, si existen"
+   ]
+  },
+  "titulo_propuesto": "",
+  "enfoque_interes_publico": "",
+  "brief": [],
+  "preguntas_investigacion": [],
+  "verificaciones_pendientes": [],
+  "contradicciones": [],
+  "guion": [],
+  "copy_digital": []
+ },
+ "validacion": {
+  "valido": true,
+  "problemas": [],
+  "palabras": {
+   "brief": 0,
+   "guion": 0,
+   "copy_digital": 0
+  }
+ },
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "prompt_version": "paquete-tvn-v1",
+  "clave_cache": "89bdada5255172bb3d635013",
+  "desde_cache": false,
+  "generado_en": "2026-10-07T00:02:35.028Z",
+  "latencia_ms": 4581,
+  "tokens": {
+   "entrada": 454,
+   "salida": 446,
+   "cache_lectura": 2035,
+   "cache_escritura": 0
+  },
+  "costo_usd": 0.005775
+ }
+}

@@ -1,0 +1,526 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-07T03:08:30+00:00",
+  "title": "Design System: De la señal a la decisión",
+  "extensions": {
+    "colorMeta": {
+      "indigo": {
+        "role": "primary",
+        "displayName": "Índigo TVN",
+        "canonical": "#110862",
+        "tonalRamp": [
+          "#050035",
+          "#140f67",
+          "#29338a",
+          "#4453ad",
+          "#6175d1",
+          "#8097f7",
+          "#b0c1fd",
+          "#e9eefe"
+        ]
+      },
+      "indigo-2": {
+        "role": "primary",
+        "displayName": "Índigo de rótulo",
+        "canonical": "#1c1480",
+        "tonalRamp": [
+          "#050035",
+          "#160073",
+          "#292c96",
+          "#424fba",
+          "#5f71df",
+          "#8095fd",
+          "#b1c1fd",
+          "#e9eefe"
+        ]
+      },
+      "azul": {
+        "role": "primary",
+        "displayName": "Azul pauta",
+        "canonical": "#0d306a",
+        "tonalRamp": [
+          "#000038",
+          "#001f57",
+          "#1a3d78",
+          "#375c9b",
+          "#567dbe",
+          "#769fe2",
+          "#a4c5fc",
+          "#e6effe"
+        ]
+      },
+      "amarillo": {
+        "role": "secondary",
+        "displayName": "Amarillo pestaña",
+        "canonical": "#fec53e",
+        "tonalRamp": [
+          "#140900",
+          "#312100",
+          "#523c03",
+          "#76580a",
+          "#9f7600",
+          "#c89500",
+          "#f3ba2f",
+          "#feedca"
+        ]
+      },
+      "papel": {
+        "role": "neutral",
+        "displayName": "Papel",
+        "canonical": "#f3f4f9",
+        "tonalRamp": [
+          "#0a0b0e",
+          "#232427",
+          "#3f3f43",
+          "#5c5d61",
+          "#7c7d81",
+          "#9d9ea3",
+          "#c3c4c8",
+          "#edeef3"
+        ]
+      },
+      "superficie": {
+        "role": "neutral",
+        "displayName": "Superficie",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#242424",
+          "#404040",
+          "#5d5d5d",
+          "#7d7d7d",
+          "#9e9e9e",
+          "#c4c4c4",
+          "#eeeeee"
+        ]
+      },
+      "tinta": {
+        "role": "neutral",
+        "displayName": "Tinta",
+        "canonical": "#0e1030",
+        "tonalRamp": [
+          "#060625",
+          "#1c2042",
+          "#373c61",
+          "#545b81",
+          "#737aa3",
+          "#939cc6",
+          "#b9c1ed",
+          "#eaeefe"
+        ]
+      },
+      "tinta-2": {
+        "role": "neutral",
+        "displayName": "Tinta 2",
+        "canonical": "#3a3d5c",
+        "tonalRamp": [
+          "#080721",
+          "#1f213d",
+          "#3a3d5c",
+          "#575b7c",
+          "#767a9d",
+          "#979cc0",
+          "#bcc1e7",
+          "#ebedfe"
+        ]
+      },
+      "tinta-3": {
+        "role": "neutral",
+        "displayName": "Tinta 3",
+        "canonical": "#5d6180",
+        "tonalRamp": [
+          "#08081f",
+          "#1f213c",
+          "#3a3d5a",
+          "#575b7a",
+          "#767b9b",
+          "#979cbe",
+          "#bcc2e5",
+          "#ebedff"
+        ]
+      },
+      "linea": {
+        "role": "neutral",
+        "displayName": "Filete",
+        "canonical": "#dde0ec",
+        "tonalRamp": [
+          "#090b12",
+          "#21242c",
+          "#3d3f49",
+          "#5b5d67",
+          "#7a7d87",
+          "#9b9ea9",
+          "#c1c3cf",
+          "#ebeefa"
+        ]
+      },
+      "sobre-indigo": {
+        "role": "neutral",
+        "displayName": "Sobre índigo",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#242424",
+          "#404040",
+          "#5d5d5d",
+          "#7d7d7d",
+          "#9e9e9e",
+          "#c4c4c4",
+          "#eeeeee"
+        ]
+      },
+      "sobre-indigo-2": {
+        "role": "neutral",
+        "displayName": "Sobre índigo 2",
+        "canonical": "#c9c7ee",
+        "tonalRamp": [
+          "#0b0620",
+          "#231f3d",
+          "#3e3b5b",
+          "#5c597b",
+          "#7b799c",
+          "#9c9abf",
+          "#c1bfe6",
+          "#edecfe"
+        ]
+      },
+      "acento-suave": {
+        "role": "neutral",
+        "displayName": "Azul suave",
+        "canonical": "#e6ebf6",
+        "tonalRamp": [
+          "#080b12",
+          "#20242c",
+          "#3c4048",
+          "#595e67",
+          "#797d87",
+          "#9a9ea9",
+          "#bfc4cf",
+          "#e9eefa"
+        ]
+      },
+      "insuficiente": {
+        "role": "tertiary",
+        "displayName": "Óxido insuficiente",
+        "canonical": "#b14200",
+        "tonalRamp": [
+          "#200000",
+          "#421200",
+          "#6e2500",
+          "#9d3900",
+          "#c75622",
+          "#ed7947",
+          "#feae8e",
+          "#feeae2"
+        ]
+      },
+      "insuficiente-suave": {
+        "role": "tertiary",
+        "displayName": "Óxido suave",
+        "canonical": "#fdeee3",
+        "tonalRamp": [
+          "#120903",
+          "#2c2219",
+          "#493d34",
+          "#675b52",
+          "#887a71",
+          "#a99b91",
+          "#cfc1b6",
+          "#faebe0"
+        ]
+      },
+      "parcial": {
+        "role": "tertiary",
+        "displayName": "Ocre parcial",
+        "canonical": "#7a5400",
+        "tonalRamp": [
+          "#150800",
+          "#322000",
+          "#563a00",
+          "#7c5503",
+          "#9d7531",
+          "#c09753",
+          "#e7bd79",
+          "#ffeccf"
+        ]
+      },
+      "parcial-suave": {
+        "role": "tertiary",
+        "displayName": "Ocre suave",
+        "canonical": "#fff3d1",
+        "tonalRamp": [
+          "#120a00",
+          "#2c2306",
+          "#493f22",
+          "#675d3f",
+          "#877d5e",
+          "#a99e7e",
+          "#cfc4a3",
+          "#faeecc"
+        ]
+      },
+      "suficiente": {
+        "role": "tertiary",
+        "displayName": "Verde suficiente",
+        "canonical": "#17663f",
+        "tonalRamp": [
+          "#001004",
+          "#002d16",
+          "#004d2b",
+          "#216e46",
+          "#468f65",
+          "#68b185",
+          "#8dd8aa",
+          "#c5ffda"
+        ]
+      },
+      "suficiente-suave": {
+        "role": "tertiary",
+        "displayName": "Verde suave",
+        "canonical": "#e3f4ea",
+        "tonalRamp": [
+          "#040e08",
+          "#1b2720",
+          "#36443c",
+          "#536259",
+          "#728279",
+          "#93a39a",
+          "#b8c9bf",
+          "#e2f3e9"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Nombre de la vista sobre la franja índigo; 1.875rem en móvil, 2.25rem desde 640px, 3rem desde 768px; mayúsculas."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Encabezado de bloque sobre papel; mayúsculas, índigo."
+      },
+      "title-panel": {
+        "displayName": "Título de panel",
+        "purpose": "Título de cada panel de la ficha; mayúsculas, amarillo en panel oscuro, índigo en claro."
+      },
+      "headline-tema": {
+        "displayName": "Titular del tema",
+        "purpose": "Titular del tema en la cabecera de la ficha; 1.5rem en móvil, caja original."
+      },
+      "title-rotulo": {
+        "displayName": "Titular de rótulo",
+        "purpose": "Titular dentro de un rótulo de la agenda; 1.125rem en móvil."
+      },
+      "title-fila": {
+        "displayName": "Titular de fila",
+        "purpose": "Titular en una fila de la escaleta."
+      },
+      "body": {
+        "displayName": "Cuerpo",
+        "purpose": "Texto corriente; raíz del documento a 17px para proyector."
+      },
+      "body-sm": {
+        "displayName": "Cuerpo pequeño",
+        "purpose": "Metadatos, procedencias, notas."
+      },
+      "label": {
+        "displayName": "Rótulo de sección",
+        "purpose": "Subtítulos dentro de un panel y barra de acción recomendada; mayúsculas."
+      },
+      "label-chip": {
+        "displayName": "Etiqueta",
+        "purpose": "Insignias, etiquetas de tema (mayúsculas), citas (11px)."
+      },
+      "numeral": {
+        "displayName": "Cifra",
+        "purpose": "Puntaje en la pestaña, valores de indicadores oficiales; tabular."
+      },
+      "mono": {
+        "displayName": "Identificador",
+        "purpose": "IDs de evidencia y ruta id → campo."
+      }
+    },
+    "shadows": [],
+    "focus": [
+      {
+        "name": "anillo-foco",
+        "value": "outline: 3px solid #fec53e; outline-offset: 2px; border-radius: 3px",
+        "purpose": "Foco visible global."
+      }
+    ],
+    "motion": [
+      {
+        "name": "rotulo-sube",
+        "value": "260ms cubic-bezier(0.16, 1, 0.3, 1); from opacity 0, translateY(6px), clip-path inset(100% 0 0 0)",
+        "purpose": "Despliegue de la cita como rótulo que sube; desactivado con prefers-reduced-motion."
+      },
+      {
+        "name": "transicion-color",
+        "value": "color, background-color 150ms cubic-bezier(0.4, 0, 0.2, 1)",
+        "purpose": "Hover de rótulos, citas y botones de revisión."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      },
+      {
+        "name": "contenedor",
+        "value": "80rem"
+      }
+    ],
+    "rootFontSize": "17px"
+  },
+  "components": [
+    {
+      "name": "Rótulo de agenda",
+      "kind": "custom",
+      "refersTo": "rotulo-agenda",
+      "description": "Tema principal sobre la franja índigo: pestaña de puntaje, metadatos y titular.",
+      "html": "<a class=\"ds-rotulo\" href=\"#\"><span class=\"ds-pestana ds-pestana-g\"><b>90</b><small>ALTO</small></span><span class=\"ds-rotulo-cuerpo\"><span class=\"ds-rotulo-meta\"><span class=\"ds-pos\">#1</span><span class=\"ds-tema-o\">ECONOMÍA</span><span class=\"ds-ins ds-ins-parcial\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-dasharray=\"3 3\"><circle cx=\"12\" cy=\"12\" r=\"10\"/></svg>Evidencia parcial</span></span><span class=\"ds-rotulo-tit\">¿Debe reabrir Cobre Panamá? Cámara Minera fija su posición</span></span></a>",
+      "css": ".ds-rotulo{display:flex;overflow:hidden;border-radius:0.25rem;background:#1c1480;color:#fff;text-decoration:none;font-family:Mulish,ui-sans-serif,sans-serif;transition:background-color .15s}.ds-rotulo:hover{background:#0d306a}.ds-rotulo:hover .ds-rotulo-tit{text-decoration:underline}.ds-rotulo:focus-visible{outline:3px solid #fec53e;outline-offset:2px}.ds-pestana{display:flex;flex-direction:column;align-items:center;justify-content:center;flex-shrink:0;background:#fec53e;color:#110862;border-radius:0.25rem}.ds-pestana-g{width:5rem;height:4rem}.ds-pestana b{font-family:Montserrat,Mulish,sans-serif;font-weight:900;font-size:1.875rem;line-height:1;font-variant-numeric:tabular-nums}.ds-pestana small{font-size:10px;font-weight:800;letter-spacing:.05em}.ds-rotulo-cuerpo{display:flex;flex-direction:column;gap:.25rem;padding:.75rem 1.25rem}.ds-rotulo-meta{display:flex;flex-wrap:wrap;align-items:center;gap:.25rem .75rem}.ds-pos{font-family:Montserrat,sans-serif;font-weight:900;font-size:.875rem;color:#fec53e}.ds-tema-o{font-size:.75rem;font-weight:800;letter-spacing:.025em;color:#c9c7ee}.ds-rotulo-tit{font-size:1.25rem;font-weight:700;line-height:1.375}.ds-ins{display:inline-flex;align-items:center;gap:.375rem;border-radius:.25rem;padding:.125rem .5rem;font-size:.75rem;font-weight:700}.ds-ins-parcial{background:#fff3d1;color:#7a5400}"
+    },
+    {
+      "name": "Fila de escaleta",
+      "kind": "card",
+      "refersTo": "fila-escaleta",
+      "description": "Una fila numerada de la escaleta completa; toda la fila es enlace.",
+      "html": "<a class=\"ds-fila\" href=\"#\"><span class=\"ds-num\">3</span><span class=\"ds-pestana-f\"><b>86</b><small>ALTO</small></span><span class=\"ds-fila-cuerpo\"><span class=\"ds-tema\">SERVICIOS PÚBLICOS</span><span class=\"ds-fila-tit\">Metro de Panamá y Doppelmayr firman el contrato del teleférico</span><span class=\"ds-meta\">4 registros · critica.com.pa, tvn-2.com · última señal 28 sept 2026</span></span></a>",
+      "css": ".ds-fila{display:grid;grid-template-columns:2.5rem 4rem 1fr;gap:.5rem 1rem;align-items:start;padding:.875rem 1rem;background:#fff;color:#0e1030;border:1px solid #dde0ec;border-radius:.25rem;text-decoration:none;font-family:Mulish,ui-sans-serif,sans-serif}.ds-fila:hover{background:#e6ebf6}.ds-fila:focus-visible{outline:3px solid #fec53e;outline-offset:2px}.ds-num{padding-top:.75rem;font-family:Montserrat,sans-serif;font-weight:900;color:#5d6180;font-variant-numeric:tabular-nums}.ds-pestana-f{display:flex;flex-direction:column;align-items:center;justify-content:center;width:4rem;height:3rem;background:#fec53e;color:#110862;border-radius:.25rem}.ds-pestana-f b{font-family:Montserrat,sans-serif;font-weight:900;font-size:1.25rem;line-height:1}.ds-pestana-f small{font-size:10px;font-weight:800}.ds-fila-cuerpo{display:flex;flex-direction:column;gap:.375rem}.ds-tema{font-size:.75rem;font-weight:800;letter-spacing:.025em;color:#0d306a}.ds-fila-tit{font-size:1.05rem;font-weight:700;line-height:1.375}.ds-meta{font-size:.875rem;color:#5d6180}"
+    },
+    {
+      "name": "Insignias de evidencia",
+      "kind": "chip",
+      "refersTo": "insignia-insuficiente",
+      "description": "Estado de evidencia: texto + icono + color, independiente de la prioridad.",
+      "html": "<span class=\"ds-ev ds-ev-ins\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"/><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"/></svg>Evidencia insuficiente</span> <span class=\"ds-ev ds-ev-par\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-dasharray=\"3 3\"><circle cx=\"12\" cy=\"12\" r=\"10\"/></svg>Evidencia parcial</span> <span class=\"ds-ev ds-ev-suf\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"m9 12 2 2 4-4\"/></svg>Suficiente para el borrador</span>",
+      "css": ".ds-ev{display:inline-flex;align-items:center;gap:.375rem;border-radius:.25rem;padding:.125rem .5rem;font-family:Mulish,ui-sans-serif,sans-serif;font-size:.75rem;font-weight:700}.ds-ev-ins{background:#fdeee3;color:#b14200}.ds-ev-par{background:#fff3d1;color:#7a5400}.ds-ev-suf{background:#e3f4ea;color:#17663f}"
+    },
+    {
+      "name": "Botón primario",
+      "kind": "button",
+      "refersTo": "boton-primario",
+      "description": "Acción primaria sobre la franja índigo (Buscar en la consulta).",
+      "html": "<button class=\"ds-btn-prim\">Buscar</button>",
+      "css": ".ds-btn-prim{background:#fec53e;color:#110862;border:0;border-radius:.25rem;padding:.75rem 1.5rem;font-family:Montserrat,Mulish,sans-serif;font-weight:900;font-size:1rem;text-transform:uppercase;cursor:pointer;transition:background-color .15s}.ds-btn-prim:hover{background:#fff}.ds-btn-prim:focus-visible{outline:3px solid #fec53e;outline-offset:2px}"
+    },
+    {
+      "name": "Botones de revisión",
+      "kind": "button",
+      "refersTo": "boton-revision",
+      "description": "Registro de la decisión humana: estado intermedio, aprobar como borrador, descartar.",
+      "html": "<button class=\"ds-btn-rev\">en revisión</button> <button class=\"ds-btn-rev ds-btn-apr\">aprobado como borrador</button> <button class=\"ds-btn-rev ds-btn-desc\">descartado</button>",
+      "css": ".ds-btn-rev{background:#e6ebf6;color:#0d306a;border:0;border-radius:.25rem;padding:.5rem 1rem;font-family:Mulish,ui-sans-serif,sans-serif;font-size:.875rem;font-weight:800;cursor:pointer;transition:background-color .15s,color .15s}.ds-btn-rev:hover{background:#0d306a;color:#fff}.ds-btn-apr{background:#17663f;color:#fff}.ds-btn-apr:hover{background:#110862}.ds-btn-desc{background:#fdeee3;color:#b14200}.ds-btn-desc:hover{background:#b14200;color:#fff}.ds-btn-rev:focus-visible{outline:3px solid #fec53e;outline-offset:2px}"
+    },
+    {
+      "name": "Filtro segmentado",
+      "kind": "chip",
+      "refersTo": "filtro-segmento",
+      "description": "Filtro por estado de evidencia con conteos.",
+      "html": "<div class=\"ds-seg\" role=\"group\"><button aria-pressed=\"true\">Todos <span>219</span></button><button aria-pressed=\"false\">Para investigar <span>187</span></button><button aria-pressed=\"false\">Para verificar <span>31</span></button></div>",
+      "css": ".ds-seg{display:inline-flex;border:1px solid #0d306a;border-radius:.25rem;overflow:hidden}.ds-seg button{background:#fff;color:#0d306a;border:0;border-right:1px solid #0d306a;padding:.375rem .75rem;font-family:Mulish,ui-sans-serif,sans-serif;font-size:.875rem;font-weight:700;cursor:pointer}.ds-seg button:last-child{border-right:0}.ds-seg button:hover{background:#e6ebf6}.ds-seg button[aria-pressed=true]{background:#0d306a;color:#fff}.ds-seg span{opacity:.75;font-variant-numeric:tabular-nums}.ds-seg button:focus-visible{outline:3px solid #fec53e;outline-offset:2px}"
+    },
+    {
+      "name": "Buscador",
+      "kind": "input",
+      "refersTo": "campo",
+      "description": "Campo de búsqueda en titulares con lupa.",
+      "html": "<label class=\"ds-busca\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><path d=\"m21 21-4.3-4.3\"/></svg><input placeholder=\"Buscar en titulares (empleo, Canal, CSS…)\"></label>",
+      "css": ".ds-busca{position:relative;display:block;width:20rem}.ds-busca svg{position:absolute;left:.75rem;top:50%;transform:translateY(-50%);color:#5d6180;pointer-events:none}.ds-busca input{width:100%;box-sizing:border-box;background:#fff;color:#0e1030;border:1px solid #dde0ec;border-radius:.25rem;padding:.375rem .75rem .375rem 2.25rem;font-family:Mulish,ui-sans-serif,sans-serif;font-size:.875rem}.ds-busca input::placeholder{color:#5d6180}.ds-busca input:focus-visible{outline:3px solid #fec53e;outline-offset:2px}"
+    },
+    {
+      "name": "Cabecera y navegación",
+      "kind": "nav",
+      "refersTo": "nav-enlace",
+      "description": "Franja índigo con nombre del producto, etiqueta de prototipo y enlaces.",
+      "html": "<header class=\"ds-cab\"><span class=\"ds-marca\">De la señal a la decisión</span><span class=\"ds-proto\">Prototipo para TVN Media · hackIAthon</span><nav><a href=\"#\">Agenda de investigación</a><a href=\"#\">Consultar el corpus</a><a href=\"#\">Exportar fichas.jsonl</a></nav></header>",
+      "css": ".ds-cab{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem .75rem;background:#110862;color:#fff;padding:.75rem 1.25rem;font-family:Mulish,ui-sans-serif,sans-serif}.ds-marca{font-family:Montserrat,sans-serif;font-weight:900;font-size:1.125rem;text-transform:uppercase;letter-spacing:-.025em}.ds-proto{background:#fec53e;color:#110862;border-radius:.25rem;padding:.125rem .5rem;font-size:.75rem;font-weight:800}.ds-cab nav{margin-left:auto;display:flex;gap:.25rem}.ds-cab a{color:#c9c7ee;text-decoration:none;font-size:.875rem;font-weight:600;padding:.375rem .75rem;border-radius:.25rem}.ds-cab a:hover{background:#1c1480;color:#fff}.ds-cab a:focus-visible{outline:3px solid #fec53e;outline-offset:2px}"
+    },
+    {
+      "name": "Cita que sube",
+      "kind": "custom",
+      "refersTo": "cita-desplegada",
+      "description": "Botón de cita en línea; al activarse despliega el texto exacto del campo citado como un rótulo.",
+      "html": "<p class=\"ds-afirm\">La tasa de desempleo de Panamá fue de 8.45% en 2024.<button class=\"ds-cita\" aria-expanded=\"true\">Banco Mundial · valor</button></p><div class=\"ds-cita-rot\"><span class=\"ds-cita-tab\">BANCO MUNDIAL</span><div class=\"ds-cita-txt\"><div class=\"ds-cita-id\">BM:PAN:SL.UEM.TOTL.ZS:2024 → valor</div><div>8.45</div></div></div>",
+      "css": ".ds-afirm{font-family:Mulish,ui-sans-serif,sans-serif;line-height:1.625;color:#0e1030;margin:0}.ds-cita{margin-left:.375rem;border:0;border-radius:.25rem;padding:0 .25rem;font-size:11px;font-weight:800;background:#e6ebf6;color:#0d306a;cursor:pointer;transition:background-color .15s,color .15s}.ds-cita:hover,.ds-cita[aria-expanded=true]{background:#fec53e;color:#110862}.ds-cita:focus-visible{outline:3px solid #fec53e;outline-offset:2px}.ds-cita-rot{display:flex;overflow:hidden;margin-top:.625rem;border-radius:.25rem;background:#110862;color:#fff;font-family:Mulish,ui-sans-serif,sans-serif;animation:ds-sube 260ms cubic-bezier(.16,1,.3,1) both}.ds-cita-tab{display:flex;align-items:center;background:#fec53e;color:#110862;padding:0 .625rem;font-size:11px;font-weight:800;letter-spacing:.025em}.ds-cita-txt{padding:.5rem .75rem;font-weight:600}.ds-cita-id{font-family:ui-monospace,Menlo,monospace;font-size:11px;font-weight:400;color:#c9c7ee}@keyframes ds-sube{from{opacity:0;transform:translateY(6px);clip-path:inset(100% 0 0 0)}to{opacity:1;transform:none;clip-path:inset(0 0 0 0)}}@media (prefers-reduced-motion:reduce){.ds-cita-rot{animation:none}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "La escaleta al aire",
+    "overview": "**Creative North Star: \"La escaleta al aire\"**\n\nLa interfaz se lee como la pauta de un noticiero de TVN, no como un tablero de control. Franjas índigo a todo el ancho enmarcan la página (cabecera, banda superior de cada vista y pie) igual que el grafismo de la cadena; sobre ellas, cada tema es un rótulo: una barra índigo con una pestaña amarilla que lleva la cifra. Debajo, sobre papel gris azulado, la escaleta completa continúa como una lista numerada de filas blancas separadas por filetes finos.\n\nEl sistema es denso pero legible a distancia: la raíz tipográfica es de 17px porque la demo se proyecta en pantalla grande, las cifras van siempre en numerales tabulares y todos los estados de evidencia combinan texto, icono y color. La voz gráfica de TVN (Montserrat negra en mayúsculas, sustituto libre de Gotham Black) queda reservada a los rótulos; todo lo que se lee de corrido va en Mulish (sustituto de Museo Sans). Ambas fuentes están empaquetadas localmente y no se carga nada remoto.\n\nNo hay sombras, degradados ni ilustraciones. La profundidad la dan las bandas tonales (índigo, papel, blanco) y un único radio casi recto. El logotipo oficial de TVN no aparece; en su lugar, una etiqueta amarilla “Prototipo para TVN Media · hackIAthon” en la cabecera.",
+    "keyCharacteristics": [
+      "Franjas índigo a todo el ancho sobre fondo papel; contenido centrado en 80rem.",
+      "Rótulos índigo con pestaña amarilla para la cifra de prioridad.",
+      "Escaleta: filas numeradas en una sola lista, nunca una cuadrícula de tarjetas.",
+      "Montserrat 900 en mayúsculas solo para rótulos; Mulish para todo lo demás.",
+      "Estado de evidencia siempre como texto + icono + color, separado de la prioridad.",
+      "Plano: sin sombras; un solo radio de 0.25rem."
+    ],
+    "rules": [
+      {
+        "name": "La Regla de la Franja",
+        "body": "El índigo ocupa bandas a todo el ancho (cabecera, cabeza de cada vista, pie) o rótulos dentro de ellas; el resto del contenido vive sobre papel y superficie blanca.",
+        "section": "colors"
+      },
+      {
+        "name": "La Regla de la Pestaña Amarilla",
+        "body": "El amarillo señala lo que se lee o se pulsa primero (cifra de prioridad, cita activa, acción recomendada, acción primaria, foco) y siempre lleva texto índigo. No se usa como relleno decorativo.",
+        "section": "colors"
+      },
+      {
+        "name": "La Regla del Naranja Legible",
+        "body": "El naranja de marca (#eb5e09) solo existe en el sistema a través de su derivado oscuro `insuficiente`, y solo para alertas de evidencia insuficiente, error o descarte.",
+        "section": "colors"
+      },
+      {
+        "name": "La Regla del Rótulo",
+        "body": "Montserrat 900 en mayúsculas es exclusiva de rótulos: nombre de vista, encabezado de bloque o panel, cifras y la acción primaria. Los titulares de noticias y los borradores van siempre en Mulish con su caja original.",
+        "section": "typography"
+      },
+      {
+        "name": "La Regla de la Cifra Tabular",
+        "body": "Todo el cuerpo lleva `tnum` y `lnum`; las cifras se alinean en columna en tablas, pestañas y conteos.",
+        "section": "typography"
+      },
+      {
+        "name": "La Regla de la Escaleta",
+        "body": "Las colecciones de temas son filas numeradas en una lista, leídas de arriba abajo como una pauta. No se presentan como cuadrícula de tarjetas ni con KPIs sueltos.",
+        "section": "layout"
+      },
+      {
+        "name": "La Regla Plana",
+        "body": "Un elemento se separa de su fondo por cambio de tono o por filete, nunca por sombra.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** abrir cada vista con una franja índigo a todo el ancho: nombre de la vista en Montserrat 900 mayúsculas, o el titular del tema en Mulish en la ficha.",
+      "**Do** presentar los temas como rótulos o filas numeradas con la pestaña amarilla de puntaje a la izquierda.",
+      "**Do** mostrar el estado de evidencia siempre con texto + icono + color, y siempre separado de la pestaña de prioridad.",
+      "**Do** poner texto índigo sobre amarillo y texto blanco o sobre-indigo-2 sobre índigo.",
+      "**Do** usar un único radio de 0.25rem y filetes de 1px en color linea para separar.",
+      "**Do** mantener las cifras en numerales tabulares.",
+      "**Do** empaquetar localmente cualquier fuente nueva; la demo funciona sin conexión.",
+      "**Do** rotular la autoría como “Prototipo para TVN Media · hackIAthon”."
+    ],
+    "donts": [
+      "**Don't** usar el logotipo oficial de TVN.",
+      "**Don't** usar sombras, degradados ni elevación para separar elementos.",
+      "**Don't** convertir la escaleta en una cuadrícula de tarjetas con KPIs.",
+      "**Don't** usar el naranja de marca #eb5e09 como color de texto ni para algo que no sea una alerta de evidencia; usar `insuficiente`.",
+      "**Don't** escribir titulares de noticias o borradores en Montserrat o en mayúsculas.",
+      "**Don't** usar el amarillo como fondo decorativo ni con texto blanco.",
+      "**Don't** usar píldoras ni radios mayores de 0.25rem.",
+      "**Don't** cargar fuentes o recursos remotos en tiempo de ejecución."
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+ "paquete": {
+  "abstencion": {
+   "abstiene": false,
+   "motivo": null,
+   "informacion_necesaria": []
+  },
+  "titulo_propuesto": "Sismo de magnitud 5.4 en la frontera Panamá-Costa Rica: reporte pendiente de verificación",
+  "enfoque_interes_publico": "Confirmar con fuentes oficiales si ocurrió el sismo y si dejó daños o afectaciones en la zona fronteriza, antes de emitir cualquier pieza a la audiencia.",
+  "brief": [
+   {
+    "texto": "Según su titular, critica.com.pa reporta un sismo de magnitud 5.4 que sacude la frontera entre Panamá y Costa Rica.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-72b68d5114",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "GDELT detectó la nota el 2026-09-12T06:30:00Z, y se desconoce su fecha de publicación.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "N-72b68d5114",
+      "campo": "fecha"
+     }
+    ]
+   },
+   {
+    "texto": "Solo se dispone del titular de la nota, por lo que no se conoce su contenido, la hora, el epicentro ni posibles daños.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "N-72b68d5114",
+      "campo": "alcance"
+     }
+    ]
+   },
+   {
+    "texto": "El catálogo USGS del paquete cubre solo 2024 y no contiene registro oficial que respalde este sismo, por lo que sigue sin verificarse.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "USGS:sin-coincidencia",
+      "campo": "limitacion"
+     }
+    ]
+   },
+   {
+    "texto": "Existe una sola procedencia, de modo que el evento no cuenta con corroboración independiente.",
+    "tipo": "inferencia",
+    "citas": []
+   }
+  ],
+  "preguntas_investigacion": [
+   "¿Confirman el USGS, el Instituto de Geociencias de la Universidad de Panamá o las autoridades costarricenses un sismo de magnitud 5.4 en esa zona, y con qué hora y epicentro?",
+   "¿Hubo daños, heridos o afectaciones en comunidades fronterizas según Sinaproc o la Comisión Nacional de Emergencias de Costa Rica?",
+   "¿Qué dice el cuerpo de la nota de critica.com.pa y cuándo fue publicada realmente?"
+  ],
+  "verificaciones_pendientes": [
+   "Obtener confirmación en un registro sísmico oficial vigente, porque el catálogo USGS disponible cubre solo 2024.",
+   "Conseguir una segunda procedencia independiente, ya que hay una sola.",
+   "Leer el cuerpo de la nota de critica.com.pa, pues solo se dispone del titular.",
+   "Determinar la fecha de publicación original, que se desconoce."
+  ],
+  "contradicciones": [],
+  "guion": [],
+  "copy_digital": []
+ },
+ "validacion": {
+  "valido": true,
+  "problemas": [],
+  "palabras": {
+   "brief": 92,
+   "guion": 0,
+   "copy_digital": 0
+  }
+ },
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "prompt_version": "paquete-tvn-v2",
+  "clave_cache": "257cadc8e32c7298d2d8c1fa",
+  "desde_cache": false,
+  "generado_en": "2026-10-07T00:05:12.615Z",
+  "latencia_ms": 7821,
+  "tokens": {
+   "entrada": 514,
+   "salida": 990,
+   "cache_lectura": 2206,
+   "cache_escritura": 0
+  },
+  "costo_usd": 0.011369200000000001
+ }
+}
