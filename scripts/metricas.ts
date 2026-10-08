@@ -43,8 +43,15 @@ async function main() {
   );
 
   // 2 · Validez de sustento (revisión humana).
+  // v1 (S-xxx, prompt v4) es la línea base; v2 (S2-xxx, prompt v5) mide la corrección.
+  const VEREDICTOS = ["respaldada", "parcialmente_respaldada", "no_respaldada", "cita_correcta_alcance_insuficiente"];
+  const conteo = (prefijo: string) => {
+    const xs = Object.entries(et.sustento).filter(([id]) => id.startsWith(prefijo)).map(([, x]) => x);
+    return { n: xs.length, ...Object.fromEntries(VEREDICTOS.map((v) => [v, xs.filter((x) => x.valor === v).length])) } as Record<string, number>;
+  };
+  const sustentoV1 = conteo("S-"), sustentoV2 = conteo("S2-");
   const sustento = Object.values(et.sustento);
-  const conteoSustento = Object.fromEntries(["respaldada", "parcialmente_respaldada", "no_respaldada", "cita_correcta_alcance_insuficiente"].map((v) => [v, sustento.filter((x) => x.valor === v).length]));
+  const conteoSustento = sustentoV1;
 
   // 3 · Cobertura de citas (automática, sobre todos los borradores en caché).
   const fichas = await construirFichas();
@@ -95,7 +102,7 @@ async function main() {
       baseline_jaccard: { ...base, fallos: base.fallos },
       limitacion: "Un solo revisor del equipo. La muestra mezcla 80 pares iniciales (concentrados en baja similitud) y 40 añadidos (predichos 'mismo evento' y borde bajo el umbral): las cifras describen esta muestra, no la población completa.",
     },
-    sustento: { n: sustento.length, ...conteoSustento, limitacion: "Revisión por un integrante del equipo; no equivale a validación editorial independiente." },
+    sustento: { v1_prompt_v4: sustentoV1, v2_prompt_v5: sustentoV2, limitacion: "Revisión por un integrante del equipo; no equivale a validación editorial independiente. v1 y v2 son muestras distintas de 30 afirmaciones." },
     cobertura_citas: { con_cita_valida: conCitaValida, factuales: factuales.length },
     validacion_benchmark_desarrollo: Object.fromEntries(["correcta", "corregir", "descartar"].map((v) => [v, bench.filter((b) => et.benchmark[b.id]?.valor === v).length])),
     benchmark_sistema: resultadosBench.length ? {
@@ -116,7 +123,9 @@ async function main() {
   console.log(`\nAGRUPACIÓN (${pares.length} pares; ${resultados.agrupacion.mismo_evento_humano} “mismo evento” según humano)`);
   console.log(`  Embeddings: P=${f(ia.precision)} R=${f(ia.recall)} F1=${f(ia.f1)} (TP ${ia.tp} · FP ${ia.fp} · FN ${ia.fn} · TN ${ia.tn})`);
   console.log(`  Jaccard   : P=${f(base.precision)} R=${f(base.recall)} F1=${f(base.f1)} (TP ${base.tp} · FP ${base.fp} · FN ${base.fn} · TN ${base.tn})`);
-  console.log(`SUSTENTO: respaldadas ${conteoSustento.respaldada}/${sustento.length} (${pct(conteoSustento.respaldada, sustento.length)}) · parciales ${conteoSustento.parcialmente_respaldada} · no respaldadas ${conteoSustento.no_respaldada} · alcance ${conteoSustento.cita_correcta_alcance_insuficiente}`);
+  for (const [nombre, c] of [["v1 (prompt v4)", sustentoV1], ["v2 (prompt v5)", sustentoV2]] as const)
+    console.log(`SUSTENTO ${nombre}: respaldadas ${c.respaldada}/${c.n} (${pct(c.respaldada, c.n)}) · parciales ${c.parcialmente_respaldada} · no respaldadas ${c.no_respaldada} · alcance ${c.cita_correcta_alcance_insuficiente}`);
+  void sustento;
   console.log(`COBERTURA DE CITAS: ${conCitaValida}/${factuales.length} (${pct(conCitaValida, factuales.length)})`);
   if (resultadosBench.length) {
     const b = resultados.benchmark_sistema as { abstencion_correcta: { n: number; d: number }; falsas_abstenciones: { n: number; d: number; casos: string[] }; adversariales_sin_fuga_de_prompt: { n: number; d: number } };

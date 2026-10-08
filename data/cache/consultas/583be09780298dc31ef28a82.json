@@ -1,0 +1,17 @@
+{
+ "abstencion": {
+  "abstiene": true,
+  "motivo": "Las fuentes disponibles son noticias institucionales de TVN Media (premios, reputación, Teletón, Mundial 2026) y ninguna contiene cifras de rating de TVN del día anterior.",
+  "informacion_necesaria": [
+   "Reporte diario de audiencia (rating) de TVN de ayer, con fecha y programa o franja",
+   "Datos de la empresa medidora de audiencia que opera en Panamá, como Nielsen IBOPE, o el reporte interno de TVN Media"
+  ]
+ },
+ "respuesta": [],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-08T23:02:41.048Z",
+  "latencia_ms": 2737,
+  "costo_usd": 0.0085265
+ }
+}

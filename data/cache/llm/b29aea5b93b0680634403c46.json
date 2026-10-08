@@ -1,0 +1,139 @@
+{
+ "paquete": {
+  "abstencion": {
+   "abstiene": false,
+   "motivo": null,
+   "informacion_necesaria": []
+  },
+  "titulo_propuesto": "Exportaciones caen $151.5 millones: el MEF lo atribuye a remanentes de cobre de 2025",
+  "enfoque_interes_publico": "Explicar al público qué hay detrás de la caída de las exportaciones y si el sector agropecuario e industrial sostiene su desempeño, sin dar por probada la explicación oficial hasta contar con una segunda fuente independiente.",
+  "brief": [
+   {
+    "texto": "TVN titula que las exportaciones caen este año $151.5 millones.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "N-ebdbce0f64",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-ebdbce0f64",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "Según el titular de TVN, el Mef atribuye la caída a las exportaciones de remanentes de cobre del 2025.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-ebdbce0f64",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-ebdbce0f64",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "La descripción del RSS indica que, al excluir el efecto de la actividad minera, el comportamiento de las exportaciones agropecuarias e industriales fue positivo.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "N-ebdbce0f64",
+      "campo": "descripcion"
+     }
+    ]
+   },
+   {
+    "texto": "Solo se dispone del titular y la descripción, por lo que no se conocen los detalles del artículo completo.",
+    "tipo": "inferencia",
+    "citas": []
+   },
+   {
+    "texto": "El Banco Mundial reporta que las exportaciones de bienes y servicios de Panamá equivalían a 44.36 % del PIB en 2024.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "BM:PAN:NE.EXP.GNFS.ZS:2024",
+      "campo": "valor"
+     },
+     {
+      "id_evidencia": "BM:PAN:NE.EXP.GNFS.ZS:2024",
+      "campo": "unidad"
+     },
+     {
+      "id_evidencia": "BM:PAN:NE.EXP.GNFS.ZS:2024",
+      "campo": "anio"
+     },
+     {
+      "id_evidencia": "BM:PAN:NE.EXP.GNFS.ZS:2024",
+      "campo": "pais"
+     }
+    ]
+   },
+   {
+    "texto": "Ese dato anual de 2024 no mide la situación actual ni confirma lo reportado por la noticia.",
+    "tipo": "inferencia",
+    "citas": [
+     {
+      "id_evidencia": "BM:PAN:NE.EXP.GNFS.ZS:2024",
+      "campo": "limitacion"
+     }
+    ]
+   },
+   {
+    "texto": "Existe una sola procedencia, por lo que falta una segunda fuente independiente.",
+    "tipo": "inferencia",
+    "citas": []
+   }
+  ],
+  "preguntas_investigacion": [
+   "¿Cuál es el desglose oficial de la caída de $151.5 millones y qué parte corresponde al cobre?",
+   "¿Qué cifras respaldan que las exportaciones agropecuarias e industriales fueron positivas sin el efecto minero?",
+   "¿Qué dicen analistas o gremios exportadores independientes sobre la explicación del Mef?"
+  ],
+  "verificaciones_pendientes": [
+   "Obtener el informe original del Mef y confirmar el período que cubre la cifra de $151.5 millones.",
+   "Conseguir una segunda procedencia independiente que corrobore la caída y su causa.",
+   "Verificar a qué se refiere exactamente el remanente de cobre del 2025.",
+   "Confirmar los datos del sector agropecuario e industrial citados en la descripción."
+  ],
+  "contradicciones": [],
+  "guion": [],
+  "copy_digital": []
+ },
+ "validacion": {
+  "valido": true,
+  "problemas": [
+   {
+    "seccion": "guion",
+    "indice": -1,
+    "texto": "",
+    "severidad": "advertencia",
+    "problema": "guion de 0 palabras: dura menos de 45 s (mín. 110); no se rellena sin evidencia"
+   }
+  ],
+  "palabras": {
+   "brief": 122,
+   "guion": 0,
+   "copy_digital": 0
+  }
+ },
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "prompt_version": "paquete-tvn-v6",
+  "clave_cache": "b29aea5b93b0680634403c46",
+  "desde_cache": false,
+  "generado_en": "2026-10-08T23:01:57.659Z",
+  "latencia_ms": 8274,
+  "tokens": {
+   "entrada": 542,
+   "salida": 1287,
+   "cache_lectura": 2597,
+   "cache_escritura": 0
+  },
+  "costo_usd": 0.014473399999999999
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "abstencion": {
+  "abstiene": false,
+  "motivo": null,
+  "informacion_necesaria": []
+ },
+ "respuesta": [
+  {
+   "texto": "Telemetro publicó el 30 de septiembre de 2026 a las 8:45 a. m. (hora de Panamá) una nota titulada «¿ Cómo está el empleo en Panamá ? Presidente afirma que el desempleo baja y sector privado gana terreno».",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-c532d62722",
+     "campo": "medio"
+    },
+    {
+     "id_evidencia": "N-c532d62722",
+     "campo": "fecha"
+    },
+    {
+     "id_evidencia": "N-c532d62722",
+     "campo": "titulo"
+    }
+   ]
+  },
+  {
+   "texto": "Según ese titular, el presidente afirma que el desempleo baja.",
+   "tipo": "declaracion",
+   "citas": [
+    {
+     "id_evidencia": "N-c532d62722",
+     "campo": "titulo"
+    }
+   ]
+  },
+  {
+   "texto": "El Banco Mundial reporta para 2024 un desempleo de 8.45 % de la fuerza laboral total (estimación OIT).",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "BM:PAN:SL.UEM.TOTL.ZS:2024",
+     "campo": "valor"
+    },
+    {
+     "id_evidencia": "BM:PAN:SL.UEM.TOTL.ZS:2024",
+     "campo": "anio"
+    },
+    {
+     "id_evidencia": "BM:PAN:SL.UEM.TOTL.ZS:2024",
+     "campo": "unidad"
+    }
+   ]
+  },
+  {
+   "texto": "Ese dato es anual de 2024, no una medición actual, y no confirma lo que reporta la noticia.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "BM:PAN:SL.UEM.TOTL.ZS:2024",
+     "campo": "limitacion"
+    }
+   ]
+  },
+  {
+   "texto": "Las fuentes no incluyen una cifra reciente de desempleo que permita verificar la afirmación presidencial.",
+   "tipo": "inferencia",
+   "citas": [
+    {
+     "id_evidencia": "N-c532d62722",
+     "campo": "titulo"
+    },
+    {
+     "id_evidencia": "BM:PAN:SL.UEM.TOTL.ZS:2024",
+     "campo": "limitacion"
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-08T23:02:57.724Z",
+  "latencia_ms": 4834,
+  "costo_usd": 0.010189
+ }
+}

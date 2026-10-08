@@ -25,13 +25,20 @@ export type EventoCola = {
 
 export const MAX_NOTICIAS = 12;
 
+// Fechas y lugares legibles para redacción periodística (revisión humana v2: la fecha ISO y “km NE of” se copiaban tal cual).
+const fmtFecha = new Intl.DateTimeFormat("es-PA", { timeZone: "America/Panama", day: "numeric", month: "long", year: "numeric", hour: "numeric", minute: "2-digit" });
+export const fechaLegible = (iso: string) => `${fmtFecha.format(new Date(iso))} (hora de Panamá)`;
+export const lugarEnEspanol = (lugar: string) => lugar.replace(/\bof\b/g, "de").replace(/\bkm\b/g, "km");
+
 export function evidenciaDeEvento(e: EventoCola): Evidencia {
   const ev: Evidencia = {};
   for (const n of e.noticias.slice(0, MAX_NOTICIAS)) {
     ev[n.id_noticia] = {
       titulo: n.titulo,
       medio: n.medio === "tvn-2.com" ? "TVN (tvn-2.com)" : n.medio,
-      fecha: n.fecha_publicacion ? `publicada ${n.fecha_publicacion}` : `detectada por GDELT ${n.fecha_deteccion} (fecha de publicación desconocida)`,
+      fecha: n.fecha_publicacion
+        ? `publicada el ${fechaLegible(n.fecha_publicacion)}`
+        : `detectada por GDELT el ${n.fecha_deteccion ? fechaLegible(n.fecha_deteccion) : "fecha desconocida"} (fecha de publicación desconocida)`,
       alcance: n.alcance_texto === "titular" ? "solo titular" : "titular y descripción del RSS",
       ...(n.descripcion ? { descripcion: n.descripcion } : {}),
     };
@@ -46,7 +53,7 @@ export function evidenciaDeEvento(e: EventoCola): Evidencia {
     ev["USGS:sin-coincidencia"] = { limitacion: e.sismo.limitacion };
   if (e.sismo)
     for (const s of e.sismo.sismos)
-      ev[`USGS:${s.id}`] = { magnitud: String(s.magnitude), fecha: s.time, lugar: s.place, limitacion: e.sismo.limitacion };
+      ev[`USGS:${s.id}`] = { magnitud: String(s.magnitude), fecha: fechaLegible(s.time), lugar: lugarEnEspanol(s.place), limitacion: e.sismo.limitacion };
   return ev;
 }
 

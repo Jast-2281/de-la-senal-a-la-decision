@@ -1,0 +1,174 @@
+{
+ "paquete": {
+  "abstencion": {
+   "abstiene": false,
+   "motivo": null,
+   "informacion_necesaria": []
+  },
+  "titulo_propuesto": "Sismo en la frontera entre Panamá y Costa Rica: qué se reporta y qué falta confirmar",
+  "enfoque_interes_publico": "Informar a la población de la zona fronteriza sobre un sismo reportado, distinguiendo lo que indica el titular de un medio de lo registrado por el USGS, y verificar la magnitud antes de emitir.",
+  "brief": [
+   {
+    "texto": "Según critica.com.pa, un sismo de magnitud 5.4 sacudió la frontera entre Panamá y Costa Rica.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-72b68d5114",
+      "campo": "medio"
+     },
+     {
+      "id_evidencia": "N-72b68d5114",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "De esa nota solo se dispone del titular.",
+    "tipo": "inferencia",
+    "citas": [
+     {
+      "id_evidencia": "N-72b68d5114",
+      "campo": "alcance"
+     }
+    ]
+   },
+   {
+    "texto": "El USGS registró un sismo de magnitud 4.7 el 11 de septiembre de 2026 a las 8:59 p. m. (hora de Panamá).",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "USGS:us7000tgw1",
+      "campo": "magnitud"
+     },
+     {
+      "id_evidencia": "USGS:us7000tgw1",
+      "campo": "fecha"
+     }
+    ]
+   },
+   {
+    "texto": "El USGS ubicó ese sismo a 0 km NE de Manaca Civil, Panama.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "USGS:us7000tgw1",
+      "campo": "lugar"
+     }
+    ]
+   },
+   {
+    "texto": "El USGS registró un sismo de magnitud 5 el 10 de septiembre de 2026 a las 3:26 a. m. (hora de Panamá), a 44 km SSE de Quepos, Costa Rica.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "USGS:us7000tg98",
+      "campo": "magnitud"
+     },
+     {
+      "id_evidencia": "USGS:us7000tg98",
+      "campo": "fecha"
+     },
+     {
+      "id_evidencia": "USGS:us7000tg98",
+      "campo": "lugar"
+     }
+    ]
+   },
+   {
+    "texto": "No consta que ninguno de los registros del USGS corresponda al sismo de magnitud 5.4 del titular.",
+    "tipo": "inferencia",
+    "citas": [
+     {
+      "id_evidencia": "N-72b68d5114",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "USGS:us7000tgw1",
+      "campo": "magnitud"
+     }
+    ]
+   }
+  ],
+  "preguntas_investigacion": [
+   "¿Cuál es la magnitud, hora y epicentro oficiales del sismo citado por critica.com.pa?",
+   "¿Hubo daños, heridos o afectaciones según las autoridades de Panamá y Costa Rica?",
+   "¿Corresponde el sismo del titular a alguno de los registros del USGS o es otro evento?"
+  ],
+  "verificaciones_pendientes": [
+   "Leer la nota completa de critica.com.pa, de la que solo se tiene el titular.",
+   "Confirmar la fecha de publicación de la nota, que es desconocida.",
+   "Obtener una segunda procedencia independiente.",
+   "Aclarar la diferencia entre la magnitud 5.4 del titular y las magnitudes del USGS.",
+   "Recordar que los registros del USGS provienen de una caja regional y no equivalen al territorio de Panamá."
+  ],
+  "contradicciones": [
+   {
+    "descripcion": "La magnitud del titular (5.4) no coincide con las magnitudes del USGS para sismos cercanos en fechas próximas.",
+    "versiones": [
+     {
+      "texto": "Según critica.com.pa, el sismo fue de magnitud 5.4.",
+      "tipo": "declaracion",
+      "citas": [
+       {
+        "id_evidencia": "N-72b68d5114",
+        "campo": "titulo"
+       },
+       {
+        "id_evidencia": "N-72b68d5114",
+        "campo": "medio"
+       }
+      ]
+     },
+     {
+      "texto": "El USGS registró un sismo de magnitud 4.7 cerca de Manaca Civil.",
+      "tipo": "hecho",
+      "citas": [
+       {
+        "id_evidencia": "USGS:us7000tgw1",
+        "campo": "magnitud"
+       },
+       {
+        "id_evidencia": "USGS:us7000tgw1",
+        "campo": "lugar"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "guion": [],
+  "copy_digital": []
+ },
+ "validacion": {
+  "valido": true,
+  "problemas": [
+   {
+    "seccion": "guion",
+    "indice": -1,
+    "texto": "",
+    "severidad": "advertencia",
+    "problema": "guion de 0 palabras: dura menos de 45 s (mín. 110); no se rellena sin evidencia"
+   }
+  ],
+  "palabras": {
+   "brief": 105,
+   "guion": 0,
+   "copy_digital": 0
+  }
+ },
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "prompt_version": "paquete-tvn-v6",
+  "clave_cache": "a32a87b0ade9121bd361b172",
+  "desde_cache": false,
+  "generado_en": "2026-10-08T23:02:35.564Z",
+  "latencia_ms": 10713,
+  "tokens": {
+   "entrada": 841,
+   "salida": 1494,
+   "cache_lectura": 2597,
+   "cache_escritura": 0
+  },
+  "costo_usd": 0.0171414
+ }
+}

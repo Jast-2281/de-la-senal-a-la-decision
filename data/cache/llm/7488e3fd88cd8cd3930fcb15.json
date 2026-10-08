@@ -1,0 +1,170 @@
+{
+ "paquete": {
+  "abstencion": {
+   "abstiene": false,
+   "motivo": null,
+   "informacion_necesaria": []
+  },
+  "titulo_propuesto": "Acodeco: quejas por beneficios a jubilados e inmobiliarias, pendientes de verificar",
+  "enfoque_interes_publico": "Los consumidores, en particular jubilados, personas con discapacidad y compradores de vivienda, necesitan saber cuántas quejas recibe Acodeco y si se resuelven; hoy solo hay dos titulares de una misma procedencia y ningún dato oficial.",
+  "brief": [
+   {
+    "texto": "TVN titula que Acodeco recibe 375 quejas por incumplimiento de beneficios para jubilados y personas con discapacidad.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "N-410bc2416f",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-410bc2416f",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "Según la descripción de TVN, entre enero y agosto de 2026 hubo 324 quejas relacionadas con la Ley 6 y otras 51 vinculadas a la Ley 134.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-410bc2416f",
+      "campo": "descripcion"
+     },
+     {
+      "id_evidencia": "N-410bc2416f",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "La misma descripción añade que se impusieron 34 sanciones en primera instancia.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "N-410bc2416f",
+      "campo": "descripcion"
+     }
+    ]
+   },
+   {
+    "texto": "TVN también titula que Acodeco registra 280 quejas contra inmobiliarias por más de $13.2 millones.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "N-ba49afd7fb",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-ba49afd7fb",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "Según la descripción de TVN, la devolución de dinero acumuló la mayor cantidad de quejas, con 146 casos y un monto reclamado de 3,053,897.06 de dólares.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-ba49afd7fb",
+      "campo": "descripcion"
+     },
+     {
+      "id_evidencia": "N-ba49afd7fb",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "Ambos textos provienen de TVN, por lo que cuentan como una sola procedencia.",
+    "tipo": "inferencia",
+    "citas": [
+     {
+      "id_evidencia": "N-410bc2416f",
+      "campo": "medio"
+     },
+     {
+      "id_evidencia": "N-ba49afd7fb",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "Solo se dispone de titulares y descripciones, sin el texto completo ni datos oficiales.",
+    "tipo": "inferencia",
+    "citas": []
+   }
+  ],
+  "preguntas_investigacion": [
+   "¿Las 375 quejas y las 280 quejas corresponden al mismo periodo y al mismo universo de casos, o son conjuntos distintos?",
+   "¿Qué informe oficial de Acodeco respalda las cifras de quejas, sanciones y montos reclamados?",
+   "¿Cuántas de las quejas se resolvieron y cuántas sanciones quedaron firmes tras la primera instancia?"
+  ],
+  "verificaciones_pendientes": [
+   "Confirmar con Acodeco las cifras de 375 y 280 quejas y si se refieren al mismo hecho.",
+   "Conseguir una segunda procedencia independiente y un dato oficial.",
+   "Leer los artículos completos, pues solo se dispone del titular y la descripción del RSS.",
+   "Verificar el periodo de las quejas contra inmobiliarias, que no aparece en la descripción."
+  ],
+  "contradicciones": [
+   {
+    "descripcion": "Dos titulares de TVN dan cifras distintas de quejas ante Acodeco, y no se sabe si se refieren al mismo hecho.",
+    "versiones": [
+     {
+      "texto": "TVN titula 375 quejas por incumplimiento de beneficios para jubilados y personas con discapacidad.",
+      "tipo": "hecho",
+      "citas": [
+       {
+        "id_evidencia": "N-410bc2416f",
+        "campo": "titulo"
+       },
+       {
+        "id_evidencia": "N-410bc2416f",
+        "campo": "medio"
+       }
+      ]
+     },
+     {
+      "texto": "TVN titula 280 quejas contra inmobiliarias.",
+      "tipo": "hecho",
+      "citas": [
+       {
+        "id_evidencia": "N-ba49afd7fb",
+        "campo": "titulo"
+       },
+       {
+        "id_evidencia": "N-ba49afd7fb",
+        "campo": "medio"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "guion": [],
+  "copy_digital": []
+ },
+ "validacion": {
+  "valido": true,
+  "problemas": [],
+  "palabras": {
+   "brief": 124,
+   "guion": 0,
+   "copy_digital": 0
+  }
+ },
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "prompt_version": "paquete-tvn-v6",
+  "clave_cache": "7488e3fd88cd8cd3930fcb15",
+  "desde_cache": false,
+  "generado_en": "2026-10-08T23:02:16.899Z",
+  "latencia_ms": 9361,
+  "tokens": {
+   "entrada": 797,
+   "salida": 1581,
+   "cache_lectura": 2597,
+   "cache_escritura": 0
+  },
+  "costo_usd": 0.017923400000000003
+ }
+}

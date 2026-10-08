@@ -1,0 +1,145 @@
+{
+ "paquete": {
+  "abstencion": {
+   "abstiene": false,
+   "motivo": null,
+   "informacion_necesaria": []
+  },
+  "titulo_propuesto": "Empleo en Panamá: el presidente afirma que el desempleo baja",
+  "enfoque_interes_publico": "Contrastar la afirmación presidencial sobre el desempleo y el avance del sector privado con datos oficiales verificables, ya que hoy solo se dispone de un titular.",
+  "brief": [
+   {
+    "texto": "Telemetro titula que el presidente afirma que el desempleo baja y que el sector privado gana terreno.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-c532d62722",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-c532d62722",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "El sistema detectó esa nota el 30 de septiembre de 2026 a las 8:45 a. m., hora de Panamá.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "N-c532d62722",
+      "campo": "fecha"
+     }
+    ]
+   },
+   {
+    "texto": "Solo se dispone del titular, por lo que no se conoce el contenido de la nota.",
+    "tipo": "inferencia",
+    "citas": [
+     {
+      "id_evidencia": "N-c532d62722",
+      "campo": "alcance"
+     }
+    ]
+   },
+   {
+    "texto": "El Banco Mundial estima el desempleo de Panamá en 8.45 en 2024.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "BM:PAN:SL.UEM.TOTL.ZS:2024",
+      "campo": "valor"
+     },
+     {
+      "id_evidencia": "BM:PAN:SL.UEM.TOTL.ZS:2024",
+      "campo": "anio"
+     },
+     {
+      "id_evidencia": "BM:PAN:SL.UEM.TOTL.ZS:2024",
+      "campo": "pais"
+     }
+    ]
+   },
+   {
+    "texto": "La unidad de esa cifra es el porcentaje de la fuerza laboral total, según estimación de la OIT.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "BM:PAN:SL.UEM.TOTL.ZS:2024",
+      "campo": "unidad"
+     }
+    ]
+   },
+   {
+    "texto": "Es un dato anual de 2024 que no mide la situación actual ni confirma lo dicho por el presidente.",
+    "tipo": "inferencia",
+    "citas": [
+     {
+      "id_evidencia": "BM:PAN:SL.UEM.TOTL.ZS:2024",
+      "campo": "limitacion"
+     },
+     {
+      "id_evidencia": "BM:PAN:SL.UEM.TOTL.ZS:2024",
+      "campo": "anio"
+     }
+    ]
+   },
+   {
+    "texto": "Existe una sola procedencia periodística, por lo que falta corroboración independiente.",
+    "tipo": "inferencia",
+    "citas": [
+     {
+      "id_evidencia": "N-c532d62722",
+      "campo": "medio"
+     }
+    ]
+   }
+  ],
+  "preguntas_investigacion": [
+   "¿Qué cifras de desempleo y empleo privado presentó el presidente y de qué fuente oficial provienen?",
+   "¿Cómo se compara la cifra citada con las mediciones más recientes del Instituto Nacional de Estadística y Censo?",
+   "¿Qué opinan economistas o sindicatos sobre la calidad del empleo y la informalidad?"
+  ],
+  "verificaciones_pendientes": [
+   "Leer la nota completa de Telemetro para confirmar lo que dijo el presidente.",
+   "Obtener una segunda procedencia independiente.",
+   "Confirmar la fecha real de publicación, que es desconocida.",
+   "Buscar datos de desempleo más recientes que el de 2024 del Banco Mundial."
+  ],
+  "contradicciones": [],
+  "guion": [],
+  "copy_digital": []
+ },
+ "validacion": {
+  "valido": true,
+  "problemas": [
+   {
+    "seccion": "guion",
+    "indice": -1,
+    "texto": "",
+    "severidad": "advertencia",
+    "problema": "guion de 0 palabras: dura menos de 45 s (mín. 110); no se rellena sin evidencia"
+   }
+  ],
+  "palabras": {
+   "brief": 112,
+   "guion": 0,
+   "copy_digital": 0
+  }
+ },
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "prompt_version": "paquete-tvn-v6",
+  "clave_cache": "1b6d2696dc79486a6671a019",
+  "desde_cache": false,
+  "generado_en": "2026-10-08T23:01:43.796Z",
+  "latencia_ms": 7473,
+  "tokens": {
+   "entrada": 547,
+   "salida": 1229,
+   "cache_lectura": 2597,
+   "cache_escritura": 0
+  },
+  "costo_usd": 0.0139034
+ }
+}

@@ -1,0 +1,226 @@
+{
+ "paquete": {
+  "abstencion": {
+   "abstiene": false,
+   "motivo": null,
+   "informacion_necesaria": []
+  },
+  "titulo_propuesto": "Teleférico de San Miguelito: firman contrato y falta el refrendo de la Contraloría",
+  "enfoque_interes_publico": "Seguimiento a un proyecto de transporte público: qué se firmó, qué trámite sigue y qué datos oficiales faltan para informar a la ciudadanía.",
+  "brief": [
+   {
+    "texto": "TVN titula que Metro de Panamá firma contrato para la construcción del Teleférico de San Miguelito.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "N-7fa9a78028",
+      "campo": "medio"
+     },
+     {
+      "id_evidencia": "N-7fa9a78028",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Panamá América titula que Metro de Panamá y Doppelmayr firman el contrato para la construcción del Teleférico de San Miguelito.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "N-e4a8ba965d",
+      "campo": "medio"
+     },
+     {
+      "id_evidencia": "N-e4a8ba965d",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "La Estrella de Panamá titula que Metro de Panamá y Doppelmayr firman contrato para construir el Teleférico de Panamá y San Miguelito.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "N-cbb8a6d322",
+      "campo": "medio"
+     },
+     {
+      "id_evidencia": "N-cbb8a6d322",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Crítica titula que el Teleférico de Panamá y San Miguelito entra en nueva etapa.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "N-4da46e2d80",
+      "campo": "medio"
+     },
+     {
+      "id_evidencia": "N-4da46e2d80",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Según la descripción del RSS de TVN, el próximo paso será la revisión del contrato por parte de la Contraloría y su eventual refrendo.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-7fa9a78028",
+      "campo": "descripcion"
+     },
+     {
+      "id_evidencia": "N-7fa9a78028",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "Solo se dispone de titulares y de una descripción del RSS, por lo que no se conocen los detalles del contrato.",
+    "tipo": "inferencia",
+    "citas": []
+   },
+   {
+    "texto": "Varios titulares son casi idénticos y podrían provenir de un mismo origen, por lo que no deben tratarse como corroboración independiente.",
+    "tipo": "inferencia",
+    "citas": []
+   }
+  ],
+  "preguntas_investigacion": [
+   "¿Cuáles son el monto, el plazo y las condiciones del contrato firmado con Doppelmayr?",
+   "¿Cuándo y con qué resultado revisará la Contraloría el contrato para su refrendo?",
+   "¿Existe un comunicado o documento oficial de Metro de Panamá que confirme la firma y sus términos?"
+  ],
+  "verificaciones_pendientes": [
+   "Confirmar con Metro de Panamá la firma del contrato y obtener el documento o comunicado oficial.",
+   "Determinar si los tres pares de titulares casi idénticos provienen de un mismo origen o agencia.",
+   "Verificar la fecha real de publicación de las notas de La Estrella, Crítica y Panamá América, pues solo consta su detección por GDELT.",
+   "Consultar a la Contraloría sobre el estado y calendario del refrendo."
+  ],
+  "contradicciones": [],
+  "guion": [
+   {
+    "texto": "Metro de Panamá firmó el contrato para construir el Teleférico de San Miguelito, según informó TVN.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-7fa9a78028",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-7fa9a78028",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "Panamá América titula que la firma fue con la empresa Doppelmayr.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-e4a8ba965d",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-e4a8ba965d",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "Según la descripción de TVN, el próximo paso será la revisión del contrato por parte de la Contraloría.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-7fa9a78028",
+      "campo": "descripcion"
+     },
+     {
+      "id_evidencia": "N-7fa9a78028",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "Esa descripción añade que el refrendo es un requisito necesario para continuar con la ejecución del proyecto.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-7fa9a78028",
+      "campo": "descripcion"
+     }
+    ]
+   },
+   {
+    "texto": "Por ahora no hay datos oficiales enlazados sobre los términos del contrato.",
+    "tipo": "inferencia",
+    "citas": []
+   }
+  ],
+  "copy_digital": [
+   {
+    "texto": "Metro de Panamá firmó el contrato del Teleférico de San Miguelito, según TVN.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-7fa9a78028",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-7fa9a78028",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "Falta la revisión y el refrendo de la Contraloría, según la descripción de TVN.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-7fa9a78028",
+      "campo": "descripcion"
+     },
+     {
+      "id_evidencia": "N-7fa9a78028",
+      "campo": "medio"
+     }
+    ]
+   }
+  ]
+ },
+ "validacion": {
+  "valido": true,
+  "problemas": [
+   {
+    "seccion": "guion",
+    "indice": -1,
+    "texto": "",
+    "severidad": "advertencia",
+    "problema": "guion de 74 palabras: dura menos de 45 s (mín. 110); no se rellena sin evidencia"
+   }
+  ],
+  "palabras": {
+   "brief": 138,
+   "guion": 74,
+   "copy_digital": 27
+  }
+ },
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "prompt_version": "paquete-tvn-v6",
+  "clave_cache": "0f2918f5635ee0a49436b21c",
+  "desde_cache": false,
+  "generado_en": "2026-10-08T23:01:36.320Z",
+  "latencia_ms": 11100,
+  "tokens": {
+   "entrada": 917,
+   "salida": 1952,
+   "cache_lectura": 2597,
+   "cache_escritura": 0
+  },
+  "costo_usd": 0.0218734
+ }
+}

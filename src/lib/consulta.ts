@@ -12,9 +12,10 @@ import { type Indicador, type Sismo, enlazarIndicadores, enlazarSismos } from ".
 import { tokens } from "./organizar";
 import { sha256, type Noticia } from "./ingest";
 import { MODELO_LLM } from "./generar";
+import { fechaLegible, lugarEnEspanol } from "./evidencia";
 import { type Afirmacion, type Evidencia, validarAfirmaciones } from "./validar";
 
-export const CONSULTA_PROMPT_VERSION = "consulta-v3"; // v3: medio/unidad citados; sismos USGS como evidencia
+export const CONSULTA_PROMPT_VERSION = "consulta-v4"; // v3: medio/unidad citados; sismos USGS como evidencia
 /** Coseno mínimo (e5-small) para considerar una noticia pertinente. Calibrado con consultas de prueba; ver docs. */
 export const UMBRAL_RELEVANCIA = 0.82; // fuera de tema ≈0,79; temas reales ≥0,86 (n=6, exploratorio)
 const DIR = join(process.cwd(), "data", "processed");
@@ -104,6 +105,7 @@ const SISTEMA = `Respondes consultas de la mesa editorial de TVN Media usando EX
 - Si mencionas una fecha, cita el campo "fecha" de esa evidencia (además del campo de donde sale el hecho). Si nombras el medio, cita su campo "medio"; si das una unidad, cita "unidad". Cada dato de la frase debe estar en algún campo citado.
 - Si hay registros USGS, contrasta la magnitud del titular con la oficial y señala las diferencias.
 - Si las fuentes dan versiones incompatibles, preséntalas todas con sus citas y no escojas una.
+- Una sola idea por oración. Escribe fechas en lenguaje natural, tal como aparecen en la evidencia.
 - Respuesta breve: máximo 5 oraciones. Solo titulares/descripciones: no describas el cuerpo de los artículos.`;
 
 export type ResultadoConsulta = {
@@ -140,7 +142,7 @@ export async function consultar(pregunta: string, opciones: { permitirLLM?: bool
   const evidencia: Evidencia = {};
   for (const r of pertinentes)
     evidencia[r.id] = {
-      titulo: r.titulo, medio: r.medio, fecha: r.fecha ?? "sin fecha",
+      titulo: r.titulo, medio: r.medio, fecha: r.fecha ? fechaLegible(r.fecha) : "sin fecha",
       ...(r.descripcion ? { descripcion: r.descripcion } : {}),
     };
   for (const i of enlazarIndicadores([pregunta, ...pertinentes.map((r) => r.titulo)], c.indicadores))
@@ -148,7 +150,7 @@ export async function consultar(pregunta: string, opciones: { permitirLLM?: bool
   // Sismos oficiales (USGS) cercanos a la fecha de las noticias pertinentes, con su limitación explícita.
   const sismo = enlazarSismos(pertinentes.map((r) => r.titulo), pertinentes[0]?.fecha ?? null, c.sismos);
   if (sismo && !sismo.sismos.length) evidencia["USGS:sin-coincidencia"] = { limitacion: sismo.limitacion };
-  if (sismo) for (const x of sismo.sismos) evidencia[`USGS:${x.id}`] = { magnitud: String(x.magnitude), fecha: x.time, lugar: x.place, limitacion: sismo.limitacion };
+  if (sismo) for (const x of sismo.sismos) evidencia[`USGS:${x.id}`] = { magnitud: String(x.magnitude), fecha: fechaLegible(x.time), lugar: lugarEnEspanol(x.place), limitacion: sismo.limitacion };
 
   const fuentes = Object.entries(evidencia)
     .map(([id, campos]) => `<evidencia id="${id}">\n${Object.entries(campos).map(([k, v]) => `  ${k}: ${v.replace(/<\/?\s*fuentes\s*>/gi, "[etiqueta eliminada]")}`).join("\n")}\n</evidencia>`)

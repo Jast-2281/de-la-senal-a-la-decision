@@ -1143,6 +1143,186 @@
    "nota": "",
    "revisor": "Julian Andrew",
    "fecha": "2026-10-08T22:29:23.055Z"
+  },
+  "S2-001": {
+   "valor": "parcialmente_respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:44:04.330Z"
+  },
+  "S2-002": {
+   "valor": "parcialmente_respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:44:38.195Z"
+  },
+  "S2-003": {
+   "valor": "parcialmente_respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:45:10.161Z"
+  },
+  "S2-004": {
+   "valor": "parcialmente_respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:45:17.484Z"
+  },
+  "S2-005": {
+   "valor": "respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:45:29.256Z"
+  },
+  "S2-006": {
+   "valor": "respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:45:52.248Z"
+  },
+  "S2-007": {
+   "valor": "respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:46:08.457Z"
+  },
+  "S2-008": {
+   "valor": "respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:46:47.406Z"
+  },
+  "S2-009": {
+   "valor": "respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:47:12.190Z"
+  },
+  "S2-010": {
+   "valor": "respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:47:29.469Z"
+  },
+  "S2-011": {
+   "valor": "parcialmente_respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:47:35.064Z"
+  },
+  "S2-012": {
+   "valor": "parcialmente_respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:48:22.464Z"
+  },
+  "S2-013": {
+   "valor": "respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:50:19.654Z"
+  },
+  "S2-014": {
+   "valor": "respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:51:30.210Z"
+  },
+  "S2-015": {
+   "valor": "respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:52:45.800Z"
+  },
+  "S2-016": {
+   "valor": "respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:52:57.301Z"
+  },
+  "S2-017": {
+   "valor": "parcialmente_respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:53:12.733Z"
+  },
+  "S2-018": {
+   "valor": "parcialmente_respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:53:29.663Z"
+  },
+  "S2-019": {
+   "valor": "parcialmente_respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:53:44.985Z"
+  },
+  "S2-020": {
+   "valor": "respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:54:08.141Z"
+  },
+  "S2-021": {
+   "valor": "respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:54:19.603Z"
+  },
+  "S2-022": {
+   "valor": "parcialmente_respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:54:49.546Z"
+  },
+  "S2-023": {
+   "valor": "respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:55:03.606Z"
+  },
+  "S2-024": {
+   "valor": "respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:57:01.970Z"
+  },
+  "S2-025": {
+   "valor": "respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:57:08.800Z"
+  },
+  "S2-026": {
+   "valor": "respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:57:20.819Z"
+  },
+  "S2-027": {
+   "valor": "respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:57:27.303Z"
+  },
+  "S2-028": {
+   "valor": "respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:57:41.575Z"
+  },
+  "S2-030": {
+   "valor": "parcialmente_respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:59:21.261Z"
+  },
+  "S2-029": {
+   "valor": "parcialmente_respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:59:29.461Z"
   }
  }
 }

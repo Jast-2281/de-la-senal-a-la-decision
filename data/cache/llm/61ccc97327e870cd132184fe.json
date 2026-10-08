@@ -1,0 +1,162 @@
+{
+ "paquete": {
+  "abstencion": {
+   "abstiene": false,
+   "motivo": null,
+   "informacion_necesaria": []
+  },
+  "titulo_propuesto": "Exportaciones panameñas: pesca y servicios en los titulares",
+  "enfoque_interes_publico": "Aclarar qué se reporta sobre el peso del sector pesquero y de los servicios en las exportaciones de Panamá, y qué falta verificar antes de emitir.",
+  "brief": [
+   {
+    "texto": "La Estrella de Panamá titula que el sector pesquero panameño se consolida como el principal motor de exportación.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-1cbd644225",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-1cbd644225",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "Panamá América titula que el sector pesquero de Panamá crece un 5 . 6 % y genera $158 . 5 millones.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-5ac056fa29",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-5ac056fa29",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "La Estrella de Panamá también titula que Panamá lidera exportaciones de servicios de Centroamérica.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-e167994445",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-e167994445",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "El Banco Mundial registra exportaciones de bienes y servicios de 44.36 % del PIB en 2024.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "BM:PAN:NE.EXP.GNFS.ZS:2024",
+      "campo": "valor"
+     },
+     {
+      "id_evidencia": "BM:PAN:NE.EXP.GNFS.ZS:2024",
+      "campo": "unidad"
+     },
+     {
+      "id_evidencia": "BM:PAN:NE.EXP.GNFS.ZS:2024",
+      "campo": "anio"
+     }
+    ]
+   },
+   {
+    "texto": "Los dos titulares de La Estrella cuentan como una sola procedencia.",
+    "tipo": "inferencia",
+    "citas": []
+   },
+   {
+    "texto": "Solo se dispone de titulares y metadatos, sin el cuerpo de las notas.",
+    "tipo": "inferencia",
+    "citas": []
+   }
+  ],
+  "preguntas_investigacion": [
+   "¿Qué fuente oficial respalda que la pesca es el principal motor de exportación?",
+   "¿A qué periodo y base de comparación corresponde el crecimiento de 5 . 6 % y los $158 . 5 millones?",
+   "¿Cómo se concilian los titulares sobre pesca y sobre servicios como líderes de exportación?"
+  ],
+  "verificaciones_pendientes": [
+   "Leer el cuerpo de las tres notas, pues solo se tienen titulares.",
+   "Confirmar las fechas de publicación, que son desconocidas.",
+   "Comprobar que el dato anual del Banco Mundial de 2024 no confirma lo que reportan las noticias."
+  ],
+  "contradicciones": [
+   {
+    "descripcion": "Los titulares atribuyen el liderazgo exportador a sectores distintos: pesca y servicios.",
+    "versiones": [
+     {
+      "texto": "La Estrella titula que la pesca es el principal motor de exportación.",
+      "tipo": "declaracion",
+      "citas": [
+       {
+        "id_evidencia": "N-1cbd644225",
+        "campo": "titulo"
+       },
+       {
+        "id_evidencia": "N-1cbd644225",
+        "campo": "medio"
+       }
+      ]
+     },
+     {
+      "texto": "La Estrella titula que Panamá lidera exportaciones de servicios de Centroamérica.",
+      "tipo": "declaracion",
+      "citas": [
+       {
+        "id_evidencia": "N-e167994445",
+        "campo": "titulo"
+       },
+       {
+        "id_evidencia": "N-e167994445",
+        "campo": "medio"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "guion": [],
+  "copy_digital": []
+ },
+ "validacion": {
+  "valido": true,
+  "problemas": [
+   {
+    "seccion": "guion",
+    "indice": -1,
+    "texto": "",
+    "severidad": "advertencia",
+    "problema": "guion de 0 palabras: dura menos de 45 s (mín. 110); no se rellena sin evidencia"
+   }
+  ],
+  "palabras": {
+   "brief": 93,
+   "guion": 0,
+   "copy_digital": 0
+  }
+ },
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "prompt_version": "paquete-tvn-v6",
+  "clave_cache": "61ccc97327e870cd132184fe",
+  "desde_cache": false,
+  "generado_en": "2026-10-08T23:02:24.847Z",
+  "latencia_ms": 7943,
+  "tokens": {
+   "entrada": 816,
+   "salida": 1312,
+   "cache_lectura": 2597,
+   "cache_escritura": 0
+  },
+  "costo_usd": 0.0152714
+ }
+}

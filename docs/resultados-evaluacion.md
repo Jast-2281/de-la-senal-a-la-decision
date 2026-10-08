@@ -16,13 +16,14 @@
 - **Cuándo no ayuda:** la IA **agrupa de más** (11 falsos positivos), por ejemplo noticias distintas sobre un mismo actor (“First Quantum negocia” frente a “recomiendan apertura”). Por eso la procedencia se cuenta de forma conservadora y la ficha muestra cada titular para que la persona revise.
 - **Limitación:** la muestra mezcla 80 pares iniciales (concentrados en baja similitud; **error de diseño corregido** al detectarlo, ver abajo) y 40 añadidos (30 predichos “mismo evento” por IA o baseline, y 10 justo bajo el umbral). Las cifras describen esta muestra, no la población.
 
-## 2. Validez de sustento (revisión humana de 30 afirmaciones factuales)
-| Veredicto | n |
-|---|---|
-| Respaldada | **16/30 (53,3 %)** |
-| Parcialmente respaldada | 14/30 |
-| No respaldada | **0/30** |
-| Cita correcta, alcance insuficiente | 0/30 |
+## 2. Validez de sustento (revisión humana; dos rondas de 30 afirmaciones)
+| Ronda | Respaldada | Parcial | **No respaldada** | Alcance insuficiente |
+|---|---|---|---|---|
+| v1 (prompt v4, línea base) | **16/30 (53,3 %)** | 14 | **0** | 0 |
+| v2 (prompt v5: citar medio y unidad; redondeo) | **18/30 (60,0 %)** | 12 | **0** | 0 |
+
+- **Patrón en las 12 parciales de v2:** 4 por fechas en formato técnico (ISO) y lugares de USGS en inglés, señalados por el revisor; el resto por frases que **mezclan un hecho con un comentario** o por comentarios sobre los límites marcados como “hecho”.
+- **Corrección aplicada (prompt v6, 2026-10-08):** fechas en lenguaje natural con hora de Panamá, lugares en español, una idea por oración y los límites como “inferencia”. **No se volvió a medir con revisión humana**: el efecto de v6 sobre la validez de sustento queda **sin medir**.
 
 - **Ninguna afirmación inventada:** 0 de 30 sin respaldo.
 - **Meta ≥ 90 % de respaldo pleno: NO alcanzada (53,3 %).** Patrón observado en las 14 parciales: la frase incluye un dato que está en **otro campo** del registro citado y no en el campo citado. Por ejemplo, el nombre del medio cuando solo se cita `titulo`, o la unidad “% del PIB” cuando solo se citan `valor` y `anio`. También hay valores del Banco Mundial con 13 decimales.
@@ -52,7 +53,9 @@ T07 (inyección por fuente sintética): 2/2 casos aprobados (`data/eval/t07-inye
 |---|---|---|---|
 | 1 | Evidencia mal asignada en B-004, B-010, B-030 y B-039 | Validación humana | IDs corregidos (commit `c9e480a`) |
 | 2 | Muestra de pares sin casos “mismo evento”: F1 incalculable | Etiquetado humano: 80/80 “distinto” | 40 pares dirigidos añadidos (commit `86ea1a9`) |
-| 3 | La página del benchmark mostraba solo el titular, sin la descripción | Corrección humana de B-037 | Pendiente: mostrar la descripción y revisar de nuevo B-037 |
-| 4 | Respaldo pleno de 53 %: medio y unidad sin citar | Revisión humana de sustento | Pendiente: prompt v5 + redondeo + nueva medición |
-| 5 | La consulta no usa los datos de USGS | Lectura de B-034 | Pendiente: enlazar sismos en la evidencia de las consultas |
+| 3 | La página del benchmark mostraba solo el titular, sin la descripción | Corrección humana de B-037 | La página ya muestra la descripción. La salida del sistema para B-037 (“solicitó $180 M; el MEF recomendó $160 M; sin aprobación final”) confirma la respuesta esperada original |
+| 4 | Respaldo pleno de 53 %: medio y unidad sin citar | Revisión humana de sustento (v1) | Prompt v5 → **60 %** en v2 (commit `6332c4f`) |
+| 5 | La consulta no usa los datos de USGS | Lectura de B-034 | Sismos USGS en la evidencia: ahora contrasta 5,4 (titular) con 4,7/5,0 (USGS) sin confirmar cuál corresponde |
+| 7 | Fechas ISO y lugares en inglés en los borradores | Revisión humana (v2) | Prompt v6 + fechas legibles en hora de Panamá |
+| 8 | El validador no entiende negaciones (“no muestra 5,4”) | Consulta del sismo | **Limitación declarada**: preferimos un validador estricto; el caso queda señalado para revisión humana |
 | 6 | “Cifras incompatibles” cuando eran hechos distintos | Verificación del benchmark | Redacción “cifras distintas” (commit `084475a`) |

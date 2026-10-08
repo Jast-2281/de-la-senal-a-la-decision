@@ -1,5 +1,5 @@
 {
- "fecha": "2026-10-08T22:33:27.906Z",
+ "fecha": "2026-10-08T23:00:26.571Z",
  "revisor": [
   "Julian Andrew"
  ],
@@ -252,16 +252,25 @@
   "limitacion": "Un solo revisor del equipo. La muestra mezcla 80 pares iniciales (concentrados en baja similitud) y 40 añadidos (predichos 'mismo evento' y borde bajo el umbral): las cifras describen esta muestra, no la población completa."
  },
  "sustento": {
-  "n": 30,
-  "respaldada": 16,
-  "parcialmente_respaldada": 14,
-  "no_respaldada": 0,
-  "cita_correcta_alcance_insuficiente": 0,
-  "limitacion": "Revisión por un integrante del equipo; no equivale a validación editorial independiente."
+  "v1_prompt_v4": {
+   "n": 30,
+   "respaldada": 16,
+   "parcialmente_respaldada": 14,
+   "no_respaldada": 0,
+   "cita_correcta_alcance_insuficiente": 0
+  },
+  "v2_prompt_v5": {
+   "n": 30,
+   "respaldada": 18,
+   "parcialmente_respaldada": 12,
+   "no_respaldada": 0,
+   "cita_correcta_alcance_insuficiente": 0
+  },
+  "limitacion": "Revisión por un integrante del equipo; no equivale a validación editorial independiente. v1 y v2 son muestras distintas de 30 afirmaciones."
  },
  "cobertura_citas": {
-  "con_cita_valida": 65,
-  "factuales": 66
+  "con_cita_valida": 54,
+  "factuales": 54
  },
  "validacion_benchmark_desarrollo": {
   "correcta": 39,
@@ -285,15 +294,15 @@
   "nota": "Los adversariales y las contradicciones requieren lectura humana de las salidas guardadas en data/eval/benchmark-resultados.jsonl."
  },
  "eficiencia_borradores": {
-  "n": 39,
+  "n": 48,
   "mediana_s": 9.938,
   "p95_s": 14.262,
   "atipicos_s": [
    634.502
   ],
-  "mediana_con_atipicos_s": 10.076,
+  "mediana_con_atipicos_s": 9.938,
   "p95_con_atipicos_s": 14.315,
-  "costo_mediano_usd": 0.0171192,
-  "costo_total_usd": 0.6656
+  "costo_mediano_usd": 0.0173138,
+  "costo_total_usd": 0.8381
  }
 }

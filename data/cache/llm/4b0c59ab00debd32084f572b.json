@@ -1,0 +1,85 @@
+{
+ "paquete": {
+  "abstencion": {
+   "abstiene": false,
+   "motivo": null,
+   "informacion_necesaria": []
+  },
+  "titulo_propuesto": "Fallece capitán de remolcador del Canal de Panamá: borrador de investigación",
+  "enfoque_interes_publico": "Seguridad laboral de quienes operan en el Canal de Panamá y esclarecimiento de las circunstancias de la muerte de un capitán de remolcador en servicio.",
+  "brief": [
+   {
+    "texto": "TVN titula que falleció un capitán de remolcador del Canal de Panamá mientras cumplía funciones.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-f84223fbc5",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-f84223fbc5",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "La nota fue publicada el 30 de septiembre de 2026 a las 5:58 p. m., hora de Panamá.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "N-f84223fbc5",
+      "campo": "fecha"
+     }
+    ]
+   },
+   {
+    "texto": "Solo se dispone del titular, por lo que no se conocen causa, lugar exacto ni circunstancias del fallecimiento.",
+    "tipo": "inferencia",
+    "citas": []
+   },
+   {
+    "texto": "Existe una sola procedencia y no hay fuente oficial enlazada, de modo que el hecho no está corroborado de forma independiente.",
+    "tipo": "inferencia",
+    "citas": []
+   }
+  ],
+  "preguntas_investigacion": [
+   "¿Qué causó el fallecimiento del capitán y en qué circunstancias ocurrió?",
+   "¿Qué informan la Autoridad del Canal de Panamá u otra fuente oficial sobre el incidente?",
+   "¿Se han abierto investigaciones o revisado protocolos de seguridad en las operaciones de remolcadores?"
+  ],
+  "verificaciones_pendientes": [
+   "Conseguir una segunda procedencia independiente que confirme el fallecimiento.",
+   "Obtener un comunicado o confirmación oficial de la entidad responsable.",
+   "Leer el cuerpo de la nota de TVN, pues solo se ha revisado el titular.",
+   "Confirmar la identidad del fallecido y la notificación a sus familiares antes de cualquier publicación."
+  ],
+  "contradicciones": [],
+  "guion": [],
+  "copy_digital": []
+ },
+ "validacion": {
+  "valido": true,
+  "problemas": [],
+  "palabras": {
+   "brief": 72,
+   "guion": 0,
+   "copy_digital": 0
+  }
+ },
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "prompt_version": "paquete-tvn-v6",
+  "clave_cache": "4b0c59ab00debd32084f572b",
+  "desde_cache": false,
+  "generado_en": "2026-10-08T23:01:49.380Z",
+  "latencia_ms": 5581,
+  "tokens": {
+   "entrada": 390,
+   "salida": 793,
+   "cache_lectura": 2597,
+   "cache_escritura": 0
+  },
+  "costo_usd": 0.0092294
+ }
+}

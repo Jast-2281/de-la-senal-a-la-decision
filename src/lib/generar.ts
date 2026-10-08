@@ -14,7 +14,8 @@ import { type Evidencia, type PaqueteEditorial, validarPaquete } from "./validar
 // v3: comparar cifras exige citar TODAS las evidencias de donde provienen (también en inferencias).
 // v4: citar cada CAMPO del que se toma un dato (p. ej. `valor` y `anio`): el validador exige la cifra en el campo citado.
 // v5 (tras revisión humana de sustento: 14/30 parciales): citar también `medio` al nombrar el medio y `unidad` al dar la unidad.
-export const PROMPT_VERSION = "paquete-tvn-v5";
+// v6 (revisión humana v2: 18/30): fechas en lenguaje natural, una idea por oración, comentarios sobre límites como “inferencia”.
+export const PROMPT_VERSION = "paquete-tvn-v6";
 export const MODELO_LLM = process.env.LLM_MODEL ?? "claude-sonnet-5-5";
 const CACHE_DIR = join(process.cwd(), "data", "cache", "llm");
 
@@ -59,6 +60,9 @@ Reglas obligatorias:
 11. Si el contexto indica "Estado de evidencia: insuficiente", NO te abstengas: redacta un brief de INVESTIGACIÓN (lo que se reporta, atribuido a su medio, y lo que falta comprobar), las 3 preguntas y las verificaciones pendientes, y deja guion y copy_digital VACÍOS: no se preparan piezas para emisión hasta verificar.
 
 12. Toda afirmación que mencione una cifra (incluidas inferencias e hipótesis) debe citar la evidencia donde aparece esa cifra. Si comparas cifras de distintas fuentes, cita TODAS esas evidencias. Cita cada CAMPO del que tomas un dato: si usas el valor y el año de un indicador, cita "valor" y "anio" por separado. Si nombras el medio que publica ("según TVN", "Crítica titula"), cita también su campo "medio". Si das la unidad de una cifra ("% del PIB", "% anual"), cita también el campo "unidad". Cada dato de la frase debe estar en algún campo citado.
+
+13. Una sola idea por oración: no mezcles un hecho con un comentario o una salvedad en la misma frase. Las frases sobre los límites de la evidencia (“solo se dispone del titular”, “es un dato anual que no mide la situación actual”) son de tipo "inferencia".
+14. Escribe fechas y lugares en español natural, tal como aparecen en la evidencia (p. ej. “30 de septiembre de 2026”); nunca copies formatos técnicos.
 
 Formato: brief ≤ 250 palabras; exactamente 3 preguntas de investigación; guion para 45–60 segundos (≈110–150 palabras); copy digital ≤ 80 palabras. Escribe en español neutro y periodístico. Cada elemento de brief, guion y copy_digital es UNA oración.`;
 

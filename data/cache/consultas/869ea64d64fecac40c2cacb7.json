@@ -1,0 +1,89 @@
+{
+ "abstencion": {
+  "abstiene": false,
+  "motivo": null,
+  "informacion_necesaria": []
+ },
+ "respuesta": [
+  {
+   "texto": "Según tvn-2.com, el 30 de septiembre de 2026 a las 8:38 a. m. (hora de Panamá), Mulino recibió el informe final de la comisión interministerial, que según el titular recomienda un cierre ordenado de la mina.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-bea510354d",
+     "campo": "titulo"
+    },
+    {
+     "id_evidencia": "N-bea510354d",
+     "campo": "medio"
+    },
+    {
+     "id_evidencia": "N-bea510354d",
+     "campo": "fecha"
+    }
+   ]
+  },
+  {
+   "texto": "Mulino dijo que el informe no es una decisión y que no propone ninguna fecha de operación.",
+   "tipo": "declaracion",
+   "citas": [
+    {
+     "id_evidencia": "N-57e336ccd4",
+     "campo": "titulo"
+    }
+   ]
+  },
+  {
+   "texto": "Mulino fijó seis criterios no negociables, entre ellos el acatamiento del fallo de la Corte Suprema, la ausencia de costo fiscal y la supervisión independiente.",
+   "tipo": "declaracion",
+   "citas": [
+    {
+     "id_evidencia": "N-57e336ccd4",
+     "campo": "descripcion"
+    }
+   ]
+  },
+  {
+   "texto": "Los titulares divergen: tvn-2.com habla de cierre ordenado y de negociar un cierre progresivo con First Quantum, mientras critica.com.pa titula que se recomienda la apertura de la mina.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-bea510354d",
+     "campo": "titulo"
+    },
+    {
+     "id_evidencia": "N-86dca50ced",
+     "campo": "titulo"
+    },
+    {
+     "id_evidencia": "N-1683cae7ea",
+     "campo": "titulo"
+    },
+    {
+     "id_evidencia": "N-1683cae7ea",
+     "campo": "medio"
+    },
+    {
+     "id_evidencia": "N-86dca50ced",
+     "campo": "medio"
+    }
+   ]
+  },
+  {
+   "texto": "First Quantum plantea participar de buena fe en un diálogo sobre el futuro de la mina.",
+   "tipo": "declaracion",
+   "citas": [
+    {
+     "id_evidencia": "N-5e971d1a54",
+     "campo": "titulo"
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-08T23:02:52.864Z",
+  "latencia_ms": 4531,
+  "costo_usd": 0.010989
+ }
+}
