@@ -21,7 +21,8 @@
     "preparar-eval": "tsx scripts/preparar-eval.ts",
     "ampliar-pares": "tsx scripts/ampliar-pares.ts",
     "metricas": "node --env-file-if-exists=.env.local --import tsx scripts/metricas.ts",
-    "muestra-sustento-v2": "tsx scripts/muestra-sustento-v2.ts"
+    "muestra-sustento-v2": "tsx scripts/muestra-sustento-v2.ts",
+    "notion": "tsx scripts/notion-export.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.131.0",

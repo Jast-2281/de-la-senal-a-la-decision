@@ -1,5 +1,5 @@
 {
- "fecha": "2026-10-08T23:00:26.571Z",
+ "fecha": "2026-10-08T23:03:55.065Z",
  "revisor": [
   "Julian Andrew"
  ],
@@ -269,8 +269,8 @@
   "limitacion": "Revisión por un integrante del equipo; no equivale a validación editorial independiente. v1 y v2 son muestras distintas de 30 afirmaciones."
  },
  "cobertura_citas": {
-  "con_cita_valida": 54,
-  "factuales": 54
+  "con_cita_valida": 52,
+  "factuales": 52
  },
  "validacion_benchmark_desarrollo": {
   "correcta": 39,
@@ -294,15 +294,15 @@
   "nota": "Los adversariales y las contradicciones requieren lectura humana de las salidas guardadas en data/eval/benchmark-resultados.jsonl."
  },
  "eficiencia_borradores": {
-  "n": 48,
-  "mediana_s": 9.938,
-  "p95_s": 14.262,
+  "n": 57,
+  "mediana_s": 9.875,
+  "p95_s": 14.315,
   "atipicos_s": [
    634.502
   ],
-  "mediana_con_atipicos_s": 9.938,
-  "p95_con_atipicos_s": 14.315,
+  "mediana_con_atipicos_s": 9.926,
+  "p95_con_atipicos_s": 14.573,
   "costo_mediano_usd": 0.0173138,
-  "costo_total_usd": 0.8381
+  "costo_total_usd": 1.0031
  }
 }
