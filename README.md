@@ -10,17 +10,29 @@ Prototipo del reto **hackIAthon Panamá (4.ª edición) · TVN Media**. Conviert
 
 > El sistema **nunca publica**. La prioridad ordena el trabajo; no indica que algo sea cierto. “Aprobado como borrador” no significa publicado.
 
-## Demo en 3 comandos (sin internet)
+## Demo
 
 Requisitos: Node.js ≥ 22 y npm.
 
+**1. Preparación (una sola vez, con internet):**
 ```bash
-npm ci                 # dependencias fijadas por package-lock.json
-npm run build          # Webpack; no descarga nada: fuentes del sistema, datos y borradores ya incluidos
+npm ci                 # dependencias exactas de package-lock.json
+npm run models         # descarga el modelo local de embeddings a ./models (para consultas nuevas)
+npm run build          # Webpack; no descarga fuentes ni recursos remotos
+```
+
+**2. Demo (sin internet):**
+```bash
 npm start              # http://localhost:3000
 ```
 
-La demo funciona **sin conexión** (prueba T10): lee el snapshot procesado (`data/processed/`) y los borradores generados previamente (`data/cache/llm/`). Cada borrador muestra su modelo, su fecha de generación y que viene de la caché local. Lo único que requiere conexión es generar borradores **nuevos**, y eso es modo desarrollo: no forma parte del recorrido de la demo.
+**Qué funciona sin conexión** (T10; la validación en modo avión en la laptop de presentación se registra en `docs/matriz-aceptacion.md`):
+- La cola, las fichas, las citas y la revisión humana leen el snapshot procesado (`data/processed/`).
+- Los borradores leen la caché local (`data/cache/llm/`). Cada uno muestra su modelo, su fecha de generación y que viene de caché.
+- Las consultas pregrabadas leen la caché local (`data/cache/consultas/`).
+- Las **consultas nuevas** usan el modelo local de embeddings para recuperar evidencia. **Si el modelo no está en el equipo**, la página no falla: pasa a coincidencia de palabras clave, lo declara en pantalla y se abstiene de redactar si no hay respuesta en caché.
+
+**Qué requiere conexión:** solo generar borradores o respuestas **nuevos** con el modelo de lenguaje (modo desarrollo; fuera del recorrido de la demo). Un clon recién descargado necesita internet para el paso 1.
 
 Para desarrollo: `npm run dev`. Alternativa de build con Turbopack: `npm run build:turbo`. (Algunos entornos restringidos impiden los procesos de Turbopack; por eso Webpack es el predeterminado. Ambos se verificaron y generan el CSS completo.)
 

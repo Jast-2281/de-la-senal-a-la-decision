@@ -9,6 +9,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { coseno, embeber } from "./embeddings";
 import { type Indicador, enlazarIndicadores } from "./contextualizar";
+import { tokens } from "./organizar";
 import { sha256, type Noticia } from "./ingest";
 import { MODELO_LLM } from "./generar";
 import { type Afirmacion, type Evidencia, validarAfirmaciones } from "./validar";
@@ -37,17 +38,42 @@ const cargar = () =>
     };
   })());
 
-export async function recuperar(pregunta: string, k = 8): Promise<Recuperado[]> {
+export type MetodoRecuperacion = "embeddings" | "palabras_clave";
+/** Respaldo sin modelo local: fracción de palabras de la pregunta presentes en el titular o la descripción. */
+export const UMBRAL_PALABRAS = 0.5;
+
+/**
+ * Recuperación con degradación explícita (T10): usa embeddings locales; si el modelo no está disponible en este
+ * equipo (p. ej. clon nuevo sin conexión), pasa a coincidencia de palabras clave y lo declara. Nunca falla en silencio.
+ */
+export async function recuperarConMetodo(pregunta: string, k = 8): Promise<{ metodo: MetodoRecuperacion; umbral: number; items: Recuperado[] }> {
   const c = await cargar();
-  const [q] = await embeber([pregunta]);
-  return c.noticias
-    .map((n, i) => ({ n, s: coseno(q, c.vectores[i]) }))
-    .sort((a, b) => b.s - a.s)
-    .slice(0, k)
-    .map(({ n, s }) => ({
-      id: n.id_noticia, titulo: n.titulo, medio: n.medio, fecha: n.fecha_publicacion ?? n.fecha_deteccion,
-      descripcion: n.descripcion, similitud: +s.toFixed(3), id_evento: c.eventoDe.get(n.id_noticia) ?? null,
-    }));
+  const salida = (puntuados: { n: Noticia; s: number }[]) =>
+    puntuados
+      .sort((a, b) => b.s - a.s)
+      .slice(0, k)
+      .map(({ n, s }) => ({
+        id: n.id_noticia, titulo: n.titulo, medio: n.medio, fecha: n.fecha_publicacion ?? n.fecha_deteccion,
+        descripcion: n.descripcion, similitud: +s.toFixed(3), id_evento: c.eventoDe.get(n.id_noticia) ?? null,
+      }));
+  try {
+    const [q] = await embeber([pregunta]);
+    return { metodo: "embeddings", umbral: UMBRAL_RELEVANCIA, items: salida(c.noticias.map((n, i) => ({ n, s: coseno(q, c.vectores[i]) }))) };
+  } catch {
+    const tq = tokens(pregunta);
+    const puntuar = (n: Noticia) => {
+      if (!tq.size) return 0;
+      const td = tokens(`${n.titulo} ${n.descripcion ?? ""}`);
+      let hits = 0;
+      for (const t of tq) if (td.has(t)) hits++;
+      return hits / tq.size;
+    };
+    return { metodo: "palabras_clave", umbral: UMBRAL_PALABRAS, items: salida(c.noticias.map((n) => ({ n, s: puntuar(n) }))) };
+  }
+}
+
+export async function recuperar(pregunta: string, k = 8): Promise<Recuperado[]> {
+  return (await recuperarConMetodo(pregunta, k)).items;
 }
 
 const Esquema = z.object({
@@ -77,21 +103,22 @@ export type ResultadoConsulta = {
   respuesta: Afirmacion[];
   evidencia: Evidencia;
   problemas: ReturnType<typeof validarAfirmaciones>;
+  metodo: MetodoRecuperacion;
   meta: { umbral: number; modelo?: string; desde_cache?: boolean; generado_en?: string; latencia_ms?: number; costo_usd?: number | null; prompt_version: string };
 };
 
 export async function consultar(pregunta: string, opciones: { permitirLLM?: boolean } = {}): Promise<ResultadoConsulta> {
-  const recuperados = await recuperar(pregunta);
-  const pertinentes = recuperados.filter((r) => r.similitud >= UMBRAL_RELEVANCIA);
+  const { metodo, umbral, items: recuperados } = await recuperarConMetodo(pregunta);
+  const pertinentes = recuperados.filter((r) => r.similitud >= umbral);
   const max = recuperados[0]?.similitud ?? 0;
-  const base = { pregunta, recuperados, max_similitud: max, meta: { umbral: UMBRAL_RELEVANCIA, prompt_version: CONSULTA_PROMPT_VERSION } };
+  const base = { pregunta, recuperados, max_similitud: max, metodo, meta: { umbral, prompt_version: CONSULTA_PROMPT_VERSION } };
 
   if (!pertinentes.length)
     return {
       ...base, modo: "abstencion_determinista", respuesta: [], evidencia: {}, problemas: [],
       abstencion: {
         abstiene: true,
-        motivo: `Ninguna noticia del corpus es pertinente (similitud máxima ${max.toFixed(2)} < umbral ${UMBRAL_RELEVANCIA}). No se consultó al modelo de lenguaje.`,
+        motivo: `Ninguna noticia del corpus es pertinente (${metodo === "embeddings" ? "similitud" : "coincidencia de palabras"} máxima ${max.toFixed(2)} < umbral ${umbral}). No se consultó al modelo de lenguaje.`,
         informacion_necesaria: ["Una fuente que trate directamente lo preguntado dentro de la ventana 2025-10-02 a 2026-09-30."],
       },
     };

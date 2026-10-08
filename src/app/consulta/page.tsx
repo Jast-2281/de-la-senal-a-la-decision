@@ -69,6 +69,12 @@ async function Resultado({ searchParams }: { searchParams: Promise<Record<string
       {r && (
         <section className="mx-auto flex w-full max-w-7xl flex-col gap-5 px-5 py-8">
           <div className="flex flex-col gap-4 rounded-sm border border-linea bg-superficie p-5">
+            {r.metodo === "palabras_clave" && (
+              <p role="status" className="rounded-sm bg-parcial-suave px-4 py-3 font-semibold text-parcial">
+                Modo sin modelo local: el modelo de embeddings no está disponible en este equipo, así que la evidencia se recuperó por
+                coincidencia de palabras clave (menos precisa). Las consultas pregrabadas y las fichas del snapshot siguen disponibles.
+              </p>
+            )}
             {r.abstencion.abstiene ? (
               <div className="flex flex-col gap-2 rounded-sm bg-parcial-suave p-5 text-tinta">
                 <h2 className="flex items-center gap-2 font-rotulo text-lg font-black uppercase text-parcial">
@@ -87,14 +93,16 @@ async function Resultado({ searchParams }: { searchParams: Promise<Record<string
               <Afirmaciones titulo="Respuesta" afirmaciones={r.respuesta} evidencia={r.evidencia} problemas={r.problemas} />
             )}
             <p className="text-sm text-tinta-3">
-              Similitud máxima {r.max_similitud.toFixed(3)} · umbral de pertinencia {r.meta.umbral}
+              {r.metodo === "embeddings" ? "Similitud semántica" : "Coincidencia de palabras clave"} máxima {r.max_similitud.toFixed(3)} · umbral de pertinencia {r.meta.umbral}
               {r.meta.modelo && (
                 <> · {r.meta.modelo} · {r.meta.desde_cache ? "respuesta recuperada de caché local" : "generada ahora"} · generada {horaPanama(r.meta.generado_en ?? null)} · US$ {r.meta.costo_usd?.toFixed(4)}</>
               )}
             </p>
           </div>
           <div className="flex flex-col gap-3">
-            <h2 className="font-rotulo text-lg font-black uppercase tracking-tight text-indigo">Evidencia recuperada · búsqueda semántica local</h2>
+            <h2 className="font-rotulo text-lg font-black uppercase tracking-tight text-indigo">
+              Evidencia recuperada · {r.metodo === "embeddings" ? "búsqueda semántica local" : "palabras clave (respaldo)"}
+            </h2>
             <ol className="flex flex-col divide-y divide-linea overflow-hidden rounded-sm border border-linea bg-superficie">
               {r.recuperados.map((x) => {
                 const fuera = x.similitud < r.meta.umbral;
