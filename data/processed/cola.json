@@ -8963,7 +8963,7 @@
    "vacios": [
     "Falta una segunda procedencia independiente.",
     "No hay dato oficial enlazado en el corpus para este tema.",
-    "Cifras incompatibles entre titulares (millone)."
+    "Cifras distintas entre titulares (millone): verificar si se refieren al mismo hecho."
    ],
    "accion": "Investigar: buscar una segunda fuente o un dato oficial antes de redactar."
   },
@@ -10070,7 +10070,7 @@
    "vacios": [
     "Falta una segunda procedencia independiente.",
     "No hay dato oficial enlazado en el corpus para este tema.",
-    "Cifras incompatibles entre titulares (queja)."
+    "Cifras distintas entre titulares (queja): verificar si se refieren al mismo hecho."
    ],
    "accion": "Investigar: buscar una segunda fuente o un dato oficial antes de redactar."
   },

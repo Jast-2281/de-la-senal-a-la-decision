@@ -145,7 +145,7 @@ async function Ficha({ params }: { params: Promise<{ id: string }> }) {
             </ul>
             {e.contradicciones.map((c, k) => (
               <div key={k} className="rounded-sm bg-insuficiente-suave p-3 text-sm">
-                <p className="font-medium text-insuficiente">Versiones incompatibles sobre “{c.sustantivo}” (verificación pendiente)</p>
+                <p className="font-bold text-insuficiente">Cifras distintas sobre “{c.sustantivo}”: verificar si se refieren al mismo hecho, a otro período o a una actualización</p>
                 {c.versiones.map((v) => <p key={v.valor}>{v.valor}: {v.ids.map((x) => porId.get(x)?.medio).join(", ")}</p>)}
               </div>
             ))}

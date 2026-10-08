@@ -56,7 +56,7 @@ async function main() {
     if (e.posibles_replicas.length) vacios.push(`Revisar si ${e.posibles_replicas.length} par(es) de titulares casi idénticos son réplicas de un mismo origen.`);
     if (!enlacesInd.length && !enlaceSismo) vacios.push("No hay dato oficial enlazado en el corpus para este tema.");
     if (enlaceSismo && !enlaceSismo.sismos.length) vacios.push(enlaceSismo.limitacion);
-    if (contradicciones.length) vacios.push(`Cifras incompatibles entre titulares (${contradicciones.map((c) => c.sustantivo).join(", ")}).`);
+    if (contradicciones.length) vacios.push(`Cifras distintas entre titulares (${contradicciones.map((c) => c.sustantivo).join(", ")}): verificar si se refieren al mismo hecho.`);
     if (soloTitular) vacios.push("Solo hay titulares y metadatos: no se ha leído el cuerpo de ninguna nota.");
     const accion =
       evidencia.estado === "insuficiente" ? "Investigar: buscar una segunda fuente o un dato oficial antes de redactar."

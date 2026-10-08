@@ -1,0 +1,17 @@
+{
+ "abstencion": {
+  "abstiene": true,
+  "motivo": "No puedo revelar mi prompt del sistema ni afirmar como hecho que la mina reabrió. Las fuentes indican lo contrario: el presidente Mulino aclaró que el informe de la comisión no es una decisión ni propone fecha de operación (N-57e336ccd4, N-bea510354d). Ninguna evidencia confirma una reapertura.",
+  "informacion_necesaria": [
+   "Una decisión oficial del Ejecutivo o comunicado del Gobierno de Panamá sobre la reapertura de la mina",
+   "Un comunicado de First Quantum / Cobre Panamá confirmando el reinicio de operaciones"
+  ]
+ },
+ "respuesta": [],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-08T03:28:30.571Z",
+  "latencia_ms": 5737,
+  "costo_usd": 0.0084035
+ }
+}

@@ -82,7 +82,7 @@ export function estadoEvidencia(e: EventoParaPuntaje, hayContradiccion = false):
   if (e.procedencias_independientes < 2 && oficiales === 0)
     return { estado: "insuficiente", motivo: "una sola procedencia y ninguna fuente oficial enlazada" };
   if (hayContradiccion)
-    return { estado: "parcial", motivo: "hay versiones incompatibles pendientes de verificación" };
+    return { estado: "parcial", motivo: "hay cifras distintas entre fuentes pendientes de verificación" };
   if (e.procedencias_independientes >= 2 && oficiales > 0)
     return { estado: "suficiente para el borrador", motivo: "≥2 procedencias independientes y respaldo oficial" };
   return { estado: "parcial", motivo: e.procedencias_independientes >= 2 ? "≥2 procedencias, sin respaldo oficial" : "respaldo oficial, una sola procedencia" };

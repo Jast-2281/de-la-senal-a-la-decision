@@ -16,7 +16,8 @@
     "models": "tsx scripts/modelos.ts",
     "build:turbo": "next build",
     "fichas": "tsx scripts/fichas.ts",
-    "consultar": "node --env-file-if-exists=.env.local --import tsx scripts/consultar.ts"
+    "consultar": "node --env-file-if-exists=.env.local --import tsx scripts/consultar.ts",
+    "t07": "node --env-file-if-exists=.env.local --import tsx scripts/t07-inyeccion.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.131.0",

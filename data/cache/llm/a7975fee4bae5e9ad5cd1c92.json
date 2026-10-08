@@ -1,0 +1,121 @@
+{
+ "paquete": {
+  "abstencion": {
+   "abstiene": false,
+   "motivo": null,
+   "informacion_necesaria": []
+  },
+  "titulo_propuesto": "Acodeco: quejas por beneficios a jubilados y contra inmobiliarias, pendientes de verificación",
+  "enfoque_interes_publico": "Protección de consumidores: posibles incumplimientos de beneficios a jubilados y personas con discapacidad, y reclamos contra inmobiliarias; se requiere confirmación oficial antes de preparar piezas.",
+  "brief": [
+   {
+    "texto": "Según un titular de tvn-2.com, Acodeco recibió 375 quejas por incumplimiento de beneficios para jubilados y personas con discapacidad.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-410bc2416f",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "La descripción del RSS de tvn-2.com indica que entre enero y agosto de 2026 hubo 324 quejas vinculadas a la Ley 6 y 51 a la Ley 134.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-410bc2416f",
+      "campo": "descripcion"
+     }
+    ]
+   },
+   {
+    "texto": "Según esa misma descripción, se impusieron 34 sanciones en primera instancia.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-410bc2416f",
+      "campo": "descripcion"
+     }
+    ]
+   },
+   {
+    "texto": "Otro titular de tvn-2.com reporta 280 quejas contra inmobiliarias por más de $13.2 millones.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-ba49afd7fb",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Según su descripción, la devolución de dinero acumuló la mayor cantidad de quejas, con 146 casos y 3,053,897.06 dólares reclamados.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-ba49afd7fb",
+      "campo": "descripcion"
+     }
+    ]
+   },
+   {
+    "texto": "Ambas notas provienen del mismo medio, por lo que cuentan como una sola procedencia y no hay fuente oficial enlazada que las corrobore.",
+    "tipo": "inferencia",
+    "citas": []
+   },
+   {
+    "texto": "Las cifras de 375 y 280 quejas podrían referirse a temas distintos y no deben compararse sin verificar.",
+    "tipo": "hipotesis",
+    "citas": [
+     {
+      "id_evidencia": "N-410bc2416f",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-ba49afd7fb",
+      "campo": "titulo"
+     }
+    ]
+   }
+  ],
+  "preguntas_investigacion": [
+   "¿Qué datos oficiales publica Acodeco sobre las quejas de jubilados, personas con discapacidad e inmobiliarias, y con qué período?",
+   "¿Las 375 y las 280 quejas corresponden a hechos o categorías distintos, y cómo las clasifica Acodeco?",
+   "¿Qué resultado tuvieron las 34 sanciones en primera instancia y los reclamos por devolución de dinero?"
+  ],
+  "verificaciones_pendientes": [
+   "Obtener la fuente oficial de Acodeco y confirmar las cifras.",
+   "Conseguir una segunda procedencia independiente.",
+   "Leer los artículos completos, pues solo se dispone de titular y descripción.",
+   "Confirmar si las cifras de queja de ambas notas se refieren al mismo hecho.",
+   "Verificar el período y la metodología de las cifras de inmobiliarias, no indicados en la descripción."
+  ],
+  "contradicciones": [],
+  "guion": [],
+  "copy_digital": []
+ },
+ "validacion": {
+  "valido": true,
+  "problemas": [],
+  "palabras": {
+   "brief": 133,
+   "guion": 0,
+   "copy_digital": 0
+  }
+ },
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "prompt_version": "paquete-tvn-v4",
+  "clave_cache": "a7975fee4bae5e9ad5cd1c92",
+  "desde_cache": false,
+  "generado_en": "2026-10-08T03:34:44.989Z",
+  "latencia_ms": 10436,
+  "tokens": {
+   "entrada": 753,
+   "salida": 1226,
+   "cache_lectura": 2339,
+   "cache_escritura": 0
+  },
+  "costo_usd": 0.0142338
+ }
+}

@@ -55,7 +55,7 @@ export function entradaDeEvento(e: EventoCola, consulta = "Prepara el paquete ed
     `Procedencias independientes: ${e.procedencias_independientes}` +
       (e.posibles_replicas.length ? ` (${e.procedencias_si_se_confirman_replicas} si se confirman ${e.posibles_replicas.length} posible(s) réplica(s)).` : "."),
     ...e.grupos_procedencia.filter((g) => g.ids.length > 1).map((g) => `Misma procedencia (${g.motivos.join(", ")}): ${g.ids.join(", ")}.`),
-    ...e.contradicciones.map((c) => `Cifras incompatibles sobre "${c.sustantivo}": ${c.versiones.map((v) => `${v.valor} en ${v.ids.join(", ")}`).join(" vs ")}.`),
+    ...e.contradicciones.map((c) => `Cifras distintas sobre "${c.sustantivo}" (no se sabe si se refieren al mismo hecho): ${c.versiones.map((v) => `${v.valor} en ${v.ids.join(", ")}`).join(" vs ")}.`),
     ...e.vacios.map((v) => `Vacío: ${v}`),
   ].join("\n");
   return {
