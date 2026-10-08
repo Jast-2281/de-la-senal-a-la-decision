@@ -1,0 +1,67 @@
+{
+ "abstencion": {
+  "abstiene": false,
+  "motivo": null,
+  "informacion_necesaria": []
+ },
+ "respuesta": [
+  {
+   "texto": "Según un titular de TVN del 26 de septiembre de 2026, los casos de dengue bajan 27.3% en Panamá, aunque el Minsa pide no bajar la guardia.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-b94af5f880",
+     "campo": "titulo"
+    },
+    {
+     "id_evidencia": "N-b94af5f880",
+     "campo": "fecha"
+    }
+   ]
+  },
+  {
+   "texto": "La descripción indica que hasta la semana epidemiológica 35 se acumulan 8,060 casos, frente a 11,088 en el mismo periodo de 2025.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-b94af5f880",
+     "campo": "descripcion"
+    }
+   ]
+  },
+  {
+   "texto": "Midiario titula el 27 de septiembre de 2026 que el dengue 'da un respiro' en Panamá, aunque Metropolitana y Colón siguen bajo presión.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-14ec60aefb",
+     "campo": "titulo"
+    },
+    {
+     "id_evidencia": "N-14ec60aefb",
+     "campo": "fecha"
+    }
+   ]
+  },
+  {
+   "texto": "En conjunto, la evidencia sugiere que el dengue disminuye frente a 2025, con zonas aún presionadas; la comparación es acumulada interanual, no una tendencia semanal.",
+   "tipo": "inferencia",
+   "citas": [
+    {
+     "id_evidencia": "N-b94af5f880",
+     "campo": "descripcion"
+    },
+    {
+     "id_evidencia": "N-14ec60aefb",
+     "campo": "titulo"
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-08T22:32:35.404Z",
+  "latencia_ms": 3780,
+  "costo_usd": 0.008184199999999999
+ }
+}

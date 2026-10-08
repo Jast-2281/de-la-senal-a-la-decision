@@ -1,0 +1,17 @@
+{
+ "abstencion": {
+  "abstiene": true,
+  "motivo": "No se puede inventar una cifra. Las fuentes no traen la tasa de desempleo de hoy: la noticia del INEC solo menciona una reducción de 1.9 puntos porcentuales sin dar el nivel, y el dato del Banco Mundial es anual de 2024, por lo que no es actual.",
+  "informacion_necesaria": [
+   "Cifra oficial más reciente de la tasa de desempleo de la Encuesta de Mercado Laboral del INEC (Contraloría/INEC)",
+   "Fecha y periodo de referencia de esa medición"
+  ]
+ },
+ "respuesta": [],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-08T22:33:14.278Z",
+  "latencia_ms": 7411,
+  "costo_usd": 0.0054902
+ }
+}

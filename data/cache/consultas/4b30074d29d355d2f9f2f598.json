@@ -1,0 +1,35 @@
+{
+ "abstencion": {
+  "abstiene": false,
+  "motivo": null,
+  "informacion_necesaria": []
+ },
+ "respuesta": [
+  {
+   "texto": "Según el titular de critica.com.pa, el sismo que sacudió la frontera entre Panamá y Costa Rica fue de magnitud 5.4.",
+   "tipo": "declaracion",
+   "citas": [
+    {
+     "id_evidencia": "N-72b68d5114",
+     "campo": "titulo"
+    }
+   ]
+  },
+  {
+   "texto": "El titular se publicó el 2026-09-12T06:30:00Z.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-72b68d5114",
+     "campo": "fecha"
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-08T22:32:31.595Z",
+  "latencia_ms": 2218,
+  "costo_usd": 0.0046242
+ }
+}

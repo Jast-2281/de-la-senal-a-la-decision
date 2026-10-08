@@ -1,0 +1,17 @@
+{
+ "abstencion": {
+  "abstiene": true,
+  "motivo": "Las fuentes no contienen el precio del galón de diésel en Chiriquí ni una cifra de precios para hoy. Solo hay un titular del 30 de septiembre de 2026 que menciona una ligera disminución del diésel, sin cifras ni desglose por provincia.",
+  "informacion_necesaria": [
+   "Precios oficiales de combustibles vigentes de la Secretaría de Energía de Panamá, con el precio del diésel en la región de Chiriquí",
+   "Aviso de precios del período vigente, con fecha de vigencia y precio por galón en Chiriquí"
+  ]
+ },
+ "respuesta": [],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-08T22:32:53.107Z",
+  "latencia_ms": 2525,
+  "costo_usd": 0.0051142
+ }
+}

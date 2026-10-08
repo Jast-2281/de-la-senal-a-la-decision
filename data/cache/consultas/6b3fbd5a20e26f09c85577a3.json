@@ -1,0 +1,45 @@
+{
+ "abstencion": {
+  "abstiene": false,
+  "motivo": null,
+  "informacion_necesaria": []
+ },
+ "respuesta": [
+  {
+   "texto": "El Parque Nacional Coiba recibió una nueva embarcación para reforzar su vigilancia marítima.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-48b8e4cfbb",
+     "campo": "titulo"
+    }
+   ]
+  },
+  {
+   "texto": "La embarcación fue entregada con el apoyo de Bezos Earth Fund, WildAid y el Gobierno de Canadá, como parte de los esfuerzos para reforzar la protección del área protegida.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-48b8e4cfbb",
+     "campo": "descripcion"
+    }
+   ]
+  },
+  {
+   "texto": "La noticia fue publicada el 2026-09-29.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-48b8e4cfbb",
+     "campo": "fecha"
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-08T22:32:18.010Z",
+  "latencia_ms": 2877,
+  "costo_usd": 0.0040142
+ }
+}

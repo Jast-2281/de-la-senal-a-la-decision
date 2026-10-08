@@ -1,0 +1,67 @@
+{
+ "abstencion": {
+  "abstiene": false,
+  "motivo": null,
+  "informacion_necesaria": []
+ },
+ "respuesta": [
+  {
+   "texto": "Según un titular de La Estrella de Panamá, el país confía en salir de la lista fiscal de la Unión Europea en octubre.",
+   "tipo": "declaracion",
+   "citas": [
+    {
+     "id_evidencia": "N-f70c5c1416",
+     "campo": "titulo"
+    },
+    {
+     "id_evidencia": "N-f70c5c1416",
+     "campo": "fecha"
+    }
+   ]
+  },
+  {
+   "texto": "TVN informa que la Superintendencia de Sujetos No Financieros confía en que Panamá salga de la lista fiscal de la UE.",
+   "tipo": "declaracion",
+   "citas": [
+    {
+     "id_evidencia": "N-74bca1393a",
+     "campo": "titulo"
+    },
+    {
+     "id_evidencia": "N-74bca1393a",
+     "campo": "fecha"
+    }
+   ]
+  },
+  {
+   "texto": "La descripción indica que la expectativa del Gobierno también está vinculada con la aprobación de la ley de sustancia económica, para que las empresas demuestren actividad y presencia real en el país.",
+   "tipo": "declaracion",
+   "citas": [
+    {
+     "id_evidencia": "N-74bca1393a",
+     "campo": "descripcion"
+    }
+   ]
+  },
+  {
+   "texto": "Crítica reporta que la Comisión Europea destaca avances para salir de la lista fiscal.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-4ee0058e50",
+     "campo": "titulo"
+    },
+    {
+     "id_evidencia": "N-4ee0058e50",
+     "campo": "fecha"
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-08T22:31:42.059Z",
+  "latencia_ms": 3738,
+  "costo_usd": 0.0073562
+ }
+}

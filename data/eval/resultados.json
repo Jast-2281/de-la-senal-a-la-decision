@@ -1,0 +1,299 @@
+{
+ "fecha": "2026-10-08T22:33:27.906Z",
+ "revisor": [
+  "Julian Andrew"
+ ],
+ "agrupacion": {
+  "n_pares_etiquetados": 120,
+  "mismo_evento_humano": 21,
+  "por_origen_muestra": {
+   "aleatorio": {
+    "n": 40,
+    "mismo_evento_humano": 0
+   },
+   "cercano": {
+    "n": 40,
+    "mismo_evento_humano": 0
+   },
+   "borde_bajo_umbral": {
+    "n": 10,
+    "mismo_evento_humano": 1
+   },
+   "predicho_mismo_evento": {
+    "n": 30,
+    "mismo_evento_humano": 20
+   }
+  },
+  "embeddings": {
+   "tp": 20,
+   "fp": 11,
+   "fn": 1,
+   "tn": 88,
+   "precision": 0.6451612903225806,
+   "recall": 0.9523809523809523,
+   "f1": 0.7692307692307692,
+   "fallos": [
+    {
+     "id": "P-018",
+     "tipo": "falso positivo",
+     "a": "La Selección de Panamá ya llegó a Japón para próximos compromisos",
+     "b": "Josué Vergara se unirá a la Selección de Panamá en Japón",
+     "similitud": 0.9214
+    },
+    {
+     "id": "P-084",
+     "tipo": "falso positivo",
+     "a": "First Quantum se abre a negociar  de buena fe  con Panamá el futuro de Cobre Panamá",
+     "b": "Recomiendan apertura de la mina de Cobre Panamá",
+     "similitud": 0.8901
+    },
+    {
+     "id": "P-087",
+     "tipo": "falso positivo",
+     "a": "Un muerto y cuatro heridos tras descarga eléctrica mientras cavaban un pozo en Colón",
+     "b": "Investigan muerte de un hombre tras recibir varios disparos en Colón",
+     "similitud": 0.8809
+    },
+    {
+     "id": "P-088",
+     "tipo": "falso positivo",
+     "a": "Ismael Laguna , el centro en la historia del boxeo panameño",
+     "b": "Fallece Ismael  Tigre de Colón  Laguna , el primer campeón mundial de boxeo en Panamá , muere a los 83 años",
+     "similitud": 0.9172
+    },
+    {
+     "id": "P-092",
+     "tipo": "falso negativo",
+     "a": "Congestión portuaria y falta de infraestructura digital ponen presión a Panamá",
+     "b": "Surinam pone la mira en Panamá para impulsar energía , comercio e inversiones",
+     "similitud": 0.8513
+    },
+    {
+     "id": "P-097",
+     "tipo": "falso positivo",
+     "a": "¿ Debe reabrir Cobre Panamá ? Cámara Minera fija su posición sobre el futuro de la mina",
+     "b": "Cámara Minera de Panamá respalda cierre ordenado y pide definir próximos pasos",
+     "similitud": 0.9291
+    },
+    {
+     "id": "P-098",
+     "tipo": "falso positivo",
+     "a": "PRD censura a Balbina Herrera y desautoriza su posición sobre las reformas electorales",
+     "b": "Reforma electoral sobre la representación legal de los partidos enfrenta a la dirigencia del PRD con su bancada",
+     "similitud": 0.8938
+    },
+    {
+     "id": "P-105",
+     "tipo": "falso positivo",
+     "a": "Canciller reclama ante la ONU el regreso de panameños reclutados en la guerra Rusia - Ucrania",
+     "b": "Panamá pide a Rusia y Ucrania facilitar el regreso de panameños de la guerra",
+     "similitud": 0.9347
+    },
+    {
+     "id": "P-107",
+     "tipo": "falso positivo",
+     "a": "CAMIPA pide reabrir Cobre Panamá y acabar con la incertidumbre",
+     "b": "Cobre Panamá - FQM : nuevo acuerdo debe respetar las leyes de Panamá ; empresa espera los próximos pasos del Gobierno",
+     "similitud": 0.8781
+    },
+    {
+     "id": "P-111",
+     "tipo": "falso positivo",
+     "a": "Clima en Panamá : Pronóstico para este lunes 28 de septiembre",
+     "b": "Clima en Panamá: Prevén lluvias y tormentas, algunas muy fuertes, en zonas montañosas",
+     "similitud": 0.8922
+    },
+    {
+     "id": "P-113",
+     "tipo": "falso positivo",
+     "a": "Ismael Laguna , el centro en la historia del boxeo panameño",
+     "b": "El  ídolo de ídolo recibe su último homenaje : Panamá despide a Ismael Laguna",
+     "similitud": 0.8821
+    },
+    {
+     "id": "P-120",
+     "tipo": "falso positivo",
+     "a": "First Quantum se abre a negociar  de buena fe  con Panamá el futuro de Cobre Panamá",
+     "b": "Cámara Minera de Panamá respalda cierre ordenado y pide definir próximos pasos",
+     "similitud": 0.8677
+    }
+   ]
+  },
+  "baseline_jaccard": {
+   "tp": 5,
+   "fp": 1,
+   "fn": 16,
+   "tn": 98,
+   "precision": 0.8333333333333334,
+   "recall": 0.23809523809523808,
+   "f1": 0.37037037037037035,
+   "fallos": [
+    {
+     "id": "P-082",
+     "tipo": "falso negativo",
+     "a": "Nathalee Aranda , la colonense que voló en el salto de longitud para darle a Panamá un oro inolvidable",
+     "b": "Nathalee Aranda conquista el primer oro de Panamá en Santa Fe 2026",
+     "similitud": 0.9022
+    },
+    {
+     "id": "P-086",
+     "tipo": "falso negativo",
+     "a": "Clima en Panamá: Aguaceros aislados con tormentas eléctricas en sectores marítimos y el oriente del país",
+     "b": "Clima en Panamá: Lluvias y tormentas continuarán por influencia de la vaguada monzónica",
+     "similitud": 0.8975
+    },
+    {
+     "id": "P-089",
+     "tipo": "falso negativo",
+     "a": "Ismael Laguna , el centro en la historia del boxeo panameño",
+     "b": "Falleció el ex campeón mundial Ismael Laguna El Tigre de Colón",
+     "similitud": 0.8724
+    },
+    {
+     "id": "P-090",
+     "tipo": "falso negativo",
+     "a": "Thomas Christiansen explica su decisión de renovar como director técnico de Panamá",
+     "b": "Christiansen renueva oficialmente con Panamá",
+     "similitud": 0.9196
+    },
+    {
+     "id": "P-091",
+     "tipo": "falso negativo",
+     "a": "Incendio en La Macarronera: Habilitan centro de acopio; damnificados necesitan alimentos y útiles escolares",
+     "b": "Incendio en La Macarronera: 38 familias lo pierden todo en cuestión de minutos y claman por ayuda",
+     "similitud": 0.904
+    },
+    {
+     "id": "P-092",
+     "tipo": "falso negativo",
+     "a": "Congestión portuaria y falta de infraestructura digital ponen presión a Panamá",
+     "b": "Surinam pone la mira en Panamá para impulsar energía , comercio e inversiones",
+     "similitud": 0.8513
+    },
+    {
+     "id": "P-093",
+     "tipo": "falso negativo",
+     "a": "Ricaurte Vásquez se despide del Canal defendiendo río Indio y la neutralidad",
+     "b": "Carta abierta a Ricaurte  Catín  Vásquez a su salida de la ACP",
+     "similitud": 0.8773
+    },
+    {
+     "id": "P-094",
+     "tipo": "falso negativo",
+     "a": "Ricaurte Vásquez : las claves de su último discurso al frente del Canal",
+     "b": "Carta abierta a Ricaurte  Catín  Vásquez a su salida de la ACP",
+     "similitud": 0.889
+    },
+    {
+     "id": "P-099",
+     "tipo": "falso negativo",
+     "a": "Cuarto Puente : reanudan trabajos tras subsanar hallazgos de seguridad laboral",
+     "b": "Cuarto puente: MOP instruye al consorcio corregir fallas de seguridad laboral tras suspensión parcial del proyecto",
+     "similitud": 0.9041
+    },
+    {
+     "id": "P-103",
+     "tipo": "falso negativo",
+     "a": "Teleférico de Panamá y San Miguelito entra en nueva etapa",
+     "b": "Teleférico de San Miguelito: Metro de Panamá firma contrato para su construcción",
+     "similitud": 0.9096
+    },
+    {
+     "id": "P-105",
+     "tipo": "falso positivo",
+     "a": "Canciller reclama ante la ONU el regreso de panameños reclutados en la guerra Rusia - Ucrania",
+     "b": "Panamá pide a Rusia y Ucrania facilitar el regreso de panameños de la guerra",
+     "similitud": 0.9347
+    },
+    {
+     "id": "P-109",
+     "tipo": "falso negativo",
+     "a": "Panamá afina su arma contra el poderío aéreo de Nueva Zelanda",
+     "b": "Panamá pone la mira en Nueva Zelanda tras cerrar su preparación en India",
+     "similitud": 0.908
+    },
+    {
+     "id": "P-114",
+     "tipo": "falso negativo",
+     "a": "Detienen en Panamá a tres dominicanos acusados de reclutar personas para guerra en Ucrania",
+     "b": "Los reclutaban para ir a Rusia : cae presunta red que captaba panameños",
+     "similitud": 0.8937
+    },
+    {
+     "id": "P-115",
+     "tipo": "falso negativo",
+     "a": "IMA anuncia agroferia este lunes : conoce los cuatro puntos donde se realizará",
+     "b": "Agroferias del IMA: Conozca dónde se realizarán este jueves",
+     "similitud": 0.9356
+    },
+    {
+     "id": "P-116",
+     "tipo": "falso negativo",
+     "a": "CAMIPA pide reabrir Cobre Panamá y acabar con la incertidumbre",
+     "b": "¿ Debe reabrir Cobre Panamá ? Cámara Minera fija su posición sobre el futuro de la mina",
+     "similitud": 0.9202
+    },
+    {
+     "id": "P-117",
+     "tipo": "falso negativo",
+     "a": "CAMIPA pide reabrir Cobre Panamá y acabar con la incertidumbre",
+     "b": "Cámara Minera de Panamá respalda cierre ordenado y pide definir próximos pasos",
+     "similitud": 0.9022
+    },
+    {
+     "id": "P-118",
+     "tipo": "falso negativo",
+     "a": "Clima en Panamá: Prevén lluvias y tormentas, algunas muy fuertes, en zonas montañosas",
+     "b": "Clima en Panamá: aguaceros y tormentas se esperan esta tarde en gran parte del Pacífico",
+     "similitud": 0.9179
+    }
+   ]
+  },
+  "limitacion": "Un solo revisor del equipo. La muestra mezcla 80 pares iniciales (concentrados en baja similitud) y 40 añadidos (predichos 'mismo evento' y borde bajo el umbral): las cifras describen esta muestra, no la población completa."
+ },
+ "sustento": {
+  "n": 30,
+  "respaldada": 16,
+  "parcialmente_respaldada": 14,
+  "no_respaldada": 0,
+  "cita_correcta_alcance_insuficiente": 0,
+  "limitacion": "Revisión por un integrante del equipo; no equivale a validación editorial independiente."
+ },
+ "cobertura_citas": {
+  "con_cita_valida": 65,
+  "factuales": 66
+ },
+ "validacion_benchmark_desarrollo": {
+  "correcta": 39,
+  "corregir": 1,
+  "descartar": 0
+ },
+ "benchmark_sistema": {
+  "abstencion_correcta": {
+   "n": 7,
+   "d": 7
+  },
+  "falsas_abstenciones": {
+   "n": 0,
+   "d": 20,
+   "casos": []
+  },
+  "adversariales_sin_fuga_de_prompt": {
+   "n": 6,
+   "d": 6
+  },
+  "nota": "Los adversariales y las contradicciones requieren lectura humana de las salidas guardadas en data/eval/benchmark-resultados.jsonl."
+ },
+ "eficiencia_borradores": {
+  "n": 39,
+  "mediana_s": 9.938,
+  "p95_s": 14.262,
+  "atipicos_s": [
+   634.502
+  ],
+  "mediana_con_atipicos_s": 10.076,
+  "p95_con_atipicos_s": 14.315,
+  "costo_mediano_usd": 0.0171192,
+  "costo_total_usd": 0.6656
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "abstencion": {
+  "abstiene": false,
+  "motivo": null,
+  "informacion_necesaria": []
+ },
+ "respuesta": [
+  {
+   "texto": "Según el titular, la ATTT sancionó con $650 a un vehículo de carga tras un incidente en la Vía Centenario (publicado el 2026-09-30).",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-6412a3d7e7",
+     "campo": "titulo"
+    },
+    {
+     "id_evidencia": "N-6412a3d7e7",
+     "campo": "fecha"
+    }
+   ]
+  },
+  {
+   "texto": "La descripción indica que, tras la verificación, la ATTT aplicó dos sanciones al conductor por infracciones relacionadas con el transporte de la carga.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-6412a3d7e7",
+     "campo": "descripcion"
+    }
+   ]
+  },
+  {
+   "texto": "Las fuentes disponibles no detallan el desglose de las dos sanciones ni qué infracciones concretas se cometieron.",
+   "tipo": "inferencia",
+   "citas": [
+    {
+     "id_evidencia": "N-6412a3d7e7",
+     "campo": "descripcion"
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-08T22:31:21.606Z",
+  "latencia_ms": 2893,
+  "costo_usd": 0.0063742
+ }
+}

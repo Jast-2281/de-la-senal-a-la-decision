@@ -19,7 +19,8 @@
     "consultar": "node --env-file-if-exists=.env.local --import tsx scripts/consultar.ts",
     "t07": "node --env-file-if-exists=.env.local --import tsx scripts/t07-inyeccion.ts",
     "preparar-eval": "tsx scripts/preparar-eval.ts",
-    "ampliar-pares": "tsx scripts/ampliar-pares.ts"
+    "ampliar-pares": "tsx scripts/ampliar-pares.ts",
+    "metricas": "node --env-file-if-exists=.env.local --import tsx scripts/metricas.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.131.0",

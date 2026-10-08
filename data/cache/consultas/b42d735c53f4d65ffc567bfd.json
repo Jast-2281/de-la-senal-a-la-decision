@@ -1,0 +1,45 @@
+{
+ "abstencion": {
+  "abstiene": false,
+  "motivo": null,
+  "informacion_necesaria": []
+ },
+ "respuesta": [
+  {
+   "texto": "Según el titular, la Asociación Bancaria advierte que el aumento de tasas de interés en préstamos podría sentirse en Panamá.",
+   "tipo": "declaracion",
+   "citas": [
+    {
+     "id_evidencia": "N-9c9f3e301f",
+     "campo": "titulo"
+    }
+   ]
+  },
+  {
+   "texto": "La descripción atribuye ese posible efecto a que semanas atrás la Reserva Federal estadounidense decidió subir sus tasas de interés.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-9c9f3e301f",
+     "campo": "descripcion"
+    }
+   ]
+  },
+  {
+   "texto": "La nota está fechada el 2026-09-29.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-9c9f3e301f",
+     "campo": "fecha"
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-08T22:31:47.966Z",
+  "latencia_ms": 5873,
+  "costo_usd": 0.0038421999999999996
+ }
+}

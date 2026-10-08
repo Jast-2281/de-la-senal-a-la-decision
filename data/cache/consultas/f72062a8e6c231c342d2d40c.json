@@ -1,0 +1,49 @@
+{
+ "abstencion": {
+  "abstiene": false,
+  "motivo": null,
+  "informacion_necesaria": []
+ },
+ "respuesta": [
+  {
+   "texto": "Según el Imhpa, 16 de las 52 cuencas del país presentan actualmente condiciones extremadamente secas (reporte del 30 de septiembre de 2026).",
+   "tipo": "declaracion",
+   "citas": [
+    {
+     "id_evidencia": "N-e8659e4509",
+     "campo": "descripcion"
+    },
+    {
+     "id_evidencia": "N-e8659e4509",
+     "campo": "fecha"
+    }
+   ]
+  },
+  {
+   "texto": "El titular de la nota confirma la cifra de 16 cuencas extremadamente secas.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-e8659e4509",
+     "campo": "titulo"
+    }
+   ]
+  },
+  {
+   "texto": "La misma fuente indica que otras ocho cuencas registran algún grado de sequedad.",
+   "tipo": "declaracion",
+   "citas": [
+    {
+     "id_evidencia": "N-e8659e4509",
+     "campo": "descripcion"
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-08T22:31:18.684Z",
+  "latencia_ms": 3793,
+  "costo_usd": 0.0090015
+ }
+}

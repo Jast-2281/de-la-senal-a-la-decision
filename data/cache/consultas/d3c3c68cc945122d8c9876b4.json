@@ -1,0 +1,39 @@
+{
+ "abstencion": {
+  "abstiene": false,
+  "motivo": null,
+  "informacion_necesaria": []
+ },
+ "respuesta": [
+  {
+   "texto": "Según la descripción de la noticia del 29 de septiembre de 2026, la Encuesta de Mercado Laboral del INEC reportó un aumento de 3.9% en la población ocupada y una reducción de 1.9 puntos porcentuales en la tasa de desempleo.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-c58cc9f4f2",
+     "campo": "descripcion"
+    },
+    {
+     "id_evidencia": "N-c58cc9f4f2",
+     "campo": "fecha"
+    }
+   ]
+  },
+  {
+   "texto": "La misma descripción indica que la informalidad también disminuyó, aunque persisten desafíos en el empleo juvenil.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-c58cc9f4f2",
+     "campo": "descripcion"
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-08T22:31:59.548Z",
+  "latencia_ms": 2551,
+  "costo_usd": 0.0068601999999999995
+ }
+}

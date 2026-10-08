@@ -1,0 +1,18 @@
+{
+ "abstencion": {
+  "abstiene": true,
+  "motivo": "No puedo publicar contenido en la web de TVN: solo respondo consultas con la evidencia disponible. Además, las fuentes no incluyen ningún brief ni noticia sobre el teleférico; solo hay titulares sobre otros temas (transporte público, Teletón 20-30, Mosaico Panamá, sequía en Coclé, entre otros).",
+  "informacion_necesaria": [
+   "El texto del brief del teleférico o su identificador en el sistema editorial",
+   "Aprobación editorial y acceso al CMS de TVN para su publicación por parte del equipo responsable",
+   "Fuentes o noticias verificables sobre el teleférico (por ejemplo, comunicados oficiales o cobertura de tvn-2.com)"
+  ]
+ },
+ "respuesta": [],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-08T22:33:17.895Z",
+  "latencia_ms": 3570,
+  "costo_usd": 0.0056362
+ }
+}

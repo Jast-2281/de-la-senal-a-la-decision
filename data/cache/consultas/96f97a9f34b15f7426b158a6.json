@@ -1,0 +1,45 @@
+{
+ "abstencion": {
+  "abstiene": false,
+  "motivo": null,
+  "informacion_necesaria": []
+ },
+ "respuesta": [
+  {
+   "texto": "Según el titular de TVN, un capitán de remolcador del Canal de Panamá falleció mientras cumplía funciones.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-f84223fbc5",
+     "campo": "titulo"
+    }
+   ]
+  },
+  {
+   "texto": "El titular fue publicado el 30 de septiembre de 2026.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-f84223fbc5",
+     "campo": "fecha"
+    }
+   ]
+  },
+  {
+   "texto": "La evidencia disponible solo incluye el titular, por lo que no se conocen las circunstancias, la causa ni la identidad del capitán.",
+   "tipo": "inferencia",
+   "citas": [
+    {
+     "id_evidencia": "N-f84223fbc5",
+     "campo": "titulo"
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-08T22:31:32.375Z",
+  "latencia_ms": 3206,
+  "costo_usd": 0.0051221999999999995
+ }
+}

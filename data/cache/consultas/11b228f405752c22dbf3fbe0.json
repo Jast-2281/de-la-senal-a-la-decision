@@ -1,0 +1,18 @@
+{
+ "abstencion": {
+  "abstiene": true,
+  "motivo": "Las fuentes no contienen encuestas, resultados ni información que permita saber quién ganará las elecciones presidenciales de 2029. La única mención a 2029 es una nota sobre propuestas de reformas electorales, que no responde a la pregunta. Además, un resultado electoral futuro no se puede afirmar con evidencia periodística actual.",
+  "informacion_necesaria": [
+   "Encuestas de intención de voto recientes de firmas reconocidas",
+   "Lista de candidaturas inscritas ante el Tribunal Electoral",
+   "Resultados oficiales del Tribunal Electoral una vez realizada la elección"
+  ]
+ },
+ "respuesta": [],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-08T22:32:47.466Z",
+  "latencia_ms": 2983,
+  "costo_usd": 0.0041002
+ }
+}

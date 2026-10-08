@@ -1,0 +1,63 @@
+{
+ "abstencion": {
+  "abstiene": false,
+  "motivo": null,
+  "informacion_necesaria": []
+ },
+ "respuesta": [
+  {
+   "texto": "Prensa.com tituló que las acciones de First Quantum Minerals registraron fuerte volatilidad tras un informe que recomienda el cierre ordenado de la mina de Donoso (30 de septiembre de 2026).",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-ba608cd02b",
+     "campo": "titulo"
+    },
+    {
+     "id_evidencia": "N-ba608cd02b",
+     "campo": "fecha"
+    }
+   ]
+  },
+  {
+   "texto": "Las fuentes disponibles solo dan el titular, sin cifras sobre la magnitud del movimiento de la acción, por lo que no puedo precisarlo.",
+   "tipo": "inferencia",
+   "citas": [
+    {
+     "id_evidencia": "N-ba608cd02b",
+     "campo": "titulo"
+    }
+   ]
+  },
+  {
+   "texto": "La comisión recomendó negociar con First Quantum un cierre progresivo y el finiquito del arbitraje.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-86dca50ced",
+     "campo": "titulo"
+    }
+   ]
+  },
+  {
+   "texto": "First Quantum planteó participar de buena fe en un diálogo sobre el futuro de Cobre Panamá, y su comunicado reconoce que un nuevo acuerdo debe respetar la soberanía de Panamá.",
+   "tipo": "declaracion",
+   "citas": [
+    {
+     "id_evidencia": "N-5e971d1a54",
+     "campo": "titulo"
+    },
+    {
+     "id_evidencia": "N-5e971d1a54",
+     "campo": "descripcion"
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-08T22:31:29.139Z",
+  "latencia_ms": 4078,
+  "costo_usd": 0.0075302
+ }
+}

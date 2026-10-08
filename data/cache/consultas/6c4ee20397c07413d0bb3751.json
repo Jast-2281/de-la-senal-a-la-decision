@@ -1,0 +1,45 @@
+{
+ "abstencion": {
+  "abstiene": false,
+  "motivo": null,
+  "informacion_necesaria": []
+ },
+ "respuesta": [
+  {
+   "texto": "El Consejo de Gabinete autorizó una precalificación para operar y mantener los aeropuertos de David y Río Hato.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-0f2d3826e7",
+     "campo": "titulo"
+    }
+   ]
+  },
+  {
+   "texto": "El proceso será adelantado por Tocumen, S.A. y permitirá identificar a las empresas que cumplan con los requisitos legales, técnicos, administrativos y financieros antes de la licitación por mejor valor.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-0f2d3826e7",
+     "campo": "descripcion"
+    }
+   ]
+  },
+  {
+   "texto": "La noticia está fechada el 30 de septiembre de 2026 (UTC).",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-0f2d3826e7",
+     "campo": "fecha"
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-08T22:32:15.120Z",
+  "latencia_ms": 3089,
+  "costo_usd": 0.0042022
+ }
+}

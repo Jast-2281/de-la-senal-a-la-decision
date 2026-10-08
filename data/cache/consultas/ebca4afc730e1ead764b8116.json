@@ -1,0 +1,18 @@
+{
+ "abstencion": {
+  "abstiene": true,
+  "motivo": "Las fuentes no contienen el PIB de Panamá de 2025. Solo hay un indicador anual del Banco Mundial sobre crecimiento del PIB en 2024 (2,75 %), que no responde a la pregunta sobre 2025, y titulares de noticias sin cifras de PIB.",
+  "informacion_necesaria": [
+   "PIB de Panamá de 2025 (nivel en dólares o tasa de crecimiento), publicado por el Instituto Nacional de Estadística y Censo (INEC) de Panamá o la Contraloría General",
+   "Indicador del Banco Mundial para Panamá correspondiente a 2025, cuando esté disponible",
+   "Estimaciones del FMI o la CEPAL para el PIB de Panamá en 2025"
+  ]
+ },
+ "respuesta": [],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-08T22:32:44.429Z",
+  "latencia_ms": 3228,
+  "costo_usd": 0.0052042
+ }
+}

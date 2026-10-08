@@ -1,0 +1,39 @@
+{
+ "abstencion": {
+  "abstiene": false,
+  "motivo": null,
+  "informacion_necesaria": []
+ },
+ "respuesta": [
+  {
+   "texto": "CAF y la Fundación Amador impulsan estudios para desarrollar el Parque de Amador, según el titular de tvn-2.com publicado el 2026-09-30.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-d80fcb1502",
+     "campo": "titulo"
+    },
+    {
+     "id_evidencia": "N-d80fcb1502",
+     "campo": "fecha"
+    }
+   ]
+  },
+  {
+   "texto": "La descripción indica que los recursos se destinarán a estudios y levantamientos preliminares del terreno, edificaciones, arbolado y suelo, además de análisis de mercado y de los potenciales usuarios del parque.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-d80fcb1502",
+     "campo": "descripcion"
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-08T22:31:53.195Z",
+  "latencia_ms": 2419,
+  "costo_usd": 0.0039942
+ }
+}

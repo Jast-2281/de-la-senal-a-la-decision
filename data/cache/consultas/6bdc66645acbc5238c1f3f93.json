@@ -1,0 +1,43 @@
+{
+ "abstencion": {
+  "abstiene": false,
+  "motivo": null,
+  "informacion_necesaria": []
+ },
+ "respuesta": [
+  {
+   "texto": "Según el Ministerio de Educación, al menos ocho centros educativos de Veraguas han sido afectados por actos vandálicos y hurtos durante 2026; el titular habla de \"más de ocho\" escuelas.",
+   "tipo": "declaracion",
+   "citas": [
+    {
+     "id_evidencia": "N-0c63ac467b",
+     "campo": "descripcion"
+    },
+    {
+     "id_evidencia": "N-0c63ac467b",
+     "campo": "titulo"
+    },
+    {
+     "id_evidencia": "N-0c63ac467b",
+     "campo": "fecha"
+    }
+   ]
+  },
+  {
+   "texto": "La fuente no precisa una cifra exacta, solo un mínimo de ocho.",
+   "tipo": "inferencia",
+   "citas": [
+    {
+     "id_evidencia": "N-0c63ac467b",
+     "campo": "descripcion"
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-08T22:31:38.256Z",
+  "latencia_ms": 3134,
+  "costo_usd": 0.0050462
+ }
+}

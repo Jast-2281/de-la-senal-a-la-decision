@@ -1,0 +1,39 @@
+{
+ "abstencion": {
+  "abstiene": false,
+  "motivo": null,
+  "informacion_necesaria": []
+ },
+ "respuesta": [
+  {
+   "texto": "Según el titular de TVN, el Ministerio de la Presidencia sustentó un presupuesto de $246 millones para 2027 (nota del 29 de septiembre de 2026).",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-604b3a6b9f",
+     "campo": "titulo"
+    },
+    {
+     "id_evidencia": "N-604b3a6b9f",
+     "campo": "fecha"
+    }
+   ]
+  },
+  {
+   "texto": "El ministro Juan Carlos Orillac señaló que la partida recomendada por el MEF incluye $176.5 millones para funcionamiento y $70 millones para inversión.",
+   "tipo": "declaracion",
+   "citas": [
+    {
+     "id_evidencia": "N-604b3a6b9f",
+     "campo": "descripcion"
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-08T22:31:25.036Z",
+  "latencia_ms": 3407,
+  "costo_usd": 0.005840199999999999
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "abstencion": {
+  "abstiene": false,
+  "motivo": null,
+  "informacion_necesaria": []
+ },
+ "respuesta": [
+  {
+   "texto": "Según el titular de TVN, las exportaciones cayeron $151.5 millones este año.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-ebdbce0f64",
+     "campo": "titulo"
+    },
+    {
+     "id_evidencia": "N-ebdbce0f64",
+     "campo": "fecha"
+    }
+   ]
+  },
+  {
+   "texto": "El titular señala que el MEF atribuye la caída a las exportaciones de remanentes de cobre del 2025.",
+   "tipo": "declaracion",
+   "citas": [
+    {
+     "id_evidencia": "N-ebdbce0f64",
+     "campo": "titulo"
+    }
+   ]
+  },
+  {
+   "texto": "La descripción añade que, al excluir el efecto de la actividad minera, el comportamiento de las exportaciones agropecuarias e industriales fue positivo.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-ebdbce0f64",
+     "campo": "descripcion"
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-08T22:32:02.892Z",
+  "latencia_ms": 3310,
+  "costo_usd": 0.0050682
+ }
+}

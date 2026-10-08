@@ -1,0 +1,17 @@
+{
+ "abstencion": {
+  "abstiene": true,
+  "motivo": "Las fuentes no indican el presupuesto definitivo de MiBus para 2027. Solo muestran la solicitud de la empresa ($180 millones) y la recomendación del MEF ($160 millones), sin que conste una aprobación final.",
+  "informacion_necesaria": [
+   "Presupuesto de 2027 aprobado por la Asamblea Nacional o la Comisión de Presupuesto para MiBus",
+   "Comunicado oficial del MEF o de MiBus con la cifra final asignada"
+  ]
+ },
+ "respuesta": [],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-08T22:32:41.163Z",
+  "latencia_ms": 2320,
+  "costo_usd": 0.0046342
+ }
+}

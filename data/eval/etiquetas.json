@@ -721,7 +721,428 @@
    "nota": "",
    "revisor": "Julian Andrew",
    "fecha": "2026-10-08T22:04:49.301Z"
+  },
+  "P-081": {
+   "valor": "distinto_evento",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:08:25.944Z"
+  },
+  "P-082": {
+   "valor": "mismo_evento",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:08:44.661Z"
+  },
+  "P-083": {
+   "valor": "distinto_evento",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:08:52.067Z"
+  },
+  "P-084": {
+   "valor": "distinto_evento",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:09:13.285Z"
+  },
+  "P-085": {
+   "valor": "mismo_evento",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:09:25.780Z"
+  },
+  "P-086": {
+   "valor": "mismo_evento",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:09:37.303Z"
+  },
+  "P-087": {
+   "valor": "distinto_evento",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:10:00.199Z"
+  },
+  "P-088": {
+   "valor": "distinto_evento",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:10:16.278Z"
+  },
+  "P-089": {
+   "valor": "mismo_evento",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:10:20.159Z"
+  },
+  "P-090": {
+   "valor": "mismo_evento",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:10:25.858Z"
+  },
+  "P-091": {
+   "valor": "mismo_evento",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:10:33.272Z"
+  },
+  "P-092": {
+   "valor": "mismo_evento",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:10:54.625Z"
+  },
+  "P-093": {
+   "valor": "mismo_evento",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:11:08.093Z"
+  },
+  "P-094": {
+   "valor": "mismo_evento",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:11:21.148Z"
+  },
+  "P-095": {
+   "valor": "distinto_evento",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:11:27.161Z"
+  },
+  "P-096": {
+   "valor": "mismo_evento",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:11:31.559Z"
+  },
+  "P-097": {
+   "valor": "distinto_evento",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:11:58.037Z"
+  },
+  "P-098": {
+   "valor": "distinto_evento",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:12:26.933Z"
+  },
+  "P-099": {
+   "valor": "mismo_evento",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:12:35.645Z"
+  },
+  "P-100": {
+   "valor": "distinto_evento",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:12:45.125Z"
+  },
+  "P-101": {
+   "valor": "distinto_evento",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:12:54.486Z"
+  },
+  "P-102": {
+   "valor": "mismo_evento",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:13:02.585Z"
+  },
+  "P-103": {
+   "valor": "mismo_evento",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:13:11.321Z"
+  },
+  "P-104": {
+   "valor": "distinto_evento",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:13:18.351Z"
+  },
+  "P-105": {
+   "valor": "distinto_evento",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:13:32.107Z"
+  },
+  "P-106": {
+   "valor": "mismo_evento",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:13:40.212Z"
+  },
+  "P-107": {
+   "valor": "distinto_evento",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:13:49.519Z"
+  },
+  "P-108": {
+   "valor": "mismo_evento",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:14:08.247Z"
+  },
+  "P-109": {
+   "valor": "mismo_evento",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:14:28.141Z"
+  },
+  "P-110": {
+   "valor": "distinto_evento",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:14:58.923Z"
+  },
+  "P-111": {
+   "valor": "distinto_evento",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:15:08.190Z"
+  },
+  "P-112": {
+   "valor": "distinto_evento",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:15:18.636Z"
+  },
+  "P-113": {
+   "valor": "distinto_evento",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:15:24.460Z"
+  },
+  "P-114": {
+   "valor": "mismo_evento",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:15:40.734Z"
+  },
+  "P-115": {
+   "valor": "mismo_evento",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:15:46.799Z"
+  },
+  "P-116": {
+   "valor": "mismo_evento",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:16:05.766Z"
+  },
+  "P-117": {
+   "valor": "mismo_evento",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:16:16.080Z"
+  },
+  "P-118": {
+   "valor": "mismo_evento",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:16:24.512Z"
+  },
+  "P-119": {
+   "valor": "distinto_evento",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:16:31.636Z"
+  },
+  "P-120": {
+   "valor": "distinto_evento",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:16:41.678Z"
   }
  },
- "sustento": {}
+ "sustento": {
+  "S-001": {
+   "valor": "respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:19:50.172Z"
+  },
+  "S-002": {
+   "valor": "respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:20:49.497Z"
+  },
+  "S-003": {
+   "valor": "respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:21:44.618Z"
+  },
+  "S-004": {
+   "valor": "respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:21:54.435Z"
+  },
+  "S-005": {
+   "valor": "parcialmente_respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:22:16.065Z"
+  },
+  "S-006": {
+   "valor": "respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:22:44.051Z"
+  },
+  "S-007": {
+   "valor": "respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:23:01.748Z"
+  },
+  "S-008": {
+   "valor": "respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:23:17.512Z"
+  },
+  "S-009": {
+   "valor": "parcialmente_respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:23:34.717Z"
+  },
+  "S-010": {
+   "valor": "respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:23:51.131Z"
+  },
+  "S-011": {
+   "valor": "respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:24:06.121Z"
+  },
+  "S-012": {
+   "valor": "parcialmente_respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:24:32.604Z"
+  },
+  "S-013": {
+   "valor": "parcialmente_respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:24:51.791Z"
+  },
+  "S-014": {
+   "valor": "respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:25:03.350Z"
+  },
+  "S-015": {
+   "valor": "respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:25:14.684Z"
+  },
+  "S-016": {
+   "valor": "parcialmente_respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:25:33.005Z"
+  },
+  "S-017": {
+   "valor": "respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:25:43.634Z"
+  },
+  "S-018": {
+   "valor": "parcialmente_respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:26:08.189Z"
+  },
+  "S-019": {
+   "valor": "parcialmente_respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:26:18.256Z"
+  },
+  "S-020": {
+   "valor": "parcialmente_respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:26:48.270Z"
+  },
+  "S-021": {
+   "valor": "parcialmente_respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:27:13.696Z"
+  },
+  "S-022": {
+   "valor": "parcialmente_respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:27:27.739Z"
+  },
+  "S-023": {
+   "valor": "respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:27:38.355Z"
+  },
+  "S-024": {
+   "valor": "parcialmente_respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:28:06.010Z"
+  },
+  "S-025": {
+   "valor": "parcialmente_respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:28:23.703Z"
+  },
+  "S-026": {
+   "valor": "parcialmente_respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:28:39.621Z"
+  },
+  "S-027": {
+   "valor": "parcialmente_respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:28:46.100Z"
+  },
+  "S-028": {
+   "valor": "respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:28:59.274Z"
+  },
+  "S-029": {
+   "valor": "respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:29:11.223Z"
+  },
+  "S-030": {
+   "valor": "respaldada",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T22:29:23.055Z"
+  }
+ }
 }

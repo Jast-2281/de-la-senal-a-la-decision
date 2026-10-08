@@ -1,0 +1,57 @@
+{
+ "abstencion": {
+  "abstiene": false,
+  "motivo": null,
+  "informacion_necesaria": []
+ },
+ "respuesta": [
+  {
+   "texto": "La consulta no especifica un periodo ni un tema, y las fuentes traen dos cifras distintas según el caso.",
+   "tipo": "inferencia",
+   "citas": []
+  },
+  {
+   "texto": "Acodeco registró 280 quejas contra inmobiliarias por más de $13.2 millones, según el titular publicado el 2026-09-25.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-ba49afd7fb",
+     "campo": "titulo"
+    },
+    {
+     "id_evidencia": "N-ba49afd7fb",
+     "campo": "fecha"
+    }
+   ]
+  },
+  {
+   "texto": "Entre enero y agosto de 2026 recibió 375 quejas por incumplimiento de beneficios para jubilados y personas con discapacidad: 324 vinculadas a la Ley 6 y 51 a la Ley 134 (publicado el 2026-09-27).",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-410bc2416f",
+     "campo": "titulo"
+    },
+    {
+     "id_evidencia": "N-410bc2416f",
+     "campo": "descripcion"
+    },
+    {
+     "id_evidencia": "N-410bc2416f",
+     "campo": "fecha"
+    }
+   ]
+  },
+  {
+   "texto": "Las fuentes no ofrecen un total general de quejas de la Acodeco.",
+   "tipo": "inferencia",
+   "citas": []
+  }
+ ],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-08T22:32:25.734Z",
+  "latencia_ms": 3633,
+  "costo_usd": 0.0066942
+ }
+}

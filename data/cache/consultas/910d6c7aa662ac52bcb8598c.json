@@ -1,0 +1,61 @@
+{
+ "abstencion": {
+  "abstiene": false,
+  "motivo": null,
+  "informacion_necesaria": []
+ },
+ "respuesta": [
+  {
+   "texto": "Según el titular del 30 de septiembre de 2026, los precios de la gasolina suben y el diésel presentará una ligera disminución este viernes; los titulares no incluyen las cifras exactas.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-683849df5b",
+     "campo": "titulo"
+    },
+    {
+     "id_evidencia": "N-683849df5b",
+     "campo": "fecha"
+    }
+   ]
+  },
+  {
+   "texto": "El 26 de septiembre de 2026, transportistas del interior pidieron una reunión urgente con Mulino por el alza del combustible.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-a9152f418f",
+     "campo": "titulo"
+    },
+    {
+     "id_evidencia": "N-a9152f418f",
+     "campo": "fecha"
+    }
+   ]
+  },
+  {
+   "texto": "El 25 de marzo de 2026, el ministro Chapman defendió las medidas del Gobierno ante el alza de precio de los combustibles, y el gobierno convocó a sectores transportistas para analizar el impacto.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-eb78aaa7f2",
+     "campo": "titulo"
+    },
+    {
+     "id_evidencia": "N-eb78aaa7f2",
+     "campo": "descripcion"
+    },
+    {
+     "id_evidencia": "N-eb78aaa7f2",
+     "campo": "fecha"
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-08T22:31:56.984Z",
+  "latencia_ms": 3769,
+  "costo_usd": 0.0076362
+ }
+}

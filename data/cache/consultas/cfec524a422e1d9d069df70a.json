@@ -1,0 +1,17 @@
+{
+ "abstencion": {
+  "abstiene": true,
+  "motivo": "Las fuentes solo muestran que la Comisión de Presupuesto aprobó un traslado de partida de $7.7 millones para la Unachi y que se esperaba ese monto. No confirman que el dinero se haya trasladado o desembolsado efectivamente, ni cuánto. La tercera evidencia menciona un traslado de $32.1 millones, pero no indica que sea para la Unachi.",
+  "informacion_necesaria": [
+   "Confirmación oficial del Ministerio de Economía y Finanzas o de la Unachi sobre el desembolso efectivo y su monto",
+   "Resolución o acta de la Asamblea o de la Comisión de Presupuesto con el destino de cada traslado, incluido el de $32.1 millones"
+  ]
+ },
+ "respuesta": [],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-08T22:32:29.347Z",
+  "latencia_ms": 3540,
+  "costo_usd": 0.0043542
+ }
+}

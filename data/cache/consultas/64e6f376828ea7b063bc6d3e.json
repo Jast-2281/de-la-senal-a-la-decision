@@ -1,0 +1,17 @@
+{
+ "abstencion": {
+  "abstiene": true,
+  "motivo": "La evidencia no permite confirmar si el desempleo bajó. El único titular relevante recoge una afirmación del presidente, sin cifras. El indicador del Banco Mundial es un dato anual de 2024 (8,451 %), sin serie comparativa y sin cobertura de un periodo reciente.",
+  "informacion_necesaria": [
+   "Cifras recientes de desempleo de la Encuesta de Mercado Laboral del Instituto Nacional de Estadística y Censo (INEC) de Panamá, con comparación frente al periodo anterior",
+   "Serie anual del Banco Mundial (SL.UEM.TOTL.ZS) con varios años para comparar con 2024"
+  ]
+ },
+ "respuesta": [],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-08T22:32:38.831Z",
+  "latencia_ms": 3365,
+  "costo_usd": 0.0047782
+ }
+}

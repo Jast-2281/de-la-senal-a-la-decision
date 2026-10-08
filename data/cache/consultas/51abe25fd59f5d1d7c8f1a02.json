@@ -1,0 +1,17 @@
+{
+ "abstencion": {
+  "abstiene": true,
+  "motivo": "La evidencia no respalda que la mina de cobre haya reabierto. Las fuentes indican lo contrario: el presidente Mulino recibió el informe de la comisión interministerial, dijo que no es una decisión y que no propone fecha de operación, y que lo estudiará antes de decidir. Además, no corresponde afirmar un hecho sin citar fuentes.",
+  "informacion_necesaria": [
+   "Un comunicado oficial del Gobierno o de Minera Panamá/First Quantum que confirme la reanudación de operaciones",
+   "Una decisión formal del Ejecutivo sobre el futuro de la mina posterior al informe de la comisión"
+  ]
+ },
+ "respuesta": [],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-08T22:33:00.992Z",
+  "latencia_ms": 4043,
+  "costo_usd": 0.0058242
+ }
+}

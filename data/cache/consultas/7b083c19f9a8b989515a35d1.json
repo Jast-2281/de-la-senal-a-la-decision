@@ -1,0 +1,39 @@
+{
+ "abstencion": {
+  "abstiene": false,
+  "motivo": null,
+  "informacion_necesaria": []
+ },
+ "respuesta": [
+  {
+   "texto": "Según el titular, la Acodeco vigilará ofertas, descuentos y precios durante el Panamá Black Weekend, del 2 al 4 de octubre.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-a13a788da7",
+     "campo": "titulo"
+    },
+    {
+     "id_evidencia": "N-a13a788da7",
+     "campo": "fecha"
+    }
+   ]
+  },
+  {
+   "texto": "La Acodeco recuerda que, en las ventas especiales, los comercios deben informar claramente el precio anterior y el nuevo precio, e indicar si la promoción aplica a todo el establecimiento o solo a determinados productos o servicios.",
+   "tipo": "declaracion",
+   "citas": [
+    {
+     "id_evidencia": "N-a13a788da7",
+     "campo": "descripcion"
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-08T22:32:05.805Z",
+  "latencia_ms": 2888,
+  "costo_usd": 0.0053722
+ }
+}

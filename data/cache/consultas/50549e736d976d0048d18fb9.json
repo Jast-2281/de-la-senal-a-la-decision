@@ -1,0 +1,39 @@
+{
+ "abstencion": {
+  "abstiene": false,
+  "motivo": null,
+  "informacion_necesaria": []
+ },
+ "respuesta": [
+  {
+   "texto": "El robo del motor destinado a una escuela de difícil acceso ocurrió en una bodega del Meduca en Colón, según el titular publicado el 30 de septiembre de 2026.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-f8efa3b917",
+     "campo": "titulo"
+    },
+    {
+     "id_evidencia": "N-f8efa3b917",
+     "campo": "fecha"
+    }
+   ]
+  },
+  {
+   "texto": "Las autoridades iniciaron investigaciones para esclarecer el robo y determinar cómo los sujetos lograron ingresar a la bodega.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-f8efa3b917",
+     "campo": "descripcion"
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-08T22:31:35.082Z",
+  "latencia_ms": 2694,
+  "costo_usd": 0.0044322
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "abstencion": {
+  "abstiene": false,
+  "motivo": null,
+  "informacion_necesaria": []
+ },
+ "respuesta": [
+  {
+   "texto": "Según el titular de La Estrella de Panamá, Panamá busca atraer inversión de Texas en sectores estratégicos.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-b8d6f957ca",
+     "campo": "titulo"
+    },
+    {
+     "id_evidencia": "N-b8d6f957ca",
+     "campo": "fecha"
+    }
+   ]
+  },
+  {
+   "texto": "La evidencia disponible solo incluye el titular y no detalla cuáles son esos sectores ni los montos o actores involucrados.",
+   "tipo": "inferencia",
+   "citas": [
+    {
+     "id_evidencia": "N-b8d6f957ca",
+     "campo": "titulo"
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-08T22:31:50.746Z",
+  "latencia_ms": 2759,
+  "costo_usd": 0.0048882
+ }
+}

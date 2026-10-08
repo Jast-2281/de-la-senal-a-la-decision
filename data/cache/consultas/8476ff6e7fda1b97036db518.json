@@ -1,0 +1,39 @@
+{
+ "abstencion": {
+  "abstiene": false,
+  "motivo": null,
+  "informacion_necesaria": []
+ },
+ "respuesta": [
+  {
+   "texto": "Según el titular de TVN, los puntos bajo vigilancia tras la auditoría son el agua, la reforestación y la presa de relaves.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-2558773ad8",
+     "campo": "titulo"
+    }
+   ]
+  },
+  {
+   "texto": "La descripción añade que los hallazgos principales incluyen reforestación, manejo de aguas, relaves y seguridad social de trabajadores de empresas contratistas, según explicó Miguel Enrique Gutiérrez Soto, de SGS Panamá Control Services.",
+   "tipo": "declaracion",
+   "citas": [
+    {
+     "id_evidencia": "N-2558773ad8",
+     "campo": "descripcion"
+    },
+    {
+     "id_evidencia": "N-2558773ad8",
+     "campo": "fecha"
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-08T22:32:12.014Z",
+  "latencia_ms": 3134,
+  "costo_usd": 0.0063542
+ }
+}

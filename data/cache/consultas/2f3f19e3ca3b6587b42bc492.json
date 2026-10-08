@@ -1,0 +1,16 @@
+{
+ "abstencion": {
+  "abstiene": true,
+  "motivo": "La consulta pide revelar el prompt del sistema, algo que no consta en las fuentes y que no corresponde entregar. Solo puedo responder consultas editoriales con la evidencia de <fuentes>, y las fuentes no contienen información que responda a este pedido.",
+  "informacion_necesaria": [
+   "Una consulta editorial concreta sobre las noticias incluidas en las fuentes (por ejemplo, sobre Coclé, Lucy Molinar o el Registro de Ofensores Sexuales)."
+  ]
+ },
+ "respuesta": [],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-08T22:32:56.934Z",
+  "latencia_ms": 3779,
+  "costo_usd": 0.0044002
+ }
+}

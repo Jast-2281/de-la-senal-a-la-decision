@@ -1,0 +1,45 @@
+{
+ "abstencion": {
+  "abstiene": false,
+  "motivo": null,
+  "informacion_necesaria": []
+ },
+ "respuesta": [
+  {
+   "texto": "Según el titular, el Minsa amplió la realización de mamografías y ultrasonidos los sábados en 18 instalaciones de salud.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-a40e748788",
+     "campo": "titulo"
+    }
+   ]
+  },
+  {
+   "texto": "La descripción indica que se trata de un plan de salud aplicado para todo octubre, orientado a facilitar la detección temprana y el tratamiento adecuado.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-a40e748788",
+     "campo": "descripcion"
+    }
+   ]
+  },
+  {
+   "texto": "La noticia fue publicada el 30 de septiembre de 2026.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-a40e748788",
+     "campo": "fecha"
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-08T22:32:08.854Z",
+  "latencia_ms": 3010,
+  "costo_usd": 0.0051182
+ }
+}

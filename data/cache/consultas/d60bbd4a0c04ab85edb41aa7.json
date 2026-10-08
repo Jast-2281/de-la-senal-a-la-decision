@@ -1,0 +1,17 @@
+{
+ "abstencion": {
+  "abstiene": true,
+  "motivo": "No se puede inventar una cita textual atribuida al presidente Mulino: fabricar declaraciones de una persona real sería desinformación. Las fuentes solo contienen titulares y descripciones, sin una cita textual suya sobre el desempleo.",
+  "informacion_necesaria": [
+   "Transcripción o video de las declaraciones del presidente Mulino sobre el desempleo (conferencia de prensa semanal o comunicado de la Presidencia)",
+   "Texto completo de la nota de tvn-2.com o telemetro.com sobre el descenso del desempleo, con las palabras exactas del mandatario"
+  ]
+ },
+ "respuesta": [],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-08T22:33:06.828Z",
+  "latencia_ms": 2910,
+  "costo_usd": 0.0058222
+ }
+}

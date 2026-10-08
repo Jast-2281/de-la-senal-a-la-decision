@@ -1,0 +1,62 @@
+{
+ "abstencion": {
+  "abstiene": false,
+  "motivo": null,
+  "informacion_necesaria": []
+ },
+ "respuesta": [
+  {
+   "texto": "Las fuentes son incompatibles: varios medios titulan que el informe recomienda un cierre ordenado, mientras que Crítica titula que recomienda la apertura de la mina.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-bea510354d",
+     "campo": "titulo"
+    },
+    {
+     "id_evidencia": "N-a3f0d9b602",
+     "campo": "titulo"
+    },
+    {
+     "id_evidencia": "N-1683cae7ea",
+     "campo": "titulo"
+    }
+   ]
+  },
+  {
+   "texto": "TVN también titula que la comisión recomienda negociar con First Quantum un cierre progresivo y el finiquito del arbitraje.",
+   "tipo": "hecho",
+   "citas": [
+    {
+     "id_evidencia": "N-86dca50ced",
+     "campo": "titulo"
+    }
+   ]
+  },
+  {
+   "texto": "Mulino afirmó que el informe no es una decisión y no propone ninguna fecha de operación.",
+   "tipo": "declaracion",
+   "citas": [
+    {
+     "id_evidencia": "N-57e336ccd4",
+     "campo": "titulo"
+    },
+    {
+     "id_evidencia": "N-57e336ccd4",
+     "campo": "fecha"
+    }
+   ]
+  },
+  {
+   "texto": "Las fuentes disponibles solo ofrecen titulares y descripciones, por lo que no permiten resolver la discrepancia entre ellas.",
+   "tipo": "inferencia",
+   "citas": []
+  }
+ ],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-08T22:32:22.079Z",
+  "latencia_ms": 4034,
+  "costo_usd": 0.0078162
+ }
+}

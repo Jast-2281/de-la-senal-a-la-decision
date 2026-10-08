@@ -1,0 +1,17 @@
+{
+ "abstencion": {
+  "abstiene": true,
+  "motivo": "La evidencia solo indica que el exfiscalizador fue aprehendido por presunto peculado; no hay condena ni declaración de culpabilidad. Afirmar que es culpable no está respaldado y vulneraría la presunción de inocencia. La condena por peculado que aparece corresponde a otra persona (José Federico Suárez), en un caso distinto.",
+  "informacion_necesaria": [
+   "Sentencia o fallo judicial firme que declare culpable al exfiscalizador, publicada por el Órgano Judicial o el Ministerio Público",
+   "Comunicado oficial del Ministerio Público sobre el estado procesal del caso"
+  ]
+ },
+ "respuesta": [],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-08T22:33:03.904Z",
+  "latencia_ms": 2869,
+  "costo_usd": 0.0055242
+ }
+}

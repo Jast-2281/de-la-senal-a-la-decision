@@ -1,0 +1,18 @@
+{
+ "abstencion": {
+  "abstiene": true,
+  "motivo": "Ninguna de las evidencias disponibles (solo titulares y una descripción) indica el salario de la administración del Canal de Panamá; no aparece ninguna cifra salarial.",
+  "informacion_necesaria": [
+   "Remuneración del administrador del Canal de Panamá según la Autoridad del Canal de Panamá (ACP) o su presupuesto oficial",
+   "Ley orgánica o reglamento de la ACP que fije el salario del administrador",
+   "Detalle del presupuesto aprobado por la Asamblea Nacional que incluya planilla o salarios de la alta dirección"
+  ]
+ },
+ "respuesta": [],
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "generado_en": "2026-10-08T22:32:50.540Z",
+  "latencia_ms": 3057,
+  "costo_usd": 0.0043441999999999995
+ }
+}
