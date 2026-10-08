@@ -1,0 +1,162 @@
+{
+ "paquete": {
+  "abstencion": {
+   "abstiene": false,
+   "motivo": null,
+   "informacion_necesaria": []
+  },
+  "titulo_propuesto": "Exportaciones de Panamá: pesca y servicios en la agenda, con el dato anual del Banco Mundial",
+  "enfoque_interes_publico": "Aclarar qué pesa realmente en las exportaciones panameñas y qué sustento hay detrás de los titulares sobre el sector pesquero y los servicios.",
+  "brief": [
+   {
+    "texto": "La Estrella titula que el sector pesquero panameño se consolida como el principal motor de exportación, según su titular, sin que se haya leído el cuerpo de la nota.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-1cbd644225",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-1cbd644225",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "Panamá América titula que el sector pesquero crece un 5 . 6 % y genera $158 . 5 millones, según su titular.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-5ac056fa29",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-5ac056fa29",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "La Estrella también titula que Panamá lidera exportaciones de servicios de Centroamérica, otra nota de la misma procedencia que la anterior.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-e167994445",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-e167994445",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "El Banco Mundial registra exportaciones de bienes y servicios de 44.36 % del PIB en 2024, dato anual que no confirma lo que reportan los titulares.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "BM:PAN:NE.EXP.GNFS.ZS:2024",
+      "campo": "valor"
+     },
+     {
+      "id_evidencia": "BM:PAN:NE.EXP.GNFS.ZS:2024",
+      "campo": "unidad"
+     },
+     {
+      "id_evidencia": "BM:PAN:NE.EXP.GNFS.ZS:2024",
+      "campo": "anio"
+     },
+     {
+      "id_evidencia": "BM:PAN:NE.EXP.GNFS.ZS:2024",
+      "campo": "limitacion"
+     }
+    ]
+   },
+   {
+    "texto": "Los titulares de La Estrella podrían apuntar a enfoques distintos, pesca como motor de exportación y servicios como líder regional, lo que requiere verificar si son compatibles.",
+    "tipo": "hipotesis",
+    "citas": []
+   }
+  ],
+  "preguntas_investigacion": [
+   "¿Qué datos y qué período respaldan que la pesca sea el principal motor de exportación?",
+   "¿De dónde proviene la cifra de crecimiento de 5.6 % y de $158.5 millones del sector pesquero y a qué período corresponde?",
+   "¿Cómo se concilia el liderazgo en exportaciones de servicios con la pesca como principal motor de exportación?"
+  ],
+  "verificaciones_pendientes": [
+   "Leer el cuerpo de las tres notas: solo se dispone de titulares y metadatos.",
+   "Confirmar fechas reales de publicación, pues GDELT solo indica la fecha de detección.",
+   "Obtener cifras oficiales actuales de exportaciones pesqueras; el dato del Banco Mundial es anual de 2024.",
+   "Aclarar el alcance de la afirmación de principal motor de exportación frente al liderazgo en servicios."
+  ],
+  "contradicciones": [
+   {
+    "descripcion": "Los titulares presentan como motor principal de exportación a la pesca y, por otro lado, destacan el liderazgo en servicios; no está claro si son compatibles.",
+    "versiones": [
+     {
+      "texto": "La Estrella titula que la pesca es el principal motor de exportación.",
+      "tipo": "declaracion",
+      "citas": [
+       {
+        "id_evidencia": "N-1cbd644225",
+        "campo": "titulo"
+       },
+       {
+        "id_evidencia": "N-1cbd644225",
+        "campo": "medio"
+       }
+      ]
+     },
+     {
+      "texto": "La Estrella titula que Panamá lidera exportaciones de servicios de Centroamérica.",
+      "tipo": "declaracion",
+      "citas": [
+       {
+        "id_evidencia": "N-e167994445",
+        "campo": "titulo"
+       },
+       {
+        "id_evidencia": "N-e167994445",
+        "campo": "medio"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "guion": [],
+  "copy_digital": []
+ },
+ "validacion": {
+  "valido": true,
+  "problemas": [
+   {
+    "seccion": "guion",
+    "indice": -1,
+    "texto": "",
+    "severidad": "advertencia",
+    "problema": "guion de 0 palabras: dura menos de 45 s (mín. 110); no se rellena sin evidencia"
+   }
+  ],
+  "palabras": {
+   "brief": 125,
+   "guion": 0,
+   "copy_digital": 0
+  }
+ },
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "prompt_version": "paquete-tvn-v5",
+  "clave_cache": "9ac7e9acf81f71e2d26ed9bb",
+  "desde_cache": false,
+  "generado_en": "2026-10-08T22:38:44.834Z",
+  "latencia_ms": 9768,
+  "tokens": {
+   "entrada": 759,
+   "salida": 1502,
+   "cache_lectura": 2434,
+   "cache_escritura": 0
+  },
+  "costo_usd": 0.0170248
+ }
+}

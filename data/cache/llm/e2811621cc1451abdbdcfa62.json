@@ -1,0 +1,163 @@
+{
+ "paquete": {
+  "abstencion": {
+   "abstiene": false,
+   "motivo": null,
+   "informacion_necesaria": []
+  },
+  "titulo_propuesto": "Unachi: traslado de $7.7 millones para planilla y dudas sobre otro traslado de $32.1 millones",
+  "enfoque_interes_publico": "Docentes y administrativos de la Unachi llevan tres quincenas sin pago, y el uso de fondos públicos y la transparencia del trámite legislativo requieren verificación.",
+  "brief": [
+   {
+    "texto": "TVN titula que la Comisión de Presupuesto aprobó un traslado de partida por $7.7 millones para el pago de planilla de la Unachi.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "N-dae83ef44c",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-dae83ef44c",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "Según la descripción de TVN, el traslado permitiría cubrir tres quincenas adeudadas a unos 2,100 docentes y administrativos.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-dae83ef44c",
+      "campo": "descripcion"
+     }
+    ]
+   },
+   {
+    "texto": "La misma descripción indica que la universidad acumula una deuda de $18.3 millones en cuotas obrero-patronales con la Caja de Seguro Social.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "N-dae83ef44c",
+      "campo": "descripcion"
+     }
+    ]
+   },
+   {
+    "texto": "Según TVN, funcionarios de la universidad expresaron preocupación porque la cifra de $7.7 millones está por debajo de lo que, según las autoridades universitarias, se necesitaría para cubrir el déficit hasta diciembre de 2026.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-45f7932d78",
+      "campo": "descripcion"
+     },
+     {
+      "id_evidencia": "N-45f7932d78",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Otro titular de TVN habla de un traslado por $32.1 millones aprobado en la Asamblea antes de la hora citada, con cuestionamientos por falta de transparencia, sin que conste si se refiere al mismo hecho.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "N-06046b1433",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-06046b1433",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "Según TVN, el presidente de la Comisión de Presupuesto, Eduardo Vásquez, dijo que la falta de transmisión pudo haber sido un \"error\" humano.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-06046b1433",
+      "campo": "descripcion"
+     }
+    ]
+   },
+   {
+    "texto": "Las tres piezas proceden del mismo medio, por lo que no constituyen corroboración independiente y no hay fuente oficial enlazada.",
+    "tipo": "inferencia",
+    "citas": []
+   }
+  ],
+  "preguntas_investigacion": [
+   "¿Los $7.7 millones y los $32.1 millones corresponden al mismo traslado de partida o a decisiones distintas?",
+   "¿Cuánto necesita la Unachi para cubrir el déficit hasta diciembre de 2026 y cuándo se pagarán las tres quincenas?",
+   "¿Por qué no se transmitió la sesión de la comisión y se votó antes de la hora citada?"
+  ],
+  "verificaciones_pendientes": [
+   "Conseguir una segunda procedencia independiente.",
+   "Obtener el documento oficial del traslado de partida (Comisión de Presupuesto o Asamblea).",
+   "Aclarar si las cifras de $7.7 millones y $32.1 millones se refieren al mismo hecho.",
+   "Confirmar con la Unachi el monto del déficit hasta diciembre de 2026 y la deuda con la Caja de Seguro Social.",
+   "Solo se dispone de titular y descripción del RSS; no se ha leído el artículo completo."
+  ],
+  "contradicciones": [
+   {
+    "descripcion": "Cifras distintas de traslado en los titulares: $7.7 millones frente a $32.1 millones; no se sabe si son el mismo hecho.",
+    "versiones": [
+     {
+      "texto": "TVN titula un traslado de partida por $7.7 millones para la planilla de la Unachi.",
+      "tipo": "hecho",
+      "citas": [
+       {
+        "id_evidencia": "N-dae83ef44c",
+        "campo": "titulo"
+       },
+       {
+        "id_evidencia": "N-dae83ef44c",
+        "campo": "medio"
+       }
+      ]
+     },
+     {
+      "texto": "TVN titula un traslado por $32.1 millones aprobado en la Asamblea.",
+      "tipo": "hecho",
+      "citas": [
+       {
+        "id_evidencia": "N-06046b1433",
+        "campo": "titulo"
+       },
+       {
+        "id_evidencia": "N-06046b1433",
+        "campo": "medio"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "guion": [],
+  "copy_digital": []
+ },
+ "validacion": {
+  "valido": true,
+  "problemas": [],
+  "palabras": {
+   "brief": 175,
+   "guion": 0,
+   "copy_digital": 0
+  }
+ },
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "prompt_version": "paquete-tvn-v5",
+  "clave_cache": "e2811621cc1451abdbdcfa62",
+  "desde_cache": false,
+  "generado_en": "2026-10-08T22:38:24.734Z",
+  "latencia_ms": 9875,
+  "tokens": {
+   "entrada": 1054,
+   "salida": 1657,
+   "cache_lectura": 2434,
+   "cache_escritura": 0
+  },
+  "costo_usd": 0.0191648
+ }
+}

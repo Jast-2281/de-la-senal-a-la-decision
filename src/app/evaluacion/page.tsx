@@ -37,12 +37,12 @@ async function Contenido({ searchParams }: { searchParams: Promise<Record<string
   const [bench, pares, sustento, etiquetas] = await Promise.all([
     leerJsonl<{ id: string; split: string; tipo: string; consulta: string; respuesta_esperada: string; ids_evidencia: string[]; sintetico: boolean }>("benchmark.jsonl"),
     leerJsonl<CasoPar>("pares-agrupacion.jsonl"),
-    leerJsonl<CasoSustento>("afirmaciones-muestra.jsonl"),
+    leerJsonl<CasoSustento>("afirmaciones-muestra-v2.jsonl"), // v2: tras la corrección del prompt v5 (la v1 queda como línea base)
     leerEtiquetas(),
   ]);
   const benchmark: CasoBenchmark[] = casosVisibles(bench, reserva).map((b) => ({
     id: b.id, split: b.split, tipo: b.tipo, consulta: b.consulta, respuesta_esperada: b.respuesta_esperada, sintetico: b.sintetico,
-    evidencia: b.ids_evidencia.map((id) => ({ id, titulo: porId.get(id)?.titulo ?? "(no encontrada)", medio: porId.get(id)?.medio ?? "" })),
+    evidencia: b.ids_evidencia.map((id) => ({ id, titulo: porId.get(id)?.titulo ?? "(no encontrada)", medio: porId.get(id)?.medio ?? "", descripcion: porId.get(id)?.descripcion ?? null })),
   }));
   // Las predicciones del sistema NO se envían al navegador: el etiquetado es a ciegas.
   const paresCiegos: CasoPar[] = pares.map((p) => ({ id: p.id, a: p.a, b: p.b }));

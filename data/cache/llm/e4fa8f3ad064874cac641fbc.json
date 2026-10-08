@@ -1,0 +1,193 @@
+{
+ "paquete": {
+  "abstencion": {
+   "abstiene": false,
+   "motivo": null,
+   "informacion_necesaria": []
+  },
+  "titulo_propuesto": "Teleférico de San Miguelito: firman contrato y falta el refrendo de la Contraloría",
+  "enfoque_interes_publico": "Un proyecto de transporte público que, según los titulares, ya tiene contrato firmado y depende ahora de la revisión y el refrendo de la Contraloría para seguir adelante.",
+  "brief": [
+   {
+    "texto": "Según el titular de panamaamerica.com.pa, Metro de Panamá y Doppelmayr firmaron el contrato para la construcción del Teleférico de San Miguelito.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-e4a8ba965d",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-e4a8ba965d",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "Según el titular de laestrella.com.pa, el contrato es para construir el Teleférico de Panamá y San Miguelito.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-cbb8a6d322",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-cbb8a6d322",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "Según TVN, el siguiente paso será la revisión del contrato por parte de la Contraloría y su eventual refrendo, requisito para continuar con la ejecución.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-7fa9a78028",
+      "campo": "descripcion"
+     },
+     {
+      "id_evidencia": "N-7fa9a78028",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "Según su titular, critica.com.pa informa que el proyecto entra en una nueva etapa.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-4da46e2d80",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-4da46e2d80",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "Los titulares son casi idénticos y podrían repetir un mismo origen, por lo que no constituyen corroboración independiente y no hay dato oficial enlazado.",
+    "tipo": "inferencia",
+    "citas": []
+   }
+  ],
+  "preguntas_investigacion": [
+   "¿Cuáles son el monto, el plazo y las condiciones del contrato firmado entre Metro de Panamá y Doppelmayr?",
+   "¿En qué fecha la Contraloría recibió el contrato y cuándo se prevé su refrendo?",
+   "¿Qué comunicado o documento oficial de Metro de Panamá confirma la firma y sus detalles?"
+  ],
+  "verificaciones_pendientes": [
+   "Confirmar con Metro de Panamá la firma del contrato y obtener el documento o comunicado oficial.",
+   "Determinar si los titulares casi idénticos de los medios provienen de un mismo origen.",
+   "Verificar con la Contraloría el estado de la revisión y del refrendo.",
+   "Las fechas de publicación de los medios son desconocidas; solo se conoce la detección por GDELT.",
+   "Solo se dispone de titulares y, en el caso de TVN, la descripción del RSS; no se ha leído ningún artículo completo."
+  ],
+  "contradicciones": [],
+  "guion": [
+   {
+    "texto": "Metro de Panamá firmó el contrato para construir el Teleférico de San Miguelito con la empresa Doppelmayr, según el titular de TVN.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-7fa9a78028",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-7fa9a78028",
+      "campo": "medio"
+     },
+     {
+      "id_evidencia": "N-e4a8ba965d",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Otros medios, como La Estrella de Panamá y Panamá América, reportan la misma firma en sus titulares.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-cbb8a6d322",
+      "campo": "medio"
+     },
+     {
+      "id_evidencia": "N-e4a8ba965d",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "Según la descripción de TVN, el siguiente paso es la revisión del contrato por la Contraloría y su eventual refrendo.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-7fa9a78028",
+      "campo": "descripcion"
+     }
+    ]
+   },
+   {
+    "texto": "Ese refrendo, indica TVN, es requisito necesario para continuar con la ejecución del proyecto.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-7fa9a78028",
+      "campo": "descripcion"
+     }
+    ]
+   }
+  ],
+  "copy_digital": [
+   {
+    "texto": "Metro de Panamá firmó el contrato del Teleférico de San Miguelito, según TVN, y el proyecto espera la revisión y el refrendo de la Contraloría.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-7fa9a78028",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-7fa9a78028",
+      "campo": "descripcion"
+     },
+     {
+      "id_evidencia": "N-7fa9a78028",
+      "campo": "medio"
+     }
+    ]
+   }
+  ]
+ },
+ "validacion": {
+  "valido": true,
+  "problemas": [
+   {
+    "seccion": "guion",
+    "indice": -1,
+    "texto": "",
+    "severidad": "advertencia",
+    "problema": "guion de 73 palabras: dura menos de 45 s (mín. 110); no se rellena sin evidencia"
+   }
+  ],
+  "palabras": {
+   "brief": 100,
+   "guion": 73,
+   "copy_digital": 25
+  }
+ },
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "prompt_version": "paquete-tvn-v5",
+  "clave_cache": "e4fa8f3ad064874cac641fbc",
+  "desde_cache": false,
+  "generado_en": "2026-10-08T22:37:49.908Z",
+  "latencia_ms": 10764,
+  "tokens": {
+   "entrada": 843,
+   "salida": 1753,
+   "cache_lectura": 2434,
+   "cache_escritura": 0
+  },
+  "costo_usd": 0.0197028
+ }
+}

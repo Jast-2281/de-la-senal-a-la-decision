@@ -1,0 +1,84 @@
+{
+ "paquete": {
+  "abstencion": {
+   "abstiene": false,
+   "motivo": null,
+   "informacion_necesaria": []
+  },
+  "titulo_propuesto": "Fallece capitán de remolcador del Canal de Panamá en cumplimiento de funciones: brief de investigación",
+  "enfoque_interes_publico": "Seguridad laboral en las operaciones del Canal de Panamá y esclarecimiento de las circunstancias del fallecimiento, pendiente de confirmación oficial.",
+  "brief": [
+   {
+    "texto": "Según su titular, TVN publicó que falleció el capitán de un remolcador del Canal de Panamá mientras cumplía funciones.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-f84223fbc5",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-f84223fbc5",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "La nota fue publicada el 2026-09-30T22:58:37.000Z y solo se dispone de su titular.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "N-f84223fbc5",
+      "campo": "fecha"
+     },
+     {
+      "id_evidencia": "N-f84223fbc5",
+      "campo": "alcance"
+     }
+    ]
+   },
+   {
+    "texto": "Existe una sola procedencia y no hay fuente oficial enlazada, por lo que el caso requiere verificación antes de preparar piezas para emisión.",
+    "tipo": "inferencia",
+    "citas": []
+   }
+  ],
+  "preguntas_investigacion": [
+   "¿Qué confirma la Autoridad del Canal de Panamá sobre la identidad del capitán y las circunstancias del fallecimiento?",
+   "¿Dónde y cómo ocurrió el hecho, y se abrió alguna investigación sobre las causas?",
+   "¿Qué medidas de seguridad y atención a la familia se han anunciado tras el suceso?"
+  ],
+  "verificaciones_pendientes": [
+   "Obtener una segunda procedencia independiente que confirme el fallecimiento.",
+   "Conseguir un comunicado o dato oficial de la autoridad competente.",
+   "Leer el cuerpo de la nota de TVN, pues solo se ha revisado el titular.",
+   "Confirmar la causa, el lugar y la hora del suceso, que no constan en la evidencia."
+  ],
+  "contradicciones": [],
+  "guion": [],
+  "copy_digital": []
+ },
+ "validacion": {
+  "valido": true,
+  "problemas": [],
+  "palabras": {
+   "brief": 55,
+   "guion": 0,
+   "copy_digital": 0
+  }
+ },
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "prompt_version": "paquete-tvn-v5",
+  "clave_cache": "b2a1ddcb54363783c6243b47",
+  "desde_cache": false,
+  "generado_en": "2026-10-08T22:38:06.216Z",
+  "latencia_ms": 5993,
+  "tokens": {
+   "entrada": 373,
+   "salida": 780,
+   "cache_lectura": 2434,
+   "cache_escritura": 0
+  },
+  "costo_usd": 0.009032799999999999
+ }
+}

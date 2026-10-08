@@ -1,0 +1,170 @@
+{
+ "paquete": {
+  "abstencion": {
+   "abstiene": false,
+   "motivo": null,
+   "informacion_necesaria": []
+  },
+  "titulo_propuesto": "Acodeco y las quejas de 2026: lo reportado y lo que falta comprobar",
+  "enfoque_interes_publico": "Los consumidores, jubilados, personas con discapacidad y compradores de vivienda necesitan saber cuántas quejas recibe Acodeco y qué sanciones o devoluciones resultan, pero hoy solo hay dos titulares de una misma procedencia y ningún dato oficial enlazado.",
+  "brief": [
+   {
+    "texto": "Según TVN, Acodeco recibió 375 quejas por incumplimiento de beneficios para jubilados y personas con discapacidad.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-410bc2416f",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-410bc2416f",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "La descripción de TVN indica que entre enero y agosto de 2026 hubo 324 quejas vinculadas a la Ley 6 y 51 a la Ley 134, además de 34 sanciones en primera instancia.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-410bc2416f",
+      "campo": "descripcion"
+     },
+     {
+      "id_evidencia": "N-410bc2416f",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "Según TVN, Acodeco registra 280 quejas contra inmobiliarias por más de $13.2 millones.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-ba49afd7fb",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-ba49afd7fb",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "La descripción de TVN señala que la devolución de dinero acumuló la mayor cantidad de quejas, con 146 casos y 3,053,897.06 de dólares reclamados.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-ba49afd7fb",
+      "campo": "descripcion"
+     },
+     {
+      "id_evidencia": "N-ba49afd7fb",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "Las cifras de 375 y 280 quejas podrían referirse a hechos distintos, y ambas provienen de la misma procedencia, por lo que no hay corroboración independiente.",
+    "tipo": "inferencia",
+    "citas": [
+     {
+      "id_evidencia": "N-410bc2416f",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-ba49afd7fb",
+      "campo": "titulo"
+     }
+    ]
+   },
+   {
+    "texto": "Solo se dispone de titular y descripción del RSS, no del artículo completo.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "N-410bc2416f",
+      "campo": "alcance"
+     },
+     {
+      "id_evidencia": "N-ba49afd7fb",
+      "campo": "alcance"
+     }
+    ]
+   }
+  ],
+  "preguntas_investigacion": [
+   "¿Las 375 quejas de jubilados y personas con discapacidad y las 280 contra inmobiliarias corresponden al mismo periodo y a la misma base de datos de Acodeco?",
+   "¿Qué datos oficiales de Acodeco confirman las cifras de quejas, las 34 sanciones y los montos reclamados?",
+   "¿Qué resultado han tenido las quejas, en devoluciones efectivas y sanciones firmes, para los consumidores afectados?"
+  ],
+  "verificaciones_pendientes": [
+   "Conseguir una segunda procedencia independiente, ya que ambos textos son de TVN.",
+   "Obtener el dato oficial de Acodeco, pues no hay fuente oficial enlazada.",
+   "Confirmar si las cifras 375 y 280 se refieren al mismo hecho o a hechos distintos.",
+   "Leer los artículos completos, pues solo se dispone de titular y descripción.",
+   "Verificar el periodo de las quejas contra inmobiliarias, que no aparece en la descripción."
+  ],
+  "contradicciones": [
+   {
+    "descripcion": "Dos titulares de TVN dan cifras distintas de quejas en Acodeco (375 y 280); no se sabe si describen el mismo hecho.",
+    "versiones": [
+     {
+      "texto": "Según TVN, Acodeco recibió 375 quejas por incumplimiento de beneficios para jubilados y personas con discapacidad.",
+      "tipo": "declaracion",
+      "citas": [
+       {
+        "id_evidencia": "N-410bc2416f",
+        "campo": "titulo"
+       },
+       {
+        "id_evidencia": "N-410bc2416f",
+        "campo": "medio"
+       }
+      ]
+     },
+     {
+      "texto": "Según TVN, Acodeco registra 280 quejas contra inmobiliarias por más de $13.2 millones.",
+      "tipo": "declaracion",
+      "citas": [
+       {
+        "id_evidencia": "N-ba49afd7fb",
+        "campo": "titulo"
+       },
+       {
+        "id_evidencia": "N-ba49afd7fb",
+        "campo": "medio"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "guion": [],
+  "copy_digital": []
+ },
+ "validacion": {
+  "valido": true,
+  "problemas": [],
+  "palabras": {
+   "brief": 125,
+   "guion": 0,
+   "copy_digital": 0
+  }
+ },
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "prompt_version": "paquete-tvn-v5",
+  "clave_cache": "5456a8b45f3fadaacc340585",
+  "desde_cache": false,
+  "generado_en": "2026-10-08T22:38:35.063Z",
+  "latencia_ms": 10327,
+  "tokens": {
+   "entrada": 763,
+   "salida": 1683,
+   "cache_lectura": 2434,
+   "cache_escritura": 0
+  },
+  "costo_usd": 0.0188428
+ }
+}

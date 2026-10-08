@@ -1,0 +1,242 @@
+{
+ "paquete": {
+  "abstencion": {
+   "abstiene": false,
+   "motivo": null,
+   "informacion_necesaria": []
+  },
+  "titulo_propuesto": "Cobre Panamá: First Quantum se abre al diálogo mientras la Cámara Minera pide definir los próximos pasos",
+  "enfoque_interes_publico": "Qué se plantea sobre el futuro de la mina de Cobre Panamá, quién lo dice y qué falta por aclarar sobre el proceso, a partir de titulares y descripciones RSS, sin respaldo oficial enlazado.",
+  "brief": [
+   {
+    "texto": "Según su titular, TVN reporta que First Quantum plantea participar \"de buena fe\" en un diálogo sobre el futuro de Cobre Panamá.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-5e971d1a54",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-5e971d1a54",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "Según la descripción de TVN, en un comunicado se indica que First Quantum reconoce que un nuevo acuerdo debe respetar la soberanía de Panamá, sus instituciones democráticas y un proceso liderado por el Gobierno.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-5e971d1a54",
+      "campo": "descripcion"
+     },
+     {
+      "id_evidencia": "N-5e971d1a54",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "Según la descripción de TVN, el presidente de la Cámara Minera señaló que corresponde conocer cómo se desarrollará el proceso, quién lo ejecutará y qué medidas se adoptarán.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-1c0edc17ef",
+      "campo": "descripcion"
+     },
+     {
+      "id_evidencia": "N-1c0edc17ef",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "Según la descripción de TVN, el gremio sostiene que prolongar la incertidumbre tiene costos para comunidades, trabajadores, proveedores, inversión y la gestión ambiental de las instalaciones existentes.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-b6938d187f",
+      "campo": "descripcion"
+     },
+     {
+      "id_evidencia": "N-b6938d187f",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "Crítica titula que CAMIPA pide reabrir Cobre Panamá y que se recomienda la apertura de la mina, sin que el titular indique quién la recomienda.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-27ff5eda50",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-1683cae7ea",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-27ff5eda50",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "No hay dato oficial enlazado en el corpus y solo se dispone de titulares y descripciones, por lo que el contenido completo de las notas no fue revisado.",
+    "tipo": "inferencia",
+    "citas": []
+   }
+  ],
+  "preguntas_investigacion": [
+   "¿Qué informe se menciona en el titular de Crítica y quién lo elaboró?",
+   "¿Cuál es la posición oficial del Gobierno sobre el diálogo propuesto por First Quantum y sobre el cierre ordenado o la reapertura?",
+   "¿Qué significa el \"cierre ordenado\" que respalda la Cámara Minera y quién ejecutaría el proceso?"
+  ],
+  "verificaciones_pendientes": [
+   "Confirmar con el comunicado original de First Quantum su contenido y fecha.",
+   "Obtener postura oficial del Gobierno, ausente en el corpus.",
+   "Los titulares de Crítica y TVN comparten procedencia entre sí y no son corroboración independiente.",
+   "Las fechas de GDELT son de detección, no de publicación.",
+   "Leer las notas completas, pues solo se dispone de titulares y descripciones."
+  ],
+  "contradicciones": [
+   {
+    "descripcion": "La Cámara Minera aparece pidiendo avanzar hacia la reapertura y también respaldando un cierre ordenado; falta verificar si son posturas compatibles.",
+    "versiones": [
+     {
+      "texto": "Según TVN, la Cámara Minera pide al Gobierno avanzar hacia la reapertura de la mina.",
+      "tipo": "declaracion",
+      "citas": [
+       {
+        "id_evidencia": "N-b6938d187f",
+        "campo": "titulo"
+       },
+       {
+        "id_evidencia": "N-b6938d187f",
+        "campo": "medio"
+       }
+      ]
+     },
+     {
+      "texto": "Según TVN, la Cámara Minera respalda un cierre ordenado y pide definir próximos pasos.",
+      "tipo": "declaracion",
+      "citas": [
+       {
+        "id_evidencia": "N-1c0edc17ef",
+        "campo": "titulo"
+       },
+       {
+        "id_evidencia": "N-1c0edc17ef",
+        "campo": "medio"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "guion": [
+   {
+    "texto": "First Quantum plantea participar \"de buena fe\" en un diálogo sobre el futuro de Cobre Panamá, según reportó TVN.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-5e971d1a54",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-5e971d1a54",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "Según un comunicado citado por TVN, la empresa reconoce que un nuevo acuerdo debe respetar la soberanía de Panamá, sus instituciones democráticas y un proceso liderado por el Gobierno.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-5e971d1a54",
+      "campo": "descripcion"
+     },
+     {
+      "id_evidencia": "N-5e971d1a54",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "Por su parte, el presidente de la Cámara Minera señaló, según TVN, que ahora corresponde conocer cómo se desarrollará el proceso, quién lo ejecutará y qué medidas se tomarán.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-1c0edc17ef",
+      "campo": "descripcion"
+     },
+     {
+      "id_evidencia": "N-1c0edc17ef",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "El gremio también sostiene que prolongar la incertidumbre tiene costos para comunidades, trabajadores, proveedores, inversión y la gestión ambiental de las instalaciones.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-b6938d187f",
+      "campo": "descripcion"
+     }
+    ]
+   },
+   {
+    "texto": "No se ha enlazado una postura oficial del Gobierno, que será clave para conocer los próximos pasos.",
+    "tipo": "inferencia",
+    "citas": []
+   }
+  ],
+  "copy_digital": [
+   {
+    "texto": "First Quantum plantea dialogar \"de buena fe\" sobre Cobre Panamá y la Cámara Minera pide definir los próximos pasos, según TVN; falta la postura oficial.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-5e971d1a54",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-1c0edc17ef",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-5e971d1a54",
+      "campo": "medio"
+     }
+    ]
+   }
+  ]
+ },
+ "validacion": {
+  "valido": true,
+  "problemas": [],
+  "palabras": {
+   "brief": 164,
+   "guion": 116,
+   "copy_digital": 25
+  }
+ },
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "prompt_version": "paquete-tvn-v5",
+  "clave_cache": "6c730e1339371e8d21356187",
+  "desde_cache": false,
+  "generado_en": "2026-10-08T22:37:39.140Z",
+  "latencia_ms": 14573,
+  "tokens": {
+   "entrada": 1699,
+   "salida": 2479,
+   "cache_lectura": 0,
+   "cache_escritura": 2434
+  },
+  "costo_usd": 0.034273
+ }
+}

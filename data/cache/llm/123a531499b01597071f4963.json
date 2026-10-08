@@ -1,0 +1,180 @@
+{
+ "paquete": {
+  "abstencion": {
+   "abstiene": false,
+   "motivo": null,
+   "informacion_necesaria": []
+  },
+  "titulo_propuesto": "Empleo en Panamá: lo que afirma el presidente y lo que muestra el dato anual disponible",
+  "enfoque_interes_publico": "Contrastar la afirmación oficial de que el desempleo baja con el indicador anual disponible, sin presentarlo como cifra actual, para que la audiencia sepa cómo está el empleo.",
+  "brief": [
+   {
+    "texto": "Telemetro titula que el presidente afirma que el desempleo baja y que el sector privado gana terreno.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-c532d62722",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-c532d62722",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "El Banco Mundial reporta para Panamá un desempleo de 8.45 en 2024, expresado como % de la fuerza laboral total (estimación OIT).",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "BM:PAN:SL.UEM.TOTL.ZS:2024",
+      "campo": "valor"
+     },
+     {
+      "id_evidencia": "BM:PAN:SL.UEM.TOTL.ZS:2024",
+      "campo": "anio"
+     },
+     {
+      "id_evidencia": "BM:PAN:SL.UEM.TOTL.ZS:2024",
+      "campo": "unidad"
+     }
+    ]
+   },
+   {
+    "texto": "Ese dato es anual y no es una medición actual ni confirma lo que reporta la noticia, según la limitación del propio indicador.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "BM:PAN:SL.UEM.TOTL.ZS:2024",
+      "campo": "limitacion"
+     }
+    ]
+   },
+   {
+    "texto": "Solo se dispone del titular, por lo que no se conocen las cifras ni el contexto que sustentan la afirmación del presidente.",
+    "tipo": "inferencia",
+    "citas": []
+   }
+  ],
+  "preguntas_investigacion": [
+   "¿Qué cifras y de qué fuente oficial respaldan la afirmación de que el desempleo baja?",
+   "¿Qué periodo y qué medición comparan, y cómo se relacionan con el dato anual de 2024 del Banco Mundial?",
+   "¿Qué indicadores muestran que el sector privado gana terreno y qué dicen expertos o fuentes independientes?"
+  ],
+  "verificaciones_pendientes": [
+   "Leer el cuerpo de la nota de Telemetro: solo se tiene el titular.",
+   "Conseguir una segunda procedencia independiente.",
+   "Confirmar la fecha de publicación, pues GDELT solo detectó la nota y la fecha real es desconocida.",
+   "Obtener la cifra oficial más reciente de desempleo y su metodología."
+  ],
+  "contradicciones": [],
+  "guion": [
+   {
+    "texto": "El presidente afirma que el desempleo baja en Panamá y que el sector privado gana terreno, según el titular de Telemetro.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-c532d62722",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-c532d62722",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "Como referencia, el Banco Mundial estimó el desempleo de 2024 en 8.45 por ciento de la fuerza laboral total, según la OIT.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "BM:PAN:SL.UEM.TOTL.ZS:2024",
+      "campo": "valor"
+     },
+     {
+      "id_evidencia": "BM:PAN:SL.UEM.TOTL.ZS:2024",
+      "campo": "anio"
+     },
+     {
+      "id_evidencia": "BM:PAN:SL.UEM.TOTL.ZS:2024",
+      "campo": "unidad"
+     }
+    ]
+   },
+   {
+    "texto": "Es un dato anual del pasado, que no mide la situación actual ni confirma lo dicho por el mandatario.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "BM:PAN:SL.UEM.TOTL.ZS:2024",
+      "campo": "limitacion"
+     }
+    ]
+   }
+  ],
+  "copy_digital": [
+   {
+    "texto": "Según Telemetro, el presidente afirma que el desempleo baja; el dato anual de 2024 del Banco Mundial fue 8.45 % de la fuerza laboral total y no confirma esa afirmación.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-c532d62722",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-c532d62722",
+      "campo": "medio"
+     },
+     {
+      "id_evidencia": "BM:PAN:SL.UEM.TOTL.ZS:2024",
+      "campo": "valor"
+     },
+     {
+      "id_evidencia": "BM:PAN:SL.UEM.TOTL.ZS:2024",
+      "campo": "anio"
+     },
+     {
+      "id_evidencia": "BM:PAN:SL.UEM.TOTL.ZS:2024",
+      "campo": "unidad"
+     },
+     {
+      "id_evidencia": "BM:PAN:SL.UEM.TOTL.ZS:2024",
+      "campo": "limitacion"
+     }
+    ]
+   }
+  ]
+ },
+ "validacion": {
+  "valido": true,
+  "problemas": [
+   {
+    "seccion": "guion",
+    "indice": -1,
+    "texto": "",
+    "severidad": "advertencia",
+    "problema": "guion de 62 palabras: dura menos de 45 s (mín. 110); no se rellena sin evidencia"
+   }
+  ],
+  "palabras": {
+   "brief": 84,
+   "guion": 62,
+   "copy_digital": 30
+  }
+ },
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "prompt_version": "paquete-tvn-v5",
+  "clave_cache": "123a531499b01597071f4963",
+  "desde_cache": false,
+  "generado_en": "2026-10-08T22:38:00.218Z",
+  "latencia_ms": 10307,
+  "tokens": {
+   "entrada": 528,
+   "salida": 1728,
+   "cache_lectura": 2434,
+   "cache_escritura": 0
+  },
+  "costo_usd": 0.0188228
+ }
+}

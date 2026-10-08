@@ -1,0 +1,154 @@
+{
+ "paquete": {
+  "abstencion": {
+   "abstiene": false,
+   "motivo": null,
+   "informacion_necesaria": []
+  },
+  "titulo_propuesto": "Exportaciones caen $151.5 millones este año: el MEF apunta a los remanentes de cobre de 2025",
+  "enfoque_interes_publico": "Explicar al público por qué caen las exportaciones y si, al excluir la minería, los sectores agropecuario e industrial mantienen un desempeño positivo, según lo atribuido por el MEF.",
+  "brief": [
+   {
+    "texto": "TVN titula que las exportaciones caen este año $151.5 millones y que el Mef lo atribuye a las exportaciones de remanentes de cobre del 2025.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-ebdbce0f64",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-ebdbce0f64",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "Según la descripción del RSS de TVN, al excluir el efecto de la actividad minera, el comportamiento de las exportaciones en el sector agropecuario e industrial fue positivo.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-ebdbce0f64",
+      "campo": "descripcion"
+     },
+     {
+      "id_evidencia": "N-ebdbce0f64",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "Como contexto anual, el Banco Mundial reporta exportaciones de bienes y servicios de 44.36 % del PIB en 2024, dato que no confirma lo reportado por la noticia.",
+    "tipo": "hecho",
+    "citas": [
+     {
+      "id_evidencia": "BM:PAN:NE.EXP.GNFS.ZS:2024",
+      "campo": "valor"
+     },
+     {
+      "id_evidencia": "BM:PAN:NE.EXP.GNFS.ZS:2024",
+      "campo": "unidad"
+     },
+     {
+      "id_evidencia": "BM:PAN:NE.EXP.GNFS.ZS:2024",
+      "campo": "anio"
+     },
+     {
+      "id_evidencia": "BM:PAN:NE.EXP.GNFS.ZS:2024",
+      "campo": "limitacion"
+     }
+    ]
+   },
+   {
+    "texto": "Solo hay una procedencia, por lo que falta una segunda fuente independiente que corrobore la cifra y la explicación.",
+    "tipo": "inferencia",
+    "citas": []
+   }
+  ],
+  "preguntas_investigacion": [
+   "¿Qué periodo y qué base de comparación usa el MEF para calcular la caída de $151.5 millones?",
+   "¿Cuánto representan los remanentes de cobre de 2025 dentro de esa variación y cuáles son las cifras sectoriales agropecuarias e industriales?",
+   "¿Qué dicen fuentes independientes, como analistas o gremios exportadores, sobre esta explicación?"
+  ],
+  "verificaciones_pendientes": [
+   "Obtener el artículo completo y el comunicado o fuente original del MEF, pues solo se dispone de titular y descripción.",
+   "Conseguir una segunda procedencia independiente.",
+   "Confirmar el periodo exacto de la comparación.",
+   "No presentar el dato del Banco Mundial de 2024 como cifra actual."
+  ],
+  "contradicciones": [],
+  "guion": [
+   {
+    "texto": "Las exportaciones caen este año $151.5 millones, según titula TVN, y el Ministerio de Economía y Finanzas lo atribuye a las exportaciones de remanentes de cobre del 2025.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-ebdbce0f64",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-ebdbce0f64",
+      "campo": "medio"
+     }
+    ]
+   },
+   {
+    "texto": "Según la descripción de la nota, al excluir el efecto de la actividad minera, el comportamiento de las exportaciones agropecuarias e industriales fue positivo.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-ebdbce0f64",
+      "campo": "descripcion"
+     }
+    ]
+   }
+  ],
+  "copy_digital": [
+   {
+    "texto": "Exportaciones caen $151.5 millones este año; el Mef lo atribuye a remanentes de cobre del 2025, según TVN.",
+    "tipo": "declaracion",
+    "citas": [
+     {
+      "id_evidencia": "N-ebdbce0f64",
+      "campo": "titulo"
+     },
+     {
+      "id_evidencia": "N-ebdbce0f64",
+      "campo": "medio"
+     }
+    ]
+   }
+  ]
+ },
+ "validacion": {
+  "valido": true,
+  "problemas": [
+   {
+    "seccion": "guion",
+    "indice": -1,
+    "texto": "",
+    "severidad": "advertencia",
+    "problema": "guion de 52 palabras: dura menos de 45 s (mín. 110); no se rellena sin evidencia"
+   }
+  ],
+  "palabras": {
+   "brief": 100,
+   "guion": 52,
+   "copy_digital": 18
+  }
+ },
+ "meta": {
+  "modelo": "claude-sonnet-5-5",
+  "prompt_version": "paquete-tvn-v5",
+  "clave_cache": "d42100f79d3770a71506d318",
+  "desde_cache": false,
+  "generado_en": "2026-10-08T22:38:14.854Z",
+  "latencia_ms": 8631,
+  "tokens": {
+   "entrada": 525,
+   "salida": 1476,
+   "cache_lectura": 2434,
+   "cache_escritura": 0
+  },
+  "costo_usd": 0.0162968
+ }
+}

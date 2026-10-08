@@ -8,13 +8,13 @@ import { z } from "zod";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { coseno, embeber } from "./embeddings";
-import { type Indicador, enlazarIndicadores } from "./contextualizar";
+import { type Indicador, type Sismo, enlazarIndicadores, enlazarSismos } from "./contextualizar";
 import { tokens } from "./organizar";
 import { sha256, type Noticia } from "./ingest";
 import { MODELO_LLM } from "./generar";
 import { type Afirmacion, type Evidencia, validarAfirmaciones } from "./validar";
 
-export const CONSULTA_PROMPT_VERSION = "consulta-v2"; // v2: fechas citan el campo "fecha"
+export const CONSULTA_PROMPT_VERSION = "consulta-v3"; // v3: medio/unidad citados; sismos USGS como evidencia
 /** Coseno mínimo (e5-small) para considerar una noticia pertinente. Calibrado con consultas de prueba; ver docs. */
 export const UMBRAL_RELEVANCIA = 0.82; // fuera de tema ≈0,79; temas reales ≥0,86 (n=6, exploratorio)
 const DIR = join(process.cwd(), "data", "processed");
@@ -22,7 +22,7 @@ const CACHE = join(process.cwd(), "data", "cache", "consultas");
 
 type Recuperado = { id: string; titulo: string; medio: string; fecha: string | null; descripcion: string | null; similitud: number; id_evento: string | null };
 
-let corpus: Promise<{ noticias: Noticia[]; vectores: number[][]; eventoDe: Map<string, string>; indicadores: Indicador[] }> | null = null;
+let corpus: Promise<{ noticias: Noticia[]; vectores: number[][]; eventoDe: Map<string, string>; indicadores: Indicador[]; sismos: Sismo[] }> | null = null;
 const cargar = () =>
   (corpus ??= (async () => {
     const noticias: Noticia[] = JSON.parse(await readFile(join(DIR, "noticias.json"), "utf8"));
@@ -30,7 +30,10 @@ const cargar = () =>
     const pos = new Map<string, number>(emb.ids.map((id: string, i: number) => [id, i]));
     const org = JSON.parse(await readFile(join(DIR, "organizado.json"), "utf8"));
     const indicadores: Indicador[] = JSON.parse(await readFile(join(DIR, "indicadores.json"), "utf8"));
+    const geo = JSON.parse(await readFile(join(DIR, "eventos.geojson"), "utf8"));
+    const sismos: Sismo[] = geo.features.map((f: { properties: Sismo }) => f.properties);
     return {
+      sismos,
       noticias,
       vectores: noticias.map((n) => emb.vectores[pos.get(n.id_noticia)!]),
       eventoDe: new Map(org.noticias.map((x: { id_noticia: string; evento_ia: string }) => [x.id_noticia, x.evento_ia])),
@@ -98,7 +101,8 @@ const SISTEMA = `Respondes consultas de la mesa editorial de TVN Media usando EX
 - Cada afirmación lleva tipo (hecho, declaracion, inferencia, hipotesis); hechos, declaraciones y toda afirmación con cifras citan id_evidencia y el CAMPO exacto donde aparece el dato.
 - Un indicador del Banco Mundial es ANUAL de un año pasado: nunca lo presentes como dato actual ni como respuesta a una pregunta sobre un mes o un periodo reciente.
 - Si la evidencia no responde lo que se pregunta (p. ej. una cifra, fecha o hecho que no aparece), abstente: abstiene=true, explica qué falta y qué fuente lo resolvería; respuesta vacía. Puedes abstenerte aunque haya noticias relacionadas.
-- Si mencionas una fecha, cita el campo "fecha" de esa evidencia (además del campo de donde sale el hecho).
+- Si mencionas una fecha, cita el campo "fecha" de esa evidencia (además del campo de donde sale el hecho). Si nombras el medio, cita su campo "medio"; si das una unidad, cita "unidad". Cada dato de la frase debe estar en algún campo citado.
+- Si hay registros USGS, contrasta la magnitud del titular con la oficial y señala las diferencias.
 - Si las fuentes dan versiones incompatibles, preséntalas todas con sus citas y no escojas una.
 - Respuesta breve: máximo 5 oraciones. Solo titulares/descripciones: no describas el cuerpo de los artículos.`;
 
@@ -140,7 +144,11 @@ export async function consultar(pregunta: string, opciones: { permitirLLM?: bool
       ...(r.descripcion ? { descripcion: r.descripcion } : {}),
     };
   for (const i of enlazarIndicadores([pregunta, ...pertinentes.map((r) => r.titulo)], c.indicadores))
-    evidencia[i.id_evidencia] = { indicador: i.indicador_nombre, pais: i.pais_iso3, anio: String(i.anio), valor: String(i.valor), unidad: i.unidad, limitacion: i.limitacion };
+    evidencia[i.id_evidencia] = { indicador: i.indicador_nombre, pais: i.pais_iso3, anio: String(i.anio), valor: String(Math.round(i.valor * 100) / 100), unidad: i.unidad, limitacion: i.limitacion };
+  // Sismos oficiales (USGS) cercanos a la fecha de las noticias pertinentes, con su limitación explícita.
+  const sismo = enlazarSismos(pertinentes.map((r) => r.titulo), pertinentes[0]?.fecha ?? null, c.sismos);
+  if (sismo && !sismo.sismos.length) evidencia["USGS:sin-coincidencia"] = { limitacion: sismo.limitacion };
+  if (sismo) for (const x of sismo.sismos) evidencia[`USGS:${x.id}`] = { magnitud: String(x.magnitude), fecha: x.time, lugar: x.place, limitacion: sismo.limitacion };
 
   const fuentes = Object.entries(evidencia)
     .map(([id, campos]) => `<evidencia id="${id}">\n${Object.entries(campos).map(([k, v]) => `  ${k}: ${v.replace(/<\/?\s*fuentes\s*>/gi, "[etiqueta eliminada]")}`).join("\n")}\n</evidencia>`)

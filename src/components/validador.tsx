@@ -6,7 +6,7 @@ type Conjunto = "benchmark" | "pares" | "sustento";
 type Etiqueta = { valor: string; nota: string; revisor: string; fecha: string };
 type Noticia = { id: string; titulo: string; medio: string; fecha: string | null; descripcion: string | null };
 
-export type CasoBenchmark = { id: string; split: string; tipo: string; consulta: string; respuesta_esperada: string; evidencia: { id: string; titulo: string; medio: string }[]; sintetico: boolean };
+export type CasoBenchmark = { id: string; split: string; tipo: string; consulta: string; respuesta_esperada: string; evidencia: { id: string; titulo: string; medio: string; descripcion: string | null }[]; sintetico: boolean };
 export type CasoPar = { id: string; a: Noticia; b: Noticia };
 export type CasoSustento = { id: string; titulo_evento: string; seccion: string; tipo: string; texto: string; citas: { id_evidencia: string; campo: string; texto_citado: string | null }[] };
 
@@ -29,7 +29,7 @@ const OPCIONES: Record<Conjunto, { valor: string; etiqueta: string; ayuda: strin
   ],
 };
 
-const TITULOS: Record<Conjunto, string> = { benchmark: "Benchmark", pares: "Pares de titulares", sustento: "Afirmaciones" };
+const TITULOS: Record<Conjunto, string> = { benchmark: "Benchmark", pares: "Pares de titulares", sustento: "Afirmaciones v2" };
 const fecha = (iso: string | null) => (iso ? new Date(iso).toLocaleDateString("es-PA", { timeZone: "America/Panama", day: "numeric", month: "short", year: "numeric" }) : "sin fecha");
 
 export function Validador({
@@ -159,7 +159,12 @@ export function Validador({
                   <div>
                     <h3 className="font-rotulo text-sm font-black uppercase text-indigo">Evidencia del corpus</h3>
                     <ul className="mt-1 flex flex-col gap-1">
-                      {c.evidencia.map((e) => <li key={e.id}><span className="font-mono text-xs text-tinta-3">{e.id}</span> · {e.titulo} <span className="text-sm text-tinta-3">· {e.medio}</span></li>)}
+                      {c.evidencia.map((e) => (
+                        <li key={e.id}>
+                          <span className="font-mono text-xs text-tinta-3">{e.id}</span> · {e.titulo} <span className="text-sm text-tinta-3">· {e.medio}</span>
+                          {e.descripcion && <p className="mt-0.5 text-sm text-tinta-2">Descripción: {e.descripcion}</p>}
+                        </li>
+                      ))}
                     </ul>
                   </div>
                 )}

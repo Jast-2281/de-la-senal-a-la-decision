@@ -30,7 +30,7 @@ export function evidenciaDeEvento(e: EventoCola): Evidencia {
   for (const n of e.noticias.slice(0, MAX_NOTICIAS)) {
     ev[n.id_noticia] = {
       titulo: n.titulo,
-      medio: n.medio,
+      medio: n.medio === "tvn-2.com" ? "TVN (tvn-2.com)" : n.medio,
       fecha: n.fecha_publicacion ? `publicada ${n.fecha_publicacion}` : `detectada por GDELT ${n.fecha_deteccion} (fecha de publicación desconocida)`,
       alcance: n.alcance_texto === "titular" ? "solo titular" : "titular y descripción del RSS",
       ...(n.descripcion ? { descripcion: n.descripcion } : {}),
@@ -38,7 +38,8 @@ export function evidenciaDeEvento(e: EventoCola): Evidencia {
   }
   for (const i of e.indicadores)
     ev[i.id_evidencia] = {
-      indicador: i.indicador_nombre, pais: i.pais_iso3, anio: String(i.anio), valor: String(i.valor), unidad: i.unidad,
+      // Redondeo a 2 decimales: el Banco Mundial entrega hasta 13 (“44.3578422661429”), ilegible en un borrador.
+      indicador: i.indicador_nombre, pais: i.pais_iso3, anio: String(i.anio), valor: String(Math.round(i.valor * 100) / 100), unidad: i.unidad,
       limitacion: i.limitacion,
     };
   if (e.sismo && !e.sismo.sismos.length)
