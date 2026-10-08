@@ -20,7 +20,7 @@
 ## Decisiones justificadas
 1. **Modalidad editorial TVN y no banca:** es la recomendada por el pliego, y la bancaria no exige un segundo producto (`docs/001`).
 2. **Ventana de datos 2025-10-02 → 2026-09-30 con datos propios por scraping:** regla de la mediadora del reto; no hay paquete común (`docs/004`, D7).
-3. **Embeddings locales para agrupar** en lugar de reglas: medido, F1 0.769 frente a 0.370 del baseline (`docs/resultados-evaluacion.md`).
+3. **Embeddings locales para agrupar** en lugar de reglas: en una muestra diagnóstica de 120 pares (no poblacional), F1 0.769 frente a 0.370 del baseline (`docs/resultados-evaluacion.md`).
 4. **Claude Sonnet 5.5 para redactar:** medido frente a Haiku 4.5 (más barato, pero se abstuvo en un caso respondible); mediana de 9.9 s y US$ 0.0173 por borrador.
 5. **Jev (TypeSafe) descartado:** no redacta texto, que es el 85 % del costo; además, dependencia remota y sin validación en español (`docs/003`, `docs/005`).
 6. **Demo offline por defecto:** borradores y consultas en caché local; la generación en vivo queda fuera del pitch (auditoría Codex 002).
@@ -44,3 +44,4 @@ Claude construye y Codex audita de forma independiente (`auditorias/001…010`).
 - 08/10 18:03 · `a9594a7` · Sustento v2 medido (60 %) y prompt v6: fechas legibles, lugares en español, una idea por oración
 - 08/10 18:03 · `8f84857` · metricas.ts: elimina variable sin uso (lint sin avisos)
 - 08/10 18:05 · `153a086` · Páginas de Notion generadas desde los datos reales (npm run notion)
+- 08/10 18:27 · `98ed7cd` · Revisión humana registrada en las 9 fichas (4 aprobadas como borrador, 5 requieren evidencia)

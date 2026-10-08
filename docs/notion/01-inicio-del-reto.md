@@ -1,6 +1,6 @@
 # Inicio del reto · De la señal a la decisión
 
-**Equipo:** Julian Andrew Shimizu (construcción, datos y evaluación) · [pitch: por confirmar]
+**Equipo:** Julian Taylor (construcción, datos, evaluación y revisión humana) · [pitch: por confirmar]
 **Modalidad:** TVN · editorial (principal + digital). Banca: fuera de alcance, mencionada solo como extensión del mismo núcleo.
 **Prototipo:** Next.js, demo sin conexión · **Repositorio:** [enlace a GitHub, por completar]
 

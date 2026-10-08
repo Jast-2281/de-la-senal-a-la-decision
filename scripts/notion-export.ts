@@ -25,7 +25,7 @@ async function main() {
 
   paginas["01-inicio-del-reto.md"] = `# Inicio del reto · De la señal a la decisión
 
-**Equipo:** Julian Andrew Shimizu (construcción, datos y evaluación) · [pitch: por confirmar]
+**Equipo:** Julian Taylor (construcción, datos, evaluación y revisión humana) · [pitch: por confirmar]
 **Modalidad:** TVN · editorial (principal + digital). Banca: fuera de alcance, mencionada solo como extensión del mismo núcleo.
 **Prototipo:** Next.js, demo sin conexión · **Repositorio:** [enlace a GitHub, por completar]
 
@@ -71,7 +71,7 @@ Snapshot \`${manifest.version}\`: ventana del 2025-10-02 al 2026-09-30 (regla de
 ## Decisiones justificadas
 1. **Modalidad editorial TVN y no banca:** es la recomendada por el pliego, y la bancaria no exige un segundo producto (\`docs/001\`).
 2. **Ventana de datos 2025-10-02 → 2026-09-30 con datos propios por scraping:** regla de la mediadora del reto; no hay paquete común (\`docs/004\`, D7).
-3. **Embeddings locales para agrupar** en lugar de reglas: medido, F1 ${fmt(res.agrupacion.embeddings.f1)} frente a ${fmt(res.agrupacion.baseline_jaccard.f1)} del baseline (\`docs/resultados-evaluacion.md\`).
+3. **Embeddings locales para agrupar** en lugar de reglas: en una muestra diagnóstica de 120 pares (no poblacional), F1 ${fmt(res.agrupacion.embeddings.f1)} frente a ${fmt(res.agrupacion.baseline_jaccard.f1)} del baseline (\`docs/resultados-evaluacion.md\`).
 4. **Claude Sonnet 5.5 para redactar:** medido frente a Haiku 4.5 (más barato, pero se abstuvo en un caso respondible); mediana de ${fmt(res.eficiencia_borradores.mediana_s, 1)} s y US$ ${fmt(res.eficiencia_borradores.costo_mediano_usd, 4)} por borrador.
 5. **Jev (TypeSafe) descartado:** no redacta texto, que es el 85 % del costo; además, dependencia remota y sin validación en español (\`docs/003\`, \`docs/005\`).
 6. **Demo offline por defecto:** borradores y consultas en caché local; la generación en vivo queda fuera del pitch (auditoría Codex 002).
@@ -162,7 +162,7 @@ ${(await readFile("docs/resultados-evaluacion.md", "utf8")).replace(/^# .*\n/, "
 
 | Riesgo | Control operativo | Evidencia |
 |---|---|---|
-| Alucinación (hechos, cifras, citas inventadas) | Salida estructurada con cita por afirmación; validador que bloquea cifras ausentes del campo citado; abstención | 0/60 afirmaciones no respaldadas en dos rondas de revisión humana; cobertura de citas ${res.cobertura_citas.con_cita_valida}/${res.cobertura_citas.factuales} |
+| Alucinación (hechos, cifras, citas inventadas) | Salida estructurada con cita por afirmación; validador que bloquea cifras ausentes del campo citado; abstención | En dos muestras humanas de 30 afirmaciones no hubo ninguna completamente no respaldada; en la última medida (prompt v5), 60 % con respaldo pleno y 40 % parcial; v6 sin medir. Cobertura de citas estructural (v6): ${res.cobertura_citas.con_cita_valida}/${res.cobertura_citas.factuales} |
 | Inyección mediante fuentes | Fuentes delimitadas como dato; etiquetas escapadas; regla explícita en el prompt | T07: 2/2 casos sintéticos aprobados; 6/6 adversariales sin fuga del prompt |
 | Repetición confundida con corroboración | Procedencia independiente conservadora; “posible réplica” para revisión humana | Ficha con grupos de procedencia y motivo |
 | Prioridad confundida con verdad | Estado de evidencia separado; con evidencia insuficiente, solo brief de investigación (guion y copy bloqueados) | T08 |
@@ -187,9 +187,9 @@ ${(await readFile("docs/resultados-evaluacion.md", "utf8")).replace(/^# .*\n/, "
    - Consulta “¿rating de TVN ayer?” → abstención.
    - Consulta “mina de cobre” → dos versiones incompatibles.
    - Revisión humana registrada.
-4. **IA y evidencias (2 min).** Embeddings: F1 ${fmt(res.agrupacion.embeddings.f1)} frente a ${fmt(res.agrupacion.baseline_jaccard.f1)} de las palabras clave. Validador de citas; T07 aprobado; abstención 7/7.
+4. **IA y evidencias (2 min).** En una muestra diagnóstica de 120 pares etiquetados por una persona, embeddings obtuvo F1 ${fmt(res.agrupacion.embeddings.f1)} frente a ${fmt(res.agrupacion.baseline_jaccard.f1)} de las palabras clave: recupera 20 de 21 casos, pero agrupa de más (11 falsos positivos). Validador de citas; T07 aprobado; abstención 7/7 y 0/20 falsas abstenciones.
 5. **Valor (1 min).** Unos 2 centavos y ${fmt(res.eficiencia_borradores.mediana_s, 0)} s por borrador. Ahorro de tiempo: hipótesis por medir.
-6. **Límites y próximos pasos (1 min).** Respaldo pleno de 60 % (meta: 90 %; 0 inventadas); agrupación que junta de más; datos anuales. Próximo: medir el efecto del prompt v6 y validar con un editor de TVN.
+6. **Límites y próximos pasos (1 min).** “El último prompt medido, v5, alcanzó 60 % de respaldo pleno en 30 afirmaciones (meta: 90 %); el resto, respaldo parcial. Corregimos en v6 y su efecto aún no está medido.” Agrupación que junta de más; datos anuales. Próximo: medir v6 y validar con un editor de TVN.
 
 **Mensaje:** “No construimos una máquina que publique más rápido. Construimos una capa de decisión que indica qué merece atención, qué evidencia existe y qué todavía no puede afirmarse.”
 `;

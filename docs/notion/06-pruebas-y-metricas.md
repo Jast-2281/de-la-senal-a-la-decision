@@ -37,11 +37,11 @@ npx tsc --noEmit → aprobado
 ## Resultados de evaluación
 
 > Fecha: 2026-10-08 · Cálculo reproducible: `npm run metricas` (datos: `data/eval/resultados.json`; ejecución del benchmark: `npm run metricas -- --ejecutar-benchmark`).
-> Etiquetas humanas: Julian Andrew (integrante del equipo), en `/evaluacion` → `data/eval/etiquetas.json`. **No equivale a validación editorial independiente.**
+> Etiquetas humanas: Julian Taylor (integrante del equipo), en `/evaluacion` → `data/eval/etiquetas.json`. **No equivale a validación editorial independiente.**
 > Regla: numerador, denominador, fallos y limitación en cada métrica.
 
 ## 1. Uso efectivo de IA: agrupación de eventos, embeddings frente a baseline
-120 pares etiquetados por una persona (21 “mismo evento”). Predicción del sistema oculta durante el etiquetado.
+**Muestra diagnóstica**, no estimación poblacional: 120 pares etiquetados por una persona (21 “mismo evento”), con predicción del sistema oculta durante el etiquetado. La muestra incluyó deliberadamente casos “mismo evento” y casos cercanos al umbral.
 
 | Método | Precisión | Recall | F1 | TP · FP · FN · TN |
 |---|---|---|---|---|
@@ -59,6 +59,7 @@ npx tsc --noEmit → aprobado
 | v2 (prompt v5: citar medio y unidad; redondeo) | **18/30 (60,0 %)** | 12 | **0** | 0 |
 
 - **Patrón en las 12 parciales de v2:** 4 por fechas en formato técnico (ISO) y lugares de USGS en inglés, señalados por el revisor; el resto por frases que **mezclan un hecho con un comentario** o por comentarios sobre los límites marcados como “hecho”.
+- **Cómo comunicarlo:** “El último prompt medido, v5, alcanzó 60 % de respaldo pleno en una muestra humana de 30 afirmaciones. En dos muestras de 30 no hubo afirmaciones completamente no respaldadas; en la última, 60 % tuvo respaldo pleno y 40 % parcial. El prompt v6 aún no se ha medido.” **No** decir que el sistema actual alcanza 60 %.
 - **Corrección aplicada (prompt v6, 2026-10-08):** fechas en lenguaje natural con hora de Panamá, lugares en español, una idea por oración y los límites como “inferencia”. **No se volvió a medir con revisión humana**: el efecto de v6 sobre la validez de sustento queda **sin medir**.
 
 - **Ninguna afirmación inventada:** 0 de 30 sin respaldo.
@@ -66,7 +67,12 @@ npx tsc --noEmit → aprobado
 - **Corrección propuesta:** el prompt exige citar `medio` y `unidad` cuando se usan, y las cifras se redondean. Requiere regenerar y **volver a medir con revisión humana**.
 
 ## 3. Cobertura de citas (automática)
-**65/66 afirmaciones factuales (98,5 %)** tienen cita estructuralmente válida. La restante es el borrador del sector pesquero (#129), que el validador **bloquea**: menciona una fecha citando solo el titular.
+| Versión de los borradores | Cobertura | Nota |
+|---|---|---|
+| **Actual: prompt v6** (9 fichas, 2026-10-08) | **52/52 (100 %)** afirmaciones factuales con cita estructuralmente válida | Fuente: `data/eval/resultados.json` (`npm run metricas`) |
+| Anterior: prompt v4 | 65/66 (98,5 %) | La excepción era el borrador del sector pesquero (#129), que el validador bloqueó por citar una fecha solo con el titular |
+
+“Estructuralmente válida” significa que la cita existe y contiene las cifras; no mide la pertinencia (ver sección 2).
 
 ## 4. Benchmark de desarrollo (40 consultas; la reserva de 20 NO se usó)
 | Medida | Resultado |
