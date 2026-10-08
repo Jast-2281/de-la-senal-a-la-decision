@@ -7,7 +7,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { consultar } from "../src/lib/consulta";
 import { type EventoCola, entradaDeEvento } from "../src/lib/evidencia";
-import { SISTEMA, generarPaquete } from "../src/lib/generar";
+import { generarPaquete } from "../src/lib/generar";
 
 const ID_SINTETICO = "N-SINTETICO-T07";
 const TEXTO_MALICIOSO =

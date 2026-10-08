@@ -46,7 +46,9 @@ export const UMBRAL_PALABRAS = 0.5;
  * Recuperación con degradación explícita (T10): usa embeddings locales; si el modelo no está disponible en este
  * equipo (p. ej. clon nuevo sin conexión), pasa a coincidencia de palabras clave y lo declara. Nunca falla en silencio.
  */
-export async function recuperarConMetodo(pregunta: string, k = 8): Promise<{ metodo: MetodoRecuperacion; umbral: number; items: Recuperado[] }> {
+export type MotivoRespaldo = "modelo_no_disponible" | "error_inesperado" | null;
+
+export async function recuperarConMetodo(pregunta: string, k = 8): Promise<{ metodo: MetodoRecuperacion; umbral: number; motivo_respaldo: MotivoRespaldo; items: Recuperado[] }> {
   const c = await cargar();
   const salida = (puntuados: { n: Noticia; s: number }[]) =>
     puntuados
@@ -58,8 +60,14 @@ export async function recuperarConMetodo(pregunta: string, k = 8): Promise<{ met
       }));
   try {
     const [q] = await embeber([pregunta]);
-    return { metodo: "embeddings", umbral: UMBRAL_RELEVANCIA, items: salida(c.noticias.map((n, i) => ({ n, s: coseno(q, c.vectores[i]) }))) };
-  } catch {
+    return { metodo: "embeddings", umbral: UMBRAL_RELEVANCIA, motivo_respaldo: null, items: salida(c.noticias.map((n, i) => ({ n, s: coseno(q, c.vectores[i]) }))) };
+  } catch (err) {
+    // Auditoría Codex 007, R2: no ocultar un bug como si fuera “modelo ausente”. Se registra el error técnico y se
+    // distingue el caso esperado (modo offline o modelo no descargado) de un error inesperado.
+    const msg = err instanceof Error ? `${err.name}: ${err.message}` : String(err);
+    const esperado = process.env.MODELS_OFFLINE === "1" || /local|not found|no such file|ENOENT|fetch failed|ENOTFOUND|network|offline|allowRemoteModels/i.test(msg);
+    const motivo_respaldo: MotivoRespaldo = esperado ? "modelo_no_disponible" : "error_inesperado";
+    console.error(`[consulta] respaldo por palabras clave (${motivo_respaldo}): ${msg}`);
     const tq = tokens(pregunta);
     const puntuar = (n: Noticia) => {
       if (!tq.size) return 0;
@@ -68,7 +76,7 @@ export async function recuperarConMetodo(pregunta: string, k = 8): Promise<{ met
       for (const t of tq) if (td.has(t)) hits++;
       return hits / tq.size;
     };
-    return { metodo: "palabras_clave", umbral: UMBRAL_PALABRAS, items: salida(c.noticias.map((n) => ({ n, s: puntuar(n) }))) };
+    return { metodo: "palabras_clave", umbral: UMBRAL_PALABRAS, motivo_respaldo, items: salida(c.noticias.map((n) => ({ n, s: puntuar(n) }))) };
   }
 }
 
@@ -104,14 +112,15 @@ export type ResultadoConsulta = {
   evidencia: Evidencia;
   problemas: ReturnType<typeof validarAfirmaciones>;
   metodo: MetodoRecuperacion;
+  motivo_respaldo: MotivoRespaldo;
   meta: { umbral: number; modelo?: string; desde_cache?: boolean; generado_en?: string; latencia_ms?: number; costo_usd?: number | null; prompt_version: string };
 };
 
 export async function consultar(pregunta: string, opciones: { permitirLLM?: boolean } = {}): Promise<ResultadoConsulta> {
-  const { metodo, umbral, items: recuperados } = await recuperarConMetodo(pregunta);
+  const { metodo, umbral, motivo_respaldo, items: recuperados } = await recuperarConMetodo(pregunta);
   const pertinentes = recuperados.filter((r) => r.similitud >= umbral);
   const max = recuperados[0]?.similitud ?? 0;
-  const base = { pregunta, recuperados, max_similitud: max, metodo, meta: { umbral, prompt_version: CONSULTA_PROMPT_VERSION } };
+  const base = { pregunta, recuperados, max_similitud: max, metodo, motivo_respaldo, meta: { umbral, prompt_version: CONSULTA_PROMPT_VERSION } };
 
   if (!pertinentes.length)
     return {

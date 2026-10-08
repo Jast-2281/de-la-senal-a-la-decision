@@ -71,8 +71,9 @@ async function Resultado({ searchParams }: { searchParams: Promise<Record<string
           <div className="flex flex-col gap-4 rounded-sm border border-linea bg-superficie p-5">
             {r.metodo === "palabras_clave" && (
               <p role="status" className="rounded-sm bg-parcial-suave px-4 py-3 font-semibold text-parcial">
-                Modo sin modelo local: el modelo de embeddings no está disponible en este equipo, así que la evidencia se recuperó por
-                coincidencia de palabras clave (menos precisa). Las consultas pregrabadas y las fichas del snapshot siguen disponibles.
+                {r.motivo_respaldo === "error_inesperado"
+                  ? "La búsqueda semántica falló por un error inesperado (registrado en el servidor). Para no interrumpir, la evidencia se recuperó por coincidencia de palabras clave (menos precisa)."
+                  : "Modo sin modelo local: el modelo de embeddings no está disponible en este equipo, así que la evidencia se recuperó por coincidencia de palabras clave (menos precisa). Las consultas pregrabadas y las fichas del snapshot siguen disponibles."}
               </p>
             )}
             {r.abstencion.abstiene ? (

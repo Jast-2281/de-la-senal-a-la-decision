@@ -29,12 +29,13 @@ const OPCIONES: Record<Conjunto, { valor: string; etiqueta: string; ayuda: strin
   ],
 };
 
-const TITULOS: Record<Conjunto, string> = { benchmark: "Benchmark · 60 consultas", pares: "Pares de titulares · 80", sustento: "Afirmaciones · 30" };
+const TITULOS: Record<Conjunto, string> = { benchmark: "Benchmark", pares: "Pares de titulares", sustento: "Afirmaciones" };
 const fecha = (iso: string | null) => (iso ? new Date(iso).toLocaleDateString("es-PA", { timeZone: "America/Panama", day: "numeric", month: "short", year: "numeric" }) : "sin fecha");
 
 export function Validador({
-  benchmark, pares, sustento, iniciales,
+  benchmark, pares, sustento, iniciales, etiquetaBenchmark,
 }: {
+  etiquetaBenchmark: string;
   benchmark: CasoBenchmark[];
   pares: CasoPar[];
   sustento: CasoSustento[];
@@ -98,7 +99,8 @@ export function Validador({
     return () => window.removeEventListener("keydown", tecla);
   }, [conjunto, responder, mover]);
 
-  const hechos = (c: Conjunto) => Object.keys(etiquetas[c]).length;
+  // Solo cuenta las etiquetas de los casos visibles en esta vista (desarrollo o reserva).
+  const hechosVisibles = (c: Conjunto) => casos[c].filter((x) => etiquetas[c][x.id]).length;
 
   return (
     <div className="flex flex-col gap-5">
@@ -112,7 +114,7 @@ export function Validador({
               onClick={() => setConjunto(c)}
               className={`border-r border-azul px-4 py-2 text-sm font-bold last:border-r-0 ${conjunto === c ? "bg-azul text-white" : "bg-superficie text-azul hover:bg-acento-suave"}`}
             >
-              {TITULOS[c]} <span className="tabular-nums opacity-80">· {hechos(c)}/{casos[c].length}</span>
+              {c === "benchmark" ? etiquetaBenchmark : TITULOS[c]} <span className="tabular-nums opacity-80">· {hechosVisibles(c)}/{casos[c].length}</span>
             </button>
           ))}
         </div>
@@ -126,8 +128,8 @@ export function Validador({
         />
       </div>
 
-      <div className="h-2 overflow-hidden rounded-sm bg-linea" aria-label={`Progreso ${hechos(conjunto)} de ${lista.length}`}>
-        <div className="h-full bg-amarillo" style={{ width: `${(hechos(conjunto) / lista.length) * 100}%` }} />
+      <div className="h-2 overflow-hidden rounded-sm bg-linea" aria-label={`Progreso ${hechosVisibles(conjunto)} de ${lista.length}`}>
+        <div className="h-full bg-amarillo" style={{ width: `${(hechosVisibles(conjunto) / lista.length) * 100}%` }} />
       </div>
 
       {caso && (

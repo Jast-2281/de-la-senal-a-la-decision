@@ -6,7 +6,7 @@ import { type CasoBenchmark, type CasoPar, type CasoSustento, Validador } from "
 import { leerEtiquetas, leerJsonl } from "@/lib/etiquetas";
 import type { Noticia } from "@/lib/ingest";
 
-export default function Pagina() {
+export default function Pagina({ searchParams }: PageProps<"/evaluacion">) {
   return (
     <>
       <section className="bg-indigo text-sobre-indigo">
@@ -20,15 +20,18 @@ export default function Pagina() {
       </section>
       <div className="mx-auto w-full max-w-7xl px-5 py-8">
         <Suspense fallback={<p className="text-tinta-3">Cargando casos…</p>}>
-          <Contenido />
+          <Contenido searchParams={searchParams} />
         </Suspense>
       </div>
     </>
   );
 }
 
-async function Contenido() {
+// Auditoría Codex 007, C1: los 20 casos de reserva no se muestran en la vista normal. Solo se validan al final,
+// con el sistema congelado, desde /evaluacion?reserva=1; nunca se usan para ajustar prompts, umbrales ni reglas.
+async function Contenido({ searchParams }: { searchParams: Promise<Record<string, string | string[] | undefined>> }) {
   await connection();
+  const reserva = (await searchParams).reserva === "1";
   const noticias: Noticia[] = JSON.parse(await readFile(join(process.cwd(), "data", "processed", "noticias.json"), "utf8"));
   const porId = new Map(noticias.map((n) => [n.id_noticia, n]));
   const [bench, pares, sustento, etiquetas] = await Promise.all([
@@ -37,11 +40,21 @@ async function Contenido() {
     leerJsonl<CasoSustento>("afirmaciones-muestra.jsonl"),
     leerEtiquetas(),
   ]);
-  const benchmark: CasoBenchmark[] = bench.map((b) => ({
+  const benchmark: CasoBenchmark[] = bench.filter((b) => b.split === (reserva ? "reserva" : "desarrollo")).map((b) => ({
     id: b.id, split: b.split, tipo: b.tipo, consulta: b.consulta, respuesta_esperada: b.respuesta_esperada, sintetico: b.sintetico,
     evidencia: b.ids_evidencia.map((id) => ({ id, titulo: porId.get(id)?.titulo ?? "(no encontrada)", medio: porId.get(id)?.medio ?? "" })),
   }));
   // Las predicciones del sistema NO se envían al navegador: el etiquetado es a ciegas.
   const paresCiegos: CasoPar[] = pares.map((p) => ({ id: p.id, a: p.a, b: p.b }));
-  return <Validador benchmark={benchmark} pares={paresCiegos} sustento={sustento} iniciales={etiquetas} />;
+  return (
+    <>
+      {reserva && (
+        <p role="status" className="mb-5 rounded-sm bg-parcial-suave px-4 py-3 font-semibold text-parcial">
+          Vista de RESERVA (20 consultas para el jurado). Valídalas solo con el sistema ya congelado: estas respuestas no se usan
+          para ajustar prompts, umbrales ni reglas.
+        </p>
+      )}
+      <Validador benchmark={benchmark} pares={paresCiegos} sustento={sustento} iniciales={etiquetas} etiquetaBenchmark={reserva ? "Benchmark · reserva" : "Benchmark · desarrollo"} />
+    </>
+  );
 }
