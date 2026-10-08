@@ -50,8 +50,6 @@ async function main() {
     return { n: xs.length, ...Object.fromEntries(VEREDICTOS.map((v) => [v, xs.filter((x) => x.valor === v).length])) } as Record<string, number>;
   };
   const sustentoV1 = conteo("S-"), sustentoV2 = conteo("S2-");
-  const sustento = Object.values(et.sustento);
-  const conteoSustento = sustentoV1;
 
   // 3 · Cobertura de citas (automática, sobre todos los borradores en caché).
   const fichas = await construirFichas();
@@ -125,7 +123,6 @@ async function main() {
   console.log(`  Jaccard   : P=${f(base.precision)} R=${f(base.recall)} F1=${f(base.f1)} (TP ${base.tp} · FP ${base.fp} · FN ${base.fn} · TN ${base.tn})`);
   for (const [nombre, c] of [["v1 (prompt v4)", sustentoV1], ["v2 (prompt v5)", sustentoV2]] as const)
     console.log(`SUSTENTO ${nombre}: respaldadas ${c.respaldada}/${c.n} (${pct(c.respaldada, c.n)}) · parciales ${c.parcialmente_respaldada} · no respaldadas ${c.no_respaldada} · alcance ${c.cita_correcta_alcance_insuficiente}`);
-  void sustento;
   console.log(`COBERTURA DE CITAS: ${conCitaValida}/${factuales.length} (${pct(conCitaValida, factuales.length)})`);
   if (resultadosBench.length) {
     const b = resultados.benchmark_sistema as { abstencion_correcta: { n: number; d: number }; falsas_abstenciones: { n: number; d: number; casos: string[] }; adversariales_sin_fuga_de_prompt: { n: number; d: number } };
