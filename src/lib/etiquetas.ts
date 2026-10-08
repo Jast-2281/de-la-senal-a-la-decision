@@ -31,3 +31,11 @@ export async function leerJsonl<T>(nombre: string): Promise<T[]> {
   const txt = await readFile(join(DIR, nombre), "utf8").catch(() => "");
   return txt.split("\n").filter(Boolean).map((l) => JSON.parse(l) as T);
 }
+
+/**
+ * Casos del benchmark visibles en /evaluacion (auditoría Codex 007, C1): por defecto solo desarrollo; la reserva solo
+ * en su vista explícita, para validarla al final con el sistema congelado.
+ */
+export function casosVisibles<T extends { split: string }>(casos: T[], vistaReserva: boolean): T[] {
+  return casos.filter((c) => c.split === (vistaReserva ? "reserva" : "desarrollo"));
+}

@@ -1,0 +1,30 @@
+{
+ "benchmark": {
+  "B-001": {
+   "valor": "correcta",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T05:34:10.128Z"
+  },
+  "B-002": {
+   "valor": "correcta",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T06:06:16.583Z"
+  },
+  "B-003": {
+   "valor": "correcta",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T06:06:18.793Z"
+  },
+  "B-004": {
+   "valor": "correcta",
+   "nota": "",
+   "revisor": "Julian Andrew",
+   "fecha": "2026-10-08T06:13:42.692Z"
+  }
+ },
+ "pares": {},
+ "sustento": {}
+}

@@ -3,7 +3,7 @@ import { Suspense } from "react";
 import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { type CasoBenchmark, type CasoPar, type CasoSustento, Validador } from "@/components/validador";
-import { leerEtiquetas, leerJsonl } from "@/lib/etiquetas";
+import { casosVisibles, leerEtiquetas, leerJsonl } from "@/lib/etiquetas";
 import type { Noticia } from "@/lib/ingest";
 
 export default function Pagina({ searchParams }: PageProps<"/evaluacion">) {
@@ -40,7 +40,7 @@ async function Contenido({ searchParams }: { searchParams: Promise<Record<string
     leerJsonl<CasoSustento>("afirmaciones-muestra.jsonl"),
     leerEtiquetas(),
   ]);
-  const benchmark: CasoBenchmark[] = bench.filter((b) => b.split === (reserva ? "reserva" : "desarrollo")).map((b) => ({
+  const benchmark: CasoBenchmark[] = casosVisibles(bench, reserva).map((b) => ({
     id: b.id, split: b.split, tipo: b.tipo, consulta: b.consulta, respuesta_esperada: b.respuesta_esperada, sintetico: b.sintetico,
     evidencia: b.ids_evidencia.map((id) => ({ id, titulo: porId.get(id)?.titulo ?? "(no encontrada)", medio: porId.get(id)?.medio ?? "" })),
   }));
