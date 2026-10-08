@@ -7,7 +7,7 @@
 - **Borrador:** paquete editorial · validador OK · claude-sonnet-5-5 · paquete-tvn-v6
 - **Título propuesto:** Cobre Panamá: First Quantum abre el diálogo y la Cámara Minera pide definir los próximos pasos
 - **Vacíos:** No hay dato oficial enlazado en el corpus para este tema.
-- **Revisión humana:** nuevo · **pendiente de registrar responsable**
+- **Revisión humana:** aprobado como borrador · aprobado como borrador (Julian Taylor)
 
 ## E-e4a8ba965d · #3 · Metro de Panamá y Doppelmayr firman el contrato para la construcción del Teleférico de San Miguelito
 - **Estado de evidencia:** parcial (≥2 procedencias, sin respaldo oficial) · **Procedencias independientes:** 4
@@ -16,7 +16,7 @@
 - **Borrador:** paquete editorial · validador OK · claude-sonnet-5-5 · paquete-tvn-v6
 - **Título propuesto:** Teleférico de San Miguelito: firman contrato y falta el refrendo de la Contraloría
 - **Vacíos:** Revisar si 3 par(es) de titulares casi idénticos son réplicas de un mismo origen. · No hay dato oficial enlazado en el corpus para este tema.
-- **Revisión humana:** nuevo · **pendiente de registrar responsable**
+- **Revisión humana:** aprobado como borrador · aprobado como borrador (Julian Taylor)
 
 ## E-c532d62722 · #8 · ¿ Cómo está el empleo en Panamá ? Presidente afirma que el desempleo baja y sector privado gana terreno
 - **Estado de evidencia:** parcial (respaldo oficial, una sola procedencia) · **Procedencias independientes:** 1
@@ -25,7 +25,7 @@
 - **Borrador:** paquete editorial · validador OK · claude-sonnet-5-5 · paquete-tvn-v6
 - **Título propuesto:** Empleo en Panamá: el presidente afirma que el desempleo baja
 - **Vacíos:** Falta una segunda procedencia independiente. · Solo hay titulares y metadatos: no se ha leído el cuerpo de ninguna nota.
-- **Revisión humana:** nuevo · **pendiente de registrar responsable**
+- **Revisión humana:** requiere evidencia · requiere evidencia (Julian Taylor)
 
 ## E-f84223fbc5 · #9 · Fallece capitán de remolcador del Canal de Panamá mientras cumplía funciones
 - **Estado de evidencia:** insuficiente (una sola procedencia y ninguna fuente oficial enlazada) · **Procedencias independientes:** 1
@@ -34,7 +34,7 @@
 - **Borrador:** brief de investigación · validador OK · claude-sonnet-5-5 · paquete-tvn-v6
 - **Título propuesto:** Fallece capitán de remolcador del Canal de Panamá: borrador de investigación
 - **Vacíos:** Falta una segunda procedencia independiente. · No hay dato oficial enlazado en el corpus para este tema. · Solo hay titulares y metadatos: no se ha leído el cuerpo de ninguna nota.
-- **Revisión humana:** nuevo · **pendiente de registrar responsable**
+- **Revisión humana:** requiere evidencia · requiere evidencia (Julian Taylor)
 
 ## E-ebdbce0f64 · #22 · Exportaciones caen este año $151.5 millones, el Mef lo atribuye a las exportaciones de remanentes de cobre del 2025
 - **Estado de evidencia:** parcial (respaldo oficial, una sola procedencia) · **Procedencias independientes:** 1
@@ -43,7 +43,7 @@
 - **Borrador:** paquete editorial · validador OK · claude-sonnet-5-5 · paquete-tvn-v6
 - **Título propuesto:** Exportaciones caen $151.5 millones: el MEF lo atribuye a remanentes de cobre de 2025
 - **Vacíos:** Falta una segunda procedencia independiente.
-- **Revisión humana:** nuevo · **pendiente de registrar responsable**
+- **Revisión humana:** aprobado como borrador · aprobado como borrador (Julian Taylor)
 
 ## E-dae83ef44c · #76 · Unachi: Comisión de Presupuesto aprueba traslado de partida por $7.7 millones para pago de planilla
 - **Estado de evidencia:** insuficiente (una sola procedencia y ninguna fuente oficial enlazada) · **Procedencias independientes:** 1
@@ -52,7 +52,7 @@
 - **Borrador:** brief de investigación · validador OK · claude-sonnet-5-5 · paquete-tvn-v6
 - **Título propuesto:** Unachi: traslado de partida para pagar la planilla y dudas por cifras distintas
 - **Vacíos:** Falta una segunda procedencia independiente. · No hay dato oficial enlazado en el corpus para este tema. · Cifras distintas entre titulares (millone): verificar si se refieren al mismo hecho.
-- **Revisión humana:** nuevo · **pendiente de registrar responsable**
+- **Revisión humana:** requiere evidencia · requiere evidencia (Julian Taylor), requiere evidencia (Julian Taylor)
 
 ## E-ba49afd7fb · #85 · Acodeco registra 280 quejas contra inmobiliarias por más de $13.2 millones
 - **Estado de evidencia:** insuficiente (una sola procedencia y ninguna fuente oficial enlazada) · **Procedencias independientes:** 1
@@ -61,7 +61,7 @@
 - **Borrador:** brief de investigación · validador OK · claude-sonnet-5-5 · paquete-tvn-v6
 - **Título propuesto:** Acodeco: quejas por beneficios a jubilados e inmobiliarias, pendientes de verificar
 - **Vacíos:** Falta una segunda procedencia independiente. · No hay dato oficial enlazado en el corpus para este tema. · Cifras distintas entre titulares (queja): verificar si se refieren al mismo hecho.
-- **Revisión humana:** nuevo · **pendiente de registrar responsable**
+- **Revisión humana:** requiere evidencia · requiere evidencia (Julian Taylor)
 
 ## E-1cbd644225 · #129 · El sector pesquero panameño se consolida como el principal motor de exportación
 - **Estado de evidencia:** suficiente para el borrador (≥2 procedencias independientes y respaldo oficial) · **Procedencias independientes:** 2
@@ -70,7 +70,7 @@
 - **Borrador:** paquete editorial · validador OK · claude-sonnet-5-5 · paquete-tvn-v6
 - **Título propuesto:** Exportaciones panameñas: pesca y servicios en los titulares
 - **Vacíos:** Solo hay titulares y metadatos: no se ha leído el cuerpo de ninguna nota.
-- **Revisión humana:** nuevo · **pendiente de registrar responsable**
+- **Revisión humana:** aprobado como borrador · aprobado como borrador (Julian Taylor)
 
 ## E-72b68d5114 · #168 · Sismo de magnitud 5 . 4 sacude la frontera entre Panamá y Costa Rica
 - **Estado de evidencia:** parcial (respaldo oficial, una sola procedencia) · **Procedencias independientes:** 1
@@ -79,4 +79,4 @@
 - **Borrador:** paquete editorial · validador OK · claude-sonnet-5-5 · paquete-tvn-v6
 - **Título propuesto:** Sismo en la frontera entre Panamá y Costa Rica: qué se reporta y qué falta confirmar
 - **Vacíos:** Falta una segunda procedencia independiente. · Solo hay titulares y metadatos: no se ha leído el cuerpo de ninguna nota.
-- **Revisión humana:** nuevo · **pendiente de registrar responsable**
+- **Revisión humana:** requiere evidencia · requiere evidencia (Julian Taylor), requiere evidencia (Julian Taylor)

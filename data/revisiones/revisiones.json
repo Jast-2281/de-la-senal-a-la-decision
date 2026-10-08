@@ -1,0 +1,86 @@
+{
+ "E-9979983be4": [
+  {
+   "estado": "aprobado como borrador",
+   "revisor": "Julian Taylor",
+   "nota": "",
+   "fecha": "2026-10-08T23:20:11.351Z"
+  }
+ ],
+ "E-e4a8ba965d": [
+  {
+   "estado": "aprobado como borrador",
+   "revisor": "Julian Taylor",
+   "nota": "",
+   "fecha": "2026-10-08T23:20:35.295Z"
+  }
+ ],
+ "E-c532d62722": [
+  {
+   "estado": "requiere evidencia",
+   "revisor": "Julian Taylor",
+   "nota": "Solo hay una declaracion y un dato de 2024",
+   "fecha": "2026-10-08T23:21:17.536Z"
+  }
+ ],
+ "E-f84223fbc5": [
+  {
+   "estado": "requiere evidencia",
+   "revisor": "Julian Taylor",
+   "nota": "Una sola Fuente",
+   "fecha": "2026-10-08T23:21:48.672Z"
+  }
+ ],
+ "E-ebdbce0f64": [
+  {
+   "estado": "aprobado como borrador",
+   "revisor": "Julian Taylor",
+   "nota": "",
+   "fecha": "2026-10-08T23:24:14.499Z"
+  }
+ ],
+ "E-dae83ef44c": [
+  {
+   "estado": "requiere evidencia",
+   "revisor": "Julian Taylor",
+   "nota": "",
+   "fecha": "2026-10-08T23:24:31.582Z"
+  },
+  {
+   "estado": "requiere evidencia",
+   "revisor": "Julian Taylor",
+   "nota": "",
+   "fecha": "2026-10-08T23:24:51.209Z"
+  }
+ ],
+ "E-ba49afd7fb": [
+  {
+   "estado": "requiere evidencia",
+   "revisor": "Julian Taylor",
+   "nota": "",
+   "fecha": "2026-10-08T23:25:17.184Z"
+  }
+ ],
+ "E-1cbd644225": [
+  {
+   "estado": "aprobado como borrador",
+   "revisor": "Julian Taylor",
+   "nota": "",
+   "fecha": "2026-10-08T23:25:44.478Z"
+  }
+ ],
+ "E-72b68d5114": [
+  {
+   "estado": "requiere evidencia",
+   "revisor": "Julian Taylor",
+   "nota": "",
+   "fecha": "2026-10-08T23:26:09.204Z"
+  },
+  {
+   "estado": "requiere evidencia",
+   "revisor": "Julian Taylor",
+   "nota": "USGS no confirma el 5,4",
+   "fecha": "2026-10-08T23:26:33.680Z"
+  }
+ ]
+}

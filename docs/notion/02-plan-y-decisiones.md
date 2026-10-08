@@ -43,3 +43,4 @@ Claude construye y Codex audita de forma independiente (`auditorias/001…010`).
 - 08/10 17:39 · `6332c4f` · Corrige fallos 3-5 de la evaluación y prepara re-medición de sustento (v2)
 - 08/10 18:03 · `a9594a7` · Sustento v2 medido (60 %) y prompt v6: fechas legibles, lugares en español, una idea por oración
 - 08/10 18:03 · `8f84857` · metricas.ts: elimina variable sin uso (lint sin avisos)
+- 08/10 18:05 · `153a086` · Páginas de Notion generadas desde los datos reales (npm run notion)
