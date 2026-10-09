@@ -1,6 +1,6 @@
 # Inicio del reto · De la señal a la decisión
 
-**Equipo Arijuma:** Julian Taylor (construcción, datos, evaluación y revisión humana) · Maria Alexandra Plata (pitch)
+**Equipo Arijuma:** Julian Taylor (construcción, datos, evaluación y revisión humana) · Maria Alexandra Plata · Pitch: ambos
 **Modalidad:** TVN · editorial (principal + digital). Banca: fuera de alcance, mencionada solo como extensión del mismo núcleo.
 **Prototipo:** Next.js, demo sin conexión · **Repositorio:** [enlace a GitHub, por completar]
 
