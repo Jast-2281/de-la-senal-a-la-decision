@@ -66,7 +66,7 @@ Snapshot \`${manifest.version}\`: ventana del 2025-10-02 al 2026-09-30 (regla de
 | 10 | Métricas reproducibles (\`npm run metricas\`) | Claude | Hecho |
 | 11 | Ensayo T10 en modo avión | Julian | Hecho (8 oct) |
 | 12 | Repositorio en GitHub con acceso del jurado | Julian | Hecho (8 oct) |
-| 13 | Notion completo y pitch | Julian + equipo | En curso |
+| 13 | Notion completo y pitch | Julian + equipo | Hecho (8 oct) |
 
 ## Decisiones justificadas
 1. **Modalidad editorial TVN y no banca:** es la recomendada por el pliego, y la bancaria no exige un segundo producto (\`docs/001\`).

@@ -15,7 +15,7 @@
 | 10 | Métricas reproducibles (`npm run metricas`) | Claude | Hecho |
 | 11 | Ensayo T10 en modo avión | Julian | Hecho (8 oct) |
 | 12 | Repositorio en GitHub con acceso del jurado | Julian | Hecho (8 oct) |
-| 13 | Notion completo y pitch | Julian + equipo | En curso |
+| 13 | Notion completo y pitch | Julian + equipo | Hecho (8 oct) |
 
 ## Decisiones justificadas
 1. **Modalidad editorial TVN y no banca:** es la recomendada por el pliego, y la bancaria no exige un segundo producto (`docs/001`).
@@ -54,3 +54,4 @@ Claude construye y Codex audita de forma independiente (`auditorias/001…010`).
 - 08/10 21:22 · `8254210` · Equipo Arijuma: Maria Alexandra Plata (pitch)
 - 08/10 21:33 · `f3e6827` · Equipo: pitch a cargo de ambos integrantes
 - 08/10 21:35 · `13ba401` · Notion: enlace al repositorio y backlog actualizado
+- 08/10 21:51 · `993c8d8` · Responde auditoría Codex 012/013; guion del pitch usa botones de consulta (evita fallo en vivo)
