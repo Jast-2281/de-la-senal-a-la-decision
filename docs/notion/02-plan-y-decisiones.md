@@ -45,3 +45,4 @@ Claude construye y Codex audita de forma independiente (`auditorias/001…010`).
 - 08/10 18:03 · `8f84857` · metricas.ts: elimina variable sin uso (lint sin avisos)
 - 08/10 18:05 · `153a086` · Páginas de Notion generadas desde los datos reales (npm run notion)
 - 08/10 18:27 · `98ed7cd` · Revisión humana registrada en las 9 fichas (4 aprobadas como borrador, 5 requieren evidencia)
+- 08/10 18:29 · `043fdda` · Aplica auditoría Codex 009: métricas consistentes y comunicación honesta

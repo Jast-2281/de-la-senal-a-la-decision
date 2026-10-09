@@ -196,6 +196,18 @@ ${(await readFile("docs/resultados-evaluacion.md", "utf8")).replace(/^# .*\n/, "
 
   for (const [f, c] of Object.entries(paginas)) await writeFile(join(out, f), c);
   console.log(`Páginas escritas en ${out}: ${Object.keys(paginas).join(", ")}`);
+
+  // Entrega pedida por la organización (8 oct): una página con 3 enlaces → funcional, técnica y pitch.
+  const unir = (fs: string[]) => fs.map((f) => paginas[f].trim()).join("\n\n---\n\n") + "\n";
+  const entrega: Record<string, string> = {
+    "Documentación funcional.md": unir(["01-inicio-del-reto.md", "02-plan-y-decisiones.md", "05-casos-y-evidencias.md", "07-riesgos-y-etica.md"]),
+    "Documentación técnica.md": unir(["03-catalogo-de-datos.md", "04-diseno-de-solucion.md", "06-pruebas-y-metricas.md"]),
+    "Presentación pitch day.md": unir(["08-presentacion-al-jurado.md"]),
+  };
+  const outEntrega = join(out, "entrega");
+  await mkdir(outEntrega, { recursive: true });
+  for (const [f, c] of Object.entries(entrega)) await writeFile(join(outEntrega, f), c);
+  console.log(`Entrega (3 páginas) en ${outEntrega}`);
 }
 
 main().catch((e) => {
