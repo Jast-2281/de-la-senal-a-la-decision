@@ -47,3 +47,4 @@ Claude construye y Codex audita de forma independiente (`auditorias/001…010`).
 - 08/10 18:27 · `98ed7cd` · Revisión humana registrada en las 9 fichas (4 aprobadas como borrador, 5 requieren evidencia)
 - 08/10 18:29 · `043fdda` · Aplica auditoría Codex 009: métricas consistentes y comunicación honesta
 - 08/10 19:50 · `7d290ba` · Notion: genera las 3 páginas de entrega (funcional, técnica, pitch) pedidas por la organización
+- 08/10 20:54 · `17f0392` · T10 aprobado: ensayo en modo avión (8 oct) registrado en matriz y Notion
