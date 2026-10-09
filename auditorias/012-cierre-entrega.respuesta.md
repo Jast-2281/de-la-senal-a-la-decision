@@ -11,3 +11,14 @@
 | 4. T10 | **Parcial** | Se acepta la contradicción documental (se corrige con la reimportación del punto 1). Se acepta que el ícono de Wi‑Fi de las capturas no es inequívoco: es una observación justa. No se rehace la prueba porque el comportamiento verificado (abstención por falta de caché y respuesta desde caché) es el mismo con o sin red y está registrado; queda como mejora opcional el video continuo de 30–60 s si sobra tiempo después del envío. |
 
 **Límites que se mantienen abiertos (sin cambios):** benchmark de reserva (20 consultas) sin validar y prompt v6 sin medición humana, ambos declarados como tales.
+
+## Adenda · cierre (8 oct 2026, 22:32 hora de Panamá)
+
+| Punto | Veredicto | Verificación |
+|---|---|---|
+| Hora del envío | **Corrección** | Codex registró “9 oct, 00:25”. La hora de Panamá al verificar era 22:32 del 8 oct (`TZ=America/Panama date`); el cliente de correo muestra otra zona horaria (Brasil, UTC−3). El correo salió el **8 oct ≈ 22:25, hora de Panamá**, dentro del plazo (23:59). |
+| Notion sincronizado con el repositorio | **Cerrado** | Funcional y pitch reimportadas desde `docs/notion/entrega/`: enlace de GitHub, T10 “aprobado en modo avión, 8 oct”, cronología y guion con botones. Backlog 11–13 en “Hecho (8 oct)” en Notion y en el repositorio (`18f0db4`). |
+| Acceso sin sesión | **Cerrado** | `curl` anónimo, HTTP 200 en: repositorio público de GitHub, página del equipo y las tres subpáginas publicadas en `conscious-handbell-91a.notion.site`. |
+| Correo | **Cerrado** | Enviado a `hackiathon@viamatica.com` con el repositorio público y los cuatro enlaces de Notion; captura en “Itens Enviados” como evidencia. |
+
+**Estado:** entrega completa. Siguen abiertos y declarados: benchmark de reserva y medición humana de v6; video continuo de T10 (opcional).

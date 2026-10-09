@@ -26,12 +26,8 @@ La exportación de Notion revisada no refleja los últimos cambios que ya están
 1. Actualizar las tres páginas reales de Notion desde los documentos vigentes de `docs/notion/entrega/`.
 2. Revisar manualmente que funcional, técnica y pitch no contengan “por completar”, “pendiente” incorrecto ni cifras distintas.
 3. Abrir la página de equipo en una ventana privada/sin sesión de Notion y comprobar que se ve y que los tres enlaces funcionan. Esta prueba es necesaria: un ZIP no demuestra que el jurado pueda acceder.
-4. Enviar el correo a `hackiathon@viamatica.com` con:
-   - enlace público del reto / repositorio;
-   - enlace de Documentación funcional en Notion;
-   - enlace de Documentación técnica en Notion;
-   - enlace de Presentación pitch day en Notion.
-5. Guardar una captura o copia del correo enviado como evidencia de envío.
+4. **Completado:** el correo fue enviado a `hackiathon@viamatica.com` el 9 oct a las 00:25, con copia a Maria Alexandra Plata, enlace de GitHub y los cuatro enlaces de Notion. La captura del mensaje en Enviados es la evidencia.
+5. No reenviar el correo salvo que la comprobación sin sesión revele que algún enlace falla.
 6. Exportar Notion nuevamente después de editarlo y comparar esa exportación con `docs/notion/entrega/` y `docs/matriz-aceptacion.md`.
 
 ## Recomendación opcional pero valiosa: T10
@@ -48,4 +44,4 @@ No hace falta rehacer el producto ni alterar métricas. Tampoco se debe presenta
 
 ## Criterio de salida
 
-La entrega queda lista cuando la página de equipo sea accesible sin sesión, los tres enlaces funcionen, Notion y GitHub digan lo mismo sobre GitHub/T10, y exista evidencia del correo enviado. Después de eso, el proyecto está en condiciones sólidas de ser presentado.
+El correo ya está enviado. La entrega queda completamente cerrada cuando la página de equipo sea accesible sin sesión, los tres enlaces funcionen y Notion y GitHub digan lo mismo sobre GitHub/T10. Después de eso, el proyecto está en condiciones sólidas de ser presentado.
