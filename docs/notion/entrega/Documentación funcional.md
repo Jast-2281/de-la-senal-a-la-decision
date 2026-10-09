@@ -80,6 +80,7 @@ Claude construye y Codex audita de forma independiente (`auditorias/001…010`).
 - 08/10 21:18 · `7801960` · Nombre del equipo (Arijuma) en README y Notion
 - 08/10 21:22 · `8254210` · Equipo Arijuma: Maria Alexandra Plata (pitch)
 - 08/10 21:33 · `f3e6827` · Equipo: pitch a cargo de ambos integrantes
+- 08/10 21:35 · `13ba401` · Notion: enlace al repositorio y backlog actualizado
 
 ---
 

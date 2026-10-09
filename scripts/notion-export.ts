@@ -184,8 +184,8 @@ ${(await readFile("docs/resultados-evaluacion.md", "utf8")).replace(/^# .*\n/, "
    - Ficha #1, Cobre Panamá: procedencias, posibles réplicas y borrador con citas (abrir una cita).
    - Ficha del empleo: declaración frente al dato anual de 2024, “no es actual”.
    - Ficha del capitán del remolcador: prioridad alta, evidencia insuficiente, guion bloqueado.
-   - Consulta “¿rating de TVN ayer?” → abstención.
-   - Consulta “mina de cobre” → dos versiones incompatibles.
+   - Consulta: botón “¿Cuál fue el rating de TVN ayer?” → abstención (no hay ese dato en el corpus).
+   - Consulta: botón “¿Qué señales hay sobre la mina de cobre?” → respuesta con citas; los titulares divergen. **Usar siempre los botones**: solo las consultas de ejemplo tienen respuesta redactada guardada sin internet; una pregunta escrita a mano se abstiene.
    - Revisión humana registrada.
 4. **IA y evidencias (2 min).** En una muestra diagnóstica de 120 pares etiquetados por una persona, embeddings obtuvo F1 ${fmt(res.agrupacion.embeddings.f1)} frente a ${fmt(res.agrupacion.baseline_jaccard.f1)} de las palabras clave: recupera 20 de 21 casos, pero agrupa de más (11 falsos positivos). Validador de citas; T07 aprobado; abstención 7/7 y 0/20 falsas abstenciones.
 5. **Valor (1 min).** Unos 2 centavos y ${fmt(res.eficiencia_borradores.mediana_s, 0)} s por borrador. Ahorro de tiempo: hipótesis por medir.
