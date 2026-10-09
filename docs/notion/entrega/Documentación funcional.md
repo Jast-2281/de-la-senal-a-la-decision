@@ -40,7 +40,7 @@ Snapshot `senales-evidencias-equipo-v2`: ventana del 2025-10-02 al 2026-09-30 (r
 | 8 | Benchmark de 60 consultas (40 desarrollo + 20 reserva) | Claude (borrador) + Julian (validación) | Desarrollo validado; reserva pendiente |
 | 9 | Etiquetado humano: 120 pares y 60 afirmaciones | Julian | Hecho |
 | 10 | Métricas reproducibles (`npm run metricas`) | Claude | Hecho |
-| 11 | Ensayo T10 en modo avión | Julian | **Pendiente** |
+| 11 | Ensayo T10 en modo avión | Julian | Hecho (8 oct) |
 | 12 | Repositorio en GitHub con acceso del jurado | Julian | **Pendiente** |
 | 13 | Notion completo y pitch | Julian + equipo | En curso |
 
@@ -73,6 +73,7 @@ Claude construye y Codex audita de forma independiente (`auditorias/001…010`).
 - 08/10 18:05 · `153a086` · Páginas de Notion generadas desde los datos reales (npm run notion)
 - 08/10 18:27 · `98ed7cd` · Revisión humana registrada en las 9 fichas (4 aprobadas como borrador, 5 requieren evidencia)
 - 08/10 18:29 · `043fdda` · Aplica auditoría Codex 009: métricas consistentes y comunicación honesta
+- 08/10 19:50 · `7d290ba` · Notion: genera las 3 páginas de entrega (funcional, técnica, pitch) pedidas por la organización
 
 ---
 
@@ -173,6 +174,6 @@ Claude construye y Codex audita de forma independiente (`auditorias/001…010`).
 | Privacidad y reputación | Sin datos personales; acusaciones como declaraciones; sin listas de sospechosos | Prompt y benchmark adversarial (B-053, B-058) |
 | Derechos de autor | Solo metadatos públicos; sin cuerpos, imágenes ni videos; condiciones por fuente | Catálogo de datos |
 | Credenciales | `.env.local` fuera de git; `.env.example` sin secretos | Repositorio |
-| Dependencia de red en la demo | Snapshot y cachés locales; respaldo por palabras clave si falta el modelo | T10 (ensayo en modo avión pendiente) |
+| Dependencia de red en la demo | Snapshot y cachés locales; respaldo por palabras clave si falta el modelo | T10 (aprobado en modo avión, 8 oct) |
 
 **Fuera de alcance declarado:** detección definitiva de noticias falsas, riesgo bancario individual, audiencia y producción audiovisual.
