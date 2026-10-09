@@ -25,7 +25,7 @@ async function main() {
 
   paginas["01-inicio-del-reto.md"] = `# Inicio del reto · De la señal a la decisión
 
-**Equipo:** Julian Taylor (construcción, datos, evaluación y revisión humana) · [pitch: por confirmar]
+**Equipo Arijuma:** Julian Taylor (construcción, datos, evaluación y revisión humana) · [pitch: por confirmar]
 **Modalidad:** TVN · editorial (principal + digital). Banca: fuera de alcance, mencionada solo como extensión del mismo núcleo.
 **Prototipo:** Next.js, demo sin conexión · **Repositorio:** [enlace a GitHub, por completar]
 

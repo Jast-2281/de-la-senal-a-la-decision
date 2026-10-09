@@ -1,6 +1,6 @@
 # De la señal a la decisión · Copiloto editorial para TVN Media
 
-Prototipo del reto **hackIAthon Panamá (4.ª edición) · TVN Media**. Convierte noticias públicas e indicadores oficiales en una **cola de investigación priorizada**. Cada tema muestra:
+Prototipo del **Equipo Arijuma** para el reto **hackIAthon Panamá (4.ª edición) · TVN Media**. Convierte noticias públicas e indicadores oficiales en una **cola de investigación priorizada**. Cada tema muestra:
 - cuánta atención merece;
 - cuántas procedencias son realmente independientes;
 - qué está respaldado y qué falta comprobar;

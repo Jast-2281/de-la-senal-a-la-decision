@@ -1,6 +1,6 @@
 # Inicio del reto · De la señal a la decisión
 
-**Equipo:** Julian Taylor (construcción, datos, evaluación y revisión humana) · [pitch: por confirmar]
+**Equipo Arijuma:** Julian Taylor (construcción, datos, evaluación y revisión humana) · [pitch: por confirmar]
 **Modalidad:** TVN · editorial (principal + digital). Banca: fuera de alcance, mencionada solo como extensión del mismo núcleo.
 **Prototipo:** Next.js, demo sin conexión · **Repositorio:** [enlace a GitHub, por completar]
 
@@ -76,6 +76,7 @@ Claude construye y Codex audita de forma independiente (`auditorias/001…010`).
 - 08/10 19:50 · `7d290ba` · Notion: genera las 3 páginas de entrega (funcional, técnica, pitch) pedidas por la organización
 - 08/10 20:54 · `17f0392` · T10 aprobado: ensayo en modo avión (8 oct) registrado en matriz y Notion
 - 08/10 20:59 · `3624822` · T10: capturas del ensayo en modo avión como evidencia versionada
+- 08/10 21:03 · `697424c` · Matriz: conteo de pruebas actualizado (6 archivos, 44 pruebas)
 
 ---
 
