@@ -14,7 +14,7 @@
 | 9 | Etiquetado humano: 120 pares y 60 afirmaciones | Julian | Hecho |
 | 10 | Métricas reproducibles (`npm run metricas`) | Claude | Hecho |
 | 11 | Ensayo T10 en modo avión | Julian | Hecho (8 oct) |
-| 12 | Repositorio en GitHub con acceso del jurado | Julian | **Pendiente** |
+| 12 | Repositorio en GitHub con acceso del jurado | Julian | Hecho (8 oct) |
 | 13 | Notion completo y pitch | Julian + equipo | En curso |
 
 ## Decisiones justificadas
@@ -52,3 +52,4 @@ Claude construye y Codex audita de forma independiente (`auditorias/001…010`).
 - 08/10 21:03 · `697424c` · Matriz: conteo de pruebas actualizado (6 archivos, 44 pruebas)
 - 08/10 21:18 · `7801960` · Nombre del equipo (Arijuma) en README y Notion
 - 08/10 21:22 · `8254210` · Equipo Arijuma: Maria Alexandra Plata (pitch)
+- 08/10 21:33 · `f3e6827` · Equipo: pitch a cargo de ambos integrantes
