@@ -94,7 +94,7 @@ Versión vigente: `paquete-tvn-v6` y `consulta-v4`. El texto completo está en `
 ## Evidencia de ejecución de este corte
 
 ```text
-npm test       → 5 archivos, 40 pruebas aprobadas
+npm test       → 6 archivos, 44 pruebas aprobadas (8 oct)
 npm run lint   → aprobado
 npx tsc --noEmit → aprobado
 ```
